@@ -1,0 +1,7 @@
+node_modules/
+npm-debug.log
+.vscode/
+package-lock.json
+.todo*
+.deploy_git/
+scaffolds/
