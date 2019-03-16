@@ -5,3 +5,5 @@ package-lock.json
 .todo*
 .deploy_git/
 scaffolds/
+themes/landscape/
+public/
