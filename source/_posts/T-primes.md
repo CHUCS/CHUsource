@@ -4,6 +4,9 @@ date: 2019-03-14 10:03:51
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - math
+    - 普通
 ---
 We know that prime numbers are positive integers that have exactly two distinct positive divisors. Similarly, we'll call a positive integer t Т-prime, if t has exactly three distinct positive divisors.
 

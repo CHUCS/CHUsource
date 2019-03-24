@@ -4,9 +4,9 @@ date: 2019-03-21 09:51:31
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - implementation
     - 普通
-    - 二分搜尋法
-    - 實作
 ---
 One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , ...
 

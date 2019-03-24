@@ -4,8 +4,8 @@ date: 2019-03-21 09:37:08
 tags:
     - CHU Training
     - CodeForces
+    - implementation
     - 新手 
-    - 實作
 ---
 Little Vasya loves orange juice very much. That's why any food and drink in his kitchen necessarily contains orange juice. There are n drinks in his fridge, the volume fraction of orange juice in the i-th drink equals p<sub>i</sub> percent.
 

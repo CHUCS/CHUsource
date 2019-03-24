@@ -4,9 +4,9 @@ date: 2019-03-21 09:51:53
 tags:
     - CHU Training
     - CodeForces
+    - sort
+    - greedy
     - 簡單
-    - 排序
-    - 貪婪
 ---
 Amr is a young coder who likes music a lot. He always wanted to learn how to play music but he was busy coding so he got an idea.
 

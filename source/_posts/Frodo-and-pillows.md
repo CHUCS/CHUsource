@@ -4,9 +4,9 @@ date: 2019-03-21 09:52:14
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - math
     - 普通
-    - 二分搜尋法
-    - 數學
 ---
 n hobbits are planning to spend the night at Frodo's house. Frodo has n beds standing in a row and m pillows (n ≤ m). Each hobbit needs a bed and at least one pillow to sleep, however, everyone wants as many pillows as possible. Of course, it's not always possible to share pillows equally, but any hobbit gets hurt if he has at least two pillows less than some of his neighbors have.
 

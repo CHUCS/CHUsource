@@ -4,6 +4,8 @@ date: 2019-03-14 10:02:47
 tags:
     - CHU Training
     - CodeForces
+    - sortings
+    - 簡單
 ---
 Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.
 

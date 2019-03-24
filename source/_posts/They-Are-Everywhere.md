@@ -4,6 +4,9 @@ date: 2019-03-09 20:00:18
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - two pointers
+    - 普通
 ---
 Sergei B., the young coach of Pokemons, has found the big house which consists of n flats ordered in a row from left to right. It is possible to enter each flat from the street. It is possible to go out from each flat. Also, each flat is connected with the flat to the left and the flat to the right. Flat number 1 is only connected with the flat number 2 and the flat number n is only connected with the flat number n - 1.
 

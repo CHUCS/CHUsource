@@ -4,6 +4,8 @@ date: 2019-03-09 20:00:46
 tags:
     - CHU Training
     - CodeForces
+    - implementation
+    - 簡單
 ---
 Arkady is playing Battleship. The rules of this game aren't really important.
 

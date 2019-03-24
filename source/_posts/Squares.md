@@ -4,6 +4,9 @@ date: 2019-03-14 10:02:24
 tags:
     - CHU Training
     - CodeForces
+    - sortings
+    - math
+    - 簡單
 ---
 Vasya has found a piece of paper with a coordinate system written on it. There are n distinct squares drawn in this coordinate system. Let's number the squares with integers from 1 to n. It turned out that points with coordinates (0, 0) and (ai, ai) are the opposite corners of the i-th square.
 

@@ -4,9 +4,9 @@ date: 2019-03-21 09:50:43
 tags:
     - CHU Training
     - CodeForces
+    - sortings
+    - greedy
     - 簡單
-    - 排序
-    - 貪婪
 ---
 Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> megabytes. The file size is equal to m megabytes.
 

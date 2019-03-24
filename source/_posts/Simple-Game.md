@@ -4,6 +4,9 @@ date: 2019-03-07 19:28:05
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - two pointers
+    - 普通
 ---
 One day Misha and Andrew were playing a very simple game. First, each player chooses an integer in the range from 1 to n. Let's assume that Misha chose number m, and Andrew chose number a.
 

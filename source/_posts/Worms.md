@@ -4,6 +4,8 @@ date: 2019-03-14 10:03:23
 tags:
     - CHU Training
     - CodeForces
+    - binary search
+    - 普通
 ---
 It is lunch time for Mole. His friend, Marmot, prepared him a nice game for lunch.
 

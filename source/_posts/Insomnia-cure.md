@@ -4,6 +4,8 @@ date: 2019-03-07 19:45:56
 tags:
 	- CHU Training
 	- CodeForces
+	- sortings
+	- 簡單
 ---
 «One dragon. Two dragon. Three dragon», — the princess was counting. She had trouble falling asleep, and she got bored of counting lambs when she was nine.
 

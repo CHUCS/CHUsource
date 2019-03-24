@@ -4,8 +4,8 @@ date: 2019-03-21 09:50:26
 tags:
     - CHU Training
     - CodeForces
+    - implementation
     - 簡單
-    - 實作
 ---
 Polycarp wants to cook a soup. To do it, he needs to buy exactly n liters of water.
 

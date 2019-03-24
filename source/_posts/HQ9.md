@@ -4,6 +4,9 @@ date: 2019-03-14 10:01:53
 tags:
     - CHU Training
     - CodeForces
+    - implementation
+    - math
+    - 新手
 ---
 HQ9+ is a joke programming language which has only four one-character instructions:
 
