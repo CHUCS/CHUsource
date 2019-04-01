@@ -11,7 +11,6 @@ tags:
 #### Output:
 
 #### 範例:
-
 input:
 ```
 

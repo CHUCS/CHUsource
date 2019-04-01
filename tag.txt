@@ -1,0 +1,6 @@
+實作 		- implementation
+二分搜尋法 	- binary search 
+數學			- math
+排序			- sort
+貪婪			- greedy
+雙指標		- two pointers
