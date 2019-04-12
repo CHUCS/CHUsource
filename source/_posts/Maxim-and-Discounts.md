@@ -4,7 +4,7 @@ date: 2019-03-26 13:25:06
 tags:
     - CHU Training
     - CodeForces
-    - sort
+    - sortings
     - greedy
     - 普通
 ---
