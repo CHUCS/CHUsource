@@ -13,6 +13,7 @@ Ivan knows that there will be n people at the celebration (including himself), s
 >>1. Each piece of each cake is put on some plate;
 >>2. Each plate contains at least one piece of cake;
 >>3. No plate contains pieces of both cakes.
+
 To make his guests happy, Ivan wants to distribute the cakes in such a way that the minimum number of pieces on the plate is maximized. Formally, Ivan wants to know the maximum possible number x such that he can distribute the cakes according to the aforementioned conditions, and each plate will contain at least x pieces of cake.
 
 Help Ivan to calculate this number x!
