@@ -6,4 +6,3 @@ package-lock.json
 .deploy_git/
 scaffolds/
 themes/landscape/
-public/
