@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-10-20T14:42:25.097Z</updated>
+  <updated>2019-10-20T15:22:16.320Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Pipeline</title>
+    <link href="http://yoursite.com/Pipeline/"/>
+    <id>http://yoursite.com/Pipeline/</id>
+    <published>2019-10-20T14:51:40.000Z</published>
+    <updated>2019-10-20T15:22:16.320Z</updated>
+    
+    <content type="html"><![CDATA[<p>Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply. A pipe can be connected to the water supply if there’s water flowing out of it. Initially Vova has only one pipe with flowing water. Besides, Vova has several splitters.</p><p>A splitter is a construction that consists of one input (it can be connected to a water pipe) and x output pipes. When a splitter is connected to a water pipe, water flows from each output pipe. You can assume that the output pipes are ordinary pipes. For example, you can connect water supply to such pipe if there’s water flowing out from it. At most one splitter can be connected to any water pipe.<br><a id="more"></a></p><p>Vova has one splitter of each kind: with 2, 3, 4, …, k outputs. Help Vova use the minimum number of splitters to build the required pipeline or otherwise state that it’s impossible.</p><p>Vova needs the pipeline to have exactly n pipes with flowing out water. Note that some of those pipes can be the output pipes of the splitters.</p><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains two space-separated integers n and k (1 ≤ n ≤ 10<sup>18</sup>, 2 ≤ k ≤ 10<sup>9</sup>).</p><p>Please, do not use the %lld specifier to read or write 64-bit integers in С++. It is preferred to use the cin, cout streams or the %I64d specifier.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single integer — the minimum number of splitters needed to build the pipeline. If it is impossible to build a pipeline with the given splitters, print -1.</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 3</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5 5</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">8 4</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>Vova希望在一個叫the Ultimate Thule new shaman的城市建立一條管道，城市中有n座房子，因此Vova希望剛好有n條管道，因此每條這樣的管道都應連接到供水系統。如果有水流出，則可以將管道連接到供水系統。最初，Vova只有一根流水的管道。此外，Vova有幾個分離器。</p><p>Vova有每種分配器：具有2、3、4，…，k個輸出。幫助Vova使用最少數量的拆分器來構建所需的管道，或者以其他方式聲明這是不可能的。</p><p>Vova需要管道中有正好n根流出水的管道。其中一些管道可以是分配器的輸出管道。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為分離器是2,3,4,…,k個輸出，則在正常情況下只要不超過所有分離器組合起來的輸出總數就一定能滿足條件，尋找n到k的分離器組合的輸出總數，如超過目標值或等於目標值，則答案為(k-n+1)個。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/e95472b21f34e1b7ca5440a4a11da55a.js"></script><p><a href="https://chucs.github.io/site/" target="_blank" rel="noopener">題目網址</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply. A pipe can be connected to the water supply if there’s water flowing out of it. Initially Vova has only one pipe with flowing water. Besides, Vova has several splitters.&lt;/p&gt;
+&lt;p&gt;A splitter is a construction that consists of one input (it can be connected to a water pipe) and x output pipes. When a splitter is connected to a water pipe, water flows from each output pipe. You can assume that the output pipes are ordinary pipes. For example, you can connect water supply to such pipe if there’s water flowing out from it. At most one splitter can be connected to any water pipe.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+      <category term="binary search" scheme="http://yoursite.com/tags/binary-search/"/>
+    
+  </entry>
   
   <entry>
     <title>Ice Skating</title>
@@ -128,9 +151,9 @@
     
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
-      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
-    
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
     
   </entry>
   
@@ -221,9 +244,9 @@
     </summary>
     
     
-      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
-    
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
     
   </entry>
   
@@ -273,9 +296,9 @@
     
       <category term="sortings" scheme="http://yoursite.com/tags/sortings/"/>
     
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
-    
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
     
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
     
@@ -379,9 +402,9 @@
     
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
-      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
-    
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+      <category term="普通" scheme="http://yoursite.com/tags/%E6%99%AE%E9%80%9A/"/>
     
   </entry>
   
@@ -480,32 +503,6 @@
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
       <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Metro</title>
-    <link href="http://yoursite.com/Metro/"/>
-    <id>http://yoursite.com/Metro/</id>
-    <published>2019-04-27T10:42:37.000Z</published>
-    <updated>2019-04-27T11:53:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice’s home.</p><p>In the city in which Alice and Bob live, the first metro line is being built. This metro line contains n<br>stations numbered from 1 to n. Bob lives near the station with number 1, while Alice lives near the station with number s. The metro line has two tracks. Trains on the first track go from the station 1 to the station n</p><p>and trains on the second track go in reverse direction. Just after the train arrives to the end of its track, it goes to the depot immediately, so it is impossible to travel on it after that.</p><p>Some stations are not yet open at all and some are only partially open — for each station and for each track it is known whether the station is closed for that track or not. If a station is closed for some track, all trains going in this track’s direction pass the station without stopping on it.</p><p>When the Bob got the information on opened and closed stations, he found that traveling by metro may be unexpectedly complicated. Help Bob determine whether he can travel to the Alice’s home by metro or he should search for some other transport.<br><a id="more"></a></p><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains two integers n and s (2≤s≤n≤1000) — the number of stations in the metro and the number of the station where Alice’s home is located. Bob lives at station 1.</p><p>Next lines describe information about closed and open stations.</p><p>The second line contains n integers a<sub>1</sub>,a<sub>2</sub>,…,a<sub>n</sub> (a<sub>i</sub>=0 or a<sub>i</sub>=1). If a<sub>i</sub>=1, then the i-th station is open on the first track (that is, in the direction of increasing station numbers). Otherwise the station is closed on the first track.</p><p>The third line contains n integers b<sub>1</sub>,b<sub>2</sub>,…,b<sub>n</sub> (b<sub>i</sub>=0 or b<sub>i</sub>=1). If b<sub>i</sub>=1, then the i-th station is open on the second track (that is, in the direction of decreasing station numbers). Otherwise the station is closed on the second track.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print “YES” (quotes for clarity) if Bob will be able to commute to the Alice’s home by metro and “NO” (quotes for clarity) otherwise.</p><p>You can print each letter in any case (upper or lower).</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5 3</span><br><span class="line">1 1 1 1 1</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5 4</span><br><span class="line">1 0 0 0 1</span><br><span class="line">0 1 1 1 1</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">5 2</span><br><span class="line">0 1 1 1 1</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NO</span><br></pre></td></tr></table></figure></p><h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first example, all stations are opened, so Bob can simply travel to the station with number 3.</p><p>In the second example, Bob should travel to the station 5<br>first, switch to the second track and travel to the station 4 then.</p><p>In the third example, Bob simply can’t enter the train going in the direction of Alice’s home.</p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條軌道各自會停靠的站點，一條只能往後，一條只能往前，問你能不能從第1站搭到第S站？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先看第一條能不能直達第S站，不能的話找第k站，第一條從第k站轉搭第二條到第S站。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/493c55ecd43681443a4363ceda9a1f69.js"></script><br><a href="https://codeforces.com/problemset/problem/1055/A" target="_blank" rel="noopener">題目網址</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice’s home.&lt;/p&gt;
-&lt;p&gt;In the city in which Alice and Bob live, the first metro line is being built. This metro line contains n&lt;br&gt;stations numbered from 1 to n. Bob lives near the station with number 1, while Alice lives near the station with number s. The metro line has two tracks. Trains on the first track go from the station 1 to the station n&lt;/p&gt;
-&lt;p&gt;and trains on the second track go in reverse direction. Just after the train arrives to the end of its track, it goes to the depot immediately, so it is impossible to travel on it after that.&lt;/p&gt;
-&lt;p&gt;Some stations are not yet open at all and some are only partially open — for each station and for each track it is known whether the station is closed for that track or not. If a station is closed for some track, all trains going in this track’s direction pass the station without stopping on it.&lt;/p&gt;
-&lt;p&gt;When the Bob got the information on opened and closed stations, he found that traveling by metro may be unexpectedly complicated. Help Bob determine whether he can travel to the Alice’s home by metro or he should search for some other transport.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
-    
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
     
   </entry>
   
