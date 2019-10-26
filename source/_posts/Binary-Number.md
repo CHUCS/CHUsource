@@ -5,12 +5,12 @@ tags:
     - greedy
 ---
 Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.
-
+<!-- more -->
 Fangy takes some positive integer x and wants to get a number one from it. While x is not equal to 1, Fangy repeats the following action: if x is odd, then he adds 1 to it, otherwise he divides x by 2. Fangy knows that for any positive integer number the process ends in finite time.
 
 How many actions should Fangy perform to get a number one from number x?
 
-<!-- more -->
+
 #### Input:
 The first line contains a positive integer x in a binary system. It is guaranteed that the first digit of x is different from a zero and the number of its digits does not exceed 106.
 #### Output:
