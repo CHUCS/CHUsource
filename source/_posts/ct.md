@@ -5,22 +5,8 @@ tags:
     - 留言板
 ---
 安安我是留言板!
+[題目網址](https://chucs.github.io/site/)
 <!-- more -->
-#### Input:
-
-#### Output:
-
-#### 範例:
-input:
-```
-
-```
-output:
-```
-
-```
-
-#### Note:
 
 #### 題意:
 
@@ -28,6 +14,6 @@ output:
 
 #### 程式碼:
 
-[題目網址](https://chucs.github.io/site/)
+
 
 
