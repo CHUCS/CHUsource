@@ -27,11 +27,24 @@ Print n integers — the final report, which will be passed to Blake by manager 
 #### 範例:
 input:
 ```
-
+3 1
+1 2 3
+2 2
 ```
 output:
 ```
-
+2 1 3 
+```
+input:
+```
+4 2
+1 2 4 3
+2 3
+1 2
+```
+output:
+```
+2 4 1 3 
 ```
 
 #### Note:

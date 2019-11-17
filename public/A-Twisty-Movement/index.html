@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  歸檔 |   解題報告 </title>
+  <title>  A Twisty Movement |   解題報告 </title>
 
  
   
@@ -72,171 +72,157 @@
       <div class="container">       
           
           
-            <div class="container-inner slideDownMin">
+            <div class="container-inner">  
           
 
-          <section class="archive slideDownMin">
+          <article class="post">
+  
+	
+<div class="post-header">
+	<div class="post-header-inner">
+		<p class="post-title">	
+			A Twisty Movement
+		</p>
+		<div class="post-info">	
+			<span class="post-info-entry">
+				11月 17, 2019
+			</span>
 
-    <span class="page-title">歸檔</span>  
-   
-    
-     
-   
-    
-     
-      
-
-                    
-
-          
-          <div class="archive-part">
-              <span class="archive-part-item">
-                <span>2019</span>     
-              </span>
-          </div>
-          	    
-      
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-<<<<<<< HEAD
-<<<<<<< HEAD
-          <span class="archive-title"> <a href="/A-Twisty-Movement/">A Twisty Movement</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 10月 26日 </time>
-          <span class="archive-title"> <a href="/Report/">Report</a></span>
-=======
-          <span class="archive-title"> <a href="/Is-it-multiple-of-3/">Is it multiple of 3</a></span>
->>>>>>> master
-=======
-          <span class="archive-title"> <a href="/Is-it-multiple-of-3/">Is it multiple of 3</a></span>
->>>>>>> master
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/How-old-are-you/">How old are you</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/You-can-say-11/">You can say 11</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/One-Two-Three/">One-Two-Three</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/Jumping-Mario/">Jumping Mario</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/Lumberjack-Sequencing/">Lumberjack Sequencing</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/Ring/">Ring</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/All-in-All/">All in All</a></span>
-        </div>
-
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/WERTYU/">WERTYU</a></span>
-        </div>
-
-<<<<<<< HEAD
-=======
-    
-     
-      
-
-        
-        <div class="archive-item">
-          <time class="archive-time"> 11月 17日 </time>
-          <span class="archive-title"> <a href="/Hello-World/">Hello World</a></span>
-        </div>
-
->>>>>>> master
-       
-</section>
-
-
+			
+			
+				<i class="iconfont icon-words"></i>
+				<span class="post-info-entry">211
+				</span>
+			
+		</div>
+	</div>
+</div> 
+	
  
-   <nav class="paginator">
+
+	  <div class="typo post-content slideDownMin">
+
+		
+
+			
+					<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>
+
+
+  	
+					
+	  </div>     
+	  
+
+	<div class="post-footer">
+
+
+  <div class="post-footer-other">
+       
+    
+      <span class="post-footer-item">
+        <span class="share-btn">
+	<span class="iconfont icon-share"></span>
+</span>
+<div class="-mob-share sildeUpMin">
+	<ul class="-mob-inner">
+	   			             
+        <li class="iconfont 
+		icon-share-qq 
+		-mob-share-qq 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-weixin 
+		-mob-share-weixin 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-weibo 
+		-mob-share-weibo 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-douban 
+		-mob-share-douban 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-facebook 
+		-mob-share-facebook 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-twitter 
+		-mob-share-twitter 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-google 
+		-mob-share-google 
+		-mob-share-link"></li>		
+   	   
+	</ul>
+</div>	
+
+
+<script id="-mob-share" src="https://f1.webshare.mob.com/code/mob-share.js?appkey=21d601593a1de"></script>
+      </span>  
+               
+  </div>  
     
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-   <span class="page-number"> Page <strong>1</strong>, Total <strong>81</strong> . </span>
-=======
-   <span class="page-number"> Page <strong>1</strong>, Total <strong>92</strong> . </span>
->>>>>>> master
-=======
-   <span class="page-number"> Page <strong>1</strong>, Total <strong>92</strong> . </span>
->>>>>>> master
 
+  <div class="post-footer-meta">
+        	
+
+        
+          <i class="iconfont icon-tag"></i>     
+            <a class="tag-link" href="/tags/dp/">dp</a>    
+        	
+  </div>
+
+</div>
+
+
+<nav class="post-footer-nav">
+  <div class="post-footer-link">
+  
+      <a href="/Report/" id="post-nav-older" class="post-nav-link-wrap">
+        <strong class="post-nav-caption">older</strong>
+        
+          <span class="post-nav-title">
+            Report
+          </span>
+      </a>
+  
+  </div>
+  <div class="post-footer-link">
     
-        <a class="next" href="/archives/page/2/"> 
-            下一頁
-            <i class="iconfont icon-right"></i>
-        </a>
-    
-  </nav> 
+  </div>
+
+</nav>
+ 
+	
+
+    <div id="disqus_thread"></div>
+    <script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://'+'https-chucs-github-io'+'.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());    
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
+
+
+	
+</article>
 
           </div> 
       </div>            
