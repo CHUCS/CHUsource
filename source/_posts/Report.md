@@ -27,11 +27,24 @@ Print n integers — the final report, which will be passed to Blake by manager 
 #### 範例:
 input:
 ```
-
+3 1
+1 2 3
+2 2
 ```
 output:
 ```
-
+2 1 3 
+```
+input:
+```
+4 2
+1 2 4 3
+2 3
+1 2
+```
+output:
+```
+2 4 1 3 
 ```
 
 #### Note:
@@ -60,7 +73,5 @@ ex:
 #### 程式碼:
 <script src="https://gist.github.com/89snnfk561/fc83ef23d16f8afc81b2d1fb8c5bb658.js"></script>
 
-timelimit(只做一次sort, 之後都用swap)
-<script src="https://gist.github.com/89snnfk561/7e4c133979f6042eae0338b5db6ace03.js"></script>
 
 [題目網址](https://chucs.github.io/site/)
