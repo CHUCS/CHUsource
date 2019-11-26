@@ -3,6 +3,76 @@
   
     
     <entry>
+      <title>Dice I</title>
+      <link href="/Dice-I/"/>
+      <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A" target="_blank" rel="noopener">AOJ ITP1_11_A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一顆骰子，然後翻轉骰子後，問你朝上的那面數字為多少。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先建一個東南西北轉完結果的”位子表”，將骰子骰完後的結果存到新的骰子，再將原本色子覆蓋掉重複地做。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fdd20a2347cfacc7bcc6f8fa78818726.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Lose it</title>
+      <link href="/Lose-it/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1176/C" target="_blank" rel="noopener">CodeForces 1176C</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>找出集合中有幾個序列為[4,8,15,16,23,42]的序列</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照題意，可以得到說順序不能變，故由前向後搜，開始統計每個數字的個數，當碰到前面數字個數&gt;後面字數個數時表示可以形成序列，最後統計有多少個序列後計算n-6*序列數。</p><p>例如:<br>[4,8,4,15,16,8,23,15,16,42,23,42]</p><p>第一個為4，並且4為序列的第一個，故 sequence_count[0]++;<br>第二個為8，為序列中第二個，判斷序列中第一個是否有個數，有則 sequence_count[1]++;sequence_count[0]–;將前面的抵銷。<br>以此類推<br>sequence_count[0]++<br>sequence_count[2]++;sequence_count[1]–;<br>.<br>.<br>.</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d83328cdf1580e2bed0b468b045ac0bd.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> dp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Payment Without Change</title>
+      <link href="/Payment-Without-Change/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1256/A" target="_blank" rel="noopener">CodeForces 1256A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你4個輸入a, n, b, s，他有a個硬幣幣值為n，b個硬幣幣值為1，題目問你可不可以湊出S這個數字。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先算出S/N看看有A沒有超過最大的換硬幣數量，如果有就把他的最大直設為A，接著再檢查減掉後的數有沒有超過B，沒有超過就代表可以換出來S。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4bda315b7e12083def4362b3d4eb7b03.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 新手 </tag>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Data Center</title>
+      <link href="/Data-Center/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1250/F" target="_blank" rel="noopener">CodeForces 1250F</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個面積找出最小的周長。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所又可能跑過一遍，每次比較找出最小的周長。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/38b3b785990804ed7b59cea69e1bafc8.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 新手 </tag>
+            
+            <tag> brute force </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>A Twisty Movement</title>
       <link href="/A-Twisty-Movement/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>]]></content>
@@ -210,9 +280,9 @@
       
         <tags>
             
-            <tag> greedy </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> greedy </tag>
             
             <tag> graphs </tag>
             
@@ -322,9 +392,9 @@
       
         <tags>
             
-            <tag> sortings </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> sortings </tag>
             
             <tag> math </tag>
             
@@ -342,9 +412,9 @@
       
         <tags>
             
-            <tag> 簡單 </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
             
         </tags>
       
@@ -374,9 +444,9 @@
       
         <tags>
             
-            <tag> sortings </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> sortings </tag>
             
             <tag> 普通 </tag>
             
@@ -428,11 +498,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> sortings </tag>
             
             <tag> greedy </tag>
-            
-            <tag> implementation </tag>
             
             <tag> math </tag>
             
@@ -516,9 +586,9 @@
       
         <tags>
             
-            <tag> 簡單 </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
             
         </tags>
       
@@ -634,9 +704,9 @@
       
         <tags>
             
-            <tag> sortings </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> sortings </tag>
             
             <tag> 普通 </tag>
             
@@ -700,9 +770,9 @@
       
         <tags>
             
-            <tag> sortings </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> sortings </tag>
             
             <tag> 新手 </tag>
             
@@ -790,9 +860,9 @@
       
         <tags>
             
-            <tag> 簡單 </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
             
         </tags>
       
@@ -806,9 +876,9 @@
       
         <tags>
             
-            <tag> 簡單 </tag>
-            
             <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
             
             <tag> math </tag>
             
@@ -874,9 +944,9 @@
             
             <tag> implementation </tag>
             
-            <tag> string </tag>
-            
             <tag> 新手 </tag>
+            
+            <tag> string </tag>
             
         </tags>
       
@@ -970,11 +1040,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -990,11 +1060,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1142,13 +1212,13 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
             <tag> 簡單 </tag>
-            
-            <tag> implementation </tag>
             
         </tags>
       
@@ -1182,11 +1252,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1202,11 +1272,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1268,11 +1338,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> binary search </tag>
             
@@ -1312,13 +1382,13 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
             <tag> 簡單 </tag>
-            
-            <tag> implementation </tag>
             
         </tags>
       
@@ -1332,11 +1402,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1436,11 +1506,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1458,11 +1528,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1478,13 +1548,13 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
             <tag> 簡單 </tag>
-            
-            <tag> implementation </tag>
             
         </tags>
       
@@ -1540,11 +1610,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1562,11 +1632,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1602,13 +1672,13 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
             <tag> 簡單 </tag>
-            
-            <tag> implementation </tag>
             
         </tags>
       
@@ -1644,11 +1714,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             
@@ -1666,11 +1736,11 @@
       
         <tags>
             
+            <tag> implementation </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> implementation </tag>
             
             <tag> 新手 </tag>
             

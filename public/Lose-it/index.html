@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  A Twisty Movement |   解題報告 </title>
+  <title>  Lose It |   解題報告 </title>
 
  
   
@@ -81,17 +81,17 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			A Twisty Movement
+			Lose it
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
-				11月 17, 2019
+				11月 26, 2019
 			</span>
 
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">211
+				<span class="post-info-entry">361
 				</span>
 			
 		</div>
@@ -105,13 +105,12 @@
 		
 
 			
-					<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p>
-<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>
-
-
-  	
+					<p><a href="http://codeforces.com/problemset/problem/1176/C" target="_blank" rel="noopener">CodeForces 1176C</a><br><a id="more"></a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>找出集合中有幾個序列為[4,8,15,16,23,42]的序列</p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照題意，可以得到說順序不能變，故由前向後搜，開始統計每個數字的個數，當碰到前面數字個數&gt;後面字數個數時表示可以形成序列，最後統計有多少個序列後計算n-6*序列數。</p>
+<p>例如:<br>[4,8,4,15,16,8,23,15,16,42,23,42]</p>
+<p>第一個為4，並且4為序列的第一個，故 sequence_count[0]++;<br>第二個為8，為序列中第二個，判斷序列中第一個是否有個數，有則 sequence_count[1]++;sequence_count[0]–;將前面的抵銷。<br>以此類推<br>sequence_count[0]++<br>sequence_count[2]++;sequence_count[1]–;<br>.<br>.<br>.</p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d83328cdf1580e2bed0b468b045ac0bd.js"></script>  	
 					
 	  </div>     
 	  
@@ -180,7 +179,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/dp/">dp</a>    
+            <a class="tag-link" href="/tags/dp/">dp</a> <a class="tag-link" href="/tags/greedy/">greedy</a> <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
         	
   </div>
 
@@ -190,22 +189,22 @@
 <nav class="post-footer-nav">
   <div class="post-footer-link">
   
-      <a href="/Is-it-multiple-of-3/" id="post-nav-older" class="post-nav-link-wrap">
+      <a href="/Payment-Without-Change/" id="post-nav-older" class="post-nav-link-wrap">
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            Is it multiple of 3
+            Payment Without Change
           </span>
       </a>
   
   </div>
   <div class="post-footer-link">
     
-        <a href="/Data-Center/" id="post-nav-newer" class="post-nav-link-wrap">
+        <a href="/Dice-I/" id="post-nav-newer" class="post-nav-link-wrap">
           <strong class="post-nav-caption">newer</strong>
              
             <span class="post-nav-title">
-              Data Center
+              Dice I
             </span>
         </a>
     

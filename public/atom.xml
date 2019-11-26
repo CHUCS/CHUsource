@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-17T10:13:41.509Z</updated>
+  <updated>2019-11-26T08:03:13.810Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,100 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Dice I</title>
+    <link href="http://yoursite.com/Dice-I/"/>
+    <id>http://yoursite.com/Dice-I/</id>
+    <published>2019-11-26T07:35:25.000Z</published>
+    <updated>2019-11-26T08:03:13.810Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A" target="_blank" rel="noopener">AOJ ITP1_11_A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一顆骰子，然後翻轉骰子後，問你朝上的那面數字為多少。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先建一個東南西北轉完結果的”位子表”，將骰子骰完後的結果存到新的骰子，再將原本色子覆蓋掉重複地做。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fdd20a2347cfacc7bcc6f8fa78818726.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;AOJ ITP1_11_A&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lose it</title>
+    <link href="http://yoursite.com/Lose-it/"/>
+    <id>http://yoursite.com/Lose-it/</id>
+    <published>2019-11-26T07:35:15.000Z</published>
+    <updated>2019-11-26T07:53:58.583Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1176/C" target="_blank" rel="noopener">CodeForces 1176C</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>找出集合中有幾個序列為[4,8,15,16,23,42]的序列</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照題意，可以得到說順序不能變，故由前向後搜，開始統計每個數字的個數，當碰到前面數字個數&gt;後面字數個數時表示可以形成序列，最後統計有多少個序列後計算n-6*序列數。</p><p>例如:<br>[4,8,4,15,16,8,23,15,16,42,23,42]</p><p>第一個為4，並且4為序列的第一個，故 sequence_count[0]++;<br>第二個為8，為序列中第二個，判斷序列中第一個是否有個數，有則 sequence_count[1]++;sequence_count[0]–;將前面的抵銷。<br>以此類推<br>sequence_count[0]++<br>sequence_count[2]++;sequence_count[1]–;<br>.<br>.<br>.</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d83328cdf1580e2bed0b468b045ac0bd.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1176/C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 1176C&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
+    
+      <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Payment Without Change</title>
+    <link href="http://yoursite.com/Payment-Without-Change/"/>
+    <id>http://yoursite.com/Payment-Without-Change/</id>
+    <published>2019-11-26T07:35:02.000Z</published>
+    <updated>2019-11-26T08:02:41.865Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1256/A" target="_blank" rel="noopener">CodeForces 1256A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你4個輸入a, n, b, s，他有a個硬幣幣值為n，b個硬幣幣值為1，題目問你可不可以湊出S這個數字。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先算出S/N看看有A沒有超過最大的換硬幣數量，如果有就把他的最大直設為A，接著再檢查減掉後的數有沒有超過B，沒有超過就代表可以換出來S。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4bda315b7e12083def4362b3d4eb7b03.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1256/A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 1256A&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
+    
+      <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Data Center</title>
+    <link href="http://yoursite.com/Data-Center/"/>
+    <id>http://yoursite.com/Data-Center/</id>
+    <published>2019-11-26T07:32:50.000Z</published>
+    <updated>2019-11-26T07:58:50.529Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1250/F" target="_blank" rel="noopener">CodeForces 1250F</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個面積找出最小的周長。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所又可能跑過一遍，每次比較找出最小的周長。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/38b3b785990804ed7b59cea69e1bafc8.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1250/F&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 1250F&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
+    
+      <category term="brute force" scheme="http://yoursite.com/tags/brute-force/"/>
+    
+  </entry>
   
   <entry>
     <title>A Twisty Movement</title>
@@ -316,9 +410,9 @@
     </summary>
     
     
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
-    
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
     
       <category term="graphs" scheme="http://yoursite.com/tags/graphs/"/>
     
@@ -347,93 +441,6 @@
     
     
       <category term="math" scheme="http://yoursite.com/tags/math/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pipeline</title>
-    <link href="http://yoursite.com/Pipeline/"/>
-    <id>http://yoursite.com/Pipeline/</id>
-    <published>2019-10-20T14:51:40.000Z</published>
-    <updated>2019-10-26T08:52:43.668Z</updated>
-    
-    <content type="html"><![CDATA[<p>Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply.<br><a id="more"></a><br>A pipe can be connected to the water supply if there’s water flowing out of it. Initially Vova has only one pipe with flowing water. Besides, Vova has several splitters.</p><p>A splitter is a construction that consists of one input (it can be connected to a water pipe) and x output pipes. When a splitter is connected to a water pipe, water flows from each output pipe. You can assume that the output pipes are ordinary pipes. For example, you can connect water supply to such pipe if there’s water flowing out from it. At most one splitter can be connected to any water pipe.</p><p><img src="A.PNG" alt="A"></p><p>Vova has one splitter of each kind: with 2, 3, 4, …, k outputs. Help Vova use the minimum number of splitters to build the required pipeline or otherwise state that it’s impossible.</p><p>Vova needs the pipeline to have exactly n pipes with flowing out water. Note that some of those pipes can be the output pipes of the splitters.</p><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains two space-separated integers n and k (1 ≤ n ≤ 10<sup>18</sup>, 2 ≤ k ≤ 10<sup>9</sup>).</p><p>Please, do not use the %lld specifier to read or write 64-bit integers in С++. It is preferred to use the cin, cout streams or the %I64d specifier.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single integer — the minimum number of splitters needed to build the pipeline. If it is impossible to build a pipeline with the given splitters, print -1.</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 3</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5 5</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">8 4</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>Vova希望在一個叫the Ultimate Thule new shaman的城市建立一條管道，城市中有n座房子，因此Vova希望剛好有n條管道，因此每條這樣的管道都應連接到供水系統。如果有水流出，則可以將管道連接到供水系統。最初，Vova只有一根流水的管道。此外，Vova有幾個分離器。</p><p>Vova有每種分配器：具有2、3、4，…，k個輸出。幫助Vova使用最少數量的拆分器來構建所需的管道，或者以其他方式聲明這是不可能的。</p><p>Vova需要管道中有正好n根流出水的管道。其中一些管道可以是分配器的輸出管道。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為分離器是2,3,4,…,k個輸出，則在正常情況下只要不超過所有分離器組合起來的輸出總數就一定能滿足條件，尋找n到k的分離器組合的輸出總數，如超過目標值或等於目標值，則答案為(k-n+1)個。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/e95472b21f34e1b7ca5440a4a11da55a.js"></script><p><a href="https://codeforces.com/problemset/problem/287/B" target="_blank" rel="noopener">題目網址</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="math" scheme="http://yoursite.com/tags/math/"/>
-    
-      <category term="binary search" scheme="http://yoursite.com/tags/binary-search/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ice Skating</title>
-    <link href="http://yoursite.com/Ice-Skating/"/>
-    <id>http://yoursite.com/Ice-Skating/</id>
-    <published>2019-10-18T09:22:26.000Z</published>
-    <updated>2019-10-21T12:08:55.730Z</updated>
-    
-    <content type="html"><![CDATA[<p>Bajtek is learning to skate on ice. He’s a beginner, so his only mode of transportation is pushing off from a snow drift to the north, east, south or west and sliding until he lands in another snow drift. He has noticed that in this way it’s impossible to get from some snow drifts to some other by any sequence of moves. He now wants to heap up some additional snow drifts, so that he can get from any snow drift to any other one. He asked you to find the minimal number of snow drifts that need to be created.</p><p>We assume that Bajtek can only heap up snow drifts at integer coordinates.</p><a id="more"></a><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of input contains a single integer n (1 ≤ n ≤ 100) — the number of snow drifts. Each of the following n lines contains two integers x<sub>i</sub> and y<sub>i</sub> (1 ≤ x<sub>i</sub>, y<sub>i</sub> ≤ 1000) — the coordinates of the i-th snow drift.</p><p>Note that the north direction coinсides with the direction of Oy axis, so the east direction coinсides with the direction of the Ox axis. All snow drift’s locations are distinct.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Output the minimal number of snow drifts that need to be created in order for Bajtek to be able to reach any snow drift from any other one.</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">2 1</span><br><span class="line">1 2</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">2 1</span><br><span class="line">4 1</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>Bajtek是一個滑雪的初心者，而它只能滑行四個方向(東南西北)，在滑行的途中它無法停下，除非撞到雪堆它才能停下改變行滑行的方向(或不改變)，而他需要堆積額外的雪堆來確保每個雪堆他都能前往。他問最少需要多少額外的雪堆。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>在輸入時會給你雪堆數和它在平面的座標，而現有的雪堆能組成多個區塊(單一或複數個雪堆，無法前往其他雪堆或能相互前往)，我們需要找出共有幾個區塊並計數，假設共為n個區塊，則最少需要(n-1)個雪堆來組成統一的大區塊，而(n-1)就是我們要的答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/89snnfk561/ec5c3671547a0f0dff77dbacaafbe7ec.js"></script><br><a href="https://codeforces.com/contest/217/problem/A" target="_blank" rel="noopener">題目網址</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Bajtek is learning to skate on ice. He’s a beginner, so his only mode of transportation is pushing off from a snow drift to the north, east, south or west and sliding until he lands in another snow drift. He has noticed that in this way it’s impossible to get from some snow drifts to some other by any sequence of moves. He now wants to heap up some additional snow drifts, so that he can get from any snow drift to any other one. He asked you to find the minimal number of snow drifts that need to be created.&lt;/p&gt;
-&lt;p&gt;We assume that Bajtek can only heap up snow drifts at integer coordinates.&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="graphs" scheme="http://yoursite.com/tags/graphs/"/>
-    
-      <category term="brute force" scheme="http://yoursite.com/tags/brute-force/"/>
-    
-      <category term="dfs and similar" scheme="http://yoursite.com/tags/dfs-and-similar/"/>
-    
-      <category term="dus" scheme="http://yoursite.com/tags/dus/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Binary Number</title>
-    <link href="http://yoursite.com/Binary-Number/"/>
-    <id>http://yoursite.com/Binary-Number/</id>
-    <published>2019-10-18T07:46:55.000Z</published>
-    <updated>2019-10-26T08:52:43.655Z</updated>
-    
-    <content type="html"><![CDATA[<p>Little walrus Fangy loves math very much. That’s why when he is bored he plays with a number performing some operations.<br><a id="more"></a><br>Fangy takes some positive integer x and wants to get a number one from it. While x is not equal to 1, Fangy repeats the following action: if x is odd, then he adds 1 to it, otherwise he divides x by 2. Fangy knows that for any positive integer number the process ends in finite time.</p><p>How many actions should Fangy perform to get a number one from number x?</p><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains a positive integer x in a binary system. It is guaranteed that the first digit of x is different from a zero and the number of its digits does not exceed 106.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print the required number of actions.</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1001001</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">12</span><br></pre></td></tr></table></figure></p><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">101110</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">8</span><br></pre></td></tr></table></figure></p><h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>Let’s consider the third sample. Number 101110 is even, which means that we should divide it by 2. After the dividing Fangy gets an odd number 10111 and adds one to it. Number 11000 can be divided by 2 three times in a row and get number 11. All that’s left is to increase the number by one (we get 100), and then divide it by 2 two times in a row. As a result, we get 1.</p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他給你一個二進制碼，而當他為偶數時除以2，反之加1，直到數字為1為止，計算他總共做了幾次更動。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>用字串儲存數字，判斷最後的位數如果是1，進位往前直到0，經過的位數做更改，如果進位超出範圍在前面加上1，如果是0消除它，以上做一次判斷計數加1。直到整個字串為1</p><p>進階:<br>一樣用字串儲存做一次迴圈確認為1的字元大於等於2個，成立在右到左第1個1字元之後的0，確認有幾個加上1再加上整個字串的長度就是答案了。<br>不成立則是屬出0的個數就是答案了。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/89snnfk561/fcb178773a50568b10ba9fe62829f502.js"></script><br><a href="https://codeforces.com/problemset/problem/92/B" target="_blank" rel="noopener">題目網址</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Little walrus Fangy loves math very much. That’s why when he is bored he plays with a number performing some operations.&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The 3n + 1 problem</title>
-    <link href="http://yoursite.com/The-3n-1-problem/"/>
-    <id>http://yoursite.com/The-3n-1-problem/</id>
-    <published>2019-10-15T11:30:25.000Z</published>
-    <updated>2019-10-21T12:08:55.733Z</updated>
-    
-    <content type="html"><![CDATA[<p>Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.<br><a id="more"></a><br>Consider the following algorithm:</p><ol><li>input n</li><li>print n</li><li>if n = 1 then STOP</li><li>if n is odd then n ←− 3n + 1</li><li>else n ←− n/2</li><li>GOTO 2</li></ol><p>Given the input 22, the following sequence of numbers will be printed<br>22 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1</p><p>It is conjectured that the algorithm above will terminate (when a 1 is printed) for any integral input value. Despite the simplicity of the algorithm, it is unknown whether this conjecture is true. It has been verified, however, for all integers n such that 0 &lt; n &lt; 1, 000, 000 (and, in fact, for many morenumbers than this.)</p><p>Given an input n, it is possible to determine the number of numbers printed before and including the 1 is printed. For a given n this is called the cycle-length of n. In the example above, the cycle length of 22 is 16.</p><p>For any two numbers i and j you are to determine the maximum cycle length over all numbers between and including both i and j.</p><h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The input will consist of a series of pairs of integers i and j, one pair of integers per line. All integers will be less than 10,000 and greater than 0.</p><p>You should process all pairs of integers and for each pair determine the maximum cycle length over all integers between and including i and j.</p><p>You can assume that no operation overflows a 32-bit integer.</p><h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>For each pair of input integers i and j you should output i, j, and the maximum cycle length for integers between and including i and j. </p><p>These three numbers should be separated by at least one space with all three numbers on one line and with one line of output for each line of input. </p><p>The integers i and j must appear in the output in the same order in which they appeared in the input and should be followed by the maximum cycle length (on the same line).</p><h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 10</span><br><span class="line">100 200</span><br><span class="line">201 210</span><br><span class="line">900 1000</span><br></pre></td></tr></table></figure></p><p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1 10 20</span><br><span class="line">100 200 125</span><br><span class="line">201 210 89</span><br><span class="line">900 1000 174</span><br></pre></td></tr></table></figure></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>就在i到j之間經過上面的演算法做一串數列計算它的長度取其中的最大值。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>把循環的演算法先寫出來回傳它的長度，在i到j的數計算每個數進入演算法重複的次數，取最大的一個，把i，j和最大的數印出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/89snnfk561/63c386f78060c514d21dd5db59bfc802.js"></script><br><a href="https://onlinejudge.org/external/1/100.pdf" target="_blank" rel="noopener">題目網址</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.&lt;br&gt;
-    
-    </summary>
-    
     
   </entry>
   
