@@ -3,6 +3,76 @@
   
     
     <entry>
+      <title>Single Push</title>
+      <link href="/Single-Push/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">CodeForces 1253A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條字串問你兩條字串是否相等，而你可以將連續的區間加上一個N使的兩個字串相等，例如a=[3,7,1,4,1,2], b=[3,7,3,6,3,2]， 所以你可以把a[2]~a[4]加上2兩條數列就會一樣，可以相等輸出YES否則NO(如果a陣列有數字大於b也是輸出NO)。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩數列相減後的結果存在一個陣列內，接著比對前後相不相等，不相等的話ok++，如果ok大於等於2的話代表有超過2次不一樣，所以一定不可能將一個區間加上一個數就可以相等。如果是負的話直接加10讓他超過2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a66ce2a9835ca967ca1fa19211c5fd2b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Functions again</title>
+      <link href="/Functions-again/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/788/A" target="_blank" rel="noopener">CodeForces 788A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N及N個數字，求依照公式時最大的區段和是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察公式後，得知在區段中每一項差的絕對值會由+-+-+-…的規律加起來，因此除了第一個，要取的話就一次取兩個，不然只取-的會變小。先將所有的差的絕對值存起來，接著對偶數起點和奇數起點都做一次跨度為2的子區段最大和，最後得到的最大值就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5ea9f2ecdcafdc4a7fdb8dc98a590879.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> dp </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> two pointers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Mashmokh and ACM</title>
+      <link href="/Mashmokh-and-ACM/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/414/B" target="_blank" rel="noopener">CodeForces 414B</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N、K，指定數列長度K，其中所有元素都在1~N之間，且每一個元素都可以整除下一個元素，問有幾種數列滿足條件？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>當數列長度為x，結尾為y時，要增長數列的方法就是在數列尾端增加一個是y的倍數的元素，因此這個數列可以衍伸出y、2y、3y…ty，ty &lt;= N，共t個數列。以這個想法下去建置一個陣列，紀錄當前長度結尾為x(x=1~N)的數列有幾個，逐次增加長度，跑完後就是答案。<br><img src="A.PNG" alt="A"><br><img src="B.PNG" alt="B"><br><img src="C.PNG" alt="C"><br><img src="D.PNG" alt="D"><br><img src="E.PNG" alt="E"><br><img src="/images/placeholder.png" alt="F" data-src="F.PNG" class="lazyload"><br><img src="/images/placeholder.png" alt="G" data-src="G.PNG" class="lazyload"></p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4c631d92b0f0aec4e4e887ca67ded26a.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> dp </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> combinatorics </tag>
+            
+            <tag> number theory </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>In Search of an Easy Problem</title>
+      <link href="/In-Search-of-an-Easy-Problem/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1030/A" target="_blank" rel="noopener">CodeForces 1030A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>數列如果出現1就輸出HARD，沒有則輸出EASY。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每次輸入都判斷。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/458756d5630a34eee9f99914c973f7c5.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 新手 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Dice I</title>
       <link href="/Dice-I/"/>
       <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A" target="_blank" rel="noopener">AOJ ITP1_11_A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一顆骰子，然後翻轉骰子後，問你朝上的那面數字為多少。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先建一個東南西北轉完結果的”位子表”，將骰子骰完後的結果存到新的骰子，再將原本色子覆蓋掉重複地做。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fdd20a2347cfacc7bcc6f8fa78818726.js"></script>]]></content>
@@ -28,11 +98,11 @@
             
             <tag> implementation </tag>
             
+            <tag> dp </tag>
+            
             <tag> greedy </tag>
             
             <tag> 簡單 </tag>
-            
-            <tag> dp </tag>
             
         </tags>
       
@@ -772,9 +842,9 @@
             
             <tag> implementation </tag>
             
-            <tag> sortings </tag>
-            
             <tag> 新手 </tag>
+            
+            <tag> sortings </tag>
             
         </tags>
       
@@ -944,9 +1014,9 @@
             
             <tag> implementation </tag>
             
-            <tag> 新手 </tag>
-            
             <tag> string </tag>
+            
+            <tag> 新手 </tag>
             
         </tags>
       
@@ -1042,11 +1112,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1062,11 +1132,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1232,11 +1302,11 @@
       
         <tags>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1254,11 +1324,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1274,11 +1344,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1404,11 +1474,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1508,11 +1578,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1530,11 +1600,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1612,11 +1682,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1634,11 +1704,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1716,11 +1786,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1738,11 +1808,11 @@
             
             <tag> implementation </tag>
             
+            <tag> 新手 </tag>
+            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
-            
-            <tag> 新手 </tag>
             
         </tags>
       
@@ -1751,7 +1821,7 @@
     <entry>
       <title>我是留言板</title>
       <link href="/ct/"/>
-      <content type="html"><![CDATA[<p>安安我是留言板!<br><a href="https://chucs.github.io/site/" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4>]]></content>
+      <content type="html"><![CDATA[<p>安安我是留言板!<br><img src="A.PNG" alt="A"><br><a href="https://chucs.github.io/site/" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4>]]></content>
       
       
         <tags>
