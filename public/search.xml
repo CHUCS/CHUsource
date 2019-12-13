@@ -3,22 +3,29 @@
   
     
     <entry>
-<<<<<<< Updated upstream
-      <title>Single Push</title>
-      <link href="/Single-Push/"/>
-      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">CodeForces 1253A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條字串問你兩條字串是否相等，而你可以將連續的區間加上一個N使的兩個字串相等，例如a=[3,7,1,4,1,2], b=[3,7,3,6,3,2]， 所以你可以把a[2]~a[4]加上2兩條數列就會一樣，可以相等輸出YES否則NO(如果a陣列有數字大於b也是輸出NO)。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩數列相減後的結果存在一個陣列內，接著比對前後相不相等，不相等的話ok++，如果ok大於等於2的話代表有超過2次不一樣，所以一定不可能將一個區間加上一個數就可以相等。如果是負的話直接加10讓他超過2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a66ce2a9835ca967ca1fa19211c5fd2b.js"></script>]]></content>
-=======
       <title>Bear and Big Brother</title>
       <link href="/Bear-and-Big-Brother/"/>
       <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/791/A" target="_blank" rel="noopener">CodeForces 791A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>一開始給你小熊和牠哥哥的體型，牠每一年增加三倍，而牠哥哥增加兩倍。題目問你說至少要幾年小熊才能超過哥哥的體重。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每過一年看小熊有沒有超過哥哥，如果有就輸出經過了幾年。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/50b0886876cbe645a45e48babe260d6a.js"></script>]]></content>
->>>>>>> Stashed changes
       
       
         <tags>
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Single Push</title>
+      <link href="/Single-Push/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">CodeForces 1253A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條字串問你兩條字串是否相等，而你可以將連續的區間加上一個N使的兩個字串相等，例如a=[3,7,1,4,1,2], b=[3,7,3,6,3,2]， 所以你可以把a[2]~a[4]加上2兩條數列就會一樣，可以相等輸出YES否則NO(如果a陣列有數字大於b也是輸出NO)。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩數列相減後的結果存在一個陣列內，接著比對前後相不相等，不相等的話ok++，如果ok大於等於2的話代表有超過2次不一樣，所以一定不可能將一個區間加上一個數就可以相等。如果是負的話直接加10讓他超過2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a66ce2a9835ca967ca1fa19211c5fd2b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
             <tag> 簡單 </tag>
             
         </tags>
@@ -107,9 +114,9 @@
             
             <tag> dp </tag>
             
-            <tag> greedy </tag>
-            
             <tag> 簡單 </tag>
+            
+            <tag> greedy </tag>
             
         </tags>
       
@@ -145,8 +152,6 @@
             
             <tag> brute force </tag>
             
-=======
->>>>>>> Stashed changes
         </tags>
       
     </entry>
@@ -397,9 +402,9 @@
       
         <tags>
             
-            <tag> math </tag>
-            
             <tag> binary search </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -415,9 +420,9 @@
             
             <tag> graphs </tag>
             
-            <tag> dfs and similar </tag>
-            
             <tag> brute force </tag>
+            
+            <tag> dfs and similar </tag>
             
             <tag> dus </tag>
             
@@ -475,9 +480,9 @@
             
             <tag> sortings </tag>
             
-            <tag> math </tag>
-            
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -543,9 +548,9 @@
       
         <tags>
             
-            <tag> math </tag>
-            
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -649,9 +654,9 @@
             
             <tag> implementation </tag>
             
-            <tag> math </tag>
-            
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -854,8 +859,6 @@
             <tag> sortings </tag>
             
             <tag> 新手 </tag>
-            
-            <tag> sortings </tag>
             
         </tags>
       
@@ -1123,18 +1126,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1150,18 +1146,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1179,11 +1168,11 @@
             
             <tag> CodeForces </tag>
             
-            <tag> math </tag>
-            
             <tag> binary search </tag>
             
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -1308,15 +1297,6 @@
         <tags>
             
             <tag> implementation </tag>
-<<<<<<< Updated upstream
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
-            
-            <tag> 簡單 </tag>
-            
-=======
             
             <tag> 簡單 </tag>
             
@@ -1324,7 +1304,6 @@
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
         </tags>
       
     </entry>
@@ -1337,11 +1316,11 @@
       
         <tags>
             
-            <tag> 新手 </tag>
-            
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
+            
+            <tag> 新手 </tag>
             
             <tag> math </tag>
             
@@ -1359,18 +1338,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1386,18 +1358,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
             <tag> math </tag>
             
@@ -1417,11 +1382,11 @@
             
             <tag> CodeForces </tag>
             
-            <tag> math </tag>
-            
             <tag> binary search </tag>
             
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -1502,15 +1467,6 @@
         <tags>
             
             <tag> implementation </tag>
-<<<<<<< Updated upstream
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
-            
-            <tag> 簡單 </tag>
-            
-=======
             
             <tag> 簡單 </tag>
             
@@ -1518,7 +1474,6 @@
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
         </tags>
       
     </entry>
@@ -1533,18 +1488,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1562,11 +1510,11 @@
             
             <tag> CodeForces </tag>
             
-            <tag> math </tag>
-            
             <tag> binary search </tag>
             
             <tag> 普通 </tag>
+            
+            <tag> math </tag>
             
         </tags>
       
@@ -1644,18 +1592,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
             <tag> math </tag>
             
@@ -1673,18 +1614,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1699,15 +1633,6 @@
         <tags>
             
             <tag> implementation </tag>
-<<<<<<< Updated upstream
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
-            
-            <tag> 簡單 </tag>
-            
-=======
             
             <tag> 簡單 </tag>
             
@@ -1715,7 +1640,6 @@
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
         </tags>
       
     </entry>
@@ -1772,18 +1696,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
             <tag> math </tag>
             
@@ -1801,18 +1718,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       
@@ -1847,15 +1757,6 @@
         <tags>
             
             <tag> implementation </tag>
-<<<<<<< Updated upstream
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
-            
-            <tag> 簡單 </tag>
-            
-=======
             
             <tag> 簡單 </tag>
             
@@ -1863,7 +1764,6 @@
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
         </tags>
       
     </entry>
@@ -1900,18 +1800,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
             <tag> math </tag>
             
@@ -1929,18 +1822,11 @@
             
             <tag> implementation </tag>
             
-<<<<<<< Updated upstream
-=======
             <tag> CHU Training </tag>
             
             <tag> CodeForces </tag>
             
->>>>>>> Stashed changes
             <tag> 新手 </tag>
-            
-            <tag> CHU Training </tag>
-            
-            <tag> CodeForces </tag>
             
         </tags>
       

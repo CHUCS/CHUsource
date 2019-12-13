@@ -6,11 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-<<<<<<< Updated upstream
-  <updated>2019-11-30T01:41:53.894Z</updated>
-=======
-  <updated>2019-12-13T06:27:38.622Z</updated>
->>>>>>> Stashed changes
+  <updated>2019-12-13T08:37:56.991Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-<<<<<<< Updated upstream
-    <title>Single Push</title>
-    <link href="http://yoursite.com/Single-Push/"/>
-    <id>http://yoursite.com/Single-Push/</id>
-    <published>2019-11-30T01:27:04.000Z</published>
-    <updated>2019-11-30T01:41:53.894Z</updated>
-=======
     <title>Bear and Big Brother</title>
     <link href="http://yoursite.com/Bear-and-Big-Brother/"/>
     <id>http://yoursite.com/Bear-and-Big-Brother/</id>
     <published>2019-12-13T06:13:20.000Z</published>
-    <updated>2019-12-13T06:27:38.622Z</updated>
+    <updated>2019-12-13T08:37:56.991Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/791/A" target="_blank" rel="noopener">CodeForces 791A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>一開始給你小熊和牠哥哥的體型，牠每一年增加三倍，而牠哥哥增加兩倍。題目問你說至少要幾年小熊才能超過哥哥的體重。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每過一年看小熊有沒有超過哥哥，如果有就輸出經過了幾年。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/50b0886876cbe645a45e48babe260d6a.js"></script>]]></content>
     
@@ -48,12 +37,11 @@
   </entry>
   
   <entry>
-    <title>A Twisty Movement</title>
-    <link href="http://yoursite.com/A-Twisty-Movement/"/>
-    <id>http://yoursite.com/A-Twisty-Movement/</id>
-    <published>2019-11-17T08:12:07.000Z</published>
-    <updated>2019-11-17T08:22:20.953Z</updated>
->>>>>>> Stashed changes
+    <title>Single Push</title>
+    <link href="http://yoursite.com/Single-Push/"/>
+    <id>http://yoursite.com/Single-Push/</id>
+    <published>2019-11-30T01:27:04.000Z</published>
+    <updated>2019-11-30T01:41:53.894Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">CodeForces 1253A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條字串問你兩條字串是否相等，而你可以將連續的區間加上一個N使的兩個字串相等，例如a=[3,7,1,4,1,2], b=[3,7,3,6,3,2]， 所以你可以把a[2]~a[4]加上2兩條數列就會一樣，可以相等輸出YES否則NO(如果a陣列有數字大於b也是輸出NO)。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩數列相減後的結果存在一個陣列內，接著比對前後相不相等，不相等的話ok++，如果ok大於等於2的話代表有超過2次不一樣，所以一定不可能將一個區間加上一個數就可以相等。如果是負的話直接加10讓他超過2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a66ce2a9835ca967ca1fa19211c5fd2b.js"></script>]]></content>
     
@@ -71,19 +59,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Functions again</title>
     <link href="http://yoursite.com/Functions-again/"/>
     <id>http://yoursite.com/Functions-again/</id>
     <published>2019-11-30T00:53:25.000Z</published>
     <updated>2019-11-30T01:12:41.365Z</updated>
-=======
-    <title>Is it multiple of 3</title>
-    <link href="http://yoursite.com/Is-it-multiple-of-3/"/>
-    <id>http://yoursite.com/Is-it-multiple-of-3/</id>
-    <published>2019-11-17T03:13:12.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/788/A" target="_blank" rel="noopener">CodeForces 788A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N及N個數字，求依照公式時最大的區段和是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察公式後，得知在區段中每一項差的絕對值會由+-+-+-…的規律加起來，因此除了第一個，要取的話就一次取兩個，不然只取-的會變小。先將所有的差的絕對值存起來，接著對偶數起點和奇數起點都做一次跨度為2的子區段最大和，最後得到的最大值就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5ea9f2ecdcafdc4a7fdb8dc98a590879.js"></script>]]></content>
     
@@ -103,19 +83,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Mashmokh and ACM</title>
     <link href="http://yoursite.com/Mashmokh-and-ACM/"/>
     <id>http://yoursite.com/Mashmokh-and-ACM/</id>
     <published>2019-11-30T00:53:08.000Z</published>
     <updated>2019-11-30T01:05:35.453Z</updated>
-=======
-    <title>How old are you</title>
-    <link href="http://yoursite.com/How-old-are-you/"/>
-    <id>http://yoursite.com/How-old-are-you/</id>
-    <published>2019-11-17T03:09:44.000Z</published>
-    <updated>2019-11-17T08:36:14.398Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/414/B" target="_blank" rel="noopener">CodeForces 414B</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N、K，指定數列長度K，其中所有元素都在1~N之間，且每一個元素都可以整除下一個元素，問有幾種數列滿足條件？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>當數列長度為x，結尾為y時，要增長數列的方法就是在數列尾端增加一個是y的倍數的元素，因此這個數列可以衍伸出y、2y、3y…ty，ty &lt;= N，共t個數列。以這個想法下去建置一個陣列，紀錄當前長度結尾為x(x=1~N)的數列有幾個，逐次增加長度，跑完後就是答案。<br><img src="A.PNG" alt="A"><br><img src="B.PNG" alt="B"><br><img src="C.PNG" alt="C"><br><img src="D.PNG" alt="D"><br><img src="E.PNG" alt="E"><br><img src="/images/placeholder.png" alt="F" data-src="F.PNG" class="lazyload"><br><img src="/images/placeholder.png" alt="G" data-src="G.PNG" class="lazyload"></p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4c631d92b0f0aec4e4e887ca67ded26a.js"></script>]]></content>
     
@@ -137,19 +109,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>In Search of an Easy Problem</title>
     <link href="http://yoursite.com/In-Search-of-an-Easy-Problem/"/>
     <id>http://yoursite.com/In-Search-of-an-Easy-Problem/</id>
     <published>2019-11-30T00:52:33.000Z</published>
     <updated>2019-11-30T01:42:03.674Z</updated>
-=======
-    <title>You can say 11</title>
-    <link href="http://yoursite.com/You-can-say-11/"/>
-    <id>http://yoursite.com/You-can-say-11/</id>
-    <published>2019-11-17T03:05:18.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1030/A" target="_blank" rel="noopener">CodeForces 1030A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>數列如果出現1就輸出HARD，沒有則輸出EASY。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每次輸入都判斷。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/458756d5630a34eee9f99914c973f7c5.js"></script>]]></content>
     
@@ -167,19 +131,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Dice I</title>
     <link href="http://yoursite.com/Dice-I/"/>
     <id>http://yoursite.com/Dice-I/</id>
     <published>2019-11-26T07:35:25.000Z</published>
     <updated>2019-11-26T08:03:13.810Z</updated>
-=======
-    <title>One-Two-Three</title>
-    <link href="http://yoursite.com/One-Two-Three/"/>
-    <id>http://yoursite.com/One-Two-Three/</id>
-    <published>2019-11-17T02:56:25.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A" target="_blank" rel="noopener">AOJ ITP1_11_A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一顆骰子，然後翻轉骰子後，問你朝上的那面數字為多少。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先建一個東南西北轉完結果的”位子表”，將骰子骰完後的結果存到新的骰子，再將原本色子覆蓋掉重複地做。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fdd20a2347cfacc7bcc6f8fa78818726.js"></script>]]></content>
     
@@ -197,19 +153,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Lose it</title>
     <link href="http://yoursite.com/Lose-it/"/>
     <id>http://yoursite.com/Lose-it/</id>
     <published>2019-11-26T07:35:15.000Z</published>
     <updated>2019-11-26T07:53:58.583Z</updated>
-=======
-    <title>Jumping Mario</title>
-    <link href="http://yoursite.com/Jumping-Mario/"/>
-    <id>http://yoursite.com/Jumping-Mario/</id>
-    <published>2019-11-17T02:50:42.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1176/C" target="_blank" rel="noopener">CodeForces 1176C</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>找出集合中有幾個序列為[4,8,15,16,23,42]的序列</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照題意，可以得到說順序不能變，故由前向後搜，開始統計每個數字的個數，當碰到前面數字個數&gt;後面字數個數時表示可以形成序列，最後統計有多少個序列後計算n-6*序列數。</p><p>例如:<br>[4,8,4,15,16,8,23,15,16,42,23,42]</p><p>第一個為4，並且4為序列的第一個，故 sequence_count[0]++;<br>第二個為8，為序列中第二個，判斷序列中第一個是否有個數，有則 sequence_count[1]++;sequence_count[0]–;將前面的抵銷。<br>以此類推<br>sequence_count[0]++<br>sequence_count[2]++;sequence_count[1]–;<br>.<br>.<br>.</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d83328cdf1580e2bed0b468b045ac0bd.js"></script>]]></content>
     
@@ -224,26 +172,18 @@
     
       <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
     
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
-    
       <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
     
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Payment Without Change</title>
     <link href="http://yoursite.com/Payment-Without-Change/"/>
     <id>http://yoursite.com/Payment-Without-Change/</id>
     <published>2019-11-26T07:35:02.000Z</published>
     <updated>2019-11-26T08:02:41.865Z</updated>
-=======
-    <title>Lumberjack Sequencing</title>
-    <link href="http://yoursite.com/Lumberjack-Sequencing/"/>
-    <id>http://yoursite.com/Lumberjack-Sequencing/</id>
-    <published>2019-11-17T02:47:29.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1256/A" target="_blank" rel="noopener">CodeForces 1256A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你4個輸入a, n, b, s，他有a個硬幣幣值為n，b個硬幣幣值為1，題目問你可不可以湊出S這個數字。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先算出S/N看看有A沒有超過最大的換硬幣數量，如果有就把他的最大直設為A，接著再檢查減掉後的數有沒有超過B，沒有超過就代表可以換出來S。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4bda315b7e12083def4362b3d4eb7b03.js"></script>]]></content>
     
@@ -261,19 +201,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Data Center</title>
     <link href="http://yoursite.com/Data-Center/"/>
     <id>http://yoursite.com/Data-Center/</id>
     <published>2019-11-26T07:32:50.000Z</published>
     <updated>2019-11-26T07:58:50.529Z</updated>
-=======
-    <title>Ring</title>
-    <link href="http://yoursite.com/Ring/"/>
-    <id>http://yoursite.com/Ring/</id>
-    <published>2019-11-17T02:39:00.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1250/F" target="_blank" rel="noopener">CodeForces 1250F</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個面積找出最小的周長。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所又可能跑過一遍，每次比較找出最小的周長。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/38b3b785990804ed7b59cea69e1bafc8.js"></script>]]></content>
     
@@ -293,19 +225,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>A Twisty Movement</title>
     <link href="http://yoursite.com/A-Twisty-Movement/"/>
     <id>http://yoursite.com/A-Twisty-Movement/</id>
     <published>2019-11-17T08:12:07.000Z</published>
     <updated>2019-11-17T10:13:41.509Z</updated>
-=======
-    <title>All in All</title>
-    <link href="http://yoursite.com/All-in-All/"/>
-    <id>http://yoursite.com/All-in-All/</id>
-    <published>2019-11-17T02:28:54.000Z</published>
-    <updated>2019-11-17T08:36:14.398Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">題目網址</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>]]></content>
     
@@ -321,19 +245,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Is it multiple of 3</title>
     <link href="http://yoursite.com/Is-it-multiple-of-3/"/>
     <id>http://yoursite.com/Is-it-multiple-of-3/</id>
     <published>2019-11-17T03:13:12.000Z</published>
     <updated>2019-11-17T03:16:28.867Z</updated>
-=======
-    <title>WERTYU</title>
-    <link href="http://yoursite.com/WERTYU/"/>
-    <id>http://yoursite.com/WERTYU/</id>
-    <published>2019-11-17T02:21:35.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/131/13178.pdf" target="_blank" rel="noopener">UVA 13178</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>連續的1234567891011這樣的字串幫他檢查是否是3的倍數。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>根據規則(k-1) % 3 == 0輸出NO。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/9df8f124a87eff28e2500d52dd3a1a01.js"></script>]]></content>
     
@@ -349,19 +265,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>How old are you</title>
     <link href="http://yoursite.com/How-old-are-you/"/>
     <id>http://yoursite.com/How-old-are-you/</id>
     <published>2019-11-17T03:09:44.000Z</published>
     <updated>2019-11-17T03:12:37.504Z</updated>
-=======
-    <title>Hello World</title>
-    <link href="http://yoursite.com/Hello-World/"/>
-    <id>http://yoursite.com/Hello-World/</id>
-    <published>2019-11-17T02:09:51.000Z</published>
-    <updated>2019-11-17T08:36:14.398Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/112/11219.pdf" target="_blank" rel="noopener">UVA 11219</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>檢查歲數有沒有問題。<br>• ‘Invalid birth date’, if the calculated age is impossible (still going to be born).<br>• ‘Check birth date’, if the calculated age is more than 130.<br>• the calculated age (years old only), otherwise.<br>• If the two dates are the same, the output should be ‘0’.</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>檢查年月日按照上面規則逐一做出來。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/32722835e89a939908d24db15261995a.js"></script>]]></content>
     
@@ -377,19 +285,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>You can say 11</title>
     <link href="http://yoursite.com/You-can-say-11/"/>
     <id>http://yoursite.com/You-can-say-11/</id>
     <published>2019-11-17T03:05:18.000Z</published>
     <updated>2019-11-17T03:09:11.769Z</updated>
-=======
-    <title>Print a Frame</title>
-    <link href="http://yoursite.com/Print-a-Frame/"/>
-    <id>http://yoursite.com/Print-a-Frame/</id>
-    <published>2019-11-17T02:03:12.000Z</published>
-    <updated>2019-11-17T08:36:14.399Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/109/10929.pdf" target="_blank" rel="noopener">UVA 10929</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>檢查這數字是否是11的倍數。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>奇數項加起來A，偶數項加起來B，檢查abs(A - B) % 11 == 0。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0f1f31a49fd5a25ee5e9988f57ee4910.js"></script>]]></content>
     
@@ -407,19 +307,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>One-Two-Three</title>
     <link href="http://yoursite.com/One-Two-Three/"/>
     <id>http://yoursite.com/One-Two-Three/</id>
     <published>2019-11-17T02:56:25.000Z</published>
     <updated>2019-11-17T03:04:31.548Z</updated>
-=======
-    <title>Hashmat the Brave Warrior</title>
-    <link href="http://yoursite.com/Hashmat-the-Brave-Warrior/"/>
-    <id>http://yoursite.com/Hashmat-the-Brave-Warrior/</id>
-    <published>2019-11-17T02:00:07.000Z</published>
-    <updated>2019-11-17T08:36:14.398Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/101/10107.pdf" target="_blank" rel="noopener">UVA 10107</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>找中位數。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每次都排序然後計算，如果是偶數就(ary[k/2-1] + ary[k/2]) / 2，奇數就直接印ary[k/2]。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e746a371f7628ac2bec3bda186854e9c.js"></script>]]></content>
     
@@ -435,19 +327,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Jumping Mario</title>
     <link href="http://yoursite.com/Jumping-Mario/"/>
     <id>http://yoursite.com/Jumping-Mario/</id>
     <published>2019-11-17T02:50:42.000Z</published>
     <updated>2019-11-17T02:55:16.305Z</updated>
-=======
-    <title>Report</title>
-    <link href="http://yoursite.com/Report/"/>
-    <id>http://yoursite.com/Report/</id>
-    <published>2019-10-26T04:09:55.000Z</published>
-    <updated>2019-11-17T08:10:10.352Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/117/11764.pdf" target="_blank" rel="noopener">UVA 11764</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他檢查馬力歐往上跳幾格，往下跳幾格。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>一個一個檢查左邊大於右邊h++，小於l++，等於continue。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/829c3118699f58d68f304196da026974.js"></script>]]></content>
     
@@ -463,19 +347,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Lumberjack Sequencing</title>
     <link href="http://yoursite.com/Lumberjack-Sequencing/"/>
     <id>http://yoursite.com/Lumberjack-Sequencing/</id>
     <published>2019-11-17T02:47:29.000Z</published>
     <updated>2019-11-17T02:50:11.764Z</updated>
-=======
-    <title>Two Buttons</title>
-    <link href="http://yoursite.com/Two-Buttons/"/>
-    <id>http://yoursite.com/Two-Buttons/</id>
-    <published>2019-10-26T03:52:34.000Z</published>
-    <updated>2019-10-26T06:10:58.323Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/119/11942.pdf" target="_blank" rel="noopener">UVA 11942</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他檢查數列是否由大到小或小到大排。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>由左檢查道右看看左邊有沒有大於右邊，然後再檢查回來。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/512bf476494b003db28eb225e0ffd375.js"></script>]]></content>
     
@@ -488,7 +364,6 @@
     
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
-<<<<<<< Updated upstream
   </entry>
   
   <entry>
@@ -497,26 +372,6 @@
     <id>http://yoursite.com/Ring/</id>
     <published>2019-11-17T02:39:00.000Z</published>
     <updated>2019-11-17T02:46:13.188Z</updated>
-=======
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
-    
-      <category term="graphs" scheme="http://yoursite.com/tags/graphs/"/>
-    
-      <category term="math" scheme="http://yoursite.com/tags/math/"/>
-    
-      <category term="dfs and similar" scheme="http://yoursite.com/tags/dfs-and-similar/"/>
-    
-      <category term="shortest paths" scheme="http://yoursite.com/tags/shortest-paths/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Duff in Love</title>
-    <link href="http://yoursite.com/Duff-in-Love/"/>
-    <id>http://yoursite.com/Duff-in-Love/</id>
-    <published>2019-10-26T03:28:10.000Z</published>
-    <updated>2019-10-26T06:09:19.902Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_8_D" target="_blank" rel="noopener">Aizu ITP1_8_D</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他找出A字串在不再B字串裡面，需要連續的。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先複製一個字串在源自串後面模仿一個環的樣子，然後逐一檢查一樣的話計數器加一，檢查完後檢查計數器的長度是否跟原自串一樣長，一樣就不檢查然後印答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fa4b745d816d676bac397dcd0d05b2bd.js"></script>]]></content>
     
@@ -532,19 +387,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>All in All</title>
     <link href="http://yoursite.com/All-in-All/"/>
     <id>http://yoursite.com/All-in-All/</id>
     <published>2019-11-17T02:28:54.000Z</published>
     <updated>2019-11-17T02:40:14.379Z</updated>
-=======
-    <title>Pipeline</title>
-    <link href="http://yoursite.com/Pipeline/"/>
-    <id>http://yoursite.com/Pipeline/</id>
-    <published>2019-10-20T14:51:40.000Z</published>
-    <updated>2019-10-26T03:32:04.369Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/103/10340.pdf" target="_blank" rel="noopener">UVA10340</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他找出A字串在不再B字串裡面，沒有連續沒關西。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>逐一檢查有沒有匹配到相同的字，如果有就換下一個字直到然後次數加一，最後檢查相同的次數等不等於原本的長度，就可以知道答案了。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/8f601b9d5c30cf3a6bd30a1c93650b31.js"></script>]]></content>
     
@@ -560,19 +407,11 @@
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>WERTYU</title>
     <link href="http://yoursite.com/WERTYU/"/>
     <id>http://yoursite.com/WERTYU/</id>
     <published>2019-11-17T02:21:35.000Z</published>
     <updated>2019-11-17T02:27:42.735Z</updated>
-=======
-    <title>Ice Skating</title>
-    <link href="http://yoursite.com/Ice-Skating/"/>
-    <id>http://yoursite.com/Ice-Skating/</id>
-    <published>2019-10-18T09:22:26.000Z</published>
-    <updated>2019-10-20T14:42:25.097Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/100/10082.pdf" target="_blank" rel="noopener">UVA10082</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他請你幫他解密，規則是他敲的鍵盤左邊那個才是原本的答案，例如他敲O你要輸出I這樣。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>我們可以先建一個鍵盤的表，然後逐一搜尋，找到一樣的我就取他左邊那個，空白的話就直接印。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/13b38d45451133452556dd4e7fd5cdaa.js"></script>]]></content>
     
@@ -583,34 +422,16 @@
     </summary>
     
     
-<<<<<<< Updated upstream
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-=======
-      <category term="graphs" scheme="http://yoursite.com/tags/graphs/"/>
-    
-      <category term="dfs and similar" scheme="http://yoursite.com/tags/dfs-and-similar/"/>
-    
-      <category term="brute force" scheme="http://yoursite.com/tags/brute-force/"/>
-    
-      <category term="dus" scheme="http://yoursite.com/tags/dus/"/>
->>>>>>> Stashed changes
     
   </entry>
   
   <entry>
-<<<<<<< Updated upstream
     <title>Hello World</title>
     <link href="http://yoursite.com/Hello-World/"/>
     <id>http://yoursite.com/Hello-World/</id>
     <published>2019-11-17T02:09:51.000Z</published>
     <updated>2019-11-17T02:22:29.089Z</updated>
-=======
-    <title>Binary Number</title>
-    <link href="http://yoursite.com/Binary-Number/"/>
-    <id>http://yoursite.com/Binary-Number/</id>
-    <published>2019-10-18T07:46:55.000Z</published>
-    <updated>2019-10-26T03:30:35.127Z</updated>
->>>>>>> Stashed changes
     
     <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/116/11636.pdf" target="_blank" rel="noopener">UVA11636</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有個人他很懶，他懶得打這麼多個Hello World所以他只用複製的，假如他要印7個Hello World!，他要複製3次，因為第一次他複製他打好的一個Hello World，變2個，然後再複製便4個，然後再複製3個變7個。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>我們可以先建出一個答案表提供我們查詢以免超時，i是他需要印的數量，而每次複製我都檢查複製出來的最大值有沒有小於等於複製出來的數量，像是上面範例5、6、7、8都只需要複製3次，因為複製到三次的時候最大值複製數是8個，以此類推往下建表把所有答案都列出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/c9a27cb1bb5ca17fe0914ef6dcc0cfd4.js"></script>]]></content>
     
@@ -625,27 +446,4 @@
     
   </entry>
   
-<<<<<<< Updated upstream
-  <entry>
-    <title>Print a Frame</title>
-    <link href="http://yoursite.com/Print-a-Frame/"/>
-    <id>http://yoursite.com/Print-a-Frame/</id>
-    <published>2019-11-17T02:03:12.000Z</published>
-    <updated>2019-11-17T02:22:20.653Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_5_B" target="_blank" rel="noopener">Aizu ITP1_5_B</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他印出一個N*M的農場</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>把他切成三塊來印，先印一排#，在印中間部分，最後在印出#，一步一步時做出來。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5e547e5c108bdb7fa47d5036c02f5f2d.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_5_B&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Aizu ITP1_5_B&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-  </entry>
-  
-=======
->>>>>>> Stashed changes
 </feed>
