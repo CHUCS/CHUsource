@@ -3,6 +3,7 @@ title: Bear and Big Brother
 date: 2019-12-13 14:13:20
 tags:
     - implementation
+    - 新手
 ---
 [CodeForces 791A](http://codeforces.com/problemset/problem/791/A)
 <!-- more -->
