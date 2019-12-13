@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-13T08:37:56.991Z</updated>
+  <updated>2019-12-13T09:25:26.581Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,107 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Sweets Eating</title>
+    <link href="http://yoursite.com/Sweets-Eating/"/>
+    <id>http://yoursite.com/Sweets-Eating/</id>
+    <published>2019-12-13T08:52:43.000Z</published>
+    <updated>2019-12-13T09:25:26.581Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1253/C" target="_blank" rel="noopener">CodeForces 1253C</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少個甜點)、M(一天可以吃幾個)和N個甜點的含糖數，在第D天吃下含糖A的甜點時會得到加權含糖數A x D，求吃K(K=1~N)個時的最少加權含糖數是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先由題目需求得知，在吃X個的情況下一定是挑含糖數最少的X個出來，並且由高的開始吃，得出的就是K=X時的最少含糖數，因此先排序得到陣列A。計算累加陣列S，S[i]等於A[0]~A[i]的總和。現在要求陣列K，記錄所有答案，觀察後得知，K[i] = K[i – M] + S[i]，如下一頁所示，將陣列輸出就是答案。<br><img src="A.PNG" alt="A"></p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0a2cb1dad996580b67cf36a5a37bc11c.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1253/C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 1253C&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="sortings" scheme="http://yoursite.com/tags/sortings/"/>
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+      <category term="math" scheme="http://yoursite.com/tags/math/"/>
+    
+      <category term="一般" scheme="http://yoursite.com/tags/%E4%B8%80%E8%88%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gas Pipeline</title>
+    <link href="http://yoursite.com/Gas-Pipeline/"/>
+    <id>http://yoursite.com/Gas-Pipeline/</id>
+    <published>2019-12-13T08:52:32.000Z</published>
+    <updated>2019-12-13T08:57:03.171Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1207/C" target="_blank" rel="noopener">CodeForces 1207C</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>用0/1表示一條街道的一個區段不是/是路口，在路口時管線必須立在離地兩單位高的柱上供路口通行，非路口時則沒有限制。現在輸入N、A、B，表示道路的區段數量、一單位長的管線的成本、一單位高的柱子成本，保證頭尾的區段都是非路口，問在道路頭尾的柱子都是1單位高時花費的最低成本是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>用柱子來看，前一根柱子到這一根柱子的成本有四種，高度1到1、高度1到2、高度2到1、高度2到2四種，因此知道前一根柱子的高度1和2的最低成本，就可以算出這根柱子高度1和2時的最低成本。加上第一根根最後一根柱子高度限制為1的條件後，從第一根柱子開始推算就可以得出最後的最低成本。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/f150287a1b3ee14609c68fcfe3aa0131.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/1207/C&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 1207C&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+      <category term="一般" scheme="http://yoursite.com/tags/%E4%B8%80%E8%88%AC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Brick Wall Patterns</title>
+    <link href="http://yoursite.com/Brick-Wall-Patterns/"/>
+    <id>http://yoursite.com/Brick-Wall-Patterns/</id>
+    <published>2019-12-13T08:52:19.000Z</published>
+    <updated>2019-12-13T09:25:15.625Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/9/900.pdf" target="_blank" rel="noopener">UVA 900</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你N個磚頭，問你有幾種排列方式。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>仔細觀察數列時會發現有規律，1的時候1、2的時候2、3的時候3、4的時候5….，第三項會是前兩項的和，因此我們可以先建一個表將所有答案算出來，之後利用查表來輸出答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d3dd936f31d55be2205f5f8be4576bff.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/external/9/900.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UVA 900&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+    
+      <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wrong Subtraction</title>
+    <link href="http://yoursite.com/Wrong-Subtraction-1/"/>
+    <id>http://yoursite.com/Wrong-Subtraction-1/</id>
+    <published>2019-12-13T08:52:00.000Z</published>
+    <updated>2019-12-13T09:08:44.431Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/977/A" target="_blank" rel="noopener">CodeForces 977A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他給你一個N然後可以有K次操作。<br>操作條件:<br>● if the last digit of the number is non-zero, she decreases the number by one.(如果他不為0則減一)</p><p>● if the last digit of the number is zero, she divides the number by 10 (i.e. removes the last digit).(如果他為0就除以10)</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每次將N模10看看於數是不是0如果不是就減1，其餘除10。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/be92977c98e9f69528282fcd181111e3.js"></script>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;http://codeforces.com/problemset/problem/977/A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;CodeForces 977A&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bear and Big Brother</title>
     <link href="http://yoursite.com/Bear-and-Big-Brother/"/>
     <id>http://yoursite.com/Bear-and-Big-Brother/</id>
     <published>2019-12-13T06:13:20.000Z</published>
-    <updated>2019-12-13T08:37:56.991Z</updated>
+    <updated>2019-12-13T09:23:39.545Z</updated>
     
     <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/791/A" target="_blank" rel="noopener">CodeForces 791A</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>一開始給你小熊和牠哥哥的體型，牠每一年增加三倍，而牠哥哥增加兩倍。題目問你說至少要幾年小熊才能超過哥哥的體重。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每過一年看小熊有沒有超過哥哥，如果有就輸出經過了幾年。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/50b0886876cbe645a45e48babe260d6a.js"></script>]]></content>
     
@@ -33,6 +129,8 @@
     
     
       <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="新手" scheme="http://yoursite.com/tags/%E6%96%B0%E6%89%8B/"/>
     
   </entry>
   
@@ -52,9 +150,9 @@
     </summary>
     
     
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
       <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
   </entry>
   
@@ -146,9 +244,9 @@
     </summary>
     
     
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
       <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
+    
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
     
   </entry>
   
@@ -168,13 +266,13 @@
     </summary>
     
     
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
+      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
     
       <category term="簡單" scheme="http://yoursite.com/tags/%E7%B0%A1%E5%96%AE/"/>
     
-      <category term="greedy" scheme="http://yoursite.com/tags/greedy/"/>
+      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
+    
+      <category term="dp" scheme="http://yoursite.com/tags/dp/"/>
     
   </entry>
   
@@ -358,86 +456,6 @@
     <summary type="html">
     
       &lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/external/119/11942.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UVA 11942&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ring</title>
-    <link href="http://yoursite.com/Ring/"/>
-    <id>http://yoursite.com/Ring/</id>
-    <published>2019-11-17T02:39:00.000Z</published>
-    <updated>2019-11-17T02:46:13.188Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_8_D" target="_blank" rel="noopener">Aizu ITP1_8_D</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他找出A字串在不再B字串裡面，需要連續的。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先複製一個字串在源自串後面模仿一個環的樣子，然後逐一檢查一樣的話計數器加一，檢查完後檢查計數器的長度是否跟原自串一樣長，一樣就不檢查然後印答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fa4b745d816d676bac397dcd0d05b2bd.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_8_D&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Aizu ITP1_8_D&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>All in All</title>
-    <link href="http://yoursite.com/All-in-All/"/>
-    <id>http://yoursite.com/All-in-All/</id>
-    <published>2019-11-17T02:28:54.000Z</published>
-    <updated>2019-11-17T02:40:14.379Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/103/10340.pdf" target="_blank" rel="noopener">UVA10340</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他找出A字串在不再B字串裡面，沒有連續沒關西。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>逐一檢查有沒有匹配到相同的字，如果有就換下一個字直到然後次數加一，最後檢查相同的次數等不等於原本的長度，就可以知道答案了。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/8f601b9d5c30cf3a6bd30a1c93650b31.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/external/103/10340.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UVA10340&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>WERTYU</title>
-    <link href="http://yoursite.com/WERTYU/"/>
-    <id>http://yoursite.com/WERTYU/</id>
-    <published>2019-11-17T02:21:35.000Z</published>
-    <updated>2019-11-17T02:27:42.735Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/100/10082.pdf" target="_blank" rel="noopener">UVA10082</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他請你幫他解密，規則是他敲的鍵盤左邊那個才是原本的答案，例如他敲O你要輸出I這樣。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>我們可以先建一個鍵盤的表，然後逐一搜尋，找到一樣的我就取他左邊那個，空白的話就直接印。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/13b38d45451133452556dd4e7fd5cdaa.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/external/100/10082.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UVA10082&lt;/a&gt;&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="implementation" scheme="http://yoursite.com/tags/implementation/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/Hello-World/"/>
-    <id>http://yoursite.com/Hello-World/</id>
-    <published>2019-11-17T02:09:51.000Z</published>
-    <updated>2019-11-17T02:22:29.089Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://onlinejudge.org/external/116/11636.pdf" target="_blank" rel="noopener">UVA11636</a><br><a id="more"></a></p><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有個人他很懶，他懶得打這麼多個Hello World所以他只用複製的，假如他要印7個Hello World!，他要複製3次，因為第一次他複製他打好的一個Hello World，變2個，然後再複製便4個，然後再複製3個變7個。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>我們可以先建出一個答案表提供我們查詢以免超時，i是他需要印的數量，而每次複製我都檢查複製出來的最大值有沒有小於等於複製出來的數量，像是上面範例5、6、7、8都只需要複製3次，因為複製到三次的時候最大值複製數是8個，以此類推往下建表把所有答案都列出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/c9a27cb1bb5ca17fe0914ef6dcc0cfd4.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/external/116/11636.pdf&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;UVA11636&lt;/a&gt;&lt;br&gt;
     
     </summary>
     
