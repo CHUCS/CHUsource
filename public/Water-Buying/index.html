@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1360
+				<span class="post-info-entry">1364
 				</span>
 			
 		</div>
@@ -109,12 +111,16 @@
 <p>There are only two types of water bottles in the nearby shop — 1-liter bottles and 2-liter bottles. There are infinitely many bottles of these two types in the shop.</p>
 <p>The bottle of the first type costs a burles and the bottle of the second type costs b burles correspondingly.</p>
 <p>Polycarp wants to spend as few money as possible. Your task is to find the minimum amount of money (in burles) Polycarp needs to buy exactly n<br>liters of water in the nearby shop if the bottle of the first type costs a burles and the bottle of the second type costs b burles.</p>
-<p>You also have to answer q independent queries.<br><a id="more"></a></p>
+<p>You also have to answer q independent queries.</p>
+<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of the input contains one integer q (1≤q≤500) — the number of queries.</p>
 <p>The next n lines contain queries. The i-th query is given as three space-separated integers n<sub>i</sub>, a<sub>i</sub> and b<sub>i</sub> (1≤n<sub>i<sub>≤10<sup>12</sup>,1≤a<sub>i</sub>,b<sub>i</sub>≤1000) — how many liters Polycarp needs in the i-th query, the cost (in burles) of the bottle of the first type in the i-th query and the cost (in burles) of the bottle of the second type in the i-th query, respectively.</sub></sub></p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print q integers. The i-th integer should be equal to the minimum amount of money (in burles) Polycarp needs to buy exactly n<sub>i</sub> liters of water in the nearby shop if the bottle of the first type costs a<sub>i</sub> burles and the bottle of the second type costs b<sub>i</sub> burles.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">10 1 3</span><br><span class="line">7 3 2</span><br><span class="line">1 1000 1</span><br><span class="line">1000000000000 42 88</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">10</span><br><span class="line">9</span><br><span class="line">1000</span><br><span class="line">42000000000000</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">10 1 3</span><br><span class="line">7 3 2</span><br><span class="line">1 1000 1</span><br><span class="line">1000000000000 42 88</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">10</span><br><span class="line">9</span><br><span class="line">1000</span><br><span class="line">42000000000000</span><br></pre></td></tr></table></figure>
+
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在想買正好n公升的水，只有賣兩種瓶裝水 – 1公升裝跟2公升裝的，分別是a元與b元，請問最少要花多少才買得到n公升的水？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先判斷n是奇數還是偶數，奇數的話就先買一罐1公升的把n變成偶數。剩下的就以2公升為單位買，看是2罐一公升的便宜還是1罐2公升的便宜。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/8c6fc90e3bb7af3af4a1f2cb3744b6ff.js"></script>
@@ -189,7 +195,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
+            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -234,7 +240,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -337,6 +343,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">259
+				<span class="post-info-entry">261
 				</span>
 			
 		</div>
@@ -105,7 +107,9 @@
 		
 
 			
-					<p><a href="http://codeforces.com/problemset/problem/1253/C" target="_blank" rel="noopener">CodeForces 1253C</a><br><a id="more"></a></p>
+					<p><a href="http://codeforces.com/problemset/problem/1253/C" target="_blank" rel="noopener">CodeForces 1253C</a></p>
+<a id="more"></a>
+
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少個甜點)、M(一天可以吃幾個)和N個甜點的含糖數，在第D天吃下含糖A的甜點時會得到加權含糖數A x D，求吃K(K=1~N)個時的最少加權含糖數是多少？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先由題目需求得知，在吃X個的情況下一定是挑含糖數最少的X個出來，並且由高的開始吃，得出的就是K=X時的最少含糖數，因此先排序得到陣列A。計算累加陣列S，S[i]等於A[0]~A[i]的總和。現在要求陣列K，記錄所有答案，觀察後得知，K[i] = K[i – M] + S[i]，如下一頁所示，將陣列輸出就是答案。<br><img src="A.PNG" alt="A"></p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0a2cb1dad996580b67cf36a5a37bc11c.js"></script>  	
@@ -177,7 +181,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/dp/">dp</a> <a class="tag-link" href="/tags/greedy/">greedy</a> <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/sortings/">sortings</a> <a class="tag-link" href="/tags/一般/">一般</a>    
+            <a class="tag-link" href="/tags/dp/" rel="tag">dp</a> <a class="tag-link" href="/tags/greedy/" rel="tag">greedy</a> <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/sortings/" rel="tag">sortings</a> <a class="tag-link" href="/tags/%E4%B8%80%E8%88%AC/" rel="tag">一般</a>    
         	
   </div>
 
@@ -214,7 +218,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -317,6 +321,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

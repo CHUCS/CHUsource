@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">215
+				<span class="post-info-entry">217
 				</span>
 			
 		</div>
@@ -105,7 +107,9 @@
 		
 
 			
-					<p><a href="http://codeforces.com/problemset/problem/414/B" target="_blank" rel="noopener">CodeForces 414B</a><br><a id="more"></a></p>
+					<p><a href="http://codeforces.com/problemset/problem/414/B" target="_blank" rel="noopener">CodeForces 414B</a></p>
+<a id="more"></a>
+
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N、K，指定數列長度K，其中所有元素都在1~N之間，且每一個元素都可以整除下一個元素，問有幾種數列滿足條件？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>當數列長度為x，結尾為y時，要增長數列的方法就是在數列尾端增加一個是y的倍數的元素，因此這個數列可以衍伸出y、2y、3y…ty，ty &lt;= N，共t個數列。以這個想法下去建置一個陣列，紀錄當前長度結尾為x(x=1~N)的數列有幾個，逐次增加長度，跑完後就是答案。<br><img src="A.PNG" alt="A"><br><img src="B.PNG" alt="B"><br><img src="C.PNG" alt="C"><br><img src="D.PNG" alt="D"><br><img src="/images/placeholder.png" alt="E" data-src="E.PNG" class="lazyload"><br><img src="/images/placeholder.png" alt="F" data-src="F.PNG" class="lazyload"><br><img src="/images/placeholder.png" alt="G" data-src="G.PNG" class="lazyload"></p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4c631d92b0f0aec4e4e887ca67ded26a.js"></script>  	
@@ -177,7 +181,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/combinatorics/">combinatorics</a> <a class="tag-link" href="/tags/dp/">dp</a> <a class="tag-link" href="/tags/number-theory/">number theory</a> <a class="tag-link" href="/tags/普通/">普通</a>    
+            <a class="tag-link" href="/tags/combinatorics/" rel="tag">combinatorics</a> <a class="tag-link" href="/tags/dp/" rel="tag">dp</a> <a class="tag-link" href="/tags/number-theory/" rel="tag">number theory</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
         	
   </div>
 
@@ -222,7 +226,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -325,6 +329,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>
