@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">306
+				<span class="post-info-entry">304
 				</span>
 			
 		</div>
@@ -107,9 +105,7 @@
 		
 
 			
-					<p><a href="http://codeforces.com/problemset/problem/1207/C" target="_blank" rel="noopener">CodeForces 1207C</a></p>
-<a id="more"></a>
-
+					<p><a href="http://codeforces.com/problemset/problem/1207/C" target="_blank" rel="noopener">CodeForces 1207C</a><br><a id="more"></a></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>用0/1表示一條街道的一個區段不是/是路口，在路口時管線必須立在離地兩單位高的柱上供路口通行，非路口時則沒有限制。現在輸入N、A、B，表示道路的區段數量、一單位長的管線的成本、一單位高的柱子成本，保證頭尾的區段都是非路口，問在道路頭尾的柱子都是1單位高時花費的最低成本是多少？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>用柱子來看，前一根柱子到這一根柱子的成本有四種，高度1到1、高度1到2、高度2到1、高度2到2四種，因此知道前一根柱子的高度1和2的最低成本，就可以算出這根柱子高度1和2時的最低成本。加上第一根根最後一根柱子高度限制為1的條件後，從第一根柱子開始推算就可以得出最後的最低成本。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/f150287a1b3ee14609c68fcfe3aa0131.js"></script>  	
@@ -181,7 +177,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/dp/" rel="tag">dp</a> <a class="tag-link" href="/tags/greedy/" rel="tag">greedy</a> <a class="tag-link" href="/tags/%E4%B8%80%E8%88%AC/" rel="tag">一般</a>    
+            <a class="tag-link" href="/tags/dp/">dp</a> <a class="tag-link" href="/tags/greedy/">greedy</a> <a class="tag-link" href="/tags/一般/">一般</a>    
         	
   </div>
 
@@ -226,7 +222,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -329,8 +325,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

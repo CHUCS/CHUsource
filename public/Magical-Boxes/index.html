@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1615
+				<span class="post-info-entry">1606
 				</span>
 			
 		</div>
@@ -108,30 +106,21 @@
 
 			
 					<p>Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.</p>
-<p>From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:</p>
-<a id="more"></a>
-<p><img src="A.PNG" alt="A"><br>Emuskald is about to go on tour performing around the world, and needs to pack his magical boxes for the trip. He has decided that the best way to pack them would be inside another magical box, but magical boxes are quite expensive to make. Help him find the smallest magical box that can fit all his boxes.</p>
+<p>From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:<br><a id="more"></a><br><img src="A.PNG" alt="A"><br>Emuskald is about to go on tour performing around the world, and needs to pack his magical boxes for the trip. He has decided that the best way to pack them would be inside another magical box, but magical boxes are quite expensive to make. Help him find the smallest magical box that can fit all his boxes.</p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of input contains an integer n (1 ≤ n ≤ 10<sup>5</sup>), the number of different sizes of boxes Emuskald has. Each of following n lines contains two integers k<sub>i</sub> and a<sub>i</sub> (0 ≤ k<sub>i</sub> ≤ 10<sup>9</sup>, 1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>), which means that Emuskald has ai boxes with side length 2<sup>k<sub>i</sub></sup>. It is guaranteed that all of ki are distinct.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Output a single integer p, such that the smallest magical box that can contain all of Emuskald’s boxes has side length 2<sup>p</sup>.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">0 3</span><br><span class="line">1 5</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">0 4</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">1 10</span><br><span class="line">2 2</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">0 3</span><br><span class="line">1 5</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">1</span><br><span class="line">0 4</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">2</span><br><span class="line">1 10</span><br><span class="line">2 2</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>Picture explanation. If we have 3 boxes with side length 2 and 5 boxes with side length 1, then we can put all these boxes inside a box with side length 4, for example, as shown in the picture.</p>
 <p>In the second test case, we can put all four small boxes into a box with side length 2.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N，再輸入N種箱子的尺寸跟數量， 1個箱子可以裝1~4個比自己小一號的箱子，問你需要一個多大的箱子才能裝得下全部的箱子。</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>1個箱子可以裝4個比自己小一號的箱子，所以先把輸入的箱子按尺寸大到小排序，記錄現在最大的尺寸，計算可不可以裝得下那些比較小的，要注意的是同一尺寸的箱子最多只會有1000000000個，所以可以裝超過這個數字就不用判斷了，一定裝的下；裝不下的就計算需要幾個目前最大的箱子才裝得下，先記著。</p>
 <p>最後跑完全部後再用需要幾個目前最大的箱子來算需要多大的箱子。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/ffe732aec0bdd1ce3ec815518e180d71.js"></script>
-<p><a href="https://codeforces.com/problemset/problem/269/A" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/ffe732aec0bdd1ce3ec815518e180d71.js"></script><br><a href="https://codeforces.com/problemset/problem/269/A" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -201,7 +190,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/sortings/" rel="tag">sortings</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
+            <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/sortings/">sortings</a> <a class="tag-link" href="/tags/普通/">普通</a>    
         	
   </div>
 
@@ -246,7 +235,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -349,8 +338,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

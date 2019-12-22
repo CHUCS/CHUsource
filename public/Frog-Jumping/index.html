@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1471
+				<span class="post-info-entry">1466
 				</span>
 			
 		</div>
@@ -114,17 +112,13 @@
 <p>● if the frog has jumped an even number of times (before the current jump), it jumps from its current position x to position x+a;<br>● otherwise it jumps from its current position x to position x−b.<br>Your task is to calculate the position of the frog after k jumps.</p>
 </blockquote>
 </blockquote>
-<p>But… One more thing. You are watching t different frogs so you have to answer t independent queries.</p>
-<a id="more"></a>
+<p>But… One more thing. You are watching t different frogs so you have to answer t independent queries.<br><a id="more"></a></p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of the input contains one integer t (1≤t≤1000) — the number of queries.</p>
 <p>Each of the next t lines contain queries (one query per line).</p>
 <p>The query is described as three space-separated integers a,b,k (1≤a,b,k≤10<sup>9</sup>) — the lengths of two types of jumps and the number of jumps, respectively.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print t integers. The i-th integer should be the answer for the i-th query.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">5 2 3</span><br><span class="line">100 1 4</span><br><span class="line">1 10 5</span><br><span class="line">1000000000 1 6</span><br><span class="line">1 1 1000000000</span><br><span class="line">1 1 999999999</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">198</span><br><span class="line">-17</span><br><span class="line">2999999997</span><br><span class="line">0</span><br><span class="line">1</span><br></pre></td></tr></table></figure>
-
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">5 2 3</span><br><span class="line">100 1 4</span><br><span class="line">1 10 5</span><br><span class="line">1000000000 1 6</span><br><span class="line">1 1 1000000000</span><br><span class="line">1 1 999999999</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">198</span><br><span class="line">-17</span><br><span class="line">2999999997</span><br><span class="line">0</span><br><span class="line">1</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first query frog jumps 5 to the right, 2 to the left and 5 to the right so the answer is 5−2+5=8.</p>
 <p>In the second query frog jumps 100 to the right, 1 to the left, 100 to the right and 1 to the left so the answer is 100−1+100−1=198.</p>
 <p>In the third query the answer is 1−10+1−10+1=−17.</p>
@@ -133,8 +127,7 @@
 <p>The sixth query is the same as the fifth but without the last jump so the answer is 1.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>青蛙第一次會向右跳a，第二次會向右跳b，問你跳k伺候青蛙位在多少？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>兩次一組，往右跳a-b。因此偶數就直接算有幾組，奇數就再多加一次往右。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/c8eb39f4bd6f8f38e7543246ec609cf9.js"></script>
-<p><a href="https://codeforces.com/problemset/problem/1077/A" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/c8eb39f4bd6f8f38e7543246ec609cf9.js"></script><br><a href="https://codeforces.com/problemset/problem/1077/A" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -204,7 +197,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E6%96%B0%E6%89%8B/" rel="tag">新手</a>    
+            <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/新手/">新手</a>    
         	
   </div>
 
@@ -249,7 +242,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -352,8 +345,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

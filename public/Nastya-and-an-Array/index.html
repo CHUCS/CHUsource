@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1124
+				<span class="post-info-entry">1117
 				</span>
 			
 		</div>
@@ -108,23 +106,16 @@
 
 			
 					<p>Nastya owns too many arrays now, so she wants to delete the least important of them. However, she discovered that this array is magic! Nastya now knows that the array has the following properties:</p>
-<p>In one second we can add an arbitrary (possibly negative) integer to all elements of the array that are not equal to zero.<br>When all elements of the array become equal to zero, the array explodes.<br>Nastya is always busy, so she wants to explode the array as fast as possible. Compute the minimum time in which the array can be exploded.</p>
-<a id="more"></a>
+<p>In one second we can add an arbitrary (possibly negative) integer to all elements of the array that are not equal to zero.<br>When all elements of the array become equal to zero, the array explodes.<br>Nastya is always busy, so she wants to explode the array as fast as possible. Compute the minimum time in which the array can be exploded.<br><a id="more"></a></p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains a single integer n (1 ≤ n ≤ 10<sup>5</sup>) — the size of the array.</p>
 <p>The second line contains n integers a<sub>1</sub>, a<sub>2</sub>, …, a<sub>n</sub> ( - 10<sup>5</sup> ≤ a<sub>i<sub> ≤ 10<sup>5</sup>) — the elements of the array.</sub></sub></p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single integer — the minimum number of seconds needed to make all elements of the array equal to zero.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">2 0 -1</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">5 -6 -5 1</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">5</span><br><span class="line">1 1 1 1 1</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3</span><br><span class="line">2 0 -1</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">5 -6 -5 1</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first example you can add  - 1 to all non-zero elements in one second and make them equal to zero.</p>
 <p>In the second example you can add  - 2 on the first second, then the array becomes equal to [0, 0,  - 3]. On the second second you can add 3 to the third (the only non-zero) element.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在一次行動可以將一個陣列的非0數字都加上某個數字，問你需要幾次行動才能將陣列全部歸0？</p>
@@ -201,7 +192,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/sortings/" rel="tag">sortings</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
+            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/sortings/">sortings</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
         	
   </div>
 
@@ -246,7 +237,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -349,8 +340,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

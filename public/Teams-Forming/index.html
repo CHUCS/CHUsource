@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1316
+				<span class="post-info-entry">1308
 				</span>
 			
 		</div>
@@ -110,24 +108,16 @@
 					<p>One day n students come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.</p>
 <p>We know that this group of people has archenemies. Each student has at most two archenemies. Besides, if student A is an archenemy to student B, then student B is an archenemy to student A.</p>
 <p>The students want to split so as no two archenemies were in one team. If splitting in the required manner is impossible, some students will have to sit on the bench.</p>
-<p>Determine the minimum number of students you will have to send to the bench in order to form the two teams in the described manner and begin the game at last.</p>
-<a id="more"></a>
+<p>Determine the minimum number of students you will have to send to the bench in order to form the two teams in the described manner and begin the game at last.<br><a id="more"></a></p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains two integers n and m (2 ≤ n ≤ 100, 1 ≤ m ≤ 100) — the number of students and the number of pairs of archenemies correspondingly.</p>
 <p>Next m lines describe enmity between students. Each enmity is described as two numbers ai and bi (1 ≤ a<sub>i</sub>, b<sub>i</sub> ≤ n, a<sub>i</sub> ≠ b<sub>i</sub>) — the indexes of the students who are enemies to each other. Each enmity occurs in the list exactly once. It is guaranteed that each student has no more than two archenemies.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single integer — the minimum number of students you will have to send to the bench in order to start the game.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">5 4</span><br><span class="line">1 2</span><br><span class="line">2 4</span><br><span class="line">5 3</span><br><span class="line">1 4</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">6 2</span><br><span class="line">1 4</span><br><span class="line">3 4</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">6 6</span><br><span class="line">1 2</span><br><span class="line">2 3</span><br><span class="line">3 1</span><br><span class="line">4 5</span><br><span class="line">5 6</span><br><span class="line">6 4</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
-
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">5 4</span><br><span class="line">1 2</span><br><span class="line">2 4</span><br><span class="line">5 3</span><br><span class="line">1 4</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">6 2</span><br><span class="line">1 4</span><br><span class="line">3 4</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">6 6</span><br><span class="line">1 2</span><br><span class="line">2 3</span><br><span class="line">3 1</span><br><span class="line">4 5</span><br><span class="line">5 6</span><br><span class="line">6 4</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>n個學生要分成n/2組，每1組保證正好2個人，每個人都有各自的程式技能等級ai，你可以挑1個人來解掉1題題目讓他的程式技能等級提升1級，現在問你最少要讓學生總共解掉多少題目來使得每一組的2個人間彼此的程式技能等級都是一樣的？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>把所有人依技能等級從大到小排序，兩兩一組，把低的拉到跟高的一樣，加總差距就是答案。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/bc6568329876e43c5ddbf19948035b6f.js"></script>
@@ -202,7 +192,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/greedy/" rel="tag">greedy</a> <a class="tag-link" href="/tags/sortings/" rel="tag">sortings</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
+            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/greedy/">greedy</a> <a class="tag-link" href="/tags/sortings/">sortings</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
         	
   </div>
 
@@ -247,7 +237,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -350,8 +340,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

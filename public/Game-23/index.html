@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">915
+				<span class="post-info-entry">907
 				</span>
 			
 		</div>
@@ -109,29 +107,21 @@
 			
 					<p>Polycarp plays “Game 23”. Initially he has a number n and his goal is to transform it to m. In one move, he can multiply n by 2 or multiply n by 3. He can perform any number of moves.</p>
 <p>Print the number of moves needed to transform n<br>to m. Print -1 if it is impossible to do so.</p>
-<p>It is easy to prove that any way to transform n to m contains the same number of moves (i.e. number of moves doesn’t depend on the way of transformation).</p>
-<a id="more"></a>
+<p>It is easy to prove that any way to transform n to m contains the same number of moves (i.e. number of moves doesn’t depend on the way of transformation).<br><a id="more"></a></p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The only line of the input contains two integers n and m (1≤n≤m≤5⋅108).</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print the number of moves to transform n to m, or -1 if there is no solution.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">120 51840</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">42 42</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">48 72</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">120 51840</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">42 42</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">48 72</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first example, the possible sequence of moves is: 120→240→720→1440→4320→12960→25920→51840. The are 7 steps in total.</p>
 <p>In the second example, no moves are needed. Thus, the answer is 0.</p>
 <p>In the third example, it is impossible to transform 48 to 72.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入n、m，你現在每一步可以將n乘以2或3，問你需要幾步可以將n變成m？不能的話輸出-1。</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先判斷能不能n整除m，不能就輸出-1，可以的話直接除，然後將商質因數分解，看有幾個2跟3，有2跟3以外的因數就輸出-1，不然個數加起來就是答案。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/55eb8af27dbbcb1e6383f0c1fbe38cf1.js"></script>
-<p><a href="https://chucs.github.io/site/" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/55eb8af27dbbcb1e6383f0c1fbe38cf1.js"></script><br><a href="https://chucs.github.io/site/">題目網址</a></p>
   	
 					
 	  </div>     
@@ -201,7 +191,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E6%96%B0%E6%89%8B/" rel="tag">新手</a>    
+            <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/新手/">新手</a>    
         	
   </div>
 
@@ -246,7 +236,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -349,8 +339,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

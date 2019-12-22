@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1533
+				<span class="post-info-entry">1528
 				</span>
 			
 		</div>
@@ -110,25 +108,20 @@
 					<p>One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , …</p>
 <p>The expression ⌊a/b⌋is regarded as the integral part from dividing number a by number b.</p>
 <p>The moment the current value ⌊v/k<sup>p</sup>⌋ equals 0, Vasya immediately falls asleep and he wakes up only in the morning, when the program should already be finished.</p>
-<p>Vasya is wondering, what minimum allowable value v can take to let him write not less than n lines of code before he falls asleep.</p>
-<a id="more"></a>
+<p>Vasya is wondering, what minimum allowable value v can take to let him write not less than n lines of code before he falls asleep.<br><a id="more"></a></p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The input consists of two integers n and k, separated by spaces — the size of the program in lines and the productivity reduction coefficient, 1 ≤ n ≤ 10<sup>9</sup>, 2 ≤ k ≤ 10.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print the only integer — the minimum value of v that lets Vasya write the program in one night.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7 2</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">59 9</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">54</span><br></pre></td></tr></table></figure>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">7 2</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">59 9</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">54</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first sample the answer is v = 4. Vasya writes the code in the following portions: first 4 lines, then 2, then 1, and then Vasya falls asleep. Thus, he manages to write 4 + 2 + 1 = 7 lines in a night and complete the task.</p>
 <p>In the second sample the answer is v = 54. Vasya writes the code in the following portions: 54, 6. The total sum is 54 + 6 = 60, that’s even more than n = 59.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他現在快睡著了，寫了v行程式碼之後就必須喝一杯茶，然後就能繼續寫⌊𝑣/𝑘⌋行程式碼；再喝一杯茶，能再寫⌊𝑣/𝑘<sup>2</sup>⌋行程式碼，當⌊𝑣/𝑘<sup>𝑝</sup>⌋等於0的時候就會立刻睡著。現在問你假如他必須寫出至少n行程式碼的話，v最少要是多少？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>需要n行，因此v=0時一定不行，v=n時一定可以，所以在0~n中做二分搜尋法必定可以找到答案。<br>● 若是v=mid時算出來的行數等於n，則mid就是最小值。<br>● 若是v=mid時算出來的行數大於n，則mid有可能是答案，將最小值記起來再減少上限找看看有沒有可能更小。<br>● 若是v=mid時算出來的行數小於n，則mid不可能是答案，增加下限找看看有沒有可能的答案。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/9316d78bd8016b0996ffd5fceeb75ffd.js"></script>
 
-<p><a href="https://chucs.github.io/site/" target="_blank" rel="noopener">題目網址</a></p>
+<p><a href="https://chucs.github.io/site/">題目網址</a></p>
   	
 					
 	  </div>     
@@ -198,7 +191,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/binary-search/" rel="tag">binary search</a> <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
+            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/binary-search/">binary search</a> <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/普通/">普通</a>    
         	
   </div>
 
@@ -243,7 +236,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -346,8 +339,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>

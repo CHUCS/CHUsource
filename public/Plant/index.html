@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head>
+  <head><meta name="generator" content="Hexo 3.8.0">
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,10 +20,8 @@
   
 
 
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
+  <link rel="stylesheet" href="/nayo.min.css"> 
+</head>  
   <body>   
     
       <header class="header">
@@ -93,7 +91,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1321
+				<span class="post-info-entry">1315
 				</span>
 			
 		</div>
@@ -107,20 +105,14 @@
 		
 
 			
-					<p>Dwarfs have planted a very interesting plant, which is a triangle directed “upwards”. This plant has an amusing feature. After one year a triangle plant directed “upwards” divides into four triangle plants: three of them will point “upwards” and one will point “downwards”. After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.</p>
-<a id="more"></a>
-<p><img src="A.PNG" alt="A"><br>Help the dwarfs find out how many triangle plants that point “upwards” will be in n years.</p>
+					<p>Dwarfs have planted a very interesting plant, which is a triangle directed “upwards”. This plant has an amusing feature. After one year a triangle plant directed “upwards” divides into four triangle plants: three of them will point “upwards” and one will point “downwards”. After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.<br><a id="more"></a><br><img src="A.PNG" alt="A"><br>Help the dwarfs find out how many triangle plants that point “upwards” will be in n years.</p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains a single integer n (0 ≤ n ≤ 10<sup>18</sup>) — the number of full years when the plant grew.</p>
 <p>Please do not use the %lld specifier to read or write 64-bit integers in С++. It is preferred to use cin, cout streams or the %I64d specifier.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single integer — the remainder of dividing the number of plants that will point “upwards” in n years by 1000000007 (10<sup>9</sup> + 7).</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
-<p>input:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
-<p>output:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10</span><br></pre></td></tr></table></figure>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
+<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
+<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">10</span><br></pre></td></tr></table></figure></p>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>The first test sample corresponds to the second triangle on the figure in the statement. The second test sample corresponds to the third one.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>觀察後可以得到N=1時向上的三角形有1+2=3個，N=2時有1+2+3+4=1+2+…+2<sup>2</sup>=10個，因此推導出輸入N時有1+…+2N=((2<sup>N</sup>+1) 2<sup>N</sup>)/2個三角形，因此題目可以等價為求((2<sup>N</sup>+1) 2<sup>N</sup>)/2%1000000007<br>另外一個要知道的數學知識是:<br>(a<em>b</em>c*d)%e≡((a%e)∙(b%e)∙(c%e)∙(d%e))%e</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>我們現在需要求出2<sup>𝑁</sup>%1000000007是多少，將2<sup>N</sup>分解開並分別求出餘數後用前面的方式求出乘起來後的餘數，然後再算出最後的餘數就是答案，例如2<sup>11</sup>=2<sup>8</sup>∙2<sup>2</sup>∙2<sup>1</sup>  </p>
@@ -196,7 +188,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
+            <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/普通/">普通</a>    
         	
   </div>
 
@@ -241,7 +233,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -344,8 +336,6 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    
-<script src="/nayo.bundle.js"></script>
-           
+    <script src="/nayo.bundle.js"></script>           
   </body>        
 </html>
