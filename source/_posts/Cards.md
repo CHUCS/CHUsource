@@ -2,6 +2,10 @@
 title: Cards
 date: 2019-12-31 15:46:45
 tags:
+    - 新手
+    - implementation
+    - sortings
+    - strings
 ---
 [CodeForces 1220A](https://codeforces.com/problemset/problem/1220/A)
 <!-- more -->
