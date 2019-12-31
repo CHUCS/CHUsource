@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1543
+				<span class="post-info-entry">1549
 				</span>
 			
 		</div>
@@ -117,18 +119,24 @@
 </blockquote>
 </blockquote>
 <p>To make his guests happy, Ivan wants to distribute the cakes in such a way that the minimum number of pieces on the plate is maximized. Formally, Ivan wants to know the maximum possible number x such that he can distribute the cakes according to the aforementioned conditions, and each plate will contain at least x pieces of cake.</p>
-<p>Help Ivan to calculate this number x!<br><a id="more"></a></p>
+<p>Help Ivan to calculate this number x!</p>
+<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains three integers n, a and b (1 ≤ a, b ≤ 100, 2 ≤ n ≤ a + b) — the number of plates, the number of pieces of the first cake, and the number of pieces of the second cake, respectively.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print the maximum possible number x such that Ivan can distribute the cake in such a way that each plate will contain at least x pieces of cake.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5 2 3</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 7 10</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">5 2 3</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4 7 10</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first example there is only one way to distribute cakes to plates, all of them will have 1 cake on it.</p>
 <p>In the second example you can have two plates with 3 and 4 pieces of the first cake and two plates both with 5 pieces of the second cake. Minimal number of pieces is 3.</p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在有兩大塊蛋糕各自分成a片和b片，要分給n個人，有3個條件，(1)每片蛋糕都要分出去；(2)每個人至少有1片蛋糕；(3)一個人只能有一種蛋糕。問你被分到最少片蛋糕的那個人，他最多能拿到幾片蛋糕？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為一塊蛋糕最多分成100片，因此用二分搜尋找1~100，記住最大值輸出。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/514ffd6016100eaa0ee60e4e42edc292.js"></script><br><a href="https://codeforces.com/problemset/problem/911/B" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/514ffd6016100eaa0ee60e4e42edc292.js"></script>
+<p><a href="https://codeforces.com/problemset/problem/911/B" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -198,7 +206,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/binary-search/">binary search</a> <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/普通/">普通</a>    
+            <a class="tag-link" href="/tags/binary-search/" rel="tag">binary search</a> <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
         	
   </div>
 
@@ -243,7 +251,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -346,6 +354,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1490
+				<span class="post-info-entry">1497
 				</span>
 			
 		</div>
@@ -108,16 +110,23 @@
 					<p>Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.</p>
 <p>Limak wants to give one ball to each of his three friends. Giving gifts isn’t easy — there are two rules Limak must obey to make friends happy:</p>
 <p>● No two friends can get balls of the same size.<br>● No two friends can get balls of sizes that differ by more than 2.<br>For example, Limak can choose balls with sizes 4, 5 and 3, or balls with sizes 90, 91 and 92. But he can’t choose balls with sizes 5, 5 and 6 (two friends would get balls of the same size), and he can’t choose balls with sizes 30, 31 and 33 (because sizes 30 and 33 differ by more than 2).</p>
-<p>Your task is to check whether Limak can choose three balls that satisfy conditions above.<br><a id="more"></a></p>
+<p>Your task is to check whether Limak can choose three balls that satisfy conditions above.</p>
+<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of the input contains one integer n (3 ≤ n ≤ 50) — the number of balls Limak has.</p>
 <p>The second line contains n integers t<sub>1</sub>, t<sub>2</sub>, …, t<sub>n</sub> (1 ≤ t<sub>i</sub> ≤ 1000) where ti denotes the size of the i-th ball.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print “YES” (without quotes) if Limak can choose three balls of distinct sizes, such that any two of them differ by no more than 2. Otherwise, print “NO” (without quotes).</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">18 55 16 17</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">40 41 43 44 44 44</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NO</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">5 972 3 4 1 4 970 971</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">4</span><br><span class="line">18 55 16 17</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">6</span><br><span class="line">40 41 43 44 44 44</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">NO</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">8</span><br><span class="line">5 972 3 4 1 4 970 971</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">YES</span><br></pre></td></tr></table></figure>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p>In the first sample, there are 4 balls and Limak is able to choose three of them to satisfy the rules. He must must choose balls with sizes 18, 16 and 17.</p>
 <p>In the second sample, there is no way to give gifts to three friends without breaking the rules.</p>
 <p>In the third sample, there is even more than one way to choose balls:</p>
@@ -203,7 +212,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/sortings/">sortings</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
+            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/sortings/" rel="tag">sortings</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -248,7 +257,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -351,6 +360,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

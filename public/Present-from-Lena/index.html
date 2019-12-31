@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1351
+				<span class="post-info-entry">1359
 				</span>
 			
 		</div>
@@ -109,20 +111,28 @@
 <pre><code>      0
     0 1 0
   0 1 2 1 0
-0 1 2 3 2 1 0
-</code></pre><p>  0 1 2 3 4 3 2 1 0<br>0 1 2 3 4 5 4 3 2 1 0<br>  0 1 2 3 4 3 2 1 0<br>    0 1 2 3 2 1 0<br>      0 1 2 1 0<br>        0 1 0<br>          0<br>Your task is to determine the way the handkerchief will look like by the given n.<br><a id="more"></a></p>
+0 1 2 3 2 1 0</code></pre><p>  0 1 2 3 4 3 2 1 0<br>0 1 2 3 4 5 4 3 2 1 0<br>  0 1 2 3 4 3 2 1 0<br>    0 1 2 3 2 1 0<br>      0 1 2 1 0<br>        0 1 0<br>          0<br>Your task is to determine the way the handkerchief will look like by the given n.</p>
+<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains the single integer n (2 ≤ n ≤ 9).</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a picture for the given n. You should strictly observe the number of spaces before the first digit on each line. Every two adjacent digits in the same line should be separated by exactly one space. There should be no spaces after the last digit at the end of each line.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    0</span><br><span class="line">  0 1 0</span><br><span class="line">0 1 2 1 0</span><br><span class="line">  0 1 0</span><br><span class="line">    0</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">      0</span><br><span class="line">    0 1 0</span><br><span class="line">  0 1 2 1 0</span><br><span class="line">0 1 2 3 2 1 0</span><br><span class="line">  0 1 2 1 0</span><br><span class="line">    0 1 0</span><br><span class="line">      0</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">    0</span><br><span class="line">  0 1 0</span><br><span class="line">0 1 2 1 0</span><br><span class="line">  0 1 0</span><br><span class="line">    0</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">      0</span><br><span class="line">    0 1 0</span><br><span class="line">  0 1 2 1 0</span><br><span class="line">0 1 2 3 2 1 0</span><br><span class="line">  0 1 2 1 0</span><br><span class="line">    0 1 0</span><br><span class="line">      0</span><br></pre></td></tr></table></figure>
+
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>印出一個按照他的規則的菱形。<br>每個數字後面必須要有空白，但最後一個字後面不能有空白!</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">    0 1 2 3 4 5 6 7 8 9 10  </span><br><span class="line">A             0</span><br><span class="line">B           0 1 0</span><br><span class="line">C         0 1 2 1 0</span><br><span class="line">D       0 1 2 3 2 1 0</span><br><span class="line">E     0 1 2 3 4 3 2 1 0</span><br><span class="line">F   0 1 2 3 4 5 4 3 2 1 0</span><br><span class="line">G     0 1 2 3 4 3 2 1 0</span><br><span class="line">H       0 1 2 3 2 1 0</span><br><span class="line">I         0 1 2 1 0</span><br><span class="line">J           0 1 0</span><br><span class="line">K             0</span><br></pre></td></tr></table></figure>
+
 <p>要印菱形要先決定起始的位置，這一題菱形的第一列的起始位置是第六行(編號5)。<br>第二列(編號B)的起始位置則是上一列減1，依此類推直到第五列。<br>第六列(編號F)開始起始位置正好相反，是上一列加1。<br>菱形的第一列印的結束位置也是是第六行(編號5)，也就是印完就換下一行。<br>每一行的結束位置的流程則和開始位置相反，先加後減。</p>
 <p>*這樣會印出緊湊的菱形，這一題菱形的數字之間”要加空白，但每一列最後一行不可以有空白”。</p>
-<p>中間沒空白的菱形:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">     *</span><br><span class="line">    ***</span><br><span class="line">   *****</span><br><span class="line">  *******</span><br><span class="line"> *********</span><br><span class="line">***********</span><br><span class="line"> *********</span><br><span class="line">  *******</span><br><span class="line">   *****</span><br><span class="line">    ***</span><br><span class="line">     *</span><br></pre></td></tr></table></figure></p>
-<p>中間有空白的菱形:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">          *</span><br><span class="line">        * * *</span><br><span class="line">      * * * * *</span><br><span class="line">    * * * * * * *</span><br><span class="line">  * * * * * * * * *</span><br><span class="line">* * * * * * * * * * *</span><br><span class="line">  * * * * * * * * *</span><br><span class="line">    * * * * * * *</span><br><span class="line">      * * * * *</span><br><span class="line">        * * *</span><br><span class="line">          *</span><br></pre></td></tr></table></figure></p>
+<p>中間沒空白的菱形:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">     *</span><br><span class="line">    ***</span><br><span class="line">   *****</span><br><span class="line">  *******</span><br><span class="line"> *********</span><br><span class="line">***********</span><br><span class="line"> *********</span><br><span class="line">  *******</span><br><span class="line">   *****</span><br><span class="line">    ***</span><br><span class="line">     *</span><br></pre></td></tr></table></figure>
+<p>中間有空白的菱形:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">          *</span><br><span class="line">        * * *</span><br><span class="line">      * * * * *</span><br><span class="line">    * * * * * * *</span><br><span class="line">  * * * * * * * * *</span><br><span class="line">* * * * * * * * * * *</span><br><span class="line">  * * * * * * * * *</span><br><span class="line">    * * * * * * *</span><br><span class="line">      * * * * *</span><br><span class="line">        * * *</span><br><span class="line">          *</span><br></pre></td></tr></table></figure>
 <p>這樣菱形就完成了，剩下就是印出數字!</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/9465b85756422ea5cf249d925c518520.js"></script>
 
@@ -196,7 +206,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/implementation/">implementation</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
+            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -241,7 +251,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -344,6 +354,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1781
+				<span class="post-info-entry">1790
 				</span>
 			
 		</div>
@@ -106,15 +108,24 @@
 
 			
 					<p>Little Sofia is in fourth grade. Today in the geometry lesson she learned about segments and squares. On the way home, she decided to draw n squares in the snow with a side length of 1. For simplicity, we assume that Sofia lives on a plane and can draw only segments of length 1, parallel to the coordinate axes, with vertices at integer points.</p>
-<p>In order to draw a segment, Sofia proceeds as follows. If she wants to draw a vertical segment with the coordinates of the ends (x,y)and (x,y+1). Then Sofia looks if there is already a drawn segment with the coordinates of the ends (x′,y) and (x′,y+1) for some x′. If such a segment exists, then Sofia quickly draws a new segment, using the old one as a guideline. If there is no such segment, then Sofia has to take a ruler and measure a new segment for a long time. Same thing happens when Sofia wants to draw a horizontal segment, but only now she checks for the existence of a segment with the same coordinates x, x+1 and the differing coordinate y.<br><a id="more"></a><br>For example, if Sofia needs to draw one square, she will have to draw two segments using a ruler:<br><img src="A.png" alt="A"><br>After that, she can draw the remaining two segments, using the first two as a guide:<br><img src="B.PNG" alt="B"><br>If Sofia needs to draw two squares, she will have to draw three segments using a ruler:<br><img src="C.PNG" alt="C"><br>After that, she can draw the remaining four segments, using the first three as a guide:<br><img src="D.PNG" alt="D"><br>Sofia is in a hurry, so she wants to minimize the number of segments that she will have to draw with a ruler without a guide. Help her find this minimum number.</p>
+<p>In order to draw a segment, Sofia proceeds as follows. If she wants to draw a vertical segment with the coordinates of the ends (x,y)and (x,y+1). Then Sofia looks if there is already a drawn segment with the coordinates of the ends (x′,y) and (x′,y+1) for some x′. If such a segment exists, then Sofia quickly draws a new segment, using the old one as a guideline. If there is no such segment, then Sofia has to take a ruler and measure a new segment for a long time. Same thing happens when Sofia wants to draw a horizontal segment, but only now she checks for the existence of a segment with the same coordinates x, x+1 and the differing coordinate y.</p>
+<a id="more"></a>
+<p>For example, if Sofia needs to draw one square, she will have to draw two segments using a ruler:<br><img src="A.png" alt="A"><br>After that, she can draw the remaining two segments, using the first two as a guide:<br><img src="B.PNG" alt="B"><br>If Sofia needs to draw two squares, she will have to draw three segments using a ruler:<br><img src="C.PNG" alt="C"><br>After that, she can draw the remaining four segments, using the first three as a guide:<br><img src="D.PNG" alt="D"><br>Sofia is in a hurry, so she wants to minimize the number of segments that she will have to draw with a ruler without a guide. Help her find this minimum number.</p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The only line of input contains a single integer n (1≤n≤10<sup>9</sup>), the number of squares that Sofia wants to draw.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print single integer, the minimum number of segments that Sofia will have to draw with a ruler without a guide in order to draw n squares in the manner described above.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">4</span><br></pre></td></tr></table></figure>
+
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在可以用手畫長度為1的垂直或水平線段，並且畫了之後可以用工具複製它的平行線段，當現在要畫n個正方形的時候問你最少需要用手畫幾條線段？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>可以用二分搜尋法或是用數學方法求解。</p>
 <p>二分搜尋法:<br>先求得𝐾=2⌈√𝑛⌉，即是搜尋上限，接著以二分搜尋法搜尋0~K，mid為偶數時最多有個(𝑚𝑖𝑑/2)<sup>2</sup>方形，奇數時最多有個𝑚𝑖𝑑/2×(𝑚𝑖𝑑+1)/2方形。</p>
@@ -191,7 +202,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/CHU-Training/">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/">CodeForces</a> <a class="tag-link" href="/tags/binary-search/">binary search</a> <a class="tag-link" href="/tags/math/">math</a> <a class="tag-link" href="/tags/普通/">普通</a>    
+            <a class="tag-link" href="/tags/CHU-Training/" rel="tag">CHU Training</a> <a class="tag-link" href="/tags/CodeForces/" rel="tag">CodeForces</a> <a class="tag-link" href="/tags/binary-search/" rel="tag">binary search</a> <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
         	
   </div>
 
@@ -236,7 +247,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -339,6 +350,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>

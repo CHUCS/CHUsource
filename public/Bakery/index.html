@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html>
-  <head><meta name="generator" content="Hexo 3.8.0">
+  <head>
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
@@ -20,8 +20,10 @@
   
 
 
-  <link rel="stylesheet" href="/nayo.min.css"> 
-</head>  
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
   <body>   
     
       <header class="header">
@@ -91,7 +93,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">2074
+				<span class="post-info-entry">2084
 				</span>
 			
 		</div>
@@ -109,24 +111,34 @@
 <p>To bake muffins in her bakery, Masha needs to establish flour supply from some storage. There are only k storages, located in different cities numbered a<sub>1</sub>, a<sub>2</sub>, …, a<sub>k</sub>.</p>
 <p>Unforunately the law of the country Masha lives in prohibits opening bakery in any of the cities which has storage located in it. She can open it only in one of another n - k cities, and, of course, flour delivery should be paid — for every kilometer of path between storage and bakery Masha should pay 1 ruble.</p>
 <p>Formally, Masha will pay x roubles, if she will open the bakery in some city b (a<sub>i</sub> ≠ b for every 1 ≤ i ≤ k) and choose a storage in some city s (s = aj for some 1 ≤ j ≤ k) and b and s are connected by some path of roads of summary length x (if there are more than one path, Masha is able to choose which of them should be used).</p>
-<p>Masha is very thrifty and rational. She is interested in a city, where she can open her bakery (and choose one of k storages and one of the paths between city with bakery and city with storage) and pay minimum possible amount of rubles for flour delivery. Please help Masha find this amount.<br><a id="more"></a></p>
+<p>Masha is very thrifty and rational. She is interested in a city, where she can open her bakery (and choose one of k storages and one of the paths between city with bakery and city with storage) and pay minimum possible amount of rubles for flour delivery. Please help Masha find this amount.</p>
+<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of the input contains three integers n, m and k (1 ≤ n, m ≤ 10<sup>5</sup>, 0 ≤ k ≤ n) — the number of cities in country Masha lives in, the number of roads between them and the number of flour storages respectively.</p>
 <p>Then m lines follow. Each of them contains three integers u, v and l (1 ≤ u, v ≤ n, 1 ≤ l ≤ 10<sup>9</sup>, u ≠ v) meaning that there is a road between cities u and v of length of l kilometers .</p>
 <p>If k &gt; 0, then the last line of the input contains k distinct integers a<sub>1</sub>, a<sub>2</sub>, …, a<sub>k</sub> (1 ≤ a<sub>i</sub> ≤ n) — the number of cities having flour storage located in. If k = 0 then this line is not presented in the input.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print the minimum possible amount of rubles Masha should pay for flour delivery in the only line.</p>
 <p>If the bakery can not be opened (while satisfying conditions) in any of the n cities, print  - 1 in the only line.</p>
-<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">5 4 2</span><br><span class="line">1 2 5</span><br><span class="line">1 2 3</span><br><span class="line">2 3 4</span><br><span class="line">1 4 10</span><br><span class="line">1 5</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">3 1 1</span><br><span class="line">1 2 3</span><br><span class="line">3</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2 5</span><br><span class="line">5 4 3 2 1</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure></p>
-<p>input:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3 9</span><br><span class="line">42 42 42 42 42 42 42 42 42</span><br></pre></td></tr></table></figure></p>
-<p>output:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure></p>
+<h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">5 4 2</span><br><span class="line">1 2 5</span><br><span class="line">1 2 3</span><br><span class="line">2 3 4</span><br><span class="line">1 4 10</span><br><span class="line">1 5</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">3 1 1</span><br><span class="line">1 2 3</span><br><span class="line">3</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-1</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">2 5</span><br><span class="line">5 4 3 2 1</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1</span><br></pre></td></tr></table></figure>
+<p>input:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">3 9</span><br><span class="line">42 42 42 42 42 42 42 42 42</span><br></pre></td></tr></table></figure>
+<p>output:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">3</span><br></pre></td></tr></table></figure>
 <h4 id="Note"><a href="#Note" class="headerlink" title="Note:"></a>Note:</h4><p><img src="A.PNG" alt="A"></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N個人跟M包食物，再輸入這M包食物的種類。現在規定每個人指定一種食物，每天只能吃一樣種類的食物，沒有每個人都要指定一樣或不一樣的種類，問你這些食物最多能吃幾天？</p>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>用二分搜尋法搜尋天數d，判斷食物夠不夠吃d天。先統計食物的出現次數，出現次數除以天數就等於能給幾個人吃d天，加總所有食物能供給的人數，若是大於等於N就表示這些食物可以吃d天。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><p><script src="https://gist.github.com/Daviswww/fcc80ed825820de5d02df437d0351496.js"></script><br><a href="https://codeforces.com/problemset/problem/707/B" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fcc80ed825820de5d02df437d0351496.js"></script>
+<p><a href="https://codeforces.com/problemset/problem/707/B" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -196,7 +208,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/graphs/">graphs</a> <a class="tag-link" href="/tags/簡單/">簡單</a>    
+            <a class="tag-link" href="/tags/graphs/" rel="tag">graphs</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -241,7 +253,7 @@
     })();
     </script>
 
-    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
     </noscript>
 
 
@@ -344,6 +356,8 @@ ga('send', 'pageview');
 	 
 </footer>   
 
-    <script src="/nayo.bundle.js"></script>           
+    
+<script src="/nayo.bundle.js"></script>
+           
   </body>        
 </html>
