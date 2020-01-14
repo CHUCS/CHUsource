@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: CHUCS
+title: {{title}}
 subtitle: CHUCS
-description: 解題報告
-keywords: CHU解題報告
+description: CHUCSIE
+keywords: CHUCSIE
 author: CHUCS
 language: zh-TW
 timezone:
