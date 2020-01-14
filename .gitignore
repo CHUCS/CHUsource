@@ -4,5 +4,6 @@ npm-debug.log
 .todo*
 .deploy_git/
 themes/landscape/
-*.json
+db.json
+package-lock.json
 *.DS_Store
