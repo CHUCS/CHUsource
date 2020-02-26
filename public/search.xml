@@ -3,6 +3,38 @@
   
     
     <entry>
+      <title>Theatre Square</title>
+      <link href="/Theatre-Square/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/1/problem/A" target="_blank" rel="noopener">CodeForces 1A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他給你一塊面積NxM問你要多少個AxA才能完全覆蓋所有面積，而且石板無法切割</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將Ｎ/A和Ｍ/A並無條件進位可得長與寬，把他們相乘後就可以以算出完全覆蓋需要幾塊石板了</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/ac6b4d9fb4e730033bbee2a1bf8827b1.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Dead Pixel</title>
+      <link href="/Dead-Pixel/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/1315/problem/A" target="_blank" rel="noopener">Ｃodeforces 1315A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>在一個網格上放一個壞點，問你如果不覆蓋壞點的矩形最大是多少</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先找出最小面積後，把全部面積減去最小面積就可以得到答案了，而r與e要加一的原因是要去掉那一排有壞點的，而max((q*w)- tmp, 1)是因為在只有兩格的情況會變成沒面積所以兩格的話直接輸出1</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/652b04d1e317e2d9a9517f9078aee60f.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Bicolorings</title>
       <link href="/Bicolorings/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1051/D" target="_blank" rel="noopener">CodeForces 1051D</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個2xN的網格，每一個只能塗成黑色或白色，所有相鄰的同色都視為同一個元件。現在輸入N及K，問你2xN的網格有正好K個元件時有幾種可能的塗法？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>建兩個陣列，紀錄現在最右邊的兩個不同色(A)以及同色(B)時，有x個元件時的塗法。因此當總列數n=1時A[1]=2，其他的A都等於0；B[2]=2，其他的B都等於0。新增一列時，A[i]=A[i]+A[i-1]+2<em>B[i]，B[i]=B[i]+B[i-2]+2</em>A[i-1]，增加到N列後A[K]+B[K]就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/33e0bd925d84247f7daa6d6d20291ebc.js"></script>]]></content>
