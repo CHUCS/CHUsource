@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  Theatre Square |   解題報告 </title>
+  <title>  Contest for Robots |   解題報告 </title>
 
  
   
@@ -83,17 +83,17 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			Theatre Square
+			Contest for Robots
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
-				2月 26, 2020
+				3月 04, 2020
 			</span>
 
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">109
+				<span class="post-info-entry">260
 				</span>
 			
 		</div>
@@ -107,12 +107,12 @@
 		
 
 			
-					<p><a href="https://codeforces.com/contest/1/problem/A" target="_blank" rel="noopener">CodeForces 1A</a></p>
+					<p><a href="http://codeforces.com/problemset/problem/1321/A" target="_blank" rel="noopener">CodeForces 1321A</a></p>
 <a id="more"></a>
 
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他給你一塊面積NxM問你要多少個AxA才能完全覆蓋所有面積，而且石板無法切割</p>
-<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將Ｎ/A和Ｍ/A並無條件進位可得長與寬，把他們相乘後就可以以算出完全覆蓋需要幾塊石板了</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/ac6b4d9fb4e730033bbee2a1bf8827b1.js"></script>  	
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有兩台機器人要比賽解題，現在你可以對每一題分配一個大於等於1的分數，答對時可以獲得該分數，答錯沒有分數。現在輸入問題數量及每個問題兩邊的機器人是否會答對，問你如果要讓第一台機器人贏的話，所有配分中分數最高的題目，最少分數要是多少？</p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>計算1對2錯的題數(a)及1錯2對的題數(b)，a&gt;b時，不用調整配分，輸出1；a&lt;=b且a!=0時，因為分數要比第二隊多，不能一樣，將b+1分盡量平均分配到a題上，輸出答案；a==0時，怎麼調整都無法達成，輸出-1。</p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fb445b42e4ab3b7419d04804ab503890.js"></script>  	
 					
 	  </div>     
 	  
@@ -181,7 +181,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
+            <a class="tag-link" href="/tags/greedy/" rel="tag">greedy</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -191,24 +191,16 @@
 <nav class="post-footer-nav">
   <div class="post-footer-link">
   
-      <a href="/Dead-Pixel/" id="post-nav-older" class="post-nav-link-wrap">
+      <a href="/Fast-Food-Restaurant/" id="post-nav-older" class="post-nav-link-wrap">
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            Dead Pixel
+            Fast Food Restaurant
           </span>
       </a>
   
   </div>
   <div class="post-footer-link">
-    
-        <a href="/Add-Odd-or-Subtract-Even/" id="post-nav-newer" class="post-nav-link-wrap">
-          <strong class="post-nav-caption">newer</strong>
-             
-            <span class="post-nav-title">
-              Add Odd or Subtract Even
-            </span>
-        </a>
     
   </div>
 

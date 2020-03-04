@@ -3,6 +3,62 @@
   
     
     <entry>
+      <title>Contest for Robots</title>
+      <link href="/Contest-for-Robots/"/>
+      <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1321/A" target="_blank" rel="noopener">CodeForces 1321A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有兩台機器人要比賽解題，現在你可以對每一題分配一個大於等於1的分數，答對時可以獲得該分數，答錯沒有分數。現在輸入問題數量及每個問題兩邊的機器人是否會答對，問你如果要讓第一台機器人贏的話，所有配分中分數最高的題目，最少分數要是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>計算1對2錯的題數(a)及1錯2對的題數(b)，a&gt;b時，不用調整配分，輸出1；a&lt;=b且a!=0時，因為分數要比第二隊多，不能一樣，將b+1分盡量平均分配到a題上，輸出答案；a==0時，怎麼調整都無法達成，輸出-1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fb445b42e4ab3b7419d04804ab503890.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> greedy </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Fast Food Restaurant</title>
+      <link href="/Fast-Food-Restaurant/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1313/A" target="_blank" rel="noopener">CodeForces 1313A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入3種餐點的數量，依據每個人至少分到1份餐點、每種餐點不能分超過1份、所有人都要分到不一樣的組合，這3個條件。問這些餐點能分給幾個人？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>總共只有7種分配方式，先紀錄起來，然後將這7種分配方式的所有分配可能(有128種)全部跑一次，將可能的方式中可以分給最多人的次數記錄起來輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5d01eeb4d2d5ca796a5387d25f4c133e.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> brute force </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Add Odd or Subtract Even</title>
+      <link href="/Add-Odd-or-Subtract-Even/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1311/A" target="_blank" rel="noopener">CodeForces 1311A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入a, b兩個數字，現在一個行動可以將a加上任意正奇數，或是減掉任意正偶數。問最少需要幾個行動可以將a變成b？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先判斷大小關係，a==b時，輸出0；a &lt; b時，差距是奇數輸出1，偶數輸出2(加1、加差距-1)；a&gt;b時，差距是奇數輸出2(加1減差距+1)，偶數輸出1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/aac217a151f71cd00e822322c2f960d1.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Theatre Square</title>
       <link href="/Theatre-Square/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/1/problem/A" target="_blank" rel="noopener">CodeForces 1A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他給你一塊面積NxM問你要多少個AxA才能完全覆蓋所有面積，而且石板無法切割</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將Ｎ/A和Ｍ/A並無條件進位可得長與寬，把他們相乘後就可以以算出完全覆蓋需要幾塊石板了</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/ac6b4d9fb4e730033bbee2a1bf8827b1.js"></script>]]></content>
