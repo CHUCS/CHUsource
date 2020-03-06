@@ -78,6 +78,10 @@ theme: nayo
 search:
   path: search.xml
   field: post
+  
+sitemap:
+  path: sitemap.xml
+  field: post
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
