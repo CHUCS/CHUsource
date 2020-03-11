@@ -4,7 +4,7 @@ date: 2019-11-17 16:12:07
 tags:
     - dp
 ---
-[題目網址](https://codeforces.com/problemset/problem/933/A)
+[CodeForces 933A](https://codeforces.com/problemset/problem/933/A)
 <!-- more -->
 
 #### 題意:

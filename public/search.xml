@@ -3,6 +3,60 @@
   
     
     <entry>
+      <title>Maximum in Table</title>
+      <link href="/Maximum-in-Table/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/509/A" target="_blank" rel="noopener">CodeForces 509A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個矩陣，最上面及最左邊的元素都是1，剩下的元素會等於該元素上面和左邊元素的和。問你這矩陣中最大的元素是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照此種加法，最大的元素一定出在最右下，因此依照順序從上到下、左到右實際加一遍後，輸出右下的元素就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/06980227327d9159c2d37e937923aa78.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> brute force </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Bus to Udayland</title>
+      <link href="/Bus-to-Udayland/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/711/A" target="_blank" rel="noopener">CodeForces 711A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入巴士的座位表，O表示空位；X表示已有人。現在問你是否有兩個不跨走道且相鄰的座位？有的話將輸出YES並將目標改為+輸出座位表，沒有的話輸出NO。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>邊輸入邊判斷有沒有連續的兩個O，沒有就輸出NO；有的話將內容改成+，輸出YES後輸出座位表。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/be44b870a1a38cef36ab17aa4baaba14.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> brute force </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>New Year and Naming</title>
+      <link href="/New-Year-and-Naming/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1284/A" target="_blank" rel="noopener">CodeForces 1284A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>類似天干地支的年份表示法，現在輸入天干地支各有幾個，問你第N年的干支是什麼？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>輸入完記錄起來，用求餘數的方式得知目標年份的天干地支，輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5a59b212c09feaf8616bf6d40f0104d8.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Contest for Robots</title>
       <link href="/Contest-for-Robots/"/>
       <content type="html"><![CDATA[<p><a href="http://codeforces.com/problemset/problem/1321/A" target="_blank" rel="noopener">CodeForces 1321A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有兩台機器人要比賽解題，現在你可以對每一題分配一個大於等於1的分數，答對時可以獲得該分數，答錯沒有分數。現在輸入問題數量及每個問題兩邊的機器人是否會答對，問你如果要讓第一台機器人贏的話，所有配分中分數最高的題目，最少分數要是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>計算1對2錯的題數(a)及1錯2對的題數(b)，a&gt;b時，不用調整配分，輸出1；a&lt;=b且a!=0時，因為分數要比第二隊多，不能一樣，將b+1分盡量平均分配到a題上，輸出答案；a==0時，怎麼調整都無法達成，輸出-1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fb445b42e4ab3b7419d04804ab503890.js"></script>]]></content>
@@ -143,7 +197,7 @@
     <entry>
       <title>CME</title>
       <link href="/CME/"/>
-      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1223/A" target="_blank" rel="noopener">CodeForces 1223A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給一數字n，將其分成三個數a,b,c，若要使等式a + b = c成立,仍需要增加多少根火柴棒？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>左式＝右式，可發現n必為偶數</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Halston1031/d0dd326252829f48da972bbb4b44953d.js"></script>]]></content>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1223/A" target="_blank" rel="noopener">CodeForces 1223A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在要用火柴棒拼出正確的A+B=C式子，3個數字都大於0。現在輸入火柴棒的數量，為你需要在買多少火柴棒才能滿足這個條件？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為要拚出A+B=C的式子，所以需要的是A+B+C=2C根火柴棒，且C&gt;=1，因此需要的是4根以上的偶數火柴棒，不到4就補到4；其他的偶數補0；奇數補1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4549203f9d56ce600024c12727f712de.js"></script>]]></content>
       
       
         <tags>
@@ -561,7 +615,7 @@
     <entry>
       <title>A Twisty Movement</title>
       <link href="/A-Twisty-Movement/"/>
-      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">題目網址</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>]]></content>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/933/A" target="_blank" rel="noopener">CodeForces 933A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入一串由1和2組成的數列，可以左右翻轉任意的範圍一次，問最長的非遞減子序列是多長？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後得知，題目是在求將數列分成4段之後(每一段的長度可以是0)，第1段1的數量+第2段2的數量+第3段1的數量+第4段2的數量的最大值是多少。因此創個陣列邊輸入邊維持最大值，[1]紀錄只有第1段時的最大值、[2]紀錄只有第1段及第2段時的最大值、[3]跟[4]同理，因次跑完後輸出[4]就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/89snnfk561/7ed0e505140cd7796ab9db94fe515dec.js"></script>]]></content>
       
       
         <tags>
