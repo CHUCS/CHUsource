@@ -3,6 +3,64 @@
   
     
     <entry>
+      <title>Yet Another Palindrome Problem</title>
+      <link href="/Yet-Another-Palindrome-Problem/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1324/B" target="_blank" rel="noopener">CodeForces 1324B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一串數列，問你能不能在其中挑出長度至少為3並且是迴文的子序列？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>首先，迴文長度若是偶數，表示中心兩個字是一樣的，那就可以不取其中一個，將迴文長度轉為奇數；其次，若迴文長度是奇數，則最旁邊兩個一定是一樣的，可以一起去掉，讓長度減2且還是奇數。綜合前面兩點，可以得知若有迴文，則一定可以推導成長度3的迴文，因此，目標可以推導成要找出有沒有長度正好是3的迴文。接下來觀察長度正好是3迴文，發現只有兩種模式，aaa和aba，第一種由3個一樣的字組成，第二個由兩個不連續的一樣字夾著一個不一樣的字組成。邊輸入邊記錄所有數字的出現次數和出現位置，若有數字出現3次以上，那就可以形成第一種迴文，輸出YES；若有數字出現兩次了，計算這兩次出現位置是不是不再隔壁，是的話中間就可以隨便挑一個夾著形成第二種迴文，輸出YES；都無法滿足就輸出NO。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0ad7961413bd4ebb31fcc13a4ab418e5.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 普通 </tag>
+            
+            <tag> brute force </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Remove Adjacent</title>
+      <link href="/Remove-Adjacent/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1321/C" target="_blank" rel="noopener">CodeForces 1321C</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個泉小寫英文字母字串，你能夠對字串執行的動作是把滿足條件的1個目標字元刪除，條件是要刪除的字元隔壁至少要有一個字元的英文字母順序再此字元前面1位(因此你永遠無法刪除a)，問你最多可以刪除幾個字元？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後可以發現，同樣文字的刪除順序不會影響結果，因此從z開始往a刪除，記錄刪除次數就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/5f31b3e317535b12c8075e8d4764c11e.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> brute force </tag>
+            
+            <tag> strings </tag>
+            
+            <tag> constructive algorithms </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Yet Another Tetris Problem</title>
+      <link href="/Yet-Another-Tetris-Problem/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1324/A" target="_blank" rel="noopener">CodeForces 1324A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個俄羅斯方塊現在每一排的高度，你只能使用高2寬1的方塊，且不能旋轉。問你是否能將所有方塊全部消除？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為不能旋轉，所以先記錄最高的排高度是多少，然後計算該排跟其他所有排的高度差，如果都能被2整除，那就輸出YES；否則輸出NO。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/42cc0cba34f5e3eb8bdf0709ec72f3d5.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> number theory </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Maximum in Table</title>
       <link href="/Maximum-in-Table/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/509/A" target="_blank" rel="noopener">CodeForces 509A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個矩陣，最上面及最左邊的元素都是1，剩下的元素會等於該元素上面和左邊元素的和。問你這矩陣中最大的元素是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照此種加法，最大的元素一定出在最右下，因此依照順序從上到下、左到右實際加一遍後，輸出右下的元素就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/06980227327d9159c2d37e937923aa78.js"></script>]]></content>
