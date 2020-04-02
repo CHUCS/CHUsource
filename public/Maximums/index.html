@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  Yet Another Palindrome Problem |   解題報告 </title>
+  <title>  Maximums |   解題報告 </title>
 
  
   
@@ -85,17 +85,17 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			Yet Another Palindrome Problem
+			Maximums
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
-				3月 20, 2020
+				4月 02, 2020
 			</span>
 
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">394
+				<span class="post-info-entry">227
 				</span>
 			
 		</div>
@@ -109,12 +109,12 @@
 		
 
 			
-					<p><a href="https://codeforces.com/problemset/problem/1324/B" target="_blank" rel="noopener">CodeForces 1324B</a></p>
+					<p><a href="https://codeforces.com/problemset/problem/1326/B" target="_blank" rel="noopener">CodeForces 1326B</a></p>
 <a id="more"></a>
 
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一串數列，問你能不能在其中挑出長度至少為3並且是迴文的子序列？</p>
-<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>首先，迴文長度若是偶數，表示中心兩個字是一樣的，那就可以不取其中一個，將迴文長度轉為奇數；其次，若迴文長度是奇數，則最旁邊兩個一定是一樣的，可以一起去掉，讓長度減2且還是奇數。綜合前面兩點，可以得知若有迴文，則一定可以推導成長度3的迴文，因此，目標可以推導成要找出有沒有長度正好是3的迴文。接下來觀察長度正好是3迴文，發現只有兩種模式，aaa和aba，第一種由3個一樣的字組成，第二個由兩個不連續的一樣字夾著一個不一樣的字組成。邊輸入邊記錄所有數字的出現次數和出現位置，若有數字出現3次以上，那就可以形成第一種迴文，輸出YES；若有數字出現兩次了，計算這兩次出現位置是不是不再隔壁，是的話中間就可以隨便挑一個夾著形成第二種迴文，輸出YES；都無法滿足就輸出NO。</p>
-<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0ad7961413bd4ebb31fcc13a4ab418e5.js"></script>  	
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給一個a陣列，創建一個x陣列x_i項是a陣列前i-1項中的最大值，再創建一個b陣列，b_i項是a_i-x_i。現在給你陣列長度n及b陣列的所有內容，問你a陣列的內容為何？</p>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依據給的公式可以推出x_0=0，b_0=a_0-x_0 =&gt; a_0 = b_0。在知道a_0之後就能知道x_1 = a_0，知道x_1及b_1後可以推出a_1；然後依序推出x_2、a_2、x_2、a_3…，將a記錄起來就是答案。</p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/62b5e39b9129cdfe55d19ecc3a5208a9.js"></script>  	
 					
 	  </div>     
 	  
@@ -183,7 +183,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/brute-force/" rel="tag">brute force</a> <a class="tag-link" href="/tags/strings/" rel="tag">strings</a> <a class="tag-link" href="/tags/%E6%99%AE%E9%80%9A/" rel="tag">普通</a>    
+            <a class="tag-link" href="/tags/implementation/" rel="tag">implementation</a> <a class="tag-link" href="/tags/math/" rel="tag">math</a> <a class="tag-link" href="/tags/%E7%B0%A1%E5%96%AE/" rel="tag">簡單</a>    
         	
   </div>
 
@@ -193,22 +193,22 @@
 <nav class="post-footer-nav">
   <div class="post-footer-link">
   
-      <a href="/Remove-Adjacent/" id="post-nav-older" class="post-nav-link-wrap">
+      <a href="/Yet-Another-Palindrome-Problem/" id="post-nav-older" class="post-nav-link-wrap">
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            Remove Adjacent
+            Yet Another Palindrome Problem
           </span>
       </a>
   
   </div>
   <div class="post-footer-link">
     
-        <a href="/Maximums/" id="post-nav-newer" class="post-nav-link-wrap">
+        <a href="/Soroban/" id="post-nav-newer" class="post-nav-link-wrap">
           <strong class="post-nav-caption">newer</strong>
              
             <span class="post-nav-title">
-              Maximums
+              Soroban
             </span>
         </a>
     

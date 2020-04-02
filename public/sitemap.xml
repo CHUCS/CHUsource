@@ -9,963 +9,1023 @@
 
 <url>
   <loc>https://chucs.github.io/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Contest-for-Robots/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/EhAb-AnD-gCd/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/greedy/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/tags/%E7%B0%A1%E5%96%AE/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/tags/%E6%99%AE%E9%80%9A/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Fast-Food-Restaurant/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/tags/number-theory/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/tags/constructive-algorithms/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Soroban/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/implementation/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/tags/brute-force/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/tags/%E7%B0%A1%E5%96%AE/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Add-Odd-or-Subtract-Even/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Maximums/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/math/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Theatre-Square/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Yet-Another-Palindrome-Problem/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Dead-Pixel/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Bicolorings/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/dp/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/bitmasks/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Party-Lemonade/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Star-sky/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/CME/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Cards/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/sortings/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/%E6%96%B0%E6%89%8B/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/tags/brute-force/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/strings/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Remove-Adjacent/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Yet-Another-Tetris-Problem/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Maximum-in-Table/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Bus-to-Udayland/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/New-Year-and-Naming/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Contest-for-Robots/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/2/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/2/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/tags/dp/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/CHU-Training/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/CodeForces/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/tags/sortings/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/tags/%E6%96%B0%E6%89%8B/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/string/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/graphs/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/binary-search/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/%E6%99%AE%E9%80%9A/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/%E4%B8%80%E8%88%AC/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/two-pointers/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/dfs-and-similar/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/dus/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/games/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/combinatorics/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/tags/number-theory/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/data-structures/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/geometry/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/shortest-paths/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/tags/%E7%95%99%E8%A8%80%E6%9D%BF/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/tags/bitmasks/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Fast-Food-Restaurant/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Add-Odd-or-Subtract-Even/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Party-Lemonade/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Meeting-Room-Arrangement/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Hit-the-Lottery/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Sweets-Eating/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Gas-Pipeline/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Lose-it/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Two-Buttons/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Single-Push/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Dice-I/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Snow-Footprints/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Vus-the-Cossack-and-a-Contest/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Fafa-and-his-Company-1/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Gennady-and-a-Card-Game/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Wrong-Subtraction-1/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Bear-and-Big-Brother/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Data-Center/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Ice-Skating/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Mahmoud-and-Ehab-and-the-even-odd-game/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Restoring-Three-Numbers/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Payment-Without-Change/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Is-it-multiple-of-3/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/You-can-say-11/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Hard-problem/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Chain-Reaction/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Brick-Wall-Patterns/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Functions-again/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Report/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Mashmokh-and-ACM/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Magical-Boxes/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Multiplication-Table/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Rectangles/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/DIY-Wooden-Ladder/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Plant/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Lunar-New-Year-and-Number-Division/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Planning-The-Expedition/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Alyona-and-Mex/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Dead-Pixel/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Buggy-Sorting/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Star-sky/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Semifinals/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Theatre-Square/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/CME/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Mahmoud-and-Ehab-and-the-even-odd-game/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Restoring-Three-Numbers/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Payment-Without-Change/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Is-it-multiple-of-3/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/You-can-say-11/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Fafa-and-his-Company-1/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Gennady-and-a-Card-Game/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Data-Center/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Ice-Skating/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Cards/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Hard-problem/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Bicolorings/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Vus-the-Cossack-and-a-Contest/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/3/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/3/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Chain-Reaction/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Brick-Wall-Patterns/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Eugeny-and-Play-List/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Let-s-Watch-Football/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Watering-System/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Nastya-and-an-Array/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Ilya-and-Bank-Account/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Presents/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Squares-and-Segments/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Interesting-drink/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Sushi-for-Two/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Maxim-and-Discounts/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Report/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/DIY-Wooden-Ladder/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Lunar-New-Year-and-Number-Division/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Alyona-and-Mex/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Buggy-Sorting/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Semifinals/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Wrong-Subtraction-1/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Bear-and-Big-Brother/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Anton-and-Polyhedrons/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Two-Buttons/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Bakery/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Pipeline/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Planning-The-Expedition/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/K-Dominant-Character/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Benches/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Two-Cakes/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Mashmokh-and-ACM/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Multiplication-Table/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Plant/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Jzzhu-and-Sequences/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/They-Are-Everywhere/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Simple-Game/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/ct/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/site/</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Duff-in-Love/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Single-Push/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/In-Search-of-an-Easy-Problem/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/A-Twisty-Movement/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Binary-Number/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/How-old-are-you/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/One-Two-Three/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Hashmat-the-Brave-Warrior/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Snow-Footprints/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Little-Elephant-and-Numbers/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/Towers/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Lose-it/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/How-old-are-you/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/A-Twisty-Movement/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/One-Two-Three/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Binary-Number/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/4/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/4/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Songs-Compression/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Hashmat-the-Brave-Warrior/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Jzzhu-and-Sequences/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Towers/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Magnets/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Duff-in-Love/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Metro/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/LOVE-A/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Sale/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Luxurious-Houses/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Micro-World/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Battleship/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Beautiful-Matrix/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Present-from-Lena/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Wrong-Subtraction/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/site/index.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/game/</loc>
-  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch01.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch02.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch03.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch04.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch05.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/train/ch06.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/link/about.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/site/link/team.html</loc>
-  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <loc>https://chucs.github.io/Dice-I/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/The-3n-1-problem/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Jumping-Mario/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Print-a-Frame/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Lunch-Rush/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Lumberjack-Sequencing/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Ring/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/5/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.41</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/5/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Teams-Forming/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/index.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/game/</loc>
+  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch01.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch02.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch03.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch04.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch05.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/train/ch06.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/link/about.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/site/link/team.html</loc>
+  <lastmod>2019-09-10T03:37:09+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Print-a-Frame/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Luxurious-Houses/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Lunch-Rush/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Frog-Jumping/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Hulk/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Fox-And-Snake/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Dragons/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Game-23/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Lucky-Division/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Elephant/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Insomnia-cure/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/game/game/web/index.html</loc>
-  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
+  <loc>https://chucs.github.io/Lumberjack-Sequencing/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
-  <loc>https://chucs.github.io/game/game/mary/index.html</loc>
-  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Hello-World/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <loc>https://chucs.github.io/Ring/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/All-in-All/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.33</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/WERTYU/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/6/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.33</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/6/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Sagheer-and-Crossroads/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/game/game/web/index.html</loc>
+  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/game/game/mary/index.html</loc>
+  <lastmod>2019-12-25T06:37:11+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Hello-World/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Game-23/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Army/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Patrick-and-Shopping/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Months-and-Years/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/One-dimensional-Japanese-Crossword/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/HQ9/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/WERTYU/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/7/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.26</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/7/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/The-number-of-positions/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Lara-Croft-and-the-New-Game/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Squares/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/8/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.21</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/8/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Sereja-and-Mugs/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Bear-and-Three-Balls/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/9/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.17</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/9/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Fafa-and-his-Company/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Worms/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/10/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.13</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/10/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Frodo-and-pillows/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/T-primes/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/11/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.11</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/11/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Amr-and-Music/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/Drinks/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.09</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Burning-Midnight-Oil/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.09</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/USB-Flash-Drives/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
-  <priority>0.09</priority>
-</url>
-<url>
-  <loc>https://chucs.github.io/Water-Buying/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/12/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.09</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/12/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Burning-Midnight-Oil/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/Water-Buying/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.07</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/USB-Flash-Drives/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.07</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/page/13/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.07</priority>
 </url>
 <url>
   <loc>https://chucs.github.io/archives/page/13/</loc>
-  <lastmod>2020-03-06T11:30:12+00:00</lastmod>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
   <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/page/14/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.05</priority>
+</url>
+<url>
+  <loc>https://chucs.github.io/archives/page/14/</loc>
+  <lastmod>2020-04-02T08:04:12+00:00</lastmod>
+  <priority>0.04</priority>
 </url>
 
 
