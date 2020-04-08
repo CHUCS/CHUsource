@@ -3,6 +3,138 @@
   
     
     <entry>
+      <title>Hexo下的Markdown語法</title>
+      <link href="/Markdown/"/>
+      <content type="html"><![CDATA[<h3 id="標題"><a href="#標題" class="headerlink" title="標題"></a>標題</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 一級標題        &#x2F;&#x2F;一級標題 對應 &lt;h1&gt; &lt;&#x2F;h1&gt;</span><br><span class="line">## 二級標題       &#x2F;&#x2F;二級標題 對應 &lt;h2&gt; &lt;&#x2F;h2&gt;</span><br><span class="line">### 三級標題      &#x2F;&#x2F;三級標題 對應 &lt;h3&gt; &lt;&#x2F;h3&gt;</span><br><span class="line">#### 四級標題     &#x2F;&#x2F;四級標題 對應 &lt;h4&gt; &lt;&#x2F;h4&gt;</span><br><span class="line">##### 五級標題    &#x2F;&#x2F;五級標題 對應 &lt;h5&gt; &lt;&#x2F;h5&gt;</span><br><span class="line">###### 六級標題   &#x2F;&#x2F;六級標題 對應 &lt;h6&gt; &lt;&#x2F;h6&gt;</span><br><span class="line">####### 七級標題  &#x2F;&#x2F;六級標題 對應 &lt;h7&gt; &lt;&#x2F;h7&gt;</span><br></pre></td></tr></table></figure><a id="more"></a><h3 id="文字強調"><a href="#文字強調" class="headerlink" title="文字強調"></a>文字強調</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">**文字** , __文字__                   &#x2F;&#x2F;加粗</span><br></pre></td></tr></table></figure><p>範例: <strong>文字</strong> , <strong>文字</strong></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*文字* , _文字_                       &#x2F;&#x2F;斜體</span><br></pre></td></tr></table></figure><p>範例: <em>文字</em> , <em>文字</em>  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***文字*** , __文字__ , *__文字__*    &#x2F;&#x2F;加粗斜體</span><br></pre></td></tr></table></figure><p>範例: <strong><em>文字</em></strong> , <strong>文字</strong> , <em><strong>文字</strong></em></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~~文字~~                             &#x2F;&#x2F;刪除</span><br></pre></td></tr></table></figure><p>範例: <del>文字</del> </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;code&gt;文字&lt;&#x2F;code&gt;    &#x2F;&#x2F;文字Mark</span><br></pre></td></tr></table></figure><p>範例: <code>文字</code> </p><h3 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&gt;文字一</span><br><span class="line">&gt;&gt;文字二</span><br><span class="line">&gt;&gt;&gt;文字二</span><br><span class="line">123</span><br><span class="line">&gt;&gt;&gt;&gt;文字二</span><br><span class="line">456</span><br></pre></td></tr></table></figure><p>範例:</p><blockquote><p>文字一</p><blockquote><p>文字二</p><blockquote><p>文字二<br>123</p><blockquote><p>文字二<br>456</p></blockquote></blockquote></blockquote></blockquote><h3 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h3><ul><li>和 | 分割行和列<br>: 控制對齊方式</li></ul><h4 id="無冒號對齊"><a href="#無冒號對齊" class="headerlink" title="無冒號對齊"></a>無冒號對齊</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   列1   | 列2 | 列3 </span><br><span class="line">   ----- | --- | ---- </span><br><span class="line">第1行 | 777  | 777 </span><br><span class="line">第2行 | 777  | 777  </span><br><span class="line">第3行 | 777  | 777</span><br></pre></td></tr></table></figure><p>範例:</p><table><thead><tr><th>列1</th><th>列2</th><th>列3</th></tr></thead><tbody><tr><td>第1行</td><td>777</td><td>777</td></tr><tr><td>第2行</td><td>777</td><td>777</td></tr><tr><td>第3行</td><td>777</td><td>777</td></tr></tbody></table><h4 id="冒號對齊"><a href="#冒號對齊" class="headerlink" title="冒號對齊:"></a>冒號對齊:</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">| 靠左    |  靠右 | 置中 |</span><br><span class="line">| :-------- | -------:| :--: |</span><br><span class="line">| Computer  | 5000 元 |  1台 |</span><br><span class="line">| Phone     | 1999 元 |  1部 |</span><br></pre></td></tr></table></figure><p>範例:</p><table><thead><tr><th align="left">靠左</th><th align="right">靠右</th><th align="center">置中</th></tr></thead><tbody><tr><td align="left">Computer</td><td align="right">5000 元</td><td align="center">1台</td></tr><tr><td align="left">Phone</td><td align="right">1999 元</td><td align="center">1部</td></tr></tbody></table><h3 id="鏈接"><a href="#鏈接" class="headerlink" title="鏈接"></a>鏈接</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">[首页](連結)</span><br><span class="line">[關於我](連結)</span><br><span class="line">[教學](連結)</span><br></pre></td></tr></table></figure><p>範例:</p><p><a href="連結">首页</a><br><a href="連結">關於我</a><br><a href="連結">教學</a></p><h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">* 列表展示</span><br><span class="line">* 列表展示</span><br><span class="line"> * 列表展示 &#x2F;&#x2F;注意空白</span><br><span class="line">+ 列表展示</span><br><span class="line">+ 列表展示</span><br><span class="line"> + 列表展示 &#x2F;&#x2F;注意空白</span><br><span class="line">- 列表展示</span><br><span class="line">- 列表展示</span><br><span class="line"> - 列表展示 &#x2F;&#x2F;注意空白</span><br></pre></td></tr></table></figure><p>範例:</p><ul><li>列表展示</li><li>列表展示<ul><li>列表展示 //注意空白</li></ul></li></ul><ul><li>列表展示</li><li>列表展示<ul><li>列表展示 //注意空白</li></ul></li></ul><ul><li>列表展示</li><li>列表展示<ul><li>列表展示 //注意空白</li></ul></li></ul><h3 id="圖片"><a href="#圖片" class="headerlink" title="圖片"></a>圖片</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">![我的頭像](圖片地址)</span><br><span class="line">![我朋友的朋友就是我的頭像](圖片地址)</span><br></pre></td></tr></table></figure><h3 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h3><p><img src="%E5%9C%96%E7%89%87%E5%9C%B0%E5%9D%80" alt="我的頭像"><br><img src="%E5%9C%96%E7%89%87%E5%9C%B0%E5%9D%80" alt="我朋友的朋友就是我的頭像"></p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> tutorials </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Ehab Is an Odd Person</title>
+      <link href="/Ehab-Is-an-Odd-Person/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1174/B" target="_blank" rel="noopener">CodeForces 1174B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，當其中的兩個數奇偶不同的時候，可以將其交換。問你這個數列最小的字典順序為何？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>觀察後可以發現，當整個陣列都是奇數或都是偶數時完全無法交換，因此可以直接輸出；另外的情況其實跟可以任意交換是一樣的，因此直接排序後輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/8a048f0981d076ff0257de1ffde0972f.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Stages</title>
+      <link href="/Stages/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1011/A" target="_blank" rel="noopener">CodeForces 1011A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在需要組一個由k段構造構成的火箭，每一段的構造都用一個小寫英文字母代表，重量等同他在英文字母中的順序。每一段構造必須從輕的挑起，且一旦被挑過，下一段構造一定要至少比這一段重2以上。現在輸入可以用的段數量、需要的段數以及每一段的編號，問你這火箭最低的總重量是多少，組不出來則輸出-1？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所有編號排序，從小的開始依規則挑，能挑出k段則輸出答案，不能就輸出-1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/4f04d5a5ff3b7ab57d56696801f16ba2.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> sortings </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Choose Two Numbers</title>
+      <link href="/Choose-Two-Numbers/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1206/A" target="_blank" rel="noopener">CodeForces 1206A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入兩個集合的元素數量及集合中的所有元素，請你從兩個集合中各挑出一個元素，讓這兩個元素的和不在這兩個集合中。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為元素都是正整數，所以兩個元素的和一定比這兩個元素大，因次只要挑出兩個集合中各自最大的元素相加就一定不在原本的集合中。排序，輸出各自最大的元素。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d975ad83e445dcad60d027f3b73a057e.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> math </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Sereja and Coat Rack</title>
+      <link href="/Sereja-and-Coat-Rack/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/368/A" target="_blank" rel="noopener">CodeForces 368A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>餐廳有一個有n個鉤子的衣架，每一個鉤子只能掛一件衣服，且第i個鉤子需要付a_i元。現在每個客人來的時候都會想要掛衣服在最便宜的鉤子上，如果沒有鉤子能掛的話老闆需要賠d元給客人。現在輸入鉤子的數量、一次要賠的錢、所有鉤子要掛衣服時要付的價錢以及客人的數量，問你最後老闆今天靠鉤子會收到多少錢(有可能是負的)？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>排序後按照客人數量由最便宜的鉤子開始掛，沒得掛就扣錢，輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/088f66204dfceb4ca145801133690fbe.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Jzzhu and Children</title>
+      <link href="/Jzzhu-and-Children/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/450/A" target="_blank" rel="noopener">CodeForces 450A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>發糖果，孩子會排隊領取固定顆數的糖果，如果還沒拿到該孩子要拿的顆數，他會再回去排隊；已經達到的話就會直接回家。現在輸入人數、每一次發幾顆糖及每個孩子要拿的顆數，問你最後一個拿到糖的孩子的編號？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>邊輸入邊計算每個孩子要排幾次隊，紀錄數字最高且最後一次出現的人的編號，輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e01c3757ac81898aca72950dec9326d9.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Night at the Museum</title>
+      <link href="/Night-at-the-Museum/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/731/A" target="_blank" rel="noopener">CodeForces 731A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個轉盤式的密碼鎖以及密碼，問你最少需要轉幾個刻度才能輸入完密碼(輸入每個字後不會強制回到a) ？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>每次旋轉都挑正反兩個方向中次數少的那邊。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fabe31e27089cdced4c29c309941d198.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>C++ sort tutorials</title>
+      <link href="/C-sort-tutorials/"/>
+      <content type="html"><![CDATA[<p>● C++<br>● #include &lt;algorithm&gt;<br>● using namespace std;<br>● sort(sort_start, sort_end, compare_function);<br>● sort_start：排序範圍開頭記憶體位址，通常直接用陣列名稱<br>● Sort_end：排序範圍結尾記憶體位址，此位址不參與排序</p><a id="more"></a><h3 id="compare-function"><a href="#compare-function" class="headerlink" title="compare_function"></a>compare_function</h3><p>如何排大小的規則函式。若是排序內容是預設基本型態，此參數不輸入會由小排到大，其他需求都要指定此參數。</p><p>compare_function規定：bool [functino_name]([type] [left_name], [type] [right_name])</p><p>例如要排整數的話可以使用bool fn(int a, int b)<br>回傳值為false時會交換兩個數值再陣列中的位置</p><h3 id="int-sort"><a href="#int-sort" class="headerlink" title="int sort"></a>int sort</h3><p>將int型態的陣列[0]~[N-1]，從小排到大的範例</p><script src="https://gist.github.com/Daviswww/4c8d1bde4175809c360af6d3d94ce31f.js"></script><h3 id="double-sort"><a href="#double-sort" class="headerlink" title="double sort"></a>double sort</h3><p>將double型態的陣列[0]~[N-1]，從大排到小的範例</p><script src="https://gist.github.com/Daviswww/f5d5d5ad8889dd901c0592c44cc85dd7.js"></script><h3 id="struct-sort"><a href="#struct-sort" class="headerlink" title="struct sort"></a>struct sort</h3><p>將P型態的陣列[0]~[49]，照xyz的順序從小排到大的範例</p><script src="https://gist.github.com/Daviswww/7b7e077c9a039f41b133bcb5a3ae0d0e.js"></script><p>將P型態的陣列[10]~[59]，照yzx的順序排序，y從大到小、z從小到大、x從大到小的範例</p><script src="https://gist.github.com/Daviswww/be568787c971a111256929843cb0b5ff.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> tutorials </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>EhAb AnD gCd</title>
       <link href="/EhAb-AnD-gCd/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1325/A" target="_blank" rel="noopener">CodeForces 1325A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>依照公式GCD(a, b) + LCM(a, b) = x。現在給你x，請輸出一組符合這個式子的a、b？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>GCD(1, n) = 1、LCM(1, n) = n，因此GCD(1, n) + LCM(1, n) = 1 + n。現在另x = 1 + n，因此至少有一組1, x – 1符合題目要求，輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/46dd942f5333b36555552d6dd52cfdbe.js"></script>]]></content>

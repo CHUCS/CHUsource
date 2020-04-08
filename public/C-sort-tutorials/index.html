@@ -1,0 +1,349 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+  <head>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-8906140811059676",
+      enable_page_level_ads: true
+    });
+  </script>
+  <script data-ad-client="ca-pub-8906140811059676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta name="google-site-verification" content="3grsEVPDeg5_ktwC4lbJ6p3Ts2vmlUyUSQwPtFp0jQs">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  
+  
+  <title>  C++ Sort Tutorials |   解題報告 </title>
+
+ 
+  
+    <link rel="icon" href="/images/favicon.png">
+  
+
+
+  
+<link rel="stylesheet" href="/nayo.min.css">
+ 
+<meta name="generator" content="Hexo 4.1.1"></head>  
+  <body>   
+    
+      <header class="header">
+	
+  <nav class="header-inner">        
+
+    <span class="iconfont icon-menu mobile-toggle"></span>   	
+
+    <div class="header-logo">
+      <a href="https://chucs.github.io/site/">
+        <img class="header-logo-img" src="/images/logo.png">
+      </a>
+    </div>
+
+    <div class="header-menu">          
+              
+          
+            <a class="header-menu-link" id="header-menu-home" href="/">
+              <i class="iconfont icon-home">  
+            </i></a>     
+          
+              
+          
+            <a class="header-menu-link" id="header-menu-archives" href="/archives">
+              <i class="iconfont icon-archives">  
+            </i></a>     
+          
+              
+          
+            <a class="header-menu-link" id="header-menu-tags" href="/tags">
+              <i class="iconfont icon-tags">  
+            </i></a>     
+          
+              
+          
+              <a class="header-menu-link" id="header-menu-search">
+                <i class="iconfont icon-search">  
+              </i></a>
+          
+                  
+    </div>  
+    
+  </nav>
+</header>
+
+   
+
+      <div class="container">       
+          
+          
+            <div class="container-inner">  
+          
+
+          <article class="post">
+  
+	
+<div class="post-header">
+	<div class="post-header-inner">
+		<p class="post-title">	
+			C++ sort tutorials
+		</p>
+		<div class="post-info">	
+			<span class="post-info-entry">
+				4月 07, 2020
+			</span>
+
+			
+			
+				<i class="iconfont icon-words"></i>
+				<span class="post-info-entry">529
+				</span>
+			
+		</div>
+	</div>
+</div> 
+	
+ 
+
+	  <div class="typo post-content slideDownMin">
+
+		
+
+			
+					<p>● C++<br>● #include &lt;algorithm&gt;<br>● using namespace std;<br>● sort(sort_start, sort_end, compare_function);<br>● sort_start：排序範圍開頭記憶體位址，通常直接用陣列名稱<br>● Sort_end：排序範圍結尾記憶體位址，此位址不參與排序</p>
+<a id="more"></a>
+<h3 id="compare-function"><a href="#compare-function" class="headerlink" title="compare_function"></a>compare_function</h3><p>如何排大小的規則函式。若是排序內容是預設基本型態，此參數不輸入會由小排到大，其他需求都要指定此參數。</p>
+<p>compare_function規定：bool [functino_name]([type] [left_name], [type] [right_name])</p>
+<p>例如要排整數的話可以使用bool fn(int a, int b)<br>回傳值為false時會交換兩個數值再陣列中的位置</p>
+<h3 id="int-sort"><a href="#int-sort" class="headerlink" title="int sort"></a>int sort</h3><p>將int型態的陣列[0]~[N-1]，從小排到大的範例</p>
+<script src="https://gist.github.com/Daviswww/4c8d1bde4175809c360af6d3d94ce31f.js"></script>
+
+<h3 id="double-sort"><a href="#double-sort" class="headerlink" title="double sort"></a>double sort</h3><p>將double型態的陣列[0]~[N-1]，從大排到小的範例</p>
+<script src="https://gist.github.com/Daviswww/f5d5d5ad8889dd901c0592c44cc85dd7.js"></script>
+
+<h3 id="struct-sort"><a href="#struct-sort" class="headerlink" title="struct sort"></a>struct sort</h3><p>將P型態的陣列[0]~[49]，照xyz的順序從小排到大的範例</p>
+<script src="https://gist.github.com/Daviswww/7b7e077c9a039f41b133bcb5a3ae0d0e.js"></script>
+
+
+<p>將P型態的陣列[10]~[59]，照yzx的順序排序，y從大到小、z從小到大、x從大到小的範例</p>
+<script src="https://gist.github.com/Daviswww/be568787c971a111256929843cb0b5ff.js"></script>  	
+					
+	  </div>     
+	  
+
+	<div class="post-footer">
+
+
+  <div class="post-footer-other">
+       
+    
+      <span class="post-footer-item">
+        <span class="share-btn">
+	<span class="iconfont icon-share"></span>
+</span>
+<div class="-mob-share sildeUpMin">
+	<ul class="-mob-inner">
+	   			             
+        <li class="iconfont 
+		icon-share-qq 
+		-mob-share-qq 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-weixin 
+		-mob-share-weixin 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-weibo 
+		-mob-share-weibo 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-douban 
+		-mob-share-douban 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-facebook 
+		-mob-share-facebook 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-twitter 
+		-mob-share-twitter 
+		-mob-share-link"></li>		
+   	   			             
+        <li class="iconfont 
+		icon-share-google 
+		-mob-share-google 
+		-mob-share-link"></li>		
+   	   
+	</ul>
+</div>	
+
+
+<script id="-mob-share" src="https://f1.webshare.mob.com/code/mob-share.js?appkey=21d601593a1de"></script>
+      </span>  
+               
+  </div>  
+    
+
+
+  <div class="post-footer-meta">
+        	
+
+        
+          <i class="iconfont icon-tag"></i>     
+            <a class="tag-link" href="/tags/tutorials/" rel="tag">tutorials</a>    
+        	
+  </div>
+
+</div>
+
+
+<nav class="post-footer-nav">
+  <div class="post-footer-link">
+  
+      <a href="/EhAb-AnD-gCd/" id="post-nav-older" class="post-nav-link-wrap">
+        <strong class="post-nav-caption">older</strong>
+        
+          <span class="post-nav-title">
+            EhAb AnD gCd
+          </span>
+      </a>
+  
+  </div>
+  <div class="post-footer-link">
+    
+        <a href="/Night-at-the-Museum/" id="post-nav-newer" class="post-nav-link-wrap">
+          <strong class="post-nav-caption">newer</strong>
+             
+            <span class="post-nav-title">
+              Night at the Museum
+            </span>
+        </a>
+    
+  </div>
+
+</nav>
+ 
+	
+
+    <div id="disqus_thread"></div>
+    <script>
+    (function() { 
+    var d = document, s = d.createElement('script');
+    s.src = 'https://'+'https-chucs-github-io'+'.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());    
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+    <noscript>Please enable JavaScript to view the  <a href="https://disqus.com/?ref_noscript" target="_blank" rel="noopener">comments powered by Disqus.</a>
+    </noscript>
+
+
+	
+</article>
+
+          </div> 
+      </div>            
+    
+    <a id="page-backTop">
+      <span>
+        <i class="iconfont icon-backtotop"></i>
+      </span>
+    </a> 
+
+  
+    
+    <div class="search-container sildeUpMin">
+        <div class="search-header">
+            <input type="text" placeholder="输入你想搜索的" id="search-input" class="search-input">
+            <span class="search-cancel">
+                <i class="iconfont icon-cancel">
+            </i></span>
+        </div>
+        <div id="search-result" class="search-result"></div>
+    </div>
+ 
+     <div class="mobile-menu">      
+
+      
+      <img class="mobile-menu-icon" src="/images/favicon.png">  
+      
+
+         
+            
+
+            <a class="mobile-menu-link" href="/">首頁
+            </a>
+            
+         
+            
+
+            <a class="mobile-menu-link" href="/archives">歸檔
+            </a>
+            
+         
+            
+
+            <a class="mobile-menu-link" href="/tags">標籤
+            </a>
+            
+         
+                          
+
+            <a class="mobile-menu-link mobile-menu-search" href="#">搜索 </a>                 
+            
+         
+      
+</div>
+        
+    
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){
+	i['GoogleAnalyticsObject']=r;
+	i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-134507655-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+     
+    
+
+
+
+
+<footer id="footer">	    
+
+		
+		<div class="footer-copyright">
+		&copy;
+				
+		2018-
+		
+		2020		
+	
+		CHUCS
+		<br>
+		Design <a href="https://github.com/Daviswww" target="_blank">Daviswww</a>
+		Theme  <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank">Nayo</a>
+		</div>			
+	 
+</footer>   
+
+    
+<script src="/nayo.bundle.js"></script>
+           
+  </body>        
+</html>
