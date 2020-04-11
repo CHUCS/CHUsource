@@ -1,7 +1,6 @@
 {
-  "name": "@CHUCS/CHUsource",
+  "name": "@CHUCS/hexo-site",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -25,6 +24,6 @@
     "hexo-server": "^1.0.0"
   },
   "repository": { 
-    "url": "git://github.com/CHUCS/CHUsource.git" 
+    "url": "git://github.com/CHUCS/CHUsource.git"
   }
 }
