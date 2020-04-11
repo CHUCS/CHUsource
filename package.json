@@ -1,5 +1,5 @@
 {
-  "name": "@Daviswww/CHUsource",
+  "name": "@CHUCS/CHUsource",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -25,6 +25,6 @@
     "hexo-server": "^1.0.0"
   },
   "repository": { 
-    "url": "git://github.com/Daviswww/CHUsource.git" 
+    "url": "git://github.com/CHUCS/CHUsource.git" 
   }
 }
