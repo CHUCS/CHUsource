@@ -5,10 +5,8 @@ tags:
     - tutorials
     - hexo
 ---
-# HEXO Documentation
-
 ### ＃什麼是 Hexo？
-Hexo 是一個快速、簡單且強大的網誌框架。Hexo 使用 Markdown（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。
+[Hexo](https://hexo.io/) 是一個快速、簡單且強大的網誌框架。[Hexo](https://hexo.io/) 使用 [Markdown](https://chucs.github.io/Markdown/4)（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。
 <!-- more -->
 ### 安裝需求
 安裝 Hexo 相當簡單；然而，在安裝前您必須先檢查下列您的電腦是否已經安裝下列軟體：
@@ -63,7 +61,7 @@ $ hexo s
 #### 發布到網站
 將撰寫完的內容發佈至組織裡使網站更新。
 ```
-$ hexo deploy
+$ hexo d
 ```
 
 ##### note:

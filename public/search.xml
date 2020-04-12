@@ -3,9 +3,95 @@
   
     
     <entry>
+      <title>Vanya and Fence</title>
+      <link href="/Vanya-and-Fence/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/677/problem/A" target="_blank" rel="noopener">Codeforces 677A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入n和h分別是有幾個人和圍牆高度，為了不被警衛發現所以人的高度比圍牆高就要彎腰。<br>舉例：<br>3 7<br>4 5 14<br>圍牆高度7所以4, 5不需彎腰所以是1，14要彎所以是2，答案就是1+1+2=4。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>逐一比較如果h大於等於身高ans+1，其他ans+2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/bf2ade7ddbf3787c47b6d7bc0ad4f112.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 新手 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Team</title>
+      <link href="/Team/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/231/problem/A" target="_blank" rel="noopener">Codeforces 231A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>他們在比一個程式比賽，他們有兩個人確定這個方法可行就寫，題目問他們確定的題數有幾題。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>輸入的三個數字相加大於二就把答案加一。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/21ecb8dcb8d98908af0bb155b7063813.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> greedy </tag>
+            
+            <tag> 新手 </tag>
+            
+            <tag> brute force </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Beautiful Matrix</title>
+      <link href="/Beautiful-Matrix-1/"/>
+      <content type="html"><![CDATA[<p><a href="https://chucs.github.io/site/">題目網址</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有個5X5得矩陣，裡面有24個0和1個1，問你需要幾步可以把1移到中間。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>取得1的位置後將他與中間的位置相減取絕對值並相加，假設1得位置為[1, 1]那麼中間的位置為[3, 3]，相減後可得到行要移動兩格，列要移動兩格才可以到中間。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/92fe6578203256455873d894f5fcd7dc.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 新手 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Magical Array</title>
+      <link href="/Magical-Array/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/84/problem/B" target="_blank" rel="noopener">Codeforces 84B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一條數列問你所有連續的子空間為多少，如下列範例：<br>4<br>2 1 1 4<br>可以看到兩個連續的1其他都只有一個<br>1的位置: [1;1], [3;3], [2;3]<br>其他: [2;2], [4;4]</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>可以由上面1的例子得到2一樣的數字為1+2個可能，如果3個一樣的話就是1+2+3，所以我們可以先建一個一加到十萬的表，如果數字一樣我們就把計數器加一如果不一樣就查表。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e9f132ec324b04cf79d2285e8ff962a3.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 一般 </tag>
+            
+            <tag> combinatorics </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Anton and Danik</title>
+      <link href="/Anton-and-Danik/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/734/problem/A" target="_blank" rel="noopener">Codeforces 734A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>Anton 和 Danik 在玩遊戲幫他們計算誰是贏家，出現A代表Anton贏，D代表Danik贏。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>輸入時使用char這樣就可以一個一個輸入接著每次輸入時把每個字元當成index的值做增加，最後比較陣列內的值就可以得到答案了。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/1b2fec18d40c76e37755a65faec8cae3.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 新手 </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>社團網站維護指南</title>
       <link href="/hexo-tutorials/"/>
-      <content type="html"><![CDATA[<h1 id="HEXO-Documentation"><a href="#HEXO-Documentation" class="headerlink" title="HEXO Documentation"></a>HEXO Documentation</h1><h3 id="＃什麼是-Hexo？"><a href="#＃什麼是-Hexo？" class="headerlink" title="＃什麼是 Hexo？"></a>＃什麼是 Hexo？</h3><p>Hexo 是一個快速、簡單且強大的網誌框架。Hexo 使用 Markdown（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。</p><a id="more"></a><h3 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h3><p>安裝 Hexo 相當簡單；然而，在安裝前您必須先檢查下列您的電腦是否已經安裝下列軟體：<br>● Node.js<br>● Git</p><h4 id="安裝-Git"><a href="#安裝-Git" class="headerlink" title="安裝 Git"></a>安裝 Git</h4><p>● Windows：下載並安裝 git.<br>● Mac：使用 Homebrew, MacPorts 或 安裝程式 安裝。<br>● Linux (Ubuntu, Debian)：sudo apt-get install git-core<br>● Linux (Fedora, Red Hat, CentOS)：sudo yum install git-core</p><h4 id="安裝-Node-js"><a href="#安裝-Node-js" class="headerlink" title="安裝 Node.js"></a>安裝 Node.js</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p><h4 id="安裝-Hexo-套件"><a href="#安裝-Hexo-套件" class="headerlink" title="安裝 Hexo 套件"></a>安裝 Hexo 套件</h4><p><a href="https://github.com/CHUCS/CHUsource/packages/180164" target="_blank" rel="noopener">CHUCS Packages</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install @chucs&#x2F;hexo-site@0.0.0</span><br></pre></td></tr></table></figure><h3 id="＃指令"><a href="#＃指令" class="headerlink" title="＃指令"></a>＃指令</h3><h4 id="創建一個頁面"><a href="#創建一個頁面" class="headerlink" title="創建一個頁面"></a>創建一個頁面</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>範例：hexo new “Codeforces12345”</p><p>可以在資料夾內的sources/_posts找到你生成的頁面，上面分別會寫著你的標題、時間和標記你可以隨意更改，而下面空白處則是妳網頁顯示的內容，可以參考<a href="https://chucs.github.io/Markdown/4">Markdown</a>語法或其他的psot檔撰寫。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我是留言板</span><br><span class="line">date: 2019-03-02 10:51:33</span><br><span class="line">tags:</span><br><span class="line">    - 留言板</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h4 id="生成頁面"><a href="#生成頁面" class="headerlink" title="生成頁面"></a>生成頁面</h4><p>生成你所撰寫的網頁使你可以瀏覽。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h4 id="啟動本地伺服器"><a href="#啟動本地伺服器" class="headerlink" title="啟動本地伺服器"></a>啟動本地伺服器</h4><p>你可以瀏覽你所創建的頁面是否與你想要的一樣。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h4 id="發布到網站"><a href="#發布到網站" class="headerlink" title="發布到網站"></a>發布到網站</h4><p>將撰寫完的內容發佈至組織裡使網站更新。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><h5 id="note"><a href="#note" class="headerlink" title="note:"></a>note:</h5><p>首先你必須擁有一個<a href="https://github.com/" target="_blank" rel="noopener">Github</a>帳號，然後由管理員邀請至社團組織內<a href="https://github.com/CHUCS" target="_blank" rel="noopener">CHUCS</a>，更改為管理員才可以發布。</p>]]></content>
+      <content type="html"><![CDATA[<h3 id="＃什麼是-Hexo？"><a href="#＃什麼是-Hexo？" class="headerlink" title="＃什麼是 Hexo？"></a>＃什麼是 Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一個快速、簡單且強大的網誌框架。<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 使用 <a href="https://chucs.github.io/Markdown/4">Markdown</a>（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。</p><a id="more"></a><h3 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h3><p>安裝 Hexo 相當簡單；然而，在安裝前您必須先檢查下列您的電腦是否已經安裝下列軟體：<br>● Node.js<br>● Git</p><h4 id="安裝-Git"><a href="#安裝-Git" class="headerlink" title="安裝 Git"></a>安裝 Git</h4><p>● Windows：下載並安裝 git.<br>● Mac：使用 Homebrew, MacPorts 或 安裝程式 安裝。<br>● Linux (Ubuntu, Debian)：sudo apt-get install git-core<br>● Linux (Fedora, Red Hat, CentOS)：sudo yum install git-core</p><h4 id="安裝-Node-js"><a href="#安裝-Node-js" class="headerlink" title="安裝 Node.js"></a>安裝 Node.js</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p><h4 id="安裝-Hexo-套件"><a href="#安裝-Hexo-套件" class="headerlink" title="安裝 Hexo 套件"></a>安裝 Hexo 套件</h4><p><a href="https://github.com/CHUCS/CHUsource/packages/180164" target="_blank" rel="noopener">CHUCS Packages</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install @chucs&#x2F;hexo-site@0.0.0</span><br></pre></td></tr></table></figure><h3 id="＃指令"><a href="#＃指令" class="headerlink" title="＃指令"></a>＃指令</h3><h4 id="創建一個頁面"><a href="#創建一個頁面" class="headerlink" title="創建一個頁面"></a>創建一個頁面</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>範例：hexo new “Codeforces12345”</p><p>可以在資料夾內的sources/_posts找到你生成的頁面，上面分別會寫著你的標題、時間和標記你可以隨意更改，而下面空白處則是妳網頁顯示的內容，可以參考<a href="https://chucs.github.io/Markdown/4">Markdown</a>語法或其他的psot檔撰寫。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我是留言板</span><br><span class="line">date: 2019-03-02 10:51:33</span><br><span class="line">tags:</span><br><span class="line">    - 留言板</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h4 id="生成頁面"><a href="#生成頁面" class="headerlink" title="生成頁面"></a>生成頁面</h4><p>生成你所撰寫的網頁使你可以瀏覽。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h4 id="啟動本地伺服器"><a href="#啟動本地伺服器" class="headerlink" title="啟動本地伺服器"></a>啟動本地伺服器</h4><p>你可以瀏覽你所創建的頁面是否與你想要的一樣。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h4 id="發布到網站"><a href="#發布到網站" class="headerlink" title="發布到網站"></a>發布到網站</h4><p>將撰寫完的內容發佈至組織裡使網站更新。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><h5 id="note"><a href="#note" class="headerlink" title="note:"></a>note:</h5><p>首先你必須擁有一個<a href="https://github.com/" target="_blank" rel="noopener">Github</a>帳號，然後由管理員邀請至社團組織內<a href="https://github.com/CHUCS" target="_blank" rel="noopener">CHUCS</a>，更改為管理員才可以發布。</p>]]></content>
       
       
         <tags>
