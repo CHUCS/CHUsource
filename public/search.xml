@@ -3,6 +3,128 @@
   
     
     <entry>
+      <title>Colorful Field</title>
+      <link href="/Colorful-Field/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/79/B" target="_blank" rel="noopener">Codeforces 79B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一塊地及一些浪費的座標位置，其餘的座標從上到下左到右依序種紅蘿蔔、奇異果及葡萄，現在問你某個特定座標是被浪費了還是種了什麼作物？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所有浪費的座標上到下左到右排序，之後輸入每個查詢座標時去找它前面有幾個浪費的座標，若本身就是浪費的點就不用繼續了，直接輸出；否則先記錄下來，將現在的座標轉為上到下左到右順序的順序數後減去記錄下來的數字，可以得到這座標是第幾個沒被浪費的點，對3取餘數就能知道會種什麼東西。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/b0afbe68ce22d745f75b50eb1b16cc6b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> sortings </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Eight Point Sets</title>
+      <link href="/Eight-Point-Sets/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/334/B" target="_blank" rel="noopener">Codeforces 334B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你8個點，問你這8個點是否能排成一個沒有中心點的九宮格？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>按照先x後y的順序小排到大，然後依照規則比對座標的相等跟不相等。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/71f0f6f8ee6989f953238a85941082b8.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Unlucky Ticket</title>
+      <link href="/Unlucky-Ticket/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/160/B" target="_blank" rel="noopener">Codeforces 160B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>一張票券上的序號會由偶數個數字組成，如果前半的每個數字，都能不重複地找到一個後半的數字比它大；或是前半的每個數字，都能不重複地找到一個後半的數字比它小，則稱這張票券為不幸運票券。現在輸入票券序號，問你它是否是不幸運票券？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將前半及後半各自排序，然後比對是否每個數字都比較大或每個數字比較小。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/807796ebbf46f2126719277a42631a32.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Substrings Sort</title>
+      <link href="/Substrings-Sort/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/988/B" target="_blank" rel="noopener">Codeforces 988B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一些字串，問你這些字串能否重新排列成，所以前面的字串都是此字串的子字串。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>記錄下每個字串有幾個子字串，依照這個數字從小排到大，然後檢查是否每個字串的子字串數量都大於等於目前前面的字串數量，是的話就OK，否則輸出NO。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/1c28cc0e18778558f044237db1d4d574.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>PIN Codes</title>
+      <link href="/PIN-Codes/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1263/B" target="_blank" rel="noopener">Codeforces 1263B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有許多張卡，每張卡的密碼都是4位數字，現在想要將每張卡的密碼都改成不一樣的，請問最少要改幾個位數的數字？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>因為最多只有10張卡，所以其實只需要針對一個位數做變化就能保證全部不一樣了，這邊挑個位數。先針對個位數將用過的0~9記錄下來，然後比對陣列中同樣的密碼，將其中一邊的個位數改成沒用過的數字，記錄下有幾個數字需要改，輸出答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/b59af905ca283d646dbe25d93f73d09b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Pineapple Incident</title>
+      <link href="/Pineapple-Incident/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/697/A" target="_blank" rel="noopener">Codeforces 697A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有顆鳳梨會在t秒開始的1秒及之後每s秒開始的2秒像狗一樣叫，現在給你t、s及x，問你第x秒時鳳梨是否有在叫？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>依照題目的敘述檢查。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/1cbfb94cced2daad54f097dbe25fefff.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Stones on the Table</title>
+      <link href="/Stones-on-the-Table/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/266/A" target="_blank" rel="noopener">Codeforces 266A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>桌上有3個顏色(RGB)的石頭排成一列，現在希望每個石頭的隔壁都是不同顏色的石頭，在不改變順序只挑除一些石頭的情況下，請問最少挑出幾個石頭就能達到要求？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>從第2個石頭開始，遇到跟前一個一樣顏色的石頭就挑掉。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d9d3881c3007f9e1b2d49a954758a357.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Vanya and Fence</title>
       <link href="/Vanya-and-Fence/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/contest/677/problem/A" target="_blank" rel="noopener">Codeforces 677A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入n和h分別是有幾個人和圍牆高度，為了不被警衛發現所以人的高度比圍牆高就要彎腰。<br>舉例：<br>3 7<br>4 5 14<br>圍牆高度7所以4, 5不需彎腰所以是1，14要彎所以是2，答案就是1+1+2=4。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>逐一比較如果h大於等於身高ans+1，其他ans+2。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/bf2ade7ddbf3787c47b6d7bc0ad4f112.js"></script>]]></content>
@@ -91,7 +213,7 @@
     <entry>
       <title>社團網站維護指南</title>
       <link href="/hexo-tutorials/"/>
-      <content type="html"><![CDATA[<h3 id="＃什麼是-Hexo？"><a href="#＃什麼是-Hexo？" class="headerlink" title="＃什麼是 Hexo？"></a>＃什麼是 Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一個快速、簡單且強大的網誌框架。<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 使用 <a href="https://chucs.github.io/Markdown/4">Markdown</a>（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。</p><a id="more"></a><h3 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h3><p>安裝 Hexo 相當簡單；然而，在安裝前您必須先檢查下列您的電腦是否已經安裝下列軟體：<br>● Node.js<br>● Git</p><h4 id="安裝-Git"><a href="#安裝-Git" class="headerlink" title="安裝 Git"></a>安裝 Git</h4><p>● Windows：下載並安裝 git.<br>● Mac：使用 Homebrew, MacPorts 或 安裝程式 安裝。<br>● Linux (Ubuntu, Debian)：sudo apt-get install git-core<br>● Linux (Fedora, Red Hat, CentOS)：sudo yum install git-core</p><h4 id="安裝-Node-js"><a href="#安裝-Node-js" class="headerlink" title="安裝 Node.js"></a>安裝 Node.js</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p><h4 id="安裝-Hexo-套件"><a href="#安裝-Hexo-套件" class="headerlink" title="安裝 Hexo 套件"></a>安裝 Hexo 套件</h4><p><a href="https://github.com/CHUCS/CHUsource/packages/180164" target="_blank" rel="noopener">CHUCS Packages</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install @chucs&#x2F;hexo-site@0.0.0</span><br></pre></td></tr></table></figure><h3 id="＃指令"><a href="#＃指令" class="headerlink" title="＃指令"></a>＃指令</h3><h4 id="創建一個頁面"><a href="#創建一個頁面" class="headerlink" title="創建一個頁面"></a>創建一個頁面</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>範例：hexo new “Codeforces12345”</p><p>可以在資料夾內的sources/_posts找到你生成的頁面，上面分別會寫著你的標題、時間和標記你可以隨意更改，而下面空白處則是妳網頁顯示的內容，可以參考<a href="https://chucs.github.io/Markdown/4">Markdown</a>語法或其他的psot檔撰寫。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我是留言板</span><br><span class="line">date: 2019-03-02 10:51:33</span><br><span class="line">tags:</span><br><span class="line">    - 留言板</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h4 id="生成頁面"><a href="#生成頁面" class="headerlink" title="生成頁面"></a>生成頁面</h4><p>生成你所撰寫的網頁使你可以瀏覽。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h4 id="啟動本地伺服器"><a href="#啟動本地伺服器" class="headerlink" title="啟動本地伺服器"></a>啟動本地伺服器</h4><p>你可以瀏覽你所創建的頁面是否與你想要的一樣。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h4 id="發布到網站"><a href="#發布到網站" class="headerlink" title="發布到網站"></a>發布到網站</h4><p>將撰寫完的內容發佈至組織裡使網站更新。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><h5 id="note"><a href="#note" class="headerlink" title="note:"></a>note:</h5><p>首先你必須擁有一個<a href="https://github.com/" target="_blank" rel="noopener">Github</a>帳號，然後由管理員邀請至社團組織內<a href="https://github.com/CHUCS" target="_blank" rel="noopener">CHUCS</a>，更改為管理員才可以發布。</p>]]></content>
+      <content type="html"><![CDATA[<h3 id="＃什麼是-Hexo？"><a href="#＃什麼是-Hexo？" class="headerlink" title="＃什麼是 Hexo？"></a>＃什麼是 Hexo？</h3><p><a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 是一個快速、簡單且強大的網誌框架。<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> 使用 <a href="https://chucs.github.io/Markdown/4">Markdown</a>（或其他標記語言）解析您的文章，並在幾秒鐘內，透過漂亮的主題產生靜態檔案。</p><a id="more"></a><h3 id="安裝需求"><a href="#安裝需求" class="headerlink" title="安裝需求"></a>安裝需求</h3><p>安裝 Hexo 相當簡單；然而，在安裝前您必須先檢查下列您的電腦是否已經安裝下列軟體：<br>● Node.js<br>● Git</p><h4 id="安裝-Git"><a href="#安裝-Git" class="headerlink" title="安裝 Git"></a>安裝 Git</h4><p>● Windows：下載並安裝 git.<br>● Mac：使用 Homebrew, MacPorts 或 安裝程式 安裝。<br>● Linux (Ubuntu, Debian)：sudo apt-get install git-core<br>● Linux (Fedora, Red Hat, CentOS)：sudo yum install git-core</p><h4 id="安裝-Node-js"><a href="#安裝-Node-js" class="headerlink" title="安裝 Node.js"></a>安裝 Node.js</h4><p><a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p><h4 id="安裝-Hexo-套件"><a href="#安裝-Hexo-套件" class="headerlink" title="安裝 Hexo 套件"></a>安裝 Hexo 套件</h4><p><a href="https://github.com/CHUCS/CHUsource/packages/180164" target="_blank" rel="noopener">CHUCS Packages</a></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install @chucs&#x2F;hexo-site@0.0.0</span><br></pre></td></tr></table></figure><h3 id="＃指令"><a href="#＃指令" class="headerlink" title="＃指令"></a>＃指令</h3><h4 id="創建一個頁面"><a href="#創建一個頁面" class="headerlink" title="創建一個頁面"></a>創建一個頁面</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>範例：hexo new “Codeforces12345”</p><p>可以在資料夾內的sources/_posts找到你生成的頁面，上面分別會寫著你的標題、時間和標記你可以隨意更改，而下面空白處則是妳網頁顯示的內容，可以參考<a href="https://chucs.github.io/Markdown/4">Markdown</a>語法或其他的psot檔撰寫。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 我是留言板</span><br><span class="line">date: 2019-03-02 10:51:33</span><br><span class="line">tags:</span><br><span class="line">    - 留言板</span><br><span class="line">---</span><br></pre></td></tr></table></figure><h4 id="生成頁面"><a href="#生成頁面" class="headerlink" title="生成頁面"></a>生成頁面</h4><p>生成你所撰寫的網頁使你可以瀏覽。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h4 id="啟動本地伺服器"><a href="#啟動本地伺服器" class="headerlink" title="啟動本地伺服器"></a>啟動本地伺服器</h4><p>你可以瀏覽你所創建的頁面是否與你想要的一樣。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h4 id="發布到網站"><a href="#發布到網站" class="headerlink" title="發布到網站"></a>發布到網站</h4><p>將撰寫完的內容發佈至組織裡使網站更新。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure><h5 id="note"><a href="#note" class="headerlink" title="note:"></a>note:</h5><p>首先你必須擁有一個<a href="https://github.com/" target="_blank" rel="noopener">Github</a>帳號，然後由管理員邀請至社團組織內<a href="https://github.com/CHUCS" target="_blank" rel="noopener">CHUCS</a>，更改為管理員才可以發布。</p>]]></content>
       
       
         <tags>
