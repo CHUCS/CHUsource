@@ -3,6 +3,148 @@
   
     
     <entry>
+      <title>C++ Two Ponit  Tutorials</title>
+      <link href="/C-Two-Ponit-Tutorials/"/>
+      <content type="html"><![CDATA[<h3 id="雙指標"><a href="#雙指標" class="headerlink" title="#雙指標"></a>#雙指標</h3><ul><li>用來從陣列中搜尋特定區間</li><li>耗時為O(N)，比暴力法(O(N^2))快</li><li>需要在搜尋的區間跟區間長度有關時才能使用</li><li>使用兩個index作為左邊界跟右邊界</li><li>根據條件，需縮減區間時，左邊界右移</li><li>根據條件，需擴增區間時，右邊界右移</li><li>透過動態的區間內容搜尋所有可能</li></ul><a id="more"></a><h3 id="範例"><a href="#範例" class="headerlink" title="#範例"></a>#範例</h3><p>以1133C為範例，此題目給你一組數列，要 求你將他們分組，並滿足每組中最大的減最小的差在5以內，問你最多人的一組可以是多少人。</p><blockquote><p>先將數列排序，然後依照雙指標的作法</p><blockquote><p>區間最右邊(最大值)減區間最左邊(最小值)的差在5以內，滿足分組條件，嘗試擴充區間，右邊界右移。</p></blockquote></blockquote><blockquote><blockquote><p>差不在5以內，不滿足分組條件，縮減編組，左邊界右移。</p></blockquote></blockquote><script src="https://gist.github.com/Daviswww/46a2a0419fe4afda45a71ffe94337635.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> tutorials </tag>
+            
+            <tag> cpp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>C++ String Tutorials</title>
+      <link href="/C-String-Tutorials/"/>
+      <content type="html"><![CDATA[<h3 id="字串"><a href="#字串" class="headerlink" title="#字串"></a>#字串</h3><ul><li>C++</li><li>#include <string></string></li><li>using namespace std;</li><li>string宣告，是一個class</li><li>可以用cin直接輸入</li><li>跟陣列一樣支援[]存取<a id="more"></a><h3 id="常用功能"><a href="#常用功能" class="headerlink" title="#常用功能"></a>#常用功能</h3></li></ul><blockquote><p>length()回傳長度。</p></blockquote><blockquote><p>支援+、+=，可以直接串接字串。</p></blockquote><blockquote><p>erase(p, n)，從第p格開始移除n個字。</p></blockquote><blockquote><p>substr(p, n)，從第p格開始拿出n個字作為子字串回傳。</p></blockquote><blockquote><p>find(str)，找出第一次出現str是在第幾格，以str[0]為回傳位置，找不到會回傳string::npos。</p></blockquote><blockquote><p>要輸入包含空白的字串的話使用getline(cin, str)，跟整數輸入混合使用時要注意getline有可能會擷取到前面輸入的換行。</p></blockquote><script src="https://gist.github.com/Daviswww/75d830723ac386c2ab333899af69b9d2.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> tutorials </tag>
+            
+            <tag> cpp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Approximating a Constant Range</title>
+      <link href="/Approximating-a-Constant-Range/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/602/B" target="_blank" rel="noopener">Codeforces 985B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，每一項的值都保證會是前一項的加1或減1，現在想找一個區段，其中最大的數字減最小的數字差在1以內，問你符合條件最長的區段是多長？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>套用雙指標的方法，符合條件時嘗試擴張，尋找更長的區段；不符合時縮減區段，嘗試符合條件。每次擴張或縮減時都記錄上一次出現最大值跟最小值的位置，方便之後快速的更新左邊界。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e7edb8ece9fa31bf333bfde68c2b7bf1.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> dp </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> two pointers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Broken Keyboard</title>
+      <link href="/Broken-Keyboard/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1251/A" target="_blank" rel="noopener">Codeforces 1251A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在有一個只會輸入26個英文小寫字母的鍵盤，有些鍵是正常的，有些是壞掉的，壞掉的鍵按一次會輸入兩個字，輸入過程中保證按鍵的好壞狀態不會改變。現在給你一些輸入完的字串，問你根據這個字串能保證是好的鍵有哪些，沒有就輸出空字串，有的話要依照字母順序輸出？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>從最前面開始看所有字連續出現的次數，有曾經出現連續奇數次的話就能保證是正常的，記錄起來後輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a3439ebfaa877a471d3723c30ef9d54b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 普通 </tag>
+            
+            <tag> brute force </tag>
+            
+            <tag> two pointers </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Anton and Classes</title>
+      <link href="/Anton-and-Classes/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/785/B" target="_blank" rel="noopener">Codeforces 785B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>現在有n個A課程的開始及結束時間，m個B課程的開始及結束時間。現在要在A跟B課程中各挑1個，讓他們中間的間隔時間愈長愈好，問你最長可以是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>所以是結束到開始中間的時間愈長愈好，因此輸入時就順便記錄AB各自最大的開始時間跟最小的結束時間，然後看A開始減B結束跟B開始減A結束哪個大就輸出哪個，都是負數就輸出0。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/30e597d386bca33013ab7b1a210d1c36.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Ehab and subtraction</title>
+      <link href="/Ehab-and-subtraction/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1088/B" target="_blank" rel="noopener">Codeforces 1088B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，然後執行下列動作k次：先挑出數列中最小的非零正整數，輸出，然後將整個陣列減掉這個數。問你每次輸出的數是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>排序，然後從依照題目敘述，每次找最小的非零正整數，輸出，只有減的時候紀錄目前為止減了多少，不用真的減整個陣列，較省時。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e573aee1ccb5f6ffd757ec02c778c7a6.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> sortings </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Switches and Lamps</title>
+      <link href="/Switches-and-Lamps/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/985/B" target="_blank" rel="noopener">Codeforces 985B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你n個開關跟排成一排的m個燈，再輸入每個開關會開啟那些燈，開關1會開燈，0無動作，燈一旦開了就不會關，問你能否只用n – 1個開關就將所有燈打開？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>輸入後先將開關數累加，紀錄每個燈有幾個開關可以開。然後跑每個開關，看這個開關可以開的燈是否每個都有2個以上的開關接著，是的話表示這個開關是多的，可以拿掉，輸出YES；找不到這樣的開關的話輸出NO。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/fdb447a92830049826ce20745663d70d.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Array Stabilization</title>
+      <link href="/Array-Stabilization/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1095/B" target="_blank" rel="noopener">Codeforces 1095B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，問你從中挑出一個刪掉後，剩下的最大值減最小值的差最少可以是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>排序，然後比較減去最大值跟最小值後的差，輸出少的。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/c9bd065b6f08ba5c4596fcf80971236b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> sortings </tag>
+            
+            <tag> 簡單 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Colorful Field</title>
       <link href="/Colorful-Field/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/79/B" target="_blank" rel="noopener">Codeforces 79B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一塊地及一些浪費的座標位置，其餘的座標從上到下左到右依序種紅蘿蔔、奇異果及葡萄，現在問你某個特定座標是被浪費了還是種了什麼作物？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將所有浪費的座標上到下左到右排序，之後輸入每個查詢座標時去找它前面有幾個浪費的座標，若本身就是浪費的點就不用繼續了，直接輸出；否則先記錄下來，將現在的座標轉為上到下左到右順序的順序數後減去記錄下來的數字，可以得到這座標是第幾個沒被浪費的點，對3取餘數就能知道會種什麼東西。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/b0afbe68ce22d745f75b50eb1b16cc6b.js"></script>]]></content>
