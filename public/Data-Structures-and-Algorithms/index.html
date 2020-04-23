@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  C++ Sort Tutorials |   解題報告 </title>
+  <title>  Data Structures and Algorithms Tutorials |   解題報告 </title>
 
  
   
@@ -85,17 +85,17 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			C++ sort tutorials
+			Data Structures and Algorithms tutorials
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
-				4月 07, 2020
+				4月 17, 2020
 			</span>
 
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">529
+				<span class="post-info-entry">932
 				</span>
 			
 		</div>
@@ -109,23 +109,93 @@
 		
 
 			
-					<p>● C++<br>● #include &lt;algorithm&gt;<br>● using namespace std;<br>● sort(sort_start, sort_end, compare_function);<br>● sort_start：排序範圍開頭記憶體位址，通常直接用陣列名稱<br>● Sort_end：排序範圍結尾記憶體位址，此位址不參與排序</p>
+					<blockquote>
+<p>推薦清單</p>
+</blockquote>
 <a id="more"></a>
-<h3 id="compare-function"><a href="#compare-function" class="headerlink" title="compare_function"></a>compare_function</h3><p>如何排大小的規則函式。若是排序內容是預設基本型態，此參數不輸入會由小排到大，其他需求都要指定此參數。</p>
-<p>compare_function規定：bool [functino_name]([type] [left_name], [type] [right_name])</p>
-<p>例如要排整數的話可以使用bool fn(int a, int b)<br>回傳值為false時會交換兩個數值再陣列中的位置</p>
-<h3 id="int-sort"><a href="#int-sort" class="headerlink" title="int sort"></a>int sort</h3><p>將int型態的陣列[0]~[N-1]，從小排到大的範例</p>
-<script src="https://gist.github.com/Daviswww/4c8d1bde4175809c360af6d3d94ce31f.js"></script>
-
-<h3 id="double-sort"><a href="#double-sort" class="headerlink" title="double sort"></a>double sort</h3><p>將double型態的陣列[0]~[N-1]，從大排到小的範例</p>
-<script src="https://gist.github.com/Daviswww/f5d5d5ad8889dd901c0592c44cc85dd7.js"></script>
-
-<h3 id="struct-sort"><a href="#struct-sort" class="headerlink" title="struct sort"></a>struct sort</h3><p>將P型態的陣列[0]~[49]，照xyz的順序從小排到大的範例</p>
-<script src="https://gist.github.com/Daviswww/7b7e077c9a039f41b133bcb5a3ae0d0e.js"></script>
-
-
-<p>將P型態的陣列[10]~[59]，照yzx的順序排序，y從大到小、z從小到大、x從大到小的範例</p>
-<script src="https://gist.github.com/Daviswww/be568787c971a111256929843cb0b5ff.js"></script>  	
+<h3 id="資料結構與演算"><a href="#資料結構與演算" class="headerlink" title="#資料結構與演算"></a>#資料結構與演算</h3><ul>
+<li><a href="http://www.csie.ntnu.edu.tw/~u91029/" target="_blank" rel="noopener">台灣師範大學</a></li>
+<li><a href="http://web.stanford.edu/class/cs97si/" target="_blank" rel="noopener">Stanford</a></li>
+<li><a href="https://codeforces.com/blog/entry/57282" target="_blank" rel="noopener">Codeforces A</a></li>
+<li><a href="https://codeforces.com/blog/entry/13529" target="_blank" rel="noopener">Codeforces B</a></li>
+</ul>
+<h3 id="書本"><a href="#書本" class="headerlink" title="#書本"></a>#書本</h3><ul>
+<li>資料結構<blockquote>
+<p>Fundamentals of Data Structures in C++ (Ellis Horowitz, Sartaj Sahni, Dinesh Mehta)</p>
+<blockquote>
+<p>Fundamentals of Data Structures in C (Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>演算法<blockquote>
+<blockquote>
+<p>Introduction to Algorithms(Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>程式設計<blockquote>
+<blockquote>
+<p>提升程式設計的資料結構力(吳永輝)</p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<h3 id="聖經"><a href="#聖經" class="headerlink" title="#聖經"></a>#聖經</h3><ul>
+<li>作業系統<blockquote>
+<blockquote>
+<p>Operating System Concepts(Abraham Silberschatz)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>計算機組織<blockquote>
+<blockquote>
+<p>Computer Organization and Design: The Hardware/Software Interface(Hennessy Patterson)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>資料庫系統<blockquote>
+<p>Fundamentals of Database Systems(Ramez Elmasri, Shamkant B. Navathe)</p>
+<blockquote>
+<p>Fundamentals of Database Systems(Navathe Elmasri)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>組合語言<blockquote>
+<blockquote>
+<p>Assembly Language for x86 Processors(Kip R. Irvine)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>電腦網路<blockquote>
+<blockquote>
+<p>Computer Networking : A Top-Down Approach(James Kurose)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>線性代數<blockquote>
+<blockquote>
+<p>Linear Algebra and Its Applications(David C. Lay / Steven R. Lay / Judi J. McDonald)</p>
+</blockquote>
+</blockquote>
+</li>
+<li>邏輯設計<blockquote>
+<blockquote>
+<p>Fundamentals of Logic Design(Jr. , Larry Kinney, Charles Roth)</p>
+</blockquote>
+</blockquote>
+</li>
+</ul>
+<h3 id="Online-Judge"><a href="#Online-Judge" class="headerlink" title="#Online Judge"></a>#Online Judge</h3><ul>
+<li><a href="https://codeforces.com/" target="_blank" rel="noopener">Codeforces</a></li>
+<li><a href="https://leetcode.com/" target="_blank" rel="noopener">Leetcode</a></li>
+<li><a href="https://uva.onlinejudge.org/" target="_blank" rel="noopener">UVA</a></li>
+<li><a href="https://onlinejudge.u-aizu.ac.jp/home" target="_blank" rel="noopener">AOJ</a></li>
+</ul>
+<h3 id="網站"><a href="#網站" class="headerlink" title="#網站"></a>#網站</h3><ul>
+<li><a href="https://chucs.github.io/">CHUCS</a></li>
+<li><a href="https://oi-wiki.org/" target="_blank" rel="noopener">OI Wiki</a></li>
+</ul>
+  	
 					
 	  </div>     
 	  
@@ -194,7 +264,7 @@
 
         
           <i class="iconfont icon-tag"></i>     
-            <a class="tag-link" href="/tags/cpp/" rel="tag">cpp</a> <a class="tag-link" href="/tags/tutorials/" rel="tag">tutorials</a>    
+            <a class="tag-link" href="/tags/tutorials/" rel="tag">tutorials</a>    
         	
   </div>
 
@@ -204,24 +274,16 @@
 <nav class="post-footer-nav">
   <div class="post-footer-link">
   
-      <a href="/EhAb-AnD-gCd/" id="post-nav-older" class="post-nav-link-wrap">
+      <a href="/C-Two-Ponit-Tutorials/" id="post-nav-older" class="post-nav-link-wrap">
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            EhAb AnD gCd
+            C++ Two Ponit  Tutorials
           </span>
       </a>
   
   </div>
   <div class="post-footer-link">
-    
-        <a href="/Night-at-the-Museum/" id="post-nav-newer" class="post-nav-link-wrap">
-          <strong class="post-nav-caption">newer</strong>
-             
-            <span class="post-nav-title">
-              Night at the Museum
-            </span>
-        </a>
     
   </div>
 

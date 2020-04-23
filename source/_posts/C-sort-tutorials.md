@@ -3,6 +3,7 @@ title: C++ sort tutorials
 date: 2020-04-07 13:39:59
 tags:
     - tutorials
+    - cpp
 ---
 ● C++
 ● #include &lt;algorithm>

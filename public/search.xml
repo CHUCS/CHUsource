@@ -3,6 +3,20 @@
   
     
     <entry>
+      <title>Data Structures and Algorithms tutorials</title>
+      <link href="/Data-Structures-and-Algorithms/"/>
+      <content type="html"><![CDATA[<blockquote><p>推薦清單</p></blockquote><a id="more"></a><h3 id="資料結構與演算"><a href="#資料結構與演算" class="headerlink" title="#資料結構與演算"></a>#資料結構與演算</h3><ul><li><a href="http://www.csie.ntnu.edu.tw/~u91029/" target="_blank" rel="noopener">台灣師範大學</a></li><li><a href="http://web.stanford.edu/class/cs97si/" target="_blank" rel="noopener">Stanford</a></li><li><a href="https://codeforces.com/blog/entry/57282" target="_blank" rel="noopener">Codeforces A</a></li><li><a href="https://codeforces.com/blog/entry/13529" target="_blank" rel="noopener">Codeforces B</a></li></ul><h3 id="書本"><a href="#書本" class="headerlink" title="#書本"></a>#書本</h3><ul><li>資料結構<blockquote><p>Fundamentals of Data Structures in C++ (Ellis Horowitz, Sartaj Sahni, Dinesh Mehta)</p><blockquote><p>Fundamentals of Data Structures in C (Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed)</p></blockquote></blockquote></li><li>演算法<blockquote><blockquote><p>Introduction to Algorithms(Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)</p></blockquote></blockquote></li><li>程式設計<blockquote><blockquote><p>提升程式設計的資料結構力(吳永輝)</p></blockquote></blockquote></li></ul><h3 id="聖經"><a href="#聖經" class="headerlink" title="#聖經"></a>#聖經</h3><ul><li>作業系統<blockquote><blockquote><p>Operating System Concepts(Abraham Silberschatz)</p></blockquote></blockquote></li><li>計算機組織<blockquote><blockquote><p>Computer Organization and Design: The Hardware/Software Interface(Hennessy Patterson)</p></blockquote></blockquote></li><li>資料庫系統<blockquote><p>Fundamentals of Database Systems(Ramez Elmasri, Shamkant B. Navathe)</p><blockquote><p>Fundamentals of Database Systems(Navathe Elmasri)</p></blockquote></blockquote></li><li>組合語言<blockquote><blockquote><p>Assembly Language for x86 Processors(Kip R. Irvine)</p></blockquote></blockquote></li><li>電腦網路<blockquote><blockquote><p>Computer Networking : A Top-Down Approach(James Kurose)</p></blockquote></blockquote></li><li>線性代數<blockquote><blockquote><p>Linear Algebra and Its Applications(David C. Lay / Steven R. Lay / Judi J. McDonald)</p></blockquote></blockquote></li><li>邏輯設計<blockquote><blockquote><p>Fundamentals of Logic Design(Jr. , Larry Kinney, Charles Roth)</p></blockquote></blockquote></li></ul><h3 id="Online-Judge"><a href="#Online-Judge" class="headerlink" title="#Online Judge"></a>#Online Judge</h3><ul><li><a href="https://codeforces.com/" target="_blank" rel="noopener">Codeforces</a></li><li><a href="https://leetcode.com/" target="_blank" rel="noopener">Leetcode</a></li><li><a href="https://uva.onlinejudge.org/" target="_blank" rel="noopener">UVA</a></li><li><a href="https://onlinejudge.u-aizu.ac.jp/home" target="_blank" rel="noopener">AOJ</a></li></ul><h3 id="網站"><a href="#網站" class="headerlink" title="#網站"></a>#網站</h3><ul><li><a href="https://chucs.github.io/">CHUCS</a></li><li><a href="https://oi-wiki.org/" target="_blank" rel="noopener">OI Wiki</a></li></ul>]]></content>
+      
+      
+        <tags>
+            
+            <tag> tutorials </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>C++ Two Ponit  Tutorials</title>
       <link href="/C-Two-Ponit-Tutorials/"/>
       <content type="html"><![CDATA[<h3 id="雙指標"><a href="#雙指標" class="headerlink" title="#雙指標"></a>#雙指標</h3><ul><li>用來從陣列中搜尋特定區間</li><li>耗時為O(N)，比暴力法(O(N^2))快</li><li>需要在搜尋的區間跟區間長度有關時才能使用</li><li>使用兩個index作為左邊界跟右邊界</li><li>根據條件，需縮減區間時，左邊界右移</li><li>根據條件，需擴增區間時，右邊界右移</li><li>透過動態的區間內容搜尋所有可能</li></ul><a id="more"></a><h3 id="範例"><a href="#範例" class="headerlink" title="#範例"></a>#範例</h3><p>以1133C為範例，此題目給你一組數列，要 求你將他們分組，並滿足每組中最大的減最小的差在5以內，問你最多人的一組可以是多少人。</p><blockquote><p>先將數列排序，然後依照雙指標的作法</p><blockquote><p>區間最右邊(最大值)減區間最左邊(最小值)的差在5以內，滿足分組條件，嘗試擴充區間，右邊界右移。</p></blockquote></blockquote><blockquote><blockquote><p>差不在5以內，不滿足分組條件，縮減編組，左邊界右移。</p></blockquote></blockquote><script src="https://gist.github.com/Daviswww/46a2a0419fe4afda45a71ffe94337635.js"></script>]]></content>
@@ -497,6 +511,8 @@
         <tags>
             
             <tag> tutorials </tag>
+            
+            <tag> cpp </tag>
             
         </tags>
       

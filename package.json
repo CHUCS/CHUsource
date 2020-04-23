@@ -1,6 +1,6 @@
 {
   "name": "@CHUCS/hexo-site",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -17,13 +17,14 @@
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-search": "^2.2.1",
+    "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0"
   },
-  "repository": { 
+  "repository": {
     "url": "git://github.com/CHUCS/CHUsource.git"
   }
 }
