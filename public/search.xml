@@ -3,6 +3,68 @@
   
     
     <entry>
+      <title>Schedule</title>
+      <link href="/Schedule/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/31/c" target="_blank" rel="noopener">Codeforces 31C</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你n個課程的開始及結束時間，問你能不能只刪掉一個就讓所有課程的時間不重疊？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>紀錄每個時間的開始及結束，排序，找同時有兩堂課重疊的最早及最晚，檢查有沒有課程比這個時間範圍大的，有的話該課程符合條件；沒有兩堂課重疊的話，所有課程都是答案；有三堂課同時重疊的話，沒有答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/397506b1a3517cded062fec9603cbfd6.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>k-String</title>
+      <link href="/k-String/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/219/A" target="_blank" rel="noopener">Codeforces 219A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入k及一個字串，問你能不能將字串重組成重複k次的字串？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>計算所有字元的出現次數是不是k的倍數，不是的話輸出-1；是的話將字填回輸出。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/e4e0ff8ee8a7c9e81a3b707850e14d6c.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>TV Subscriptions (Hard Version)</title>
+      <link href="/TV-Subscriptions-Hard-Version/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1225/B2" target="_blank" rel="noopener">Codeforces 1225B2</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入接下來n天預訂撥放的k種節目，問你在某一個連續的d天中，最少會看到幾種節目？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先看開始的d天，紀錄所有節目出現的次數及種類，接著往右移動區間，紀錄新增及減少的節目次數及種類，區間移動結束後輸出答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/23a9e2ddb3244b70ae1670235a68745c.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> two pointers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Trading Business</title>
+      <link href="/Trading-Business/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/176/A" target="_blank" rel="noopener">Codeforces 176A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你n個星球及各自m種商品的買價、賣價及庫存數量，現在只能在一個星球採購一次，最多共k個商品，然後在一個星球賣掉，扣掉成本後問你最多可以賺多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>計算在i星球買到j星球賣的所有商品的價差，依利潤排序後根據庫存計算總利潤，跑完所有ij後輸出最高的。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a091d508a0bf4212e112d56100d4c37b.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> greedy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Data Structures and Algorithms tutorials</title>
       <link href="/Data-Structures-and-Algorithms/"/>
       <content type="html"><![CDATA[<blockquote><p>推薦清單</p></blockquote><a id="more"></a><h3 id="資料結構與演算"><a href="#資料結構與演算" class="headerlink" title="#資料結構與演算"></a>#資料結構與演算</h3><ul><li><a href="http://www.csie.ntnu.edu.tw/~u91029/" target="_blank" rel="noopener">台灣師範大學</a></li><li><a href="http://web.stanford.edu/class/cs97si/" target="_blank" rel="noopener">Stanford</a></li><li><a href="https://codeforces.com/blog/entry/57282" target="_blank" rel="noopener">Codeforces A</a></li><li><a href="https://codeforces.com/blog/entry/13529" target="_blank" rel="noopener">Codeforces B</a></li></ul><h3 id="書本"><a href="#書本" class="headerlink" title="#書本"></a>#書本</h3><ul><li>資料結構<blockquote><p>Fundamentals of Data Structures in C++ (Ellis Horowitz, Sartaj Sahni, Dinesh Mehta)</p><blockquote><p>Fundamentals of Data Structures in C (Ellis Horowitz, Sartaj Sahni, Susan Anderson-Freed)</p></blockquote></blockquote></li><li>演算法<blockquote><blockquote><p>Introduction to Algorithms(Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein)</p></blockquote></blockquote></li><li>程式設計<blockquote><blockquote><p>提升程式設計的資料結構力(吳永輝)</p></blockquote></blockquote></li></ul><h3 id="聖經"><a href="#聖經" class="headerlink" title="#聖經"></a>#聖經</h3><ul><li>作業系統<blockquote><blockquote><p>Operating System Concepts(Abraham Silberschatz)</p></blockquote></blockquote></li><li>計算機組織<blockquote><blockquote><p>Computer Organization and Design: The Hardware/Software Interface(Hennessy Patterson)</p></blockquote></blockquote></li><li>資料庫系統<blockquote><p>Fundamentals of Database Systems(Ramez Elmasri, Shamkant B. Navathe)</p><blockquote><p>Fundamentals of Database Systems(Navathe Elmasri)</p></blockquote></blockquote></li><li>組合語言<blockquote><blockquote><p>Assembly Language for x86 Processors(Kip R. Irvine)</p></blockquote></blockquote></li><li>電腦網路<blockquote><blockquote><p>Computer Networking : A Top-Down Approach(James Kurose)</p></blockquote></blockquote></li><li>線性代數<blockquote><blockquote><p>Linear Algebra and Its Applications(David C. Lay / Steven R. Lay / Judi J. McDonald)</p></blockquote></blockquote></li><li>邏輯設計<blockquote><blockquote><p>Fundamentals of Logic Design(Jr. , Larry Kinney, Charles Roth)</p></blockquote></blockquote></li></ul><h3 id="Online-Judge"><a href="#Online-Judge" class="headerlink" title="#Online Judge"></a>#Online Judge</h3><ul><li><a href="https://codeforces.com/" target="_blank" rel="noopener">Codeforces</a></li><li><a href="https://leetcode.com/" target="_blank" rel="noopener">Leetcode</a></li><li><a href="https://uva.onlinejudge.org/" target="_blank" rel="noopener">UVA</a></li><li><a href="https://onlinejudge.u-aizu.ac.jp/home" target="_blank" rel="noopener">AOJ</a></li></ul><h3 id="網站"><a href="#網站" class="headerlink" title="#網站"></a>#網站</h3><ul><li><a href="https://chucs.github.io/">CHUCS</a></li><li><a href="https://oi-wiki.org/" target="_blank" rel="noopener">OI Wiki</a></li></ul>]]></content>
