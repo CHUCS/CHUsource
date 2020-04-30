@@ -1,0 +1,18 @@
+---
+title: Little Pony and Sort by Shift
+date: 2020-04-30 17:16:15
+tags:
+    - implementation
+    - 普通
+---
+[Codeforces 454B](https://codeforces.com/problemset/problem/454/B)
+<!-- more -->
+
+#### 題意:
+給你一個數列，你能做的動作就是將最後一個數字移到第一個，問你要做最少幾次可以將這個數列變成非遞減數列？步能的話輸出-1。
+
+#### 思路:
+給你一個數列，你能做的動作就是將最後一個數字移到第一個，問你要做最少幾次可以將這個數列變成非遞減數列？步能的話輸出-1。
+
+#### 程式碼:
+<script src="https://gist.github.com/Daviswww/a8cd8fe5c79e1c1ac22690e83aed27a7.js"></script>

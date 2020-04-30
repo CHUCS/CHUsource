@@ -3,6 +3,110 @@
   
     
     <entry>
+      <title>Strange Game On Matrix</title>
+      <link href="/Strange-Game-On-Matrix/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/873/C" target="_blank" rel="noopener">Codeforces 873C</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個n x m陣列，由0跟1組成。現在對每一個直行計算分數，算法是由上往下找1，找到後計算下面最多k個數字內有幾個1作為分數。現在你還可以花1次行動將任意1個數字從1換成0，問你最多可以得到幾分，和這個分數下最少的行動是幾次？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>對每一個直行計算區間高度k的分數，當第一個元素是1時實際計分，並且在脫離時將行動次數加1。跑完每一個直行後加總就是答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/6647f0ec1e751f77d1d389e3ea63a501.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+            <tag> two pointers </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Gambling</title>
+      <link href="/Gambling/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/1038/C" target="_blank" rel="noopener">Codeforces 1038C</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>兩個人各持n張牌，在各自的回合都可以做1)拿一張自己的牌算分數；2)移除對手的一張牌，的其中一個動作。假設兩個人都會做當下最自己最有利的一步，問最後a-b的分數是多少？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩人的牌都排序，比對雙方最大的牌，自己的大於等於對方的，就自己算分；否則就移除對方的牌。重覆到所有牌用完輸出答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/84aac07557a00f6523dd318516a8b796.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> greedy </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>z-sort</title>
+      <link href="/z-sort/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/652/B" target="_blank" rel="noopener">Codeforces 652B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，現在希望排成a[0]&lt;a[1]&gt;a[2]&lt;a[3]……的格式，問你有沒有可能？可以的話輸出排序後陣列，不能就輸出Impossible。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>陣列排序，分成兩半，前半較小，用在小的部分；後半較大，用在大的部分。兩邊都從頭開始取，依照規則填入，可以的話輸出排序後陣列，不能就輸出Impossible。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/126107d2a5707324d18cb1d5b60592a1.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> sortings </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Little Pony and Sort by Shift</title>
+      <link href="/Little-Pony-and-Sort-by-Shift/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/454/B" target="_blank" rel="noopener">Codeforces 454B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個數列，你能做的動作就是將最後一個數字移到第一個，問你要做最少幾次可以將這個數列變成非遞減數列？步能的話輸出-1。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>給你一個數列，你能做的動作就是將最後一個數字移到第一個，問你要做最少幾次可以將這個數列變成非遞減數列？步能的話輸出-1。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/a8cd8fe5c79e1c1ac22690e83aed27a7.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 普通 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Dreamoon and Stairs</title>
+      <link href="/Dreamoon-and-Stairs/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/476/A" target="_blank" rel="noopener">Codeforces 476A</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>n個台階，1次能爬1~2階，現在希望爬的次數是m的倍數且最小，請你輸出最小的可能次數，不能就輸出-1？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先計算最少的步數(a)跟最多的步數(b)，如果a可以，輸出a；如果b&lt;m，輸出-1；否則輸出(a/m+1)*m。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/bb6f37bf8be31dcf5e87553e9d731e2e.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Radio Station</title>
+      <link href="/Radio-Station/"/>
+      <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/918/B" target="_blank" rel="noopener">Codeforces 918B</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你n個伺服器名稱跟ip，再輸入m個命令跟目標ip，要你輸出每個命令跟目標ip加上伺服器名稱。</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>把伺服器名稱跟ip都先存著，輸入命令時比對ip，並輸出對應伺服器名稱。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/bf0719749e1c4f9b2a5372f84e918992.js"></script>]]></content>
+      
+      
+        <tags>
+            
+            <tag> implementation </tag>
+            
+            <tag> 簡單 </tag>
+            
+            <tag> strings </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Schedule</title>
       <link href="/Schedule/"/>
       <content type="html"><![CDATA[<p><a href="https://codeforces.com/problemset/problem/31/c" target="_blank" rel="noopener">Codeforces 31C</a></p><a id="more"></a><h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你n個課程的開始及結束時間，問你能不能只刪掉一個就讓所有課程的時間不重疊？</p><h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>紀錄每個時間的開始及結束，排序，找同時有兩堂課重疊的最早及最晚，檢查有沒有課程比這個時間範圍大的，有的話該課程符合條件；沒有兩堂課重疊的話，所有課程都是答案；有三堂課同時重疊的話，沒有答案。</p><h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/397506b1a3517cded062fec9603cbfd6.js"></script>]]></content>
