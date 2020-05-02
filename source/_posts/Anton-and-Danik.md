@@ -1,5 +1,5 @@
 ---
-title: Anton and Danik
+title: Codeforces 734A Anton and Danik
 date: 2020-04-12 16:28:11
 tags:
     - implementation

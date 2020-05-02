@@ -6,10 +6,12 @@ tags:
     - implementation
     - math
 ---
+[Codeforces 450B](https://codeforces.com/problemset/problem/450/B)
+<!-- more -->
 Jzzhu has invented a kind of sequences, they meet the following property:
 ![A](A.PNG)
 You are given x and y, please calculate f<sub>n</sub> modulo 1000000007 (10<sup>9</sup> + 7).
-<!-- more -->
+
 #### Input:
 The first line contains two integers x and y (|x|, |y| ≤ 10<sup>9</sup>). The second line contains a single integer n (1 ≤ n ≤ 2·10<sup>9</sup>).
 
@@ -47,4 +49,3 @@ In the second sample, f<sub>2</sub> =  - 1;  - 1 modulo (10<sup>9</s
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/050a756b7c15a39d45e2148f120cc259.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/450/B)

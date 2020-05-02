@@ -1,5 +1,5 @@
 ---
-title: Night at the Museum
+title: CodeForces 731A Night at the Museum
 date: 2020-04-07 13:44:09
 tags:
     - implementation

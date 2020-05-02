@@ -1,10 +1,12 @@
 ---
-title: Frog Jumping
+title: Codeforces 1077A Frog Jumping
 date: 2019-04-20 18:49:49
 tags:
     - math
     - 新手
 ---
+[Codeforces 1077A](https://codeforces.com/problemset/problem/1077/A)
+<!-- more -->
 A frog is currently at the point 0 on a coordinate axis Ox. It jumps by the following algorithm: the first jump is a units to the right, the second jump is b units to the left, the third jump is a units to the right, the fourth jump is b units to the left, and so on.
 
 Formally:
@@ -13,7 +15,7 @@ Formally:
 Your task is to calculate the position of the frog after k jumps.
 
 But... One more thing. You are watching t different frogs so you have to answer t independent queries.
-<!-- more -->
+
 #### Input:
 The first line of the input contains one integer t (1≤t≤1000) — the number of queries.
 
@@ -65,4 +67,3 @@ The sixth query is the same as the fifth but without the last jump so the answer
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/c8eb39f4bd6f8f38e7543246ec609cf9.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/1077/A)

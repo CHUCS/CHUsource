@@ -1,10 +1,11 @@
 ---
-title: Multiplication-Table
+title: Codeforces 39H Multiplication-Table
 date: 2019-09-30 20:11:36
 tags:
     - 普通
     - implementation
 ---
+[Codeforces 39H](https://codeforces.com/problemset/problem/39/H)
 Petya studies positional notations. He has already learned to add and subtract numbers in the systems of notations with different radices and has moved on to a more complicated action — multiplication. To multiply large numbers one has to learn the multiplication table. Unfortunately, in the second grade students learn only the multiplication table of decimals (and some students even learn it in the first grade). Help Petya make a multiplication table for numbers in the system of notations with the radix k.
 <!-- more -->
 #### Input:
@@ -49,4 +50,4 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/f1cf5795fd72cf54ac86b3643bcccc45.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/39/H)
+

@@ -1,5 +1,5 @@
 ---
-title: Fast Food Restaurant
+title: CodeForces 1313A Fast Food Restaurant
 date: 2020-03-04 08:20:38
 tags:
     - brute force

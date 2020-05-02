@@ -1,5 +1,5 @@
 ---
-title: Jumping Mario
+title: UVA 11764 Jumping Mario
 date: 2019-11-17 10:50:42
 tags:
 - implementation

@@ -1,5 +1,5 @@
 ---
-title: Trading Business
+title: Codeforces 176A Trading Business
 date: 2020-04-27 17:00:18
 tags:
     - greedy

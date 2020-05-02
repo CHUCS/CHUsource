@@ -1,10 +1,12 @@
 ---
-title: Little Elephant and Numbers
+title: Codeforces 221B Little Elephant and Numbers
 date: 2019-10-15 13:25:56
 tags:
     - 新手 
     - implementation
 ---
+[Codeforces 221B](https://codeforces.com/problemset/problem/221/B)
+<!-- more -->
 The Little Elephant loves numbers.
 
 He has a positive integer x. The Little Elephant wants to find the number of positive integers d, such that d is the divisor of x, and x and d have at least one common (the same) digit in their decimal representations.
@@ -41,4 +43,4 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/572bf3a7c7b6f81a7a57a5831208c312.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/221/B)
+

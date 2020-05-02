@@ -1,5 +1,5 @@
 ---
-title: In Search of an Easy Problem
+title: CodeForces 1030A In Search of an Easy Problem
 date: 2019-11-30 08:52:33
 tags:
     - 新手

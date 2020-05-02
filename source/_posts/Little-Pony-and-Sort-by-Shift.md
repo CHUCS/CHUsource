@@ -1,5 +1,5 @@
 ---
-title: Little Pony and Sort by Shift
+title: Codeforces 454B Little Pony and Sort by Shift
 date: 2020-04-30 17:16:15
 tags:
     - implementation

@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  Let&#39;s Watch Football |   CHUCS 解題報告 </title>
+  <title>  Codeforces 195A Let&#39;s Watch Football |   CHUCS 解題報告 </title>
 
  
   
@@ -85,7 +85,7 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			Let&#39;s Watch Football
+			Codeforces 195A Let&#39;s Watch Football
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
@@ -95,7 +95,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">2333
+				<span class="post-info-entry">2343
 				</span>
 			
 		</div>
@@ -109,11 +109,12 @@
 		
 
 			
-					<p>Valeric and Valerko missed the last Euro football game, so they decided to watch the game’s key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will “hang up” as the size of data to watch per second will be more than the size of downloaded data per second.</p>
+					<p><a href="https://codeforces.com/problemset/problem/195/A" target="_blank" rel="noopener">Codeforces 195A</a></p>
+<a id="more"></a>
+<p>Valeric and Valerko missed the last Euro football game, so they decided to watch the game’s key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will “hang up” as the size of data to watch per second will be more than the size of downloaded data per second.</p>
 <p>The guys want to watch the whole video without any pauses, so they have to wait some integer number of seconds for a part of the video to download. After this number of seconds passes, they can start watching. Waiting for the whole video to download isn’t necessary as the video can download after the guys started to watch.</p>
 <p>Let’s suppose that video’s length is c seconds and Valeric and Valerko wait t seconds before the watching. Then for any moment of time t<sub>0</sub>, t ≤ t<sub>0</sub> ≤ c + t, the following condition must fulfill: the size of data received in t<sub>0</sub> seconds is not less than the size of data needed to watch t<sub>0</sub> - t seconds of the video.</p>
 <p>Of course, the guys want to wait as little as possible, so your task is to find the minimum integer number of seconds to wait before turning the video on. The guys must watch the video without pauses.</p>
-<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line contains three space-separated integers a, b and c (1 ≤ a, b, c ≤ 1000, a &gt; b). The first number (a) denotes the size of data needed to watch one second of the video. The second number (b) denotes the size of data Valeric and Valerko can download from the Net per second. The third number (c) denotes the video’s length in seconds.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Print a single number — the minimum integer number of seconds that Valeric and Valerko must wait to watch football without pauses.</p>
 <h4 id="範例"><a href="#範例" class="headerlink" title="範例:"></a>範例:</h4><p>input:</p>
@@ -134,7 +135,6 @@
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>要找的是當(A<em>C &lt;= B</em> (C + t))的最小t，因此用二分搜尋找0~(A * C / B + 1)就好。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/0d3a4bd6acd4ec4bf08cf6f7bb206f7c.js"></script>
 
-<p><a href="https://codeforces.com/problemset/problem/195/A" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -229,7 +229,7 @@
           <strong class="post-nav-caption">newer</strong>
              
             <span class="post-nav-title">
-              Eugeny and Play List
+              Codeforces 302B Eugeny and Play List
             </span>
         </a>
     

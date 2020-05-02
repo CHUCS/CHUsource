@@ -7,12 +7,14 @@ tags:
     - sortings
     - 簡單
 ---
+[Codeforces 992A](https://codeforces.com/problemset/problem/992/A)
+<!-- more -->
 Nastya owns too many arrays now, so she wants to delete the least important of them. However, she discovered that this array is magic! Nastya now knows that the array has the following properties:
 
 In one second we can add an arbitrary (possibly negative) integer to all elements of the array that are not equal to zero.
 When all elements of the array become equal to zero, the array explodes.
 Nastya is always busy, so she wants to explode the array as fast as possible. Compute the minimum time in which the array can be exploded.
-<!-- more -->
+
 #### Input:
 The first line contains a single integer n (1 ≤ n ≤ 10<sup>5</sup>) — the size of the array.
 
@@ -63,4 +65,3 @@ In the second example you can add  - 2 on the first second, then the array b
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/7560d8637db8515e9a9320738b5bcace.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/992/A)

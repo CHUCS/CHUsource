@@ -1,5 +1,5 @@
 ---
-title: Print a Frame
+title: Aizu ITP1_5_B Print a Frame
 date: 2019-11-17 10:03:12
 tags:
 - implementation

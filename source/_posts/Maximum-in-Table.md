@@ -1,5 +1,5 @@
 ---
-title: Maximum in Table
+title: CodeForces 509A Maximum in Table
 date: 2020-03-11 13:23:56
 tags:
     - brute force

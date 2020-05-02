@@ -1,5 +1,5 @@
 ---
-title: Unlucky Ticket
+title: Codeforces 160B Unlucky Ticket
 date: 2020-04-14 13:05:42
 tags:
     - greedy

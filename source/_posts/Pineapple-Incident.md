@@ -1,5 +1,5 @@
 ---
-title: Pineapple Incident
+title: Codeforces 697A Pineapple Incident
 date: 2020-04-14 13:04:09
 tags:
     - implementation

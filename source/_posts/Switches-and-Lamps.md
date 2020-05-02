@@ -1,5 +1,5 @@
 ---
-title: Switches and Lamps
+title: Codeforces 985B Switches and Lamps
 date: 2020-04-15 13:17:22
 tags:
     - 普通

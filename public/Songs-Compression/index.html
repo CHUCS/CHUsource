@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  Songs Compression |   CHUCS 解題報告 </title>
+  <title>  Codeforces 1015C Songs Compression |   CHUCS 解題報告 </title>
 
  
   
@@ -85,7 +85,7 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			Songs Compression
+			Codeforces 1015C Songs Compression
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
@@ -95,7 +95,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1946
+				<span class="post-info-entry">1957
 				</span>
 			
 		</div>
@@ -109,12 +109,13 @@
 		
 
 			
-					<p>Ivan has n songs on his phone. The size of the i-th song is a<sub>i</sub> bytes. Ivan also has a flash drive which can hold at most m bytes in total. Initially, his flash drive is empty.</p>
+					<p><a href="https://codeforces.com/problemset/problem/1015/C" target="_blank" rel="noopener">Codeforces 1015C</a></p>
+<a id="more"></a>
+<p>Ivan has n songs on his phone. The size of the i-th song is a<sub>i</sub> bytes. Ivan also has a flash drive which can hold at most m bytes in total. Initially, his flash drive is empty.</p>
 <p>Ivan wants to copy all n songs to the flash drive. He can compress the songs. If he compresses the i-th song, the size of the i-th song reduces from a<sub>i</sub> to b<sub>i</sub> bytes (b<sub>i</sub> &lt; a<sub>i</sub>).</p>
 <p>Ivan can compress any subset of the songs (possibly empty) and copy all the songs to his flash drive if the sum of their sizes is at most m. He can compress any subset of the songs (not necessarily contiguous).</p>
 <p>Ivan wants to find the minimum number of songs he needs to compress in such a way that all his songs fit on the drive (i.e. the sum of their sizes is less than or equal to m).</p>
 <p>If it is impossible to copy all the songs (even if Ivan compresses all the songs), print “-1”. Otherwise print the minimum number of songs Ivan needs to compress.</p>
-<a id="more"></a>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of the input contains two integers n and m (1≤n≤10<sup>5</sup>,1≤m≤10<sup>9</sup>) — the number of the songs on Ivan’s phone and the capacity of Ivan’s flash drive.</p>
 <p>The next n lines contain two integers each: the i-th line contains two integers ai and bi (1≤a<sub>i</sub>,b<sub>i</sub>≤10<sup>9</sup>, a<sub>i</sub>&gt;b<sub>i</sub>) — the initial size of the i-th song and the size of the i-th song after compression.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>If it is impossible to compress a subset of the songs in such a way that all songs fit on the flash drive, print “-1”. Otherwise print the minimum number of the songs to compress.</p>
@@ -133,7 +134,6 @@
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>先將a加總，得到未壓縮的總容量max；將b加總，得到全壓縮的總容量min。當max&lt;=m時無須壓縮；當min&gt;m時不可能；剩下的情況將每1首歌的壓縮容量差距記起來，依差距從大排到小，從差距大的開始壓縮，壓縮到容量可以後停止就是答案。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/d228c2a19a77b9da421e25e87cd3e3d9.js"></script>
 
-<p><a href="https://codeforces.com/problemset/problem/1015/C" target="_blank" rel="noopener">題目網址</a></p>
   	
 					
 	  </div>     
@@ -217,7 +217,7 @@
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            Teams Forming
+            Codeforces 216B Teams Forming
           </span>
       </a>
   
@@ -228,7 +228,7 @@
           <strong class="post-nav-caption">newer</strong>
              
             <span class="post-nav-title">
-              Maxim and Discounts
+              Codeforces 261A Maxim and Discounts
             </span>
         </a>
     

@@ -1,5 +1,5 @@
 ---
-title: PIN Codes
+title: Codeforces 1263B PIN Codes
 date: 2020-04-14 13:04:43
 tags:
     - greedy

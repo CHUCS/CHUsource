@@ -1,10 +1,12 @@
 ---
-title: Bakery
+title: Codeforces 707B Bakery
 date: 2019-05-05 22:01:07
 tags:
     - 簡單
     - graphs
 ---
+[Codeforces 707B](https://codeforces.com/problemset/problem/707/B)
+<!-- more -->
 Masha wants to open her own bakery and bake muffins in one of the n cities numbered from 1 to n. There are m bidirectional roads, each of whose connects some pair of cities.
 
 To bake muffins in her bakery, Masha needs to establish flour supply from some storage. There are only k storages, located in different cities numbered a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>k</sub>.
@@ -14,7 +16,7 @@ Unforunately the law of the country Masha lives in prohibits opening bakery in a
 Formally, Masha will pay x roubles, if she will open the bakery in some city b (a<sub>i</sub> ≠ b for every 1 ≤ i ≤ k) and choose a storage in some city s (s = aj for some 1 ≤ j ≤ k) and b and s are connected by some path of roads of summary length x (if there are more than one path, Masha is able to choose which of them should be used).
 
 Masha is very thrifty and rational. She is interested in a city, where she can open her bakery (and choose one of k storages and one of the paths between city with bakery and city with storage) and pay minimum possible amount of rubles for flour delivery. Please help Masha find this amount.
-<!-- more -->
+
 #### Input:
 The first line of the input contains three integers n, m and k (1 ≤ n, m ≤ 10<sup>5</sup>, 0 ≤ k ≤ n) — the number of cities in country Masha lives in, the number of roads between them and the number of flour storages respectively.
 
@@ -80,4 +82,3 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/fcc80ed825820de5d02df437d0351496.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/707/B)

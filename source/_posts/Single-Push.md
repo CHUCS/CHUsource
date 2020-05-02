@@ -1,5 +1,5 @@
 ---
-title: Single Push
+title: CodeForces 1253A Single Push
 date: 2019-11-30 09:27:04
 tags:
     - 簡單

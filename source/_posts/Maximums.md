@@ -1,5 +1,5 @@
 ---
-title: Maximums
+title: CodeForces 1326B Maximums
 date: 2020-04-02 15:35:17
 tags:
     - implementation

@@ -1,5 +1,5 @@
 ---
-title: Star sky
+title: CodeForces 835C Star sky
 date: 2020-01-17 13:14:16
 tags:
     - implementation

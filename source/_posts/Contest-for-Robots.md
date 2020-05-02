@@ -1,5 +1,5 @@
 ---
-title: Contest for Robots
+title: CodeForces 1321A Contest for Robots
 date: 2020-03-04 08:21:22
 tags:
     - greedy

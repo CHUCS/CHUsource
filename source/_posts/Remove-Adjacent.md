@@ -1,5 +1,5 @@
 ---
-title: Remove Adjacent
+title: CodeForces 1321C Remove Adjacent
 date: 2020-03-20 13:25:41
 tags:
     - 普通

@@ -1,5 +1,5 @@
 ---
-title: T-primes
+title: Codeforces 230B T-primes
 date: 2019-03-14 10:03:51
 tags:
     - CHU Training
@@ -8,10 +8,12 @@ tags:
     - math
     - 普通
 ---
+[Codeforces 230B](https://codeforces.com/problemset/problem/230/B)
+<!-- more -->
 We know that prime numbers are positive integers that have exactly two distinct positive divisors. Similarly, we'll call a positive integer t Т-prime, if t has exactly three distinct positive divisors.
 
 You are given an array of n positive integers. For each of them determine whether it is Т-prime or not.
-<!-- more -->
+
 #### Input:
 The first line contains a single positive integer, n (1 ≤ n ≤ 10<sup>5</sup>), showing how many numbers are in the array. The next line contains n space-separated integers x<sub>i</sub> (1 ≤ x<sub>i</sub> ≤ 10<sup>12</sup>).
 
@@ -50,4 +52,3 @@ The given test has three numbers. The first number 4 has exactly three divisors 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/6fdd04e43ec13a0d17c5164bca48fefb.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/230/B)

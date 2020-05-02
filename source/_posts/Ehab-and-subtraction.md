@@ -1,5 +1,5 @@
 ---
-title: Ehab and subtraction
+title: Codeforces 1088B Ehab and subtraction
 date: 2020-04-15 13:17:35
 tags:
     - implementation

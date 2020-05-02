@@ -1,5 +1,5 @@
 ---
-title: Ice Skating
+title: Codeforces 217A Ice Skating
 date: 2019-10-18 17:22:26
 tags:
     - brute force
@@ -7,11 +7,13 @@ tags:
     - dus
     - graphs
 ---
+[Codeforces 217A](https://codeforces.com/contest/217/problem/A)
+<!-- more -->
 Bajtek is learning to skate on ice. He's a beginner, so his only mode of transportation is pushing off from a snow drift to the north, east, south or west and sliding until he lands in another snow drift. He has noticed that in this way it's impossible to get from some snow drifts to some other by any sequence of moves. He now wants to heap up some additional snow drifts, so that he can get from any snow drift to any other one. He asked you to find the minimal number of snow drifts that need to be created.
 
 We assume that Bajtek can only heap up snow drifts at integer coordinates.
 
-<!-- more -->
+
 #### Input:
 The first line of input contains a single integer n (1 ≤ n ≤ 100) — the number of snow drifts. Each of the following n lines contains two integers x<sub>i</sub> and y<sub>i</sub> (1 ≤ x<sub>i</sub>, y<sub>i</sub> ≤ 1000) — the coordinates of the i-th snow drift.
 
@@ -51,4 +53,4 @@ Bajtek是一個滑雪的初心者，而它只能滑行四個方向(東南西北)
 
 #### 程式碼:
 <script src="https://gist.github.com/89snnfk561/ec5c3671547a0f0dff77dbacaafbe7ec.js"></script>
-[題目網址](https://codeforces.com/contest/217/problem/A)
+

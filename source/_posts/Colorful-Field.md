@@ -1,5 +1,5 @@
 ---
-title: Colorful Field
+title: Codeforces 79B Colorful Field
 date: 2020-04-14 13:06:18
 tags:
     - implementation

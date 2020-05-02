@@ -1,5 +1,5 @@
 ---
-title: Strange Game On Matrix
+title: Codeforces 873C Strange Game On Matrix
 date: 2020-04-30 17:17:49
 tags:
     - greedy

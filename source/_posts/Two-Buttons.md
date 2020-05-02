@@ -9,8 +9,10 @@ tags:
     - math
     - shortest paths
 ---
-Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. 
+[Codeforces 520B](https://codeforces.com/problemset/problem/520/B)
 <!-- more -->
+Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. 
+
 
 After clicking the red button, device multiplies the displayed number by two. After clicking the blue button, device subtracts one from the number on the display. 
 
@@ -56,4 +58,3 @@ In the second example, doubling the number is unnecessary, so we need to push th
 
 <script src="https://gist.github.com/89snnfk561/775e4e0b3a627e88d921dea99c9d424a.js"></script>
 
-[題目網址](https://chucs.github.io/site/)

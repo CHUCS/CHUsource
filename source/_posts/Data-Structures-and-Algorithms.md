@@ -9,8 +9,9 @@ tags:
 ### #資料結構與演算
 + [台灣師範大學](http://www.csie.ntnu.edu.tw/~u91029/)
 + [Stanford](http://web.stanford.edu/class/cs97si/)
-+ [Codeforces A](https://codeforces.com/blog/entry/57282)
-+ [Codeforces B](https://codeforces.com/blog/entry/13529)
++ [Codeforces Data Structures](https://codeforces.com/blog/entry/57282)
++ [Codeforces Data Structures](https://codeforces.com/blog/entry/13529)
++ [Codeforces DP](https://codeforces.com/blog/entry/67679)
 
 ### #書本
 + 資料結構

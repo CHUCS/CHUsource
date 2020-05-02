@@ -1,5 +1,5 @@
 ---
-title: Jzzhu and Children
+title: CodeForces 450A Jzzhu and Children
 date: 2020-04-07 13:45:07
 tags:
     - implementation

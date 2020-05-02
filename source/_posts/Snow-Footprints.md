@@ -1,12 +1,14 @@
 ---
-title: Snow Footprints
+title: Codeforces 298A Snow Footprints
 date: 2019-10-15 13:25:36
 tags:
     - 簡單
     - implementation
 ---
-There is a straight snowy road, divided into n blocks. The blocks are numbered from 1 to n from left to right. If one moves from the i-th block to the (i + 1)-th block, he will leave a right footprint on the i-th block. Similarly, if one moves from the i-th block to the (i - 1)-th block, he will leave a left footprint on the i-th block. If there already is a footprint on the i-th block, the new footprint will cover the old one.
+[Codeforces 298A](https://codeforces.com/problemset/problem/298/A)
 <!-- more -->
+There is a straight snowy road, divided into n blocks. The blocks are numbered from 1 to n from left to right. If one moves from the i-th block to the (i + 1)-th block, he will leave a right footprint on the i-th block. Similarly, if one moves from the i-th block to the (i - 1)-th block, he will leave a left footprint on the i-th block. If there already is a footprint on the i-th block, the new footprint will cover the old one.
+
 ![A](A.PNG)
 At the beginning, there were no footprints. Then polar bear Alice starts from the s-th block, makes a sequence of moves and ends in the t-th block. It is known that Alice never moves outside of the road.
 
@@ -53,4 +55,3 @@ The first test sample is the one in the picture.
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/fa722ac9d242d3ee030746ce5cec083c.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/298/A)

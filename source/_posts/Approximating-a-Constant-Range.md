@@ -1,5 +1,5 @@
 ---
-title: Approximating a Constant Range
+title: Codeforces 985B Approximating a Constant Range
 date: 2020-04-15 13:18:25
 tags:
     - implementation

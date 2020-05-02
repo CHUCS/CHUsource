@@ -1,5 +1,5 @@
 ---
-title: Squares and Segments
+title: Codeforces 1099B Squares and Segments
 date: 2019-03-26 13:25:51
 tags:
     - CHU Training
@@ -8,10 +8,12 @@ tags:
     - math
     - 普通
 ---
+[Codeforces 1099B](https://codeforces.com/problemset/problem/1099/B)
+<!-- more -->
 Little Sofia is in fourth grade. Today in the geometry lesson she learned about segments and squares. On the way home, she decided to draw n squares in the snow with a side length of 1. For simplicity, we assume that Sofia lives on a plane and can draw only segments of length 1, parallel to the coordinate axes, with vertices at integer points.
 
 In order to draw a segment, Sofia proceeds as follows. If she wants to draw a vertical segment with the coordinates of the ends (x,y)and (x,y+1). Then Sofia looks if there is already a drawn segment with the coordinates of the ends (x′,y) and (x′,y+1) for some x′. If such a segment exists, then Sofia quickly draws a new segment, using the old one as a guideline. If there is no such segment, then Sofia has to take a ruler and measure a new segment for a long time. Same thing happens when Sofia wants to draw a horizontal segment, but only now she checks for the existence of a segment with the same coordinates x, x+1 and the differing coordinate y.
-<!-- more -->
+
 For example, if Sofia needs to draw one square, she will have to draw two segments using a ruler: 
 ![A](A.png)
 After that, she can draw the remaining two segments, using the first two as a guide: 
@@ -72,4 +74,3 @@ output:
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/040f422ce2524c8cbb5ca11da07ec0e4.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/1099/B)

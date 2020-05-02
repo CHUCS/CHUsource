@@ -1,15 +1,17 @@
 ---
-title: Semifinals
+title: Codeforces 378B Semifinals
 date: 2019-04-27 18:41:46
 tags:
     - 普通
     - sortings
     - implementation
 ---
+[Codeforces 378B](https://codeforces.com/problemset/problem/378/B)
+<!-- more -->
 Two semifinals have just been in the running tournament. Each semifinal had n participants. There are n participants advancing to the finals, they are chosen as follows: from each semifinal, we choose k people (0 ≤ 2k ≤ n) who showed the best result in their semifinals and all other places in the finals go to the people who haven't ranked in the top k in their semifinal but got to the n - 2k of the best among the others.
 
 The tournament organizers hasn't yet determined the k value, so the participants want to know who else has any chance to get to the finals and who can go home.
-<!-- more -->
+
 #### Input:
 The first line contains a single integer n (1 ≤ n ≤ 10<sup>5</sup>) — the number of participants in each semifinal.
 
@@ -61,4 +63,3 @@ Consider the first sample. Each semifinal has 4 participants. The results of the
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/aa4d5499ee399a951c3844b6cd5db293.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/378/B)

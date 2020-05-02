@@ -1,5 +1,5 @@
 ---
-title: Substrings Sort
+title: Codeforces 988B Substrings Sort
 date: 2020-04-14 13:05:04
 tags:
     - 普通

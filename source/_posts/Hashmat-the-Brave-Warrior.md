@@ -1,10 +1,10 @@
 ---
-title: Hashmat the Brave Warrior
+title: UVA 10055 Hashmat the Brave Warrior
 date: 2019-11-17 10:00:07
 tags:
 - implementation
 ---
-[UVA10055](https://onlinejudge.org/external/100/10055.pdf)
+[UVA 10055](https://onlinejudge.org/external/100/10055.pdf)
 <!-- more -->
 #### 題意:
 幫忙計算兵力差距

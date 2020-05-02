@@ -1,5 +1,5 @@
 ---
-title: Choose Two Numbers
+title: CodeForces 1206A Choose Two Numbers
 date: 2020-04-07 13:47:59
 tags:
     - math

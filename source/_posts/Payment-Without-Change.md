@@ -1,5 +1,5 @@
 ---
-title: Payment Without Change
+title: CodeForces 1256A Payment Without Change
 date: 2019-11-26 15:35:02
 tags:
     - math

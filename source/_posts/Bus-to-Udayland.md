@@ -1,5 +1,5 @@
 ---
-title: Bus to Udayland
+title: CodeForces 711A Bus to Udayland
 date: 2020-03-11 13:23:40
 tags:
     - brute force

@@ -1,5 +1,5 @@
 ---
-title: Lumberjack Sequencing
+title: UVA 11942 Lumberjack Sequencing
 date: 2019-11-17 10:47:29
 tags:
 - implementation

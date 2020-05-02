@@ -1,5 +1,5 @@
 ---
-title: Let's Watch Football
+title: Codeforces 195A Let's Watch Football
 date: 2019-04-12 23:13:54
 tags:
     - CHU Training
@@ -7,6 +7,8 @@ tags:
     - binary search 
     - 普通
 ---
+[Codeforces 195A](https://codeforces.com/problemset/problem/195/A)
+<!-- more -->
 Valeric and Valerko missed the last Euro football game, so they decided to watch the game's key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will "hang up" as the size of data to watch per second will be more than the size of downloaded data per second.
 
 The guys want to watch the whole video without any pauses, so they have to wait some integer number of seconds for a part of the video to download. After this number of seconds passes, they can start watching. Waiting for the whole video to download isn't necessary as the video can download after the guys started to watch.
@@ -14,7 +16,7 @@ The guys want to watch the whole video without any pauses, so they have to wait 
 Let's suppose that video's length is c seconds and Valeric and Valerko wait t seconds before the watching. Then for any moment of time t<sub>0</sub>, t ≤ t<sub>0</sub> ≤ c + t, the following condition must fulfill: the size of data received in t<sub>0</sub> seconds is not less than the size of data needed to watch t<sub>0</sub> - t seconds of the video.
 
 Of course, the guys want to wait as little as possible, so your task is to find the minimum integer number of seconds to wait before turning the video on. The guys must watch the video without pauses.
-<!-- more -->
+
 #### Input:
 The first line contains three space-separated integers a, b and c (1 ≤ a, b, c ≤ 1000, a > b). The first number (a) denotes the size of data needed to watch one second of the video. The second number (b) denotes the size of data Valeric and Valerko can download from the Net per second. The third number (c) denotes the video's length in seconds.
 
@@ -60,4 +62,3 @@ In the second sample guys need 2 · 10 = 20 units of data, so they have to wait 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/0d3a4bd6acd4ec4bf08cf6f7bb206f7c.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/195/A)

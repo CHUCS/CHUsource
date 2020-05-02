@@ -1,5 +1,5 @@
 ---
-title: Broken Keyboard
+title: Codeforces 1251A Broken Keyboard
 date: 2020-04-15 13:18:14
 tags:
     - brute force

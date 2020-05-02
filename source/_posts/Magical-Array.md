@@ -1,5 +1,5 @@
 ---
-title: Magical Array
+title: Codeforces 84B Magical Array
 date: 2020-04-12 16:28:28
 tags:
     - combinatorics

@@ -1,5 +1,5 @@
 ---
-title: Water Buying
+title: Codeforces 1118A Water Buying
 date: 2019-03-21 09:50:26
 tags:
     - CHU Training
@@ -7,6 +7,8 @@ tags:
     - implementation
     - 簡單
 ---
+[Codeforces 1118A](https://codeforces.com/contest/1118/problem/A)
+<!-- more -->
 Polycarp wants to cook a soup. To do it, he needs to buy exactly n liters of water.
 
 There are only two types of water bottles in the nearby shop — 1-liter bottles and 2-liter bottles. There are infinitely many bottles of these two types in the shop.
@@ -17,7 +19,7 @@ Polycarp wants to spend as few money as possible. Your task is to find the minim
 liters of water in the nearby shop if the bottle of the first type costs a burles and the bottle of the second type costs b burles.
 
 You also have to answer q independent queries.
-<!-- more -->
+
 #### Input:
 The first line of the input contains one integer q (1≤q≤500) — the number of queries.
 
@@ -52,4 +54,4 @@ output:
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/8c6fc90e3bb7af3af4a1f2cb3744b6ff.js"></script>
 
-[題目網址](https://codeforces.com/contest/1118/problem/A)
+

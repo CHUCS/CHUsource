@@ -1,5 +1,5 @@
 ---
-title: Eugeny and Play List
+title: Codeforces 302B Eugeny and Play List
 date: 2019-04-12 23:18:15
 tags:
     - CHU Training
@@ -7,12 +7,14 @@ tags:
     - binary search 
     - 普通
 ---
+[Codeforces 302B](https://codeforces.com/problemset/problem/302/B)
+<!-- more -->
 Eugeny loves listening to music. He has n songs in his play list. We know that song number i has the duration of t<sub>i</sub> minutes. Eugeny listens to each song, perhaps more than once. He listens to song number i c<sub>i</sub> times. Eugeny's play list is organized as follows: first song number 1 plays c<sub>1</sub> times, then song number 2 plays c<sub>2</sub> times, ..., in the end the song number n plays cn times.
 
 Eugeny took a piece of paper and wrote out m moments of time when he liked a song. Now for each such moment he wants to know the number of the song that played at that moment. The moment x means that Eugeny wants to know which song was playing during the x-th minute of his listening to the play list.
 
 Help Eugeny and calculate the required numbers of songs.
-<!-- more -->
+
 #### Input:
 The first line contains two integers n, m (1 ≤ n, m ≤ 10<sup>5</sup>). The next n lines contain pairs of integers. The i-th line contains integers c<sub>i</sub>, t<sub>i</sub> (1 ≤ c<sub>i</sub>, t<sub>i</sub> ≤ 10<sup>9</sup>) — the description of the play list. It is guaranteed that the play list's total duration doesn't exceed 10<sup>9</sup>.
 
@@ -66,4 +68,3 @@ output:
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/a131929a6eff93a0bb4e3e48f44ce349.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/302/B)

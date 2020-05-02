@@ -1,11 +1,11 @@
 ---
-title: Beautiful Matrix
+title: Codeforces 263A Beautiful Matrix
 date: 2020-04-12 16:29:04
 tags:
     - implementation
     - 新手
 ---
-[題目網址](https://chucs.github.io/site/)
+[Codeforces 263A](https://codeforces.com/problemset/problem/263/A)
 <!-- more -->
 
 #### 題意:

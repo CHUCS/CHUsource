@@ -1,5 +1,5 @@
 ---
-title: Fafa and his Company
+title: CodeForces 935A Fafa and his Company
 date: 2019-12-22 15:25:55
 tags:
     - 新手

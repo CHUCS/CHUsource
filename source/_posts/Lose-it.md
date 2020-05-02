@@ -1,5 +1,5 @@
 ---
-title: Lose it
+title: CodeForces 1176C Lose it
 date: 2019-11-26 15:35:15
 tags:
     - dp

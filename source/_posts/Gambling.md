@@ -1,5 +1,5 @@
 ---
-title: Gambling
+title: Codeforces 1038C Gambling
 date: 2020-04-30 17:17:19
 tags:
     - greedy

@@ -1,11 +1,13 @@
 ---
-title: Binary Number
+title: Codeforces 92B Binary Number
 date: 2019-10-18 15:46:55
 tags:
     - greedy
 ---
-Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.
+[Codeforces 92B](https://codeforces.com/problemset/problem/92/B)
 <!-- more -->
+Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.
+
 Fangy takes some positive integer x and wants to get a number one from it. While x is not equal to 1, Fangy repeats the following action: if x is odd, then he adds 1 to it, otherwise he divides x by 2. Fangy knows that for any positive integer number the process ends in finite time.
 
 How many actions should Fangy perform to get a number one from number x?
@@ -55,4 +57,3 @@ Let's consider the third sample. Number 101110 is even, which means that we shou
 不成立則是屬出0的個數就是答案了。
 #### 程式碼:
 <script src="https://gist.github.com/89snnfk561/fcb178773a50568b10ba9fe62829f502.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/92/B)

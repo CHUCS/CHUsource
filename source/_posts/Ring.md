@@ -1,5 +1,5 @@
 ---
-title: Ring
+title: Aizu ITP1_8_D Ring
 date: 2019-11-17 10:39:00
 tags:
 - implementation

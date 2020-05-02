@@ -1,5 +1,5 @@
 ---
-title: Bear and Three Balls
+title: Codeforces 653A Bear and Three Balls
 date: 2019-03-14 10:02:47
 tags:
     - CHU Training
@@ -7,6 +7,8 @@ tags:
     - sortings
     - 簡單
 ---
+[Codeforces 653A](https://codeforces.com/problemset/problem/653/A)
+<!-- more -->
 Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.
 
 Limak wants to give one ball to each of his three friends. Giving gifts isn't easy — there are two rules Limak must obey to make friends happy:
@@ -16,7 +18,7 @@ Limak wants to give one ball to each of his three friends. Giving gifts isn't ea
 For example, Limak can choose balls with sizes 4, 5 and 3, or balls with sizes 90, 91 and 92. But he can't choose balls with sizes 5, 5 and 6 (two friends would get balls of the same size), and he can't choose balls with sizes 30, 31 and 33 (because sizes 30 and 33 differ by more than 2).
 
 Your task is to check whether Limak can choose three balls that satisfy conditions above.
-<!-- more -->
+
 #### Input:
 The first line of the input contains one integer n (3 ≤ n ≤ 50) — the number of balls Limak has.
 
@@ -73,4 +75,3 @@ In the third sample, there is even more than one way to choose balls:
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/20b935d0b2db96a90f0c8265f25e0cfb.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/653/A)

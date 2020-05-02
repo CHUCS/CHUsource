@@ -1,5 +1,5 @@
 ---
-title: Frodo and pillows
+title: Codeforces 760B Frodo and pillows
 date: 2019-03-21 09:52:14
 tags:
     - CHU Training
@@ -8,10 +8,12 @@ tags:
     - math
     - 普通
 ---
+[Codeforces 760B](https://codeforces.com/problemset/problem/760/B)
+<!-- more -->
 n hobbits are planning to spend the night at Frodo's house. Frodo has n beds standing in a row and m pillows (n ≤ m). Each hobbit needs a bed and at least one pillow to sleep, however, everyone wants as many pillows as possible. Of course, it's not always possible to share pillows equally, but any hobbit gets hurt if he has at least two pillows less than some of his neighbors have.
 
 Frodo will sleep on the k-th bed in the row. What is the maximum number of pillows he can have so that every hobbit has at least one pillow, every pillow is given to some hobbit and no one is hurt?
-<!-- more -->
+
 #### Input:
 The only line contain three integers n, m and k (1 ≤ n ≤ m ≤ 10<sup>9</sup>, 1 ≤ k ≤ n) — the number of hobbits, the number of pillows and the number of Frodo's bed.
 
@@ -67,4 +69,4 @@ d~e：計算方式同長方形，高度為1。
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/b3b1589cfc0f43b71fc38eb642ee2b4e.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/760/B)
+

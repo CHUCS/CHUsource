@@ -1,5 +1,5 @@
 ---
-title: Stones on the Table
+title: Codeforces 266A Stones on the Table
 date: 2020-04-14 13:03:49
 tags:
     - implementation

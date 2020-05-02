@@ -1,5 +1,5 @@
 ---
-title: Dreamoon and Stairs
+title: Codeforces 476A Dreamoon and Stairs
 date: 2020-04-30 17:12:17
 tags:
     - implementation

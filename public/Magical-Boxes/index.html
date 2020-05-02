@@ -14,7 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   
   
-  <title>  Magical Boxes |   CHUCS 解題報告 </title>
+  <title>  Codeforces 269A Magical Boxes |   CHUCS 解題報告 </title>
 
  
   
@@ -85,7 +85,7 @@
 <div class="post-header">
 	<div class="post-header-inner">
 		<p class="post-title">	
-			Magical Boxes
+			Codeforces 269A Magical Boxes
 		</p>
 		<div class="post-info">	
 			<span class="post-info-entry">
@@ -95,7 +95,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">1615
+				<span class="post-info-entry">1626
 				</span>
 			
 		</div>
@@ -109,9 +109,10 @@
 		
 
 			
-					<p>Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.</p>
-<p>From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:</p>
+					<p><a href="https://codeforces.com/problemset/problem/269/A" target="_blank" rel="noopener">Codeforces 269A</a></p>
 <a id="more"></a>
+<p>Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.</p>
+<p>From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:</p>
 <p><img src="A.PNG" alt="A"><br>Emuskald is about to go on tour performing around the world, and needs to pack his magical boxes for the trip. He has decided that the best way to pack them would be inside another magical box, but magical boxes are quite expensive to make. Help him find the smallest magical box that can fit all his boxes.</p>
 <h4 id="Input"><a href="#Input" class="headerlink" title="Input:"></a>Input:</h4><p>The first line of input contains an integer n (1 ≤ n ≤ 10<sup>5</sup>), the number of different sizes of boxes Emuskald has. Each of following n lines contains two integers k<sub>i</sub> and a<sub>i</sub> (0 ≤ k<sub>i</sub> ≤ 10<sup>9</sup>, 1 ≤ a<sub>i</sub> ≤ 10<sup>9</sup>), which means that Emuskald has ai boxes with side length 2<sup>k<sub>i</sub></sup>. It is guaranteed that all of ki are distinct.</p>
 <h4 id="Output"><a href="#Output" class="headerlink" title="Output:"></a>Output:</h4><p>Output a single integer p, such that the smallest magical box that can contain all of Emuskald’s boxes has side length 2<sup>p</sup>.</p>
@@ -133,7 +134,7 @@
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>1個箱子可以裝4個比自己小一號的箱子，所以先把輸入的箱子按尺寸大到小排序，記錄現在最大的尺寸，計算可不可以裝得下那些比較小的，要注意的是同一尺寸的箱子最多只會有1000000000個，所以可以裝超過這個數字就不用判斷了，一定裝的下；裝不下的就計算需要幾個目前最大的箱子才裝得下，先記著。</p>
 <p>最後跑完全部後再用需要幾個目前最大的箱子來算需要多大的箱子。</p>
 <h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/Daviswww/ffe732aec0bdd1ce3ec815518e180d71.js"></script>
-<p><a href="https://codeforces.com/problemset/problem/269/A" target="_blank" rel="noopener">題目網址</a></p>
+
   	
 					
 	  </div>     
@@ -217,7 +218,7 @@
         <strong class="post-nav-caption">older</strong>
         
           <span class="post-nav-title">
-            Snow Footprints
+            Codeforces 298A Snow Footprints
           </span>
       </a>
   
@@ -228,7 +229,7 @@
           <strong class="post-nav-caption">newer</strong>
              
             <span class="post-nav-title">
-              Little Elephant and Numbers
+              Codeforces 221B Little Elephant and Numbers
             </span>
         </a>
     

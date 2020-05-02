@@ -1,5 +1,5 @@
 ---
-title: Schedule
+title: Codeforces 31C Schedule
 date: 2020-04-27 17:02:28
 tags:
     - implementation

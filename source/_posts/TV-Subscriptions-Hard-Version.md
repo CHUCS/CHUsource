@@ -1,5 +1,5 @@
 ---
-title: TV Subscriptions (Hard Version)
+title: Codeforces 1225B2 TV Subscriptions (Hard Version)
 date: 2020-04-27 17:01:54
 tags:
     - implementation

@@ -1,5 +1,5 @@
 ---
-title: Stages
+title: CodeForces 1011A Stages
 date: 2020-04-07 13:48:08
 tags:
     - sortings

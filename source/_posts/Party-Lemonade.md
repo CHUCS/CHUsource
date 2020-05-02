@@ -1,5 +1,5 @@
 ---
-title: Party Lemonade
+title: CodeForces 913C Party Lemonade
 date: 2020-01-17 13:17:36
 tags:
     - bitmasks

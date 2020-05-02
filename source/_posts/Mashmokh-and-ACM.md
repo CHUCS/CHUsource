@@ -1,5 +1,5 @@
 ---
-title: Mashmokh and ACM
+title: CodeForces 414B Mashmokh and ACM
 date: 2019-11-30 08:53:08
 tags:
     - 普通

@@ -1,5 +1,5 @@
 ---
-title: Hit the Lottery
+title: CodeForces 996A Hit the Lottery
 date: 2019-12-14 11:57:51
 tags:
     - dp

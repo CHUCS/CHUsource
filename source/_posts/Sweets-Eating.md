@@ -1,5 +1,5 @@
 ---
-title: Sweets Eating
+title: CodeForces 1253C Sweets Eating
 date: 2019-12-13 16:52:43
 tags:
     - 一般

@@ -1,5 +1,5 @@
 ---
-title: Brick Wall Patterns
+title: UVA 900 Brick Wall Patterns
 date: 2019-12-13 16:52:19
 tags:
     - 新手

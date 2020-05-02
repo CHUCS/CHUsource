@@ -1,5 +1,5 @@
 ---
-title: Add Odd or Subtract Even
+title: CodeForces 1311A Add Odd or Subtract Even
 date: 2020-03-04 08:15:07
 tags:
     - greedy

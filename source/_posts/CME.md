@@ -1,5 +1,5 @@
 ---
-title: CME
+title: CodeForces 1223A CME
 date: 2020-01-14 15:51:33
 tags:
     - math

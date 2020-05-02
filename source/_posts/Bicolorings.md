@@ -1,5 +1,5 @@
 ---
-title: Bicolorings
+title: CodeForces 1051D Bicolorings
 date: 2020-01-17 13:17:54
 tags:
     - bitmasks

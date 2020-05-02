@@ -1,5 +1,5 @@
 ---
-title: Cards
+title: CodeForces 1220A Cards
 date: 2019-12-31 15:46:45
 tags:
     - 新手

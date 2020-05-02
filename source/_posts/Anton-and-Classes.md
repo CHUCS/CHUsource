@@ -1,5 +1,5 @@
 ---
-title: Anton and Classes
+title: Codeforces 785B Anton and Classes
 date: 2020-04-15 13:17:44
 tags:
     - greedy

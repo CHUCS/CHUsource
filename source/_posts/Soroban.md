@@ -1,5 +1,5 @@
 ---
-title: Soroban
+title: CodeForces 363A Soroban
 date: 2020-04-02 15:36:15
 tags:
     - implementation

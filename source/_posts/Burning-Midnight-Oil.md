@@ -1,5 +1,5 @@
 ---
-title: Burning Midnight Oil
+title: Codeforces 165B Burning Midnight Oil
 date: 2019-03-21 09:51:31
 tags:
     - CHU Training
@@ -8,6 +8,8 @@ tags:
     - implementation
     - 普通
 ---
+[Codeforces 165B](https://codeforces.com/problemset/problem/165/B)
+<!-- more -->
 One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , ...
 
 The expression ⌊a/b⌋is regarded as the integral part from dividing number a by number b.
@@ -15,7 +17,7 @@ The expression ⌊a/b⌋is regarded as the integral part from dividing number a 
 The moment the current value ⌊v/k<sup>p</sup>⌋ equals 0, Vasya immediately falls asleep and he wakes up only in the morning, when the program should already be finished.
 
 Vasya is wondering, what minimum allowable value v can take to let him write not less than n lines of code before he falls asleep.
-<!-- more -->
+
 #### Input:
 The input consists of two integers n and k, separated by spaces — the size of the program in lines and the productivity reduction coefficient, 1 ≤ n ≤ 10<sup>9</sup>, 2 ≤ k ≤ 10.
 
@@ -57,4 +59,4 @@ In the second sample the answer is v = 54. Vasya writes the code in the foll
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/9316d78bd8016b0996ffd5fceeb75ffd.js"></script>
 
-[題目網址](https://chucs.github.io/site/)
+

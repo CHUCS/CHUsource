@@ -1,5 +1,5 @@
 ---
-title: New Year and Naming
+title: CodeForces 1284A New Year and Naming
 date: 2020-03-11 13:21:12
 tags:
     - implementation

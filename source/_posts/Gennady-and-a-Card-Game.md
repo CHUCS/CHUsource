@@ -1,5 +1,5 @@
 ---
-title: Gennady and a Card Game
+title: CodeForces 1097A Gennady and a Card Game
 date: 2019-12-22 15:25:47
 tags:
     - 新手

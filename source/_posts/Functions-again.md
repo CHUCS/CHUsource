@@ -1,5 +1,5 @@
 ---
-title: Functions again
+title: CodeForces 788A Functions again
 date: 2019-11-30 08:53:25
 tags:
     - 普通

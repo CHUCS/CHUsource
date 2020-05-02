@@ -1,5 +1,5 @@
 ---
-title: Squares
+title: Codeforces 263B Squares
 date: 2019-03-14 10:02:24
 tags:
     - CHU Training
@@ -8,13 +8,15 @@ tags:
     - math
     - 簡單
 ---
+[Codeforces 263B](https://codeforces.com/problemset/problem/263/B)
+<!-- more -->
 Vasya has found a piece of paper with a coordinate system written on it. There are n distinct squares drawn in this coordinate system. Let's number the squares with integers from 1 to n. It turned out that points with coordinates (0, 0) and (ai, ai) are the opposite corners of the i-th square.
 
 Vasya wants to find such integer point (with integer coordinates) of the plane, that belongs to exactly k drawn squares. We'll say that a point belongs to a square, if the point is located either inside the square, or on its boundary.
 
 Help Vasya find a point that would meet the described limits.
 
-<!-- more -->
+
 #### Input:
 The first line contains two space-separated integers n, k (1 ≤ n, k ≤ 50). The second line contains space-separated integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> (1 ≤ a<sub>i</sub>≤ 10<sup>9</sup>).
 #### Output:
@@ -60,4 +62,3 @@ output:
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/a765b492ae4bf0e41cceabef430761ea.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/263/B)

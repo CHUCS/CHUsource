@@ -1,5 +1,5 @@
 ---
-title: Wrong Subtraction
+title: CodeForces 977A Wrong Subtraction
 date: 2019-12-13 16:52:00
 tags:
     - implementation

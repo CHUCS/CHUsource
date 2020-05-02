@@ -1,5 +1,5 @@
 ---
-title: Radio Station
+title: Codeforces 918B Radio Station
 date: 2020-04-30 17:11:21
 tags:
     - implementation

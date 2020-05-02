@@ -1,5 +1,5 @@
 ---
-title: Array Stabilization
+title: Codeforces 1095B Array Stabilization
 date: 2020-04-15 13:17:15
 tags:
     - implementation

@@ -1,5 +1,5 @@
 ---
-title: Yet Another Palindrome Problem
+title: CodeForces 1324B Yet Another Palindrome Problem
 date: 2020-03-20 13:26:00
 tags:
     - brute force

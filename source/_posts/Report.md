@@ -1,12 +1,14 @@
 ---
-title: Report
+title: Codeforces 631C Report
 date: 2019-10-26 12:09:55
 tags:
     - data structures
     - sortings
 ---
-Each month Blake gets the report containing main economic indicators of the company "Blake Technologies".
+[Codeforces 631C](https://codeforces.com/problemset/problem/631/C)
 <!-- more -->
+Each month Blake gets the report containing main economic indicators of the company "Blake Technologies".
+
 
 There are n commodities produced by the company. For each of them there is exactly one integer in the final report, that denotes corresponding revenue.
 
@@ -74,4 +76,3 @@ ex:
 <script src="https://gist.github.com/89snnfk561/fc83ef23d16f8afc81b2d1fb8c5bb658.js"></script>
 
 
-[題目網址](https://chucs.github.io/site/)

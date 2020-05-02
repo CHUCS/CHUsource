@@ -1,5 +1,5 @@
 ---
-title: USB Flash Drives
+title: Codeforces 609A USB Flash Drives
 date: 2019-03-21 09:50:43
 tags:
     - CHU Training
@@ -8,10 +8,12 @@ tags:
     - greedy
     - 簡單
 ---
+[Codeforces 609A](https://codeforces.com/problemset/problem/609/A)
+<!-- more -->
 Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> megabytes. The file size is equal to m megabytes.
 
 Find the minimum number of USB flash drives needed to write Sean's file, if he can split the file between drives.
-<!-- more -->
+
 #### Input:
 The first line contains positive integer n (1 ≤ n ≤ 100) — the number of USB flash drives.
 
@@ -77,4 +79,4 @@ In the third example Sean needs only one USB flash drive and he can use any avai
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/796d0bc74e046275763493f76b904146.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/609/A)
+

@@ -1,5 +1,5 @@
 ---
-title: Amr and Music
+title: codeforces 507A Amr and Music
 date: 2019-03-21 09:51:53
 tags:
     - CHU Training
@@ -8,12 +8,15 @@ tags:
     - greedy
     - 簡單
 ---
+
+[Codeforces 507A](https://codeforces.com/problemset/problem/507/A)
+<!-- more -->
 Amr is a young coder who likes music a lot. He always wanted to learn how to play music but he was busy coding so he got an idea.
 
 Amr has n instruments, it takes a<sub>i</sub> days to learn i-th instrument. Being busy, Amr dedicated k days to learn how to play the maximum possible number of instruments.
 
 Amr asked for your help to distribute his free days between instruments so that he can achieve his goal.
-<!-- more -->
+
 #### Input:
 The first line contains two numbers n, k (1 ≤ n ≤ 100, 0 ≤ k ≤ 10 000), the number of instruments and number of days respectively.
 
@@ -74,4 +77,3 @@ In the third test Amr doesn't have enough time to learn the only presented instr
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/9f680592a720d787b000254aefbb2d03.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/507/A)

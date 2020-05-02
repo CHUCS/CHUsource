@@ -1,5 +1,5 @@
 ---
-title: Yet Another Tetris Problem
+title: CodeForces 1324A Yet Another Tetris Problem
 date: 2020-03-20 13:24:32
 tags:
     - implementation

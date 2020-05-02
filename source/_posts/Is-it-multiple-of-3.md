@@ -1,5 +1,5 @@
 ---
-title: Is it multiple of 3
+title: UVA 13178 Is it multiple of 3
 date: 2019-11-17 11:13:12
 tags:
 - math

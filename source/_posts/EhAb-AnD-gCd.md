@@ -1,5 +1,5 @@
 ---
-title: EhAb AnD gCd
+title: CodeForces 1325A EhAb AnD gCd
 date: 2020-04-02 15:36:49
 tags:
     - constructive algorithms

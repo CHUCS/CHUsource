@@ -1,5 +1,5 @@
 ---
-title: Drinks
+title: Codeforces 200B Drinks
 date: 2019-03-21 09:37:08
 tags:
     - CHU Training
@@ -7,12 +7,15 @@ tags:
     - implementation
     - 新手 
 ---
+
+[Codeforces 200B](https://codeforces.com/problemset/problem/200/B)
+<!-- more -->
 Little Vasya loves orange juice very much. That's why any food and drink in his kitchen necessarily contains orange juice. There are n drinks in his fridge, the volume fraction of orange juice in the i-th drink equals p<sub>i</sub> percent.
 
 One day Vasya decided to make himself an orange cocktail. He took equal proportions of each of the n drinks and mixed them. Then he wondered, how much orange juice the cocktail has.
 
 Find the volume fraction of orange juice in the final drink.
-<!-- more -->
+
 #### Input:
 The first input line contains a single integer n (1 ≤ n ≤ 100) — the number of orange-containing drinks in Vasya's fridge. The second line contains n integers pi (0 ≤ p<sub>i</sub> ≤ 100) — the volume fraction of orange juice in the i-th drink, in percent. The numbers are separated by a space.
 #### Output:
@@ -48,5 +51,3 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/b9a845e27cfb68cdf7fc52926580f9bc.js"></script>
-
-[題目網址](https://codeforces.com/problemset/problem/200/B)

@@ -1,5 +1,5 @@
 ---
-title: Gas Pipeline
+title: CodeForces 1207C Gas Pipeline
 date: 2019-12-13 16:52:32
 tags:
     - 一般

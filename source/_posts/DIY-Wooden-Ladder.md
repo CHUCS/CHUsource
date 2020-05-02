@@ -1,11 +1,13 @@
 ---
-title: DIY Wooden Ladder
+title: Codeforces 1197A DIY Wooden Ladder
 date: 2019-09-19 16:04:52
 tags:
 - greedy
 - sortings
 - math
 ---
+[Codeforces 1197A](http://codeforces.com/problemset/problem/1197/A)
+<!-- more -->
 Let's denote a k-step ladder as the following structure: exactly k+2 wooden planks, of which
 
 ● two planks of length at least k+1 — the base of the ladder;
@@ -14,7 +16,7 @@ Let's denote a k-step ladder as the following structure: exactly k+2 wooden plan
 Note that neither the base planks, nor the steps planks are required to be equal.
 
 For example, ladders 1 and 3 are correct 2-step ladders and ladder 2 is a correct 1-step ladder. On the first picture the lengths of planks are [3,3] for the base and [1] for the step. On the second picture lengths are [3,3] for the base and [2] for the step. On the third picture lengths are [3,4] for the base and [2,3] for the steps.
-<!-- more -->
+
 ![A](A.PNG)
 You have n planks. The length of the i-th planks is a<sub>i</sub>. You don't have a saw, so you can't cut the planks you have. Though you have a hammer and nails, so you can assemble the improvised "ladder" from the planks.
 
@@ -65,4 +67,4 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/6b5a155e8e6747f7dd817d186437a46c.js"></script>
-[題目網址](http://codeforces.com/problemset/problem/1197/A)
+

@@ -1,5 +1,5 @@
 ---
-title: Mahmoud and Ehab and the even-odd game
+title: CodeForces 959A Mahmoud and Ehab and the even-odd game
 date: 2019-12-22 15:26:03
 tags:
     - 新手

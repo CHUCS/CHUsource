@@ -1,5 +1,5 @@
 ---
-title: Wrong Subtraction
+title: Codeforces 977A Wrong Subtraction
 date: 2019-03-07 18:41:32
 tags:
     - CHU Training
@@ -7,6 +7,8 @@ tags:
     - implementation
     - 新手
 ---
+[Codeforces 977A](https://codeforces.com/problemset/problem/977/A)
+<!-- more -->
 Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:
 
 ● if the last digit of the number is non-zero, she decreases the number by one;
@@ -15,7 +17,7 @@ Little girl Tanya is learning how to decrease a number by one, but she does it w
 You are given an integer number n. Tanya will subtract one from it k times. Your task is to print the result after all k subtractions.
 
 It is guaranteed that the result will be positive integer number.
-<!-- more -->
+
 #### Input:
 The first line of the input contains two integer numbers n and k (2≤n≤10<sup>9</sup>, 1≤k≤50) — the number from which Tanya will subtract and the number of subtractions correspondingly.
 
@@ -55,4 +57,3 @@ N為一個整數，K為減少的次數。
 
 <script src="https://gist.github.com/Daviswww/4d41d72d84689b5e9c0a91dd551393fe.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/977/A)

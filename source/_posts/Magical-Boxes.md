@@ -1,5 +1,5 @@
 ---
-title: Magical Boxes
+title: Codeforces 269A Magical Boxes
 date: 2019-10-15 13:25:45
 tags:
     - 普通 
@@ -7,10 +7,12 @@ tags:
     - math
     - sortings
 ---
+[Codeforces 269A](https://codeforces.com/problemset/problem/269/A)
+<!-- more -->
 Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.
 
 From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:
-<!-- more -->
+
 ![A](A.PNG)
 Emuskald is about to go on tour performing around the world, and needs to pack his magical boxes for the trip. He has decided that the best way to pack them would be inside another magical box, but magical boxes are quite expensive to make. Help him find the smallest magical box that can fit all his boxes.
 #### Input:
@@ -61,4 +63,4 @@ In the second test case, we can put all four small boxes into a box with side le
 最後跑完全部後再用需要幾個目前最大的箱子來算需要多大的箱子。
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/ffe732aec0bdd1ce3ec815518e180d71.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/269/A)
+

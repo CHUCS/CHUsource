@@ -1,5 +1,5 @@
 ---
-title: Team
+title: Codeforces 231A Team
 date: 2020-04-12 16:29:11
 tags:
     - 新手

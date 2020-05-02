@@ -1,5 +1,5 @@
 ---
-title: z-sort
+title: Codeforces 652B z-sort
 date: 2020-04-30 17:16:49
 tags:
     - sortings

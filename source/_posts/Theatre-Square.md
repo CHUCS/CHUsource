@@ -1,5 +1,5 @@
 ---
-title: Theatre Square
+title: CodeForces 1A Theatre Square
 date: 2020-02-26 13:55:14
 tags:
     - math

@@ -1,5 +1,5 @@
 ---
-title: HQ9+
+title: CodeForces 133A HQ9+
 date: 2019-03-14 10:01:53
 tags:
     - CHU Training
@@ -8,6 +8,8 @@ tags:
     - math
     - 新手
 ---
+[CodeForces 133A](https://codeforces.com/problemset/problem/133/A)
+<!-- more -->
 HQ9+ is a joke programming language which has only four one-character instructions:
 
 ● "H" prints "Hello, World!",
@@ -19,7 +21,7 @@ Instructions "H" and "Q" are case-sensitive and must be uppercase. The character
 
 You are given a program written in HQ9+. You have to figure out whether executing this program will produce any output.
 
-<!-- more -->
+
 #### Input:
 The input will consist of a single line p which will give a program in HQ9+. String p will contain between 1 and 100 characters, inclusive. ASCII-code of each character of p will be between 33 (exclamation mark) and 126 (tilde), inclusive.
 
@@ -57,4 +59,3 @@ In the second case none of the program characters are language instructions.
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/8f84f817c66175e00695130cfced0619.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/133/A)

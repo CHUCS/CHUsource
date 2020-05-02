@@ -1,5 +1,5 @@
 ---
-title: Chain Reaction
+title: CodeForces 607A Chain Reaction
 date: 2019-12-22 15:10:04
 tags:
     - 一般

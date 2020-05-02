@@ -1,16 +1,18 @@
 ---
-title: Army
+title: Codeforces 38A Army
 date: 2019-04-20 18:50:00
 tags:
     - implementation
     - 新手
 ---
+[Codeforces 38A](https://codeforces.com/problemset/problem/38/A)
+<!-- more -->
 The Berland Armed Forces System consists of n ranks that are numbered using natural numbers from 1 to n, where 1 is the lowest rank and n is the highest rank.
 
 One needs exactly di years to rise from rank i to rank i + 1. Reaching a certain rank i having not reached all the previous i - 1 ranks is impossible.
 
 Vasya has just reached a new rank of a, but he dreams of holding the rank of b. Find for how many more years Vasya should serve in the army until he can finally realize his dream.
-<!-- more -->
+
 #### Input:
 The first input line contains an integer n (2 ≤ n ≤ 100). The second line contains n - 1 integers d<sub>i</sub> (1 ≤ d<sub>i</sub> ≤ 100). The third input line contains two integers a and b (1 ≤ a < b ≤ n). The numbers on the lines are space-separated.
 
@@ -46,4 +48,3 @@ output:
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/c83a93cdf39d598e109761dbb0bd09f1.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/38/A)

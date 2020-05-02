@@ -1,5 +1,5 @@
 ---
-title: Hard problem
+title: CodeForces 706C Hard problem
 date: 2019-12-22 15:10:43
 tags:
     - 一般

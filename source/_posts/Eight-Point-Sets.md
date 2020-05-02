@@ -1,5 +1,5 @@
 ---
-title: Eight Point Sets
+title: Codeforces 334B Eight Point Sets
 date: 2020-04-14 13:06:06
 tags:
     - sortings

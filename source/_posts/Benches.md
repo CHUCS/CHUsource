@@ -1,17 +1,19 @@
 ---
-title: Benches
+title: Codeforces 1042A Benches
 date: 2019-04-20 18:51:15
 tags:
     - implementation
     - binary search
     - 普通 
 ---
+[Codeforces 1042A](https://codeforces.com/problemset/problem/1042/A)
+<!-- more -->
 There are n benches in the Berland Central park. It is known that ai people are currently sitting on the i-th bench. Another m people are coming to the park and each of them is going to have a seat on some bench out of n available.
 
 Let k be the maximum number of people sitting on one bench after additional m people came to the park. Calculate the minimum possible k and the maximum possible k.
 
 Nobody leaves the taken seat during the whole process.
-<!-- more -->
+
 #### Input:
 The first line contains a single integer n (1≤n≤100) — the number of benches in the park.
 
@@ -83,4 +85,3 @@ The second example has its minimum k equal to 15 and maximum k equal to 15, as t
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/5aaf8dd05e85a842d69a5733a2277a67.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/1042/A)

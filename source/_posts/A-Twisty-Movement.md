@@ -1,5 +1,5 @@
 ---
-title: A Twisty Movement
+title: CodeForces 933A A Twisty Movement
 date: 2019-11-17 16:12:07
 tags:
     - dp

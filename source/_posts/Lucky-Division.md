@@ -1,5 +1,5 @@
 ---
-title: Lucky Division
+title: Codeforces 122A Lucky Division
 date: 2019-03-09 18:48:00
 tags:
     - CHU Training
@@ -8,10 +8,12 @@ tags:
     - math
     - 新手
 ---
+[Codeforces 122A](https://codeforces.com/problemset/problem/122/A)
+<!-- more -->
 Petya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.
 
 Petya calls a number almost lucky if it could be evenly divided by some lucky number. Help him find out if the given number n is almost lucky.
-<!-- more -->
+
 #### Input:
 The single line contains an integer n (1 ≤ n ≤ 1000) — the number that needs to be checked.
 
@@ -58,4 +60,3 @@ In the first sample 47 is a lucky number. In the second sample 16 is divisible b
 <script src="https://gist.github.com/Daviswww/79c825a14fee509b9061b7d4fae97c74.js"></script>
 
 
-[題目網址](https://codeforces.com/problemset/problem/122/A)

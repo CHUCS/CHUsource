@@ -1,5 +1,5 @@
 ---
-title: Micro-World
+title: Codeforces 990B Micro-World
 date: 2019-03-09 19:42:15
 tags:
     - CHU Training
@@ -7,6 +7,8 @@ tags:
     - sortings
     - 簡單
 ---
+[Codeforces 990B](https://codeforces.com/problemset/problem/990/B)
+<!-- more -->
 You have a Petri dish with bacteria and you are preparing to dive into the harsh micro-world. But, unfortunately, you don't have any microscope nearby, so you can't watch them.
 
 You know that you have n bacteria in the Petri dish and size of the i-th bacteria is a<sub>i</sub>. Also you know intergalactic positive integer constant K.
@@ -17,7 +19,7 @@ For example, the sequence of bacteria sizes a=[101,53,42,102,101,55,54] and K=1.
 
 Since you don't have a microscope, you can only guess, what the minimal possible number of bacteria can remain in your Petri dish when you finally will find any microscope.
 
-<!-- more -->
+
 #### Input:
 The first line contains two space separated positive integers n and K (1≤n≤2⋅10<sup>5</sup>, 1≤K≤10<sup>6</sup>) — number of bacteria and intergalactic constant K.
 
@@ -70,4 +72,3 @@ In the third example no bacteria can swallow any other bacteria.
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/ea7da7267654c3a79516b4bb44aac686.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/990/B)

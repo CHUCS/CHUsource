@@ -1,10 +1,12 @@
 ---
-title: Metro
+title: Codeforces 1055A Metro
 date: 2019-04-27 18:42:37
 tags:
     - 簡單
     - greedy
 ---
+[Codeforces 1055A](https://codeforces.com/problemset/problem/1055/A)
+<!-- more -->
 Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home.
 
 In the city in which Alice and Bob live, the first metro line is being built. This metro line contains n
@@ -15,7 +17,7 @@ and trains on the second track go in reverse direction. Just after the train arr
 Some stations are not yet open at all and some are only partially open — for each station and for each track it is known whether the station is closed for that track or not. If a station is closed for some track, all trains going in this track's direction pass the station without stopping on it.
 
 When the Bob got the information on opened and closed stations, he found that traveling by metro may be unexpectedly complicated. Help Bob determine whether he can travel to the Alice's home by metro or he should search for some other transport.
-<!-- more -->
+
 #### Input:
 The first line contains two integers n and s (2≤s≤n≤1000) — the number of stations in the metro and the number of the station where Alice's home is located. Bob lives at station 1.
 
@@ -77,4 +79,3 @@ In the third example, Bob simply can't enter the train going in the direction of
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/493c55ecd43681443a4363ceda9a1f69.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/1055/A)

@@ -1,5 +1,5 @@
 ---
-title: Data Center
+title: CodeForces 1250F Data Center
 date: 2019-11-26 15:32:50
 tags:
     - 新手

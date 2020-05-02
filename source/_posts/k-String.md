@@ -1,5 +1,5 @@
 ---
-title: k-String
+title: Codeforces 219A k-String
 date: 2020-04-27 17:02:09
 tags:
     - implementation

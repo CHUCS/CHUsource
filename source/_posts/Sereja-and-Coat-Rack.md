@@ -1,5 +1,5 @@
 ---
-title: Sereja and Coat Rack
+title: CodeForces 368A Sereja and Coat Rack
 date: 2020-04-07 13:47:48
 tags:
     - implementation

@@ -1,5 +1,5 @@
 ---
-title: Songs Compression
+title: Codeforces 1015C Songs Compression
 date: 2019-03-26 13:24:53
 tags:
     - CHU Training
@@ -8,6 +8,8 @@ tags:
     - greedy
     - 簡單
 ---
+[Codeforces 1015C](https://codeforces.com/problemset/problem/1015/C)
+<!-- more -->
 Ivan has n songs on his phone. The size of the i-th song is a<sub>i</sub> bytes. Ivan also has a flash drive which can hold at most m bytes in total. Initially, his flash drive is empty.
 
 Ivan wants to copy all n songs to the flash drive. He can compress the songs. If he compresses the i-th song, the size of the i-th song reduces from a<sub>i</sub> to b<sub>i</sub> bytes (b<sub>i</sub> < a<sub>i</sub>).
@@ -17,7 +19,7 @@ Ivan can compress any subset of the songs (possibly empty) and copy all the song
 Ivan wants to find the minimum number of songs he needs to compress in such a way that all his songs fit on the drive (i.e. the sum of their sizes is less than or equal to m).
 
 If it is impossible to copy all the songs (even if Ivan compresses all the songs), print "-1". Otherwise print the minimum number of songs Ivan needs to compress.
-<!-- more -->
+
 #### Input:
 The first line of the input contains two integers n and m (1≤n≤10<sup>5</sup>,1≤m≤10<sup>9</sup>) — the number of the songs on Ivan's phone and the capacity of Ivan's flash drive.
 
@@ -66,4 +68,3 @@ In the second example even if Ivan compresses all the songs the sum of sizes wil
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/d228c2a19a77b9da421e25e87cd3e3d9.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/1015/C)

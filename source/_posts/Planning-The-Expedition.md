@@ -1,11 +1,13 @@
 ---
-title: Planning The Expedition
+title: Codeforces 1011B Planning The Expedition
 date: 2019-05-05 22:00:58
 tags:
     - 普通
     - binary search 
     - implementation
 ---
+[Codeforces 1011B](https://codeforces.com/problemset/problem/1011/B)
+<!-- more -->
 Natasha is planning an expedition to Mars for n people. One of the important tasks is to provide food for each participant.
 
 The warehouse has m daily food packages. Each package has some food type a<sub>i</sub>.
@@ -15,7 +17,7 @@ Each participant must eat exactly one food package each day. Due to extreme load
 Formally, for each participant j Natasha should select his food type b<sub>j</sub> and each day j-th participant will eat one food package of type b<sub>j</sub>. The values b<sub>j</sub> for different participants may be different.
 
 What is the maximum possible number of days the expedition can last, following the requirements above?
-<!-- more -->
+
 #### Input:
 The first line contains two integers n and m (1≤n≤100, 1≤m≤100) — the number of the expedition participants and the number of the daily food packages available.
 
@@ -74,4 +76,3 @@ In the second example, there are 100 participants and only 1 food package. In th
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/df2e49ff2e71f26223bf4be6dce43c51.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/1011/B)

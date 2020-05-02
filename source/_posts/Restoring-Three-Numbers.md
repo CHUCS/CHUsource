@@ -1,5 +1,5 @@
 ---
-title: Restoring Three Numbers
+title: CodeForces 1154A Restoring Three Numbers
 date: 2019-12-14 11:57:39
 tags:
     - math

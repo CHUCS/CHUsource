@@ -1,11 +1,11 @@
 ---
-title: Dead Pixel
+title: Codeforces 1315A Dead Pixel
 date: 2020-02-26 13:54:52
 tags:
     - implementation
     - 簡單
 ---
-[Ｃodeforces 1315A](https://codeforces.com/contest/1315/problem/A)
+[Codeforces 1315A](https://codeforces.com/contest/1315/problem/A)
 <!-- more -->
 
 #### 題意:

@@ -1,10 +1,10 @@
 ---
-title: Hello World
+title: UVA 11636 Hello World
 date: 2019-11-17 10:09:51
 tags:
 - implementation
 ---
-[UVA11636](https://onlinejudge.org/external/116/11636.pdf)
+[UVA 11636](https://onlinejudge.org/external/116/11636.pdf)
 <!-- more -->
 
 #### 題意:

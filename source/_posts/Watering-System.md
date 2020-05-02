@@ -7,12 +7,14 @@ tags:
     - sortings
     - 簡單
 ---
+[Codeforces 967B](https://codeforces.com/problemset/problem/967/B)
+<!-- more -->
 Arkady wants to water his only flower. Unfortunately, he has a very poor watering system that was designed for n flowers and so it looks like a pipe with n holes. Arkady can only use the water that flows from the first hole.
 
 Arkady can block some of the holes, and then pour A liters of water into the pipe. After that, the water will flow out from the non-blocked holes proportionally to their sizes s<sub>1</sub>,s<sub>2</sub>,…,s<sub>n</sub>. In other words, if the sum of sizes of non-blocked holes is S, and the i-th hole is not blocked, (s<sub>i</sub>*A)/S liters of water will flow out of it.
 
 What is the minimum number of holes Arkady should block to make at least B liters of water flow out of the first hole?
-<!-- more -->
+
 #### Input:
 The first line contains three integers n, A, B (1≤n≤100000, 1≤B≤A≤10<sup>4</sup>) — the number of holes, the volume of water Arkady will pour into the system, and the volume he wants to get out of the first hole.
 
@@ -64,4 +66,4 @@ In the third example Arkady has to block all holes except the first to make all 
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/90d9bdcc8d2015c0ddf60c339600b94f.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/967/B)
+

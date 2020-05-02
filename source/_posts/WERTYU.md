@@ -1,5 +1,5 @@
 ---
-title: WERTYU
+title: UVA 10082 WERTYU
 date: 2019-11-17 10:21:35
 tags:
 - implementation

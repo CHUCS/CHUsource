@@ -1,5 +1,5 @@
 ---
-title: All in All
+title: UVA 10340 All in All
 date: 2019-11-17 10:28:54
 tags:
 - implementation

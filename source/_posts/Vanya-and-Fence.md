@@ -1,5 +1,5 @@
 ---
-title: Vanya and Fence
+title: Codeforces 677A Vanya and Fence
 date: 2020-04-12 16:30:45
 tags:
     - implementation

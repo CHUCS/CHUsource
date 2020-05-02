@@ -1,5 +1,5 @@
 ---
-title: Teams Forming
+title: Codeforces 216B Teams Forming
 date: 2019-03-26 13:24:41
 tags:
     - CHU Training
@@ -8,6 +8,8 @@ tags:
     - greedy
     - 簡單
 ---
+[Codeforces 216B](https://codeforces.com/problemset/problem/216/B)
+<!-- more -->
 One day n students come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.
 
 We know that this group of people has archenemies. Each student has at most two archenemies. Besides, if student A is an archenemy to student B, then student B is an archenemy to student A.
@@ -15,7 +17,7 @@ We know that this group of people has archenemies. Each student has at most two 
 The students want to split so as no two archenemies were in one team. If splitting in the required manner is impossible, some students will have to sit on the bench.
 
 Determine the minimum number of students you will have to send to the bench in order to form the two teams in the described manner and begin the game at last.
-<!-- more -->
+
 #### Input:
 The first line contains two integers n and m (2 ≤ n ≤ 100, 1 ≤ m ≤ 100) — the number of students and the number of pairs of archenemies correspondingly.
 
@@ -71,4 +73,3 @@ n個學生要分成n/2組，每1組保證正好2個人，每個人都有各自�
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/bc6568329876e43c5ddbf19948035b6f.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/216/B)

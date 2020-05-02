@@ -1,11 +1,13 @@
 ---
-title: Anton and Polyhedrons
+title: Codeforces 785A Anton and Polyhedrons
 date: 2019-04-20 18:05:09
 tags:
     - implementation
     - string
     - 新手
 ---
+[Codeforces 785A](https://codeforces.com/problemset/problem/785/A)
+<!-- more -->
 Anton's favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:
 >>● Tetrahedron. Tetrahedron has 4 triangular faces.
 >>● Cube. Cube has 6 square faces.
@@ -15,7 +17,7 @@ Anton's favourite geometric figures are regular polyhedrons. Note that there are
 All five kinds of polyhedrons are shown on the picture below:
 ![A](A.PNG)
 Anton has a collection of n polyhedrons. One day he decided to know, how many faces his polyhedrons have in total. Help Anton and find this number!
-<!-- more -->
+
 #### Input:
 The first line of the input contains a single integer n (1 ≤ n ≤ 200 000) — the number of polyhedrons in Anton's collection.
 Each of the following n lines of the input contains a string s<sub>i</sub> — the name of the i-th polyhedron in Anton's collection. 
@@ -65,4 +67,3 @@ In the first sample Anton has one icosahedron, one cube, one tetrahedron and one
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/549840b54864ea08c6b80c319837adee.js"></script>
-[題目網址](https://codeforces.com/problemset/problem/785/A)

@@ -1,10 +1,12 @@
 ---
-title: The 3n + 1 problem
+title: UVA 100 The 3n + 1 problem
 date: 2019-10-15 19:30:25
 tags:
 ---
-Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.
+[UVA 100](https://onlinejudge.org/external/1/100.pdf)
 <!-- more -->
+Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.
+
 Consider the following algorithm:
 1. input n
 2. print n
@@ -58,4 +60,4 @@ output:
 把循環的演算法先寫出來回傳它的長度，在i到j的數計算每個數進入演算法重複的次數，取最大的一個，把i，j和最大的數印出。
 #### 程式碼:
 <script src="https://gist.github.com/89snnfk561/63c386f78060c514d21dd5db59bfc802.js"></script>
-[題目網址](https://onlinejudge.org/external/1/100.pdf)
+

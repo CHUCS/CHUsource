@@ -1,5 +1,5 @@
 ---
-title: Ehab Is an Odd Person
+title: CodeForces 1174B Ehab Is an Odd Person
 date: 2020-04-07 13:48:18
 tags:
     - sortings

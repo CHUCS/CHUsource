@@ -1,5 +1,5 @@
 ---
-title: Dice I
+title: AOJ ITP1_11_A Dice I
 date: 2019-11-26 15:35:25
 tags:
     - implementation

@@ -1,12 +1,14 @@
 ---
-title: Pipeline
+title: Codeforces 287B Pipeline
 date: 2019-10-20 22:51:40
 tags:
     - binary search
     - math
 ---
-Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply. 
+[Codeforces 287B](https://codeforces.com/problemset/problem/287/B)
 <!-- more -->
+Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply. 
+
 A pipe can be connected to the water supply if there's water flowing out of it. Initially Vova has only one pipe with flowing water. Besides, Vova has several splitters.
 
 A splitter is a construction that consists of one input (it can be connected to a water pipe) and x output pipes. When a splitter is connected to a water pipe, water flows from each output pipe. You can assume that the output pipes are ordinary pipes. For example, you can connect water supply to such pipe if there's water flowing out from it. At most one splitter can be connected to any water pipe.
@@ -62,4 +64,3 @@ Vova需要管道中有正好n根流出水的管道。其中一些管道可以是
 #### 程式碼:
 <script src="https://gist.github.com/89snnfk561/e95472b21f34e1b7ca5440a4a11da55a.js"></script>
 
-[題目網址](https://codeforces.com/problemset/problem/287/B)
