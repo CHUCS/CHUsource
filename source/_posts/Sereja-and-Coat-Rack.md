@@ -5,6 +5,7 @@ tags:
     - implementation
     - 普通
 ---
+# CodeForces 368A - Sereja and Coat Rack
 [Sereja and Coat Rack](https://codeforces.com/problemset/problem/368/A)
 
 

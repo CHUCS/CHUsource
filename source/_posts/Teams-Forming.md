@@ -8,6 +8,7 @@ tags:
     - greedy
     - 簡單
 ---
+# Codeforces 216B - Teams Forming
 [Teams Forming](https://codeforces.com/problemset/problem/216/B)
 
 One day n students come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.

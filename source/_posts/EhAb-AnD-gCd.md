@@ -7,7 +7,7 @@ tags:
     - greedy
     - 普通
 ---
-
+# CodeForces 1325A - EhAb AnD gCd
 [EhAb AnD gCd](https://codeforces.com/problemset/problem/1325/A)
 
 

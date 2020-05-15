@@ -5,6 +5,7 @@ tags:
     - sortings
     - 普通
 ---
+# Codeforces 652B - z-sort
 [z-sort](https://codeforces.com/problemset/problem/652/B)
 
 #### 題意:

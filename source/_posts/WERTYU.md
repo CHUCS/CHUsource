@@ -4,6 +4,7 @@ date: 2019-11-17 10:21:35
 tags:
 - implementation
 ---
+# UVA 10082 - WERTYU
 [WERTYU](https://onlinejudge.org/external/100/10082.pdf)
 
 

@@ -5,6 +5,7 @@ tags:
     - 簡單
     - greedy
 ---
+# Codeforces 1055A - Metro
 [Metro](https://codeforces.com/problemset/problem/1055/A)
 
 Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home.

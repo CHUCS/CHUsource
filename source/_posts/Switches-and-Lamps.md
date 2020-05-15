@@ -5,6 +5,7 @@ tags:
     - 普通
     - implementation
 ---
+# Codeforces 985B - Switches and Lamps
 [Switches and Lamps](https://codeforces.com/problemset/problem/985/B)
 
 

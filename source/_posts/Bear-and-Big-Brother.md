@@ -5,6 +5,7 @@ tags:
     - implementation
     - 新手
 ---
+# CodeForces 791A - Bear and Big Brother
 [Bear and Big Brother](http://codeforces.com/problemset/problem/791/A)
 
 

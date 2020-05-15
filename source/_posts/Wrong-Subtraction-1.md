@@ -5,6 +5,7 @@ tags:
     - implementation
     - 新手
 ---
+# CodeForces 977A v2 - Wrong Subtraction
 [Wrong Subtraction](http://codeforces.com/problemset/problem/977/A)
 
 

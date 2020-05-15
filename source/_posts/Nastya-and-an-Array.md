@@ -7,6 +7,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 992A - Nastya and an Array
 [Nastya and an Array](https://codeforces.com/problemset/problem/992/A)
 
 Nastya owns too many arrays now, so she wants to delete the least important of them. However, she discovered that this array is magic! Nastya now knows that the array has the following properties:

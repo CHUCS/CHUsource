@@ -9,6 +9,7 @@ tags:
     - math
     - shortest paths
 ---
+# Codeforces 520B - Two Buttons
 [Two Buttons](https://codeforces.com/problemset/problem/520/B)
 
 Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. 

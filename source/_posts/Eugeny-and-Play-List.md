@@ -7,6 +7,7 @@ tags:
     - binary search 
     - 普通
 ---
+# Codeforces 302B - Eugeny and Play List
 [Eugeny and Play List](https://codeforces.com/problemset/problem/302/B)
 
 Eugeny loves listening to music. He has n songs in his play list. We know that song number i has the duration of t<sub>i</sub> minutes. Eugeny listens to each song, perhaps more than once. He listens to song number i c<sub>i</sub> times. Eugeny's play list is organized as follows: first song number 1 plays c<sub>1</sub> times, then song number 2 plays c<sub>2</sub> times, ..., in the end the song number n plays cn times.

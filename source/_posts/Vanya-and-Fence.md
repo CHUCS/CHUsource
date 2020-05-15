@@ -5,6 +5,7 @@ tags:
     - implementation
     - 新手
 ---
+# Codeforces 677A - Vanya and Fence
 [Vanya and Fence](https://codeforces.com/contest/677/problem/A)
 
 

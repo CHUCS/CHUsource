@@ -6,6 +6,7 @@ tags:
     - math
     - 簡單
 ---
+# Codeforces 976B - Lara Croft and the New Game
 [Lara Croft and the New Game](https://codeforces.com/problemset/problem/976/B)
 
 You might have heard about the next game in Lara Croft series coming out this year. You also might have watched its trailer. Though you definitely missed the main idea about its plot, so let me lift the veil of secrecy.

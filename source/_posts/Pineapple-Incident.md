@@ -6,6 +6,7 @@ tags:
     - math
     - 簡單
 ---
+# Codeforces 697A - Pineapple Incident
 [Pineapple Incident](https://codeforces.com/problemset/problem/697/A)
 
 

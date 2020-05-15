@@ -7,6 +7,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 990B - Micro-World
 [Micro-World](https://codeforces.com/problemset/problem/990/B)
 
 You have a Petri dish with bacteria and you are preparing to dive into the harsh micro-world. But, unfortunately, you don't have any microscope nearby, so you can't watch them.

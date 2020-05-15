@@ -9,14 +9,17 @@
     });
   </script>
   <script data-ad-client="ca-pub-8906140811059676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta http-equiv="content-language" content="zh-tw">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="google-site-verification" content="3grsEVPDeg5_ktwC4lbJ6p3Ts2vmlUyUSQwPtFp0jQs">
   <meta name="yandex-verification" content="4227a483ac83a3da">
   <meta name="msvalidate.01" content="DCF11F2014E9D53E3226C978BCE45EEC">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="description" content="解答Codeforces, UVa, AOJ等題目，希望可以幫助大家學習。Submissions by Codeforces and UVa etc... online judge workspace.">
   
   
-  <title>  CodeForces 1324B |   CHUCS </title>
+  <title>  CodeForces 1324B |   CHUCSIE </title>
 
  
   
@@ -97,7 +100,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">405
+				<span class="post-info-entry">448
 				</span>
 			
 		</div>
@@ -111,7 +114,7 @@
 		
 
 			
-					<p><a href="https://codeforces.com/problemset/problem/1324/B" target="_blank" rel="noopener">Yet Another Palindrome Problem</a></p>
+					<h1 id="CodeForces-1324B-Yet-Another-Palindrome-Problem"><a href="#CodeForces-1324B-Yet-Another-Palindrome-Problem" class="headerlink" title="CodeForces 1324B - Yet Another Palindrome Problem"></a>CodeForces 1324B - Yet Another Palindrome Problem</h1><p><a href="https://codeforces.com/problemset/problem/1324/B" target="_blank" rel="noopener">Yet Another Palindrome Problem</a></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一串數列，問你能不能在其中挑出長度至少為3並且是迴文的子序列？</p>
 <a id="more"></a>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>首先，迴文長度若是偶數，表示中心兩個字是一樣的，那就可以不取其中一個，將迴文長度轉為奇數；其次，若迴文長度是奇數，則最旁邊兩個一定是一樣的，可以一起去掉，讓長度減2且還是奇數。綜合前面兩點，可以得知若有迴文，則一定可以推導成長度3的迴文，因此，目標可以推導成要找出有沒有長度正好是3的迴文。接下來觀察長度正好是3迴文，發現只有兩種模式，aaa和aba，第一種由3個一樣的字組成，第二個由兩個不連續的一樣字夾著一個不一樣的字組成。邊輸入邊記錄所有數字的出現次數和出現位置，若有數字出現3次以上，那就可以形成第一種迴文，輸出YES；若有數字出現兩次了，計算這兩次出現位置是不是不再隔壁，是的話中間就可以隨便挑一個夾著形成第二種迴文，輸出YES；都無法滿足就輸出NO。</p>

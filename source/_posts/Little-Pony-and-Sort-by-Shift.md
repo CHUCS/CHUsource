@@ -5,6 +5,7 @@ tags:
     - implementation
     - 普通
 ---
+# Codeforces 454B - Little Pony and Sort by Shift
 [Little Pony and Sort by Shift](https://codeforces.com/problemset/problem/454/B)
 
 

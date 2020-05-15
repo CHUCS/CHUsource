@@ -4,8 +4,8 @@ date: 2019-11-17 11:13:12
 tags:
 - math
 ---
+# UVA 13178 - Is it multiple of 3
 [Is it multiple of 3](https://onlinejudge.org/external/131/13178.pdf)
-
 
 #### 題意:
 連續的1234567891011這樣的字串幫他檢查是否是3的倍數。

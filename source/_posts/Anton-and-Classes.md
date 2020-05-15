@@ -6,8 +6,8 @@ tags:
     - sortings
     - 普通
 ---
+# Codeforces 785B - Anton and Classes
 [Anton and Classes](https://codeforces.com/problemset/problem/785/B)
-
 
 #### 題意:
 現在有n個A課程的開始及結束時間，m個B課程的開始及結束時間。現在要在A跟B課程中各挑1個，讓他們中間的間隔時間愈長愈好，問你最長可以是多少？

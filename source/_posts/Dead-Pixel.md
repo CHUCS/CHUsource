@@ -5,6 +5,7 @@ tags:
     - implementation
     - 簡單
 ---
+# Codeforces 1315A - Dead Pixel
 [Dead Pixel](https://codeforces.com/contest/1315/problem/A)
 
 

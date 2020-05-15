@@ -6,6 +6,7 @@ tags:
 - sortings
 - math
 ---
+# Codeforces 1197A - DIY Wooden Ladder
 [DIY Wooden Ladder](http://codeforces.com/problemset/problem/1197/A)
 
 Let's denote a k-step ladder as the following structure: exactly k+2 wooden planks, of which

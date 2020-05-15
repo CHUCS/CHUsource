@@ -7,6 +7,7 @@ tags:
     - sortings
     - strings
 ---
+# CodeForces 1220A - Cards
 [Cards](https://codeforces.com/problemset/problem/1220/A)
 
 

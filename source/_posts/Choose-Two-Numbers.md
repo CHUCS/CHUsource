@@ -6,6 +6,7 @@ tags:
     - sortings
     - 普通
 ---
+# CodeForces 1206A - Choose Two Numbers
 [Choose Two Numbers](https://codeforces.com/problemset/problem/1206/A)
 
 

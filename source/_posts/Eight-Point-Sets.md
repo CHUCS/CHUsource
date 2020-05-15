@@ -5,6 +5,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 334B - Eight Point Sets
 [Eight Point Sets](https://codeforces.com/problemset/problem/334/B)
 
 

@@ -7,6 +7,7 @@ tags:
     - implementation
     - 新手
 ---
+# Codeforces 313A - Ilya and Bank Account
 [Ilya and Bank Account](https://codeforces.com/problemset/problem/313/A)
 
 Ilya is a very clever lion, he lives in an unusual city ZooVille. In this city all the animals have their rights and obligations. Moreover, they even have their own bank accounts. The state of a bank account is an integer. The state of a bank account can be a negative number. This means that the owner of the account owes the bank money.

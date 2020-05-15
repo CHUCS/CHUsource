@@ -8,6 +8,7 @@ tags:
     - sortings
     - 普通
 ---
+# Codeforces 706B - Interesting drink
 [Interesting drink](https://codeforces.com/problemset/problem/706/B)
 
 Vasiliy likes to rest after a hard work, so you may often meet him in some bar nearby. As all programmers do, he loves the famous drink "Beecola", which can be bought in n different shops in the city. It's known that the price of one bottle in the shop i is equal to x<sub>i</sub> coins.

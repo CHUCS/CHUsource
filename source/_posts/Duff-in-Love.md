@@ -4,6 +4,7 @@ date: 2019-10-26 11:28:10
 tags:
     - math
 ---
+# Codeforces 588B - Duff in Love
 [Duff in Love](https://codeforces.com/contest/588/problem/B)
 
 Duff is in love with lovely numbers! A positive integer x is called lovely if and only if there is no such positive integer a > 1 such that a2 is a divisor of x.

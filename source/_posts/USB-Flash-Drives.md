@@ -8,6 +8,7 @@ tags:
     - greedy
     - 簡單
 ---
+# Codeforces 609A - USB Flash Drives
 [USB Flash Drives](https://codeforces.com/problemset/problem/609/A)
 
 Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> megabytes. The file size is equal to m megabytes.

@@ -5,6 +5,7 @@ tags:
     - implementation
     - 簡單
 ---
+# AOJ ITP1_11_A - Dice I
 [Dice I](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_11_A)
 
 

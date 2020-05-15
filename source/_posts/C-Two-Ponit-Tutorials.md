@@ -1,10 +1,11 @@
 ---
-title: C++ Two Ponit  Tutorials
+title: C++ Two Ponit Tutorials
 date: 2020-04-15 13:49:35
 tags:
     - tutorials
     - cpp
 ---
+# C++ Two Ponit Tutorials
 ### #雙指標
 + 用來從陣列中搜尋特定區間
 + 耗時為O(N)，比暴力法(O(N^2))快

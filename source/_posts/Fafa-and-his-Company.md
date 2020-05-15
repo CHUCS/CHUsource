@@ -8,6 +8,7 @@ tags:
     - implementation
     - 新手
 ---
+# Codeforces 935A - Fafa and his Company
 [Fafa and his Company](https://codeforces.com/problemset/problem/935/A)
 
 Fafa owns a company that works on huge projects. There are n employees in Fafa's company. Whenever the company has a new project to start working on, Fafa has to divide the tasks of this project among all the employees.

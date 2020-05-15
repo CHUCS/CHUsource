@@ -6,6 +6,7 @@ tags:
     - brute force
     - implementation
 ---
+# CodeForces 935A - Fafa and his Company
 [Fafa and his Company](http://codeforces.com/problemset/problem/935/A)
 
 

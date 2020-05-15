@@ -6,6 +6,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 1095B - Array Stabilization
 [Array Stabilization](https://codeforces.com/problemset/problem/1095/B)
 
 

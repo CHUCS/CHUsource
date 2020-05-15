@@ -7,6 +7,7 @@ tags:
     - math
     - sortings
 ---
+# Codeforces 269A - Magical Boxes
 [Magical Boxes](https://codeforces.com/problemset/problem/269/A)
 
 Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.

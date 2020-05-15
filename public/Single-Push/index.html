@@ -9,14 +9,17 @@
     });
   </script>
   <script data-ad-client="ca-pub-8906140811059676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta http-equiv="content-language" content="zh-tw">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="google-site-verification" content="3grsEVPDeg5_ktwC4lbJ6p3Ts2vmlUyUSQwPtFp0jQs">
   <meta name="yandex-verification" content="4227a483ac83a3da">
   <meta name="msvalidate.01" content="DCF11F2014E9D53E3226C978BCE45EEC">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="description" content="解答Codeforces, UVa, AOJ等題目，希望可以幫助大家學習。Submissions by Codeforces and UVa etc... online judge workspace.">
   
   
-  <title>  CodeForces 1253A |   CHUCS </title>
+  <title>  CodeForces 1253A |   CHUCSIE </title>
 
  
   
@@ -97,7 +100,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">260
+				<span class="post-info-entry">286
 				</span>
 			
 		</div>
@@ -111,7 +114,7 @@
 		
 
 			
-					<p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">Single Push</a></p>
+					<h1 id="CodeForces-1253A-Single-Push"><a href="#CodeForces-1253A-Single-Push" class="headerlink" title="CodeForces 1253A - Single Push"></a>CodeForces 1253A - Single Push</h1><p><a href="http://codeforces.com/problemset/problem/1253/A" target="_blank" rel="noopener">Single Push</a></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你兩條字串問你兩條字串是否相等，而你可以將連續的區間加上一個N使的兩個字串相等，例如a=[3,7,1,4,1,2], b=[3,7,3,6,3,2]， 所以你可以把a[2]~a[4]加上2兩條數列就會一樣，可以相等輸出YES否則NO(如果a陣列有數字大於b也是輸出NO)。</p>
 <a id="more"></a>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>將兩數列相減後的結果存在一個陣列內，接著比對前後相不相等，不相等的話ok++，如果ok大於等於2的話代表有超過2次不一樣，所以一定不可能將一個區間加上一個數就可以相等。如果是負的話直接加10讓他超過2。</p>

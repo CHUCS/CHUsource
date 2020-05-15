@@ -6,6 +6,7 @@ tags:
     - sortings
     - implementation
 ---
+# Codeforces 378B - Semifinals
 [Semifinals](https://codeforces.com/problemset/problem/378/B)
 
 Two semifinals have just been in the running tournament. Each semifinal had n participants. There are n participants advancing to the finals, they are chosen as follows: from each semifinal, we choose k people (0 ≤ 2k ≤ n) who showed the best result in their semifinals and all other places in the finals go to the people who haven't ranked in the top k in their semifinal but got to the n - 2k of the best among the others.

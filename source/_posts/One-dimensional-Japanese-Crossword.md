@@ -7,6 +7,7 @@ tags:
     - implementation
     - 新手  
 ---
+# Codeforces 721A - One-dimensional Japanese Crossword
 [One-dimensional Japanese Crossword](https://codeforces.com/problemset/problem/721/A)
 
 Recently Adaltik discovered japanese crosswords. Japanese crossword is a picture, represented as a table sized a × b squares, and each square is colored white or black. There are integers to the left of the rows and to the top of the columns, encrypting the corresponding row or column. The number of integers represents how many groups of black squares there are in corresponding row or column, and the integers themselves represents the number of consecutive black squares in corresponding group (you can find more detailed explanation in Wikipedia https://en.wikipedia.org/wiki/Japanese_crossword).

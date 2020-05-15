@@ -6,6 +6,7 @@ tags:
     - implementation
     - sortings
 ---
+# Codeforces 1146A - LOVE A
 [LOVE A](https://codeforces.com/contest/1146/problem/A)
 
 Alice has a string s. She really likes the letter "a". She calls a string good if strictly more than half of the characters in that string are "a"s. For example "aaabb", "axaa" are good strings, and "baca", "awwwa", "" (empty string) are not.

@@ -5,6 +5,7 @@ tags:
     - sortings
     - 普通
 ---
+# CodeForces 1174B - Ehab Is an Odd Person
 [Ehab Is an Odd Person](https://codeforces.com/problemset/problem/1174/B)
 
 

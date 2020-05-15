@@ -6,6 +6,7 @@ tags:
     - brute force
     - greedy
 ---
+# Codeforces 231A - Team
 [Team](https://codeforces.com/contest/231/problem/A)
 
 

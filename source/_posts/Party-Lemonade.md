@@ -6,6 +6,7 @@ tags:
     - greedy
     - dp
 ---
+# CodeForces 913C - Party Lemonade
 [Party Lemonade](https://codeforces.com/problemset/problem/913/C)
 
 

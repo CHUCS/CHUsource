@@ -1,5 +1,5 @@
 ---
-title: codeforces 507A
+title: Codeforces 507A
 date: 2019-03-21 09:51:53
 tags:
     - CHU Training
@@ -8,7 +8,7 @@ tags:
     - greedy
     - 簡單
 ---
-
+# Codeforces 507A - Amr and Music
 [Amr and Music](https://codeforces.com/problemset/problem/507/A)
 
 Amr is a young coder who likes music a lot. He always wanted to learn how to play music but he was busy coding so he got an idea.

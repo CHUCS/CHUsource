@@ -7,6 +7,7 @@ tags:
     - implementation
     - 簡單
 ---
+# Codeforces 965B - Battleship
 [Battleship](https://codeforces.com/problemset/problem/965/B)
 
 Arkady is playing Battleship. The rules of this game aren't really important.

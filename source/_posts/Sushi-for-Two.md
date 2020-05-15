@@ -8,6 +8,7 @@ tags:
     - two pointers
     - 普通
 ---
+# Codeforces 1138A - Sushi for Two
 [Sushi for Two](https://codeforces.com/problemset/problem/1138/A)
 
 Arkady invited Anna for a dinner to a sushi restaurant. The restaurant is a bit unusual: it offers n pieces of sushi aligned in a row, and a customer has to choose a continuous subsegment of these sushi to buy.

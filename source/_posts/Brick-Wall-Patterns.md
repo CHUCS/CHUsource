@@ -5,6 +5,7 @@ tags:
     - 新手
     - dp
 ---
+# UVA 900 - Brick Wall Patterns
 [Brick Wall Patterns](https://onlinejudge.org/external/9/900.pdf)
 
 

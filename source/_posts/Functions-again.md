@@ -6,6 +6,7 @@ tags:
     - two pointers
     - dp
 ---
+# CodeForces 788A  - Functions again
 [Functions again](http://codeforces.com/problemset/problem/788/A)
 
 

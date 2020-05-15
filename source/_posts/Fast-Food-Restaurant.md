@@ -7,6 +7,7 @@ tags:
     - implementation
     - 簡單
 ---
+# CodeForces 1313A - Fast Food Restaurant
 [Fast Food Restaurant](https://codeforces.com/problemset/problem/1313/A)
 
 

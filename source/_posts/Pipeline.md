@@ -5,6 +5,7 @@ tags:
     - binary search
     - math
 ---
+# Codeforces 287B - Pipeline
 [Pipeline](https://codeforces.com/problemset/problem/287/B)
 
 Vova, the Ultimate Thule new shaman, wants to build a pipeline. As there are exactly n houses in Ultimate Thule, Vova wants the city to have exactly n pipes, each such pipe should be connected to the water supply. 

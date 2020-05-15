@@ -4,6 +4,7 @@ date: 2019-11-17 10:47:29
 tags:
 - implementation
 ---
+# UVA 11942 - Lumberjack Sequencing
 [Lumberjack Sequencing](https://onlinejudge.org/external/119/11942.pdf)
 
 

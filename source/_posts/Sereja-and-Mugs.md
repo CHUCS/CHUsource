@@ -7,6 +7,7 @@ tags:
     - implementation
     - 新手 
 ---
+# Codeforces 426A - Sereja and Mugs
 [Sereja and Mugs](https://codeforces.com/problemset/problem/426/A)
 
 Sereja showed an interesting game to his friends. The game goes like that. Initially, there is a table with an empty cup and n water mugs on it. Then all players take turns to move. During a move, a player takes a non-empty mug of water and pours all water from it into the cup. If the cup overfills, then we assume that this player lost.

@@ -6,6 +6,7 @@ tags:
     - implementation
     - 簡單
 ---
+# CodeForces 509A - Maximum in Table
 [Maximum in Table](https://codeforces.com/problemset/problem/509/A)
 
 

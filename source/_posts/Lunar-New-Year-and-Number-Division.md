@@ -7,6 +7,7 @@ tags:
 - math
 - sortings
 ---
+# Codeforces 1106C - Lunar New Year and Number Division
 [Lunar New Year and Number Division](https://codeforces.com/problemset/problem/1106/C)
 
 Lunar New Year is approaching, and Bob is struggling with his homework – a number division problem.

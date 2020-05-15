@@ -5,6 +5,7 @@ tags:
     - 簡單
     - greedy
 ---
+# UVA 12694 - Meeting Room Arrangement
 [Meeting Room Arrangement](https://onlinejudge.org/external/126/12694.pdf)
 
 

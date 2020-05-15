@@ -5,6 +5,7 @@ tags:
     - implementation
     - 普通
 ---
+# CodeForces 450A - Jzzhu and Children
 [Jzzhu and Children](https://codeforces.com/problemset/problem/450/A)
 
 

@@ -5,6 +5,7 @@ tags:
     - math
     - 新手
 ---
+# CodeForces 1154A - Restoring Three Numbers
 [Restoring Three Numbers](http://codeforces.com/problemset/problem/1154/A)
 
 

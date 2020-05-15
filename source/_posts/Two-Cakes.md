@@ -6,6 +6,7 @@ tags:
     - implementation
     - 普通
 ---
+# Codeforces 911B - Two Cakes
 [Two Cakes](https://codeforces.com/problemset/problem/911/B)
 
 It's New Year's Eve soon, so Ivan decided it's high time he started setting the table. Ivan has bought two cakes and cut them into pieces: the first cake has been cut into a pieces, and the second one — into b pieces.

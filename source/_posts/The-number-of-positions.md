@@ -7,6 +7,7 @@ tags:
     - math
     - 新手
 ---
+# Codeforces 124A - The number of positions
 [The number of positions](https://codeforces.com/problemset/problem/124/A)
 
 Petr stands in line of n people, but he doesn't know exactly which position he occupies. He can say that there are no less than a people standing in front of him and no more than b people standing behind him. Find the number of different positions Petr can occupy.

@@ -6,6 +6,7 @@ tags:
     - implementation
     - 一般
 ---
+# Codeforces 84B - Magical Array
 [Magical Array](https://codeforces.com/contest/84/problem/B)
 
 

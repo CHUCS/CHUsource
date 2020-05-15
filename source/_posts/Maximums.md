@@ -6,6 +6,7 @@ tags:
     - math
     - 簡單
 ---
+# CodeForces 1326B - Maximums
 [Maximums](https://codeforces.com/problemset/problem/1326/B)
 
 

@@ -7,6 +7,7 @@ tags:
     - number theory
     - dp
 ---
+# CodeForces 414B - Mashmokh and ACM
 [Mashmokh and ACM](http://codeforces.com/problemset/problem/414/B)
 
 

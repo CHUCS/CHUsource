@@ -7,6 +7,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 653A - Bear and Three Balls
 [Bear and Three Balls](https://codeforces.com/problemset/problem/653/A)
 
 Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.

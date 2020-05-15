@@ -5,8 +5,8 @@ tags:
     - implementation
     - 簡單
 ---
+# Codeforces 266A - Stones on the Table
 [Stones on the Table](https://codeforces.com/problemset/problem/266/A)
-
 
 #### 題意:
 桌上有3個顏色(RGB)的石頭排成一列，現在希望每個石頭的隔壁都是不同顏色的石頭，在不改變順序只挑除一些石頭的情況下，請問最少挑出幾個石頭就能達到要求？

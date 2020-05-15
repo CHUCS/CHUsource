@@ -5,6 +5,7 @@ tags:
     - greedy
     - sortings
 ---
+# Codeforces 176A - Trading Business
 [Trading Business](https://codeforces.com/problemset/problem/176/A)
 
 

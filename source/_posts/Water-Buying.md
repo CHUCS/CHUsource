@@ -7,6 +7,7 @@ tags:
     - implementation
     - 簡單
 ---
+# Codeforces 1118A - Water Buying
 [Water Buying](https://codeforces.com/contest/1118/problem/A)
 
 Polycarp wants to cook a soup. To do it, he needs to buy exactly n liters of water.

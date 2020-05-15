@@ -4,6 +4,7 @@ date: 2020-01-14 15:51:33
 tags:
     - math
 ---
+# CodeForces 1223A - CME
 [CME](https://codeforces.com/problemset/problem/1223/A)
 
 

@@ -7,6 +7,7 @@ tags:
     - greedy
     - 普通
 ---
+# CodeForces 1011A - Stages
 [Stages](https://codeforces.com/problemset/problem/1011/A)
 
 

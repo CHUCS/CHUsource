@@ -1,10 +1,11 @@
 ---
-title: Codeforces 263A
+title: Codeforces 263A v2
 date: 2020-04-12 16:29:04
 tags:
     - implementation
     - 新手
 ---
+# Codeforces 263A v2 - Beautiful Matrix
 [Beautiful Matrix](https://codeforces.com/problemset/problem/263/A)
 
 

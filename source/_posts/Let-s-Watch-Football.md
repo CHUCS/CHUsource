@@ -7,6 +7,7 @@ tags:
     - binary search 
     - 普通
 ---
+# Codeforces 195A - Let's Watch Football
 [Let's Watch Football](https://codeforces.com/problemset/problem/195/A)
 
 Valeric and Valerko missed the last Euro football game, so they decided to watch the game's key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will "hang up" as the size of data to watch per second will be more than the size of downloaded data per second.

@@ -6,6 +6,7 @@ tags:
     - sortings
 
 ---
+# Codeforces 739A - Alyona and Mex
 [Alyona and Mex](https://codeforces.com/problemset/problem/739/A)
 
 Alyona's mother wants to present an array of n non-negative integers to Alyona. The array should be special.

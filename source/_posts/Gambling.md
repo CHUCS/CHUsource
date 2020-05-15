@@ -6,6 +6,7 @@ tags:
     - sortings
     - 普通
 ---
+# Codeforces 1038C - Gambling
 [Gambling](https://codeforces.com/problemset/problem/1038/C)
 
 

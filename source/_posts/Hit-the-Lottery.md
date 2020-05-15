@@ -6,6 +6,7 @@ tags:
     - greedy
     - 新手
 ---
+# CodeForces 996A - Hit the Lottery
 [Hit the Lottery](http://codeforces.com/problemset/problem/996/A)
 
 

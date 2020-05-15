@@ -5,6 +5,7 @@ tags:
     - 簡單
     - implementation
 ---
+# Codeforces 581B - Luxurious Houses
 [Luxurious Houses](https://codeforces.com/problemset/problem/581/B)
 
 The capital of Berland has n multifloor buildings. The architect who built up the capital was very creative, so all the houses were built in one row.

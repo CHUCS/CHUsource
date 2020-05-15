@@ -6,6 +6,7 @@ tags:
     - string
     - 新手
 ---
+# Codeforces 785A - Anton and Polyhedrons
 [Anton and Polyhedrons](https://codeforces.com/problemset/problem/785/A)
 
 Anton's favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:

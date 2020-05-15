@@ -5,6 +5,7 @@ tags:
     - 簡單
     - implementation
 ---
+# CodeForces 1253A - Single Push
 [Single Push](http://codeforces.com/problemset/problem/1253/A)
 
 

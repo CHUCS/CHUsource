@@ -7,6 +7,7 @@ tags:
     - implementation
     - 簡單
 ---
+# Codeforces 118B - Present from Lena
 [Present from Lena](https://codeforces.com/problemset/problem/118/B)
 
 Vasya's birthday is approaching and Lena decided to sew a patterned handkerchief to him as a present. Lena chose digits from 0 to n as the pattern. The digits will form a rhombus. The largest digit n should be located in the centre. The digits should decrease as they approach the edges. For example, for n = 5 the handkerchief pattern should look like that:

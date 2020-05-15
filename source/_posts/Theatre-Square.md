@@ -5,6 +5,7 @@ tags:
     - math
     - 簡單
 ---
+# CodeForces 1A - Theatre Square
 [Theatre Square](https://codeforces.com/contest/1/problem/A)
 
 

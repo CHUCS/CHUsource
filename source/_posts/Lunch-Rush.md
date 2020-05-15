@@ -5,6 +5,7 @@ tags:
     - 新手
     - implementation
 ---
+# Codeforces 276A - Lunch Rush
 [Lunch Rush](https://codeforces.com/problemset/problem/276/A)
 
 Having written another programming contest, three Rabbits decided to grab some lunch. The coach gave the team exactly k time units for the lunch break.

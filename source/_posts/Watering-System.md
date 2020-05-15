@@ -7,6 +7,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 967B - Watering System
 [Watering System](https://codeforces.com/problemset/problem/967/B)
 
 Arkady wants to water his only flower. Unfortunately, he has a very poor watering system that was designed for n flowers and so it looks like a pipe with n holes. Arkady can only use the water that flows from the first hole.

@@ -7,7 +7,7 @@ tags:
     - implementation
     - 簡單
 ---
-
+# Codeforces 812A - Sagheer and Crossroads
 [Sagheer and Crossroads](https://codeforces.com/problemset/problem/812/A)
 
 Sagheer is walking in the street when he comes to an intersection of two roads. Each road can be represented as two parts where each part has 3 lanes getting into the intersection (one for each direction) and 3 lanes getting out of the intersection, so we have 4 parts in total. Each part has 4 lights, one for each lane getting into the intersection (l — left, s — straight, r — right) and a light p for a pedestrian crossing. 

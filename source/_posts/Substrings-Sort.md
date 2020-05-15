@@ -6,6 +6,7 @@ tags:
     - sortings
     - strings
 ---
+# Codeforces 988B - Substrings Sort
 [Substrings Sort](https://codeforces.com/problemset/problem/988/B)
 
 

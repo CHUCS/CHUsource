@@ -5,6 +5,7 @@ tags:
     - 新手 
     - implementation
 ---
+# Codeforces 221B - Little Elephant and Numbers
 [Little Elephant and Numbers](https://codeforces.com/problemset/problem/221/B)
 
 The Little Elephant loves numbers.

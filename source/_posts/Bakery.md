@@ -5,6 +5,7 @@ tags:
     - 簡單
     - graphs
 ---
+# Codeforces 707B - Bakery
 [Bakery](https://codeforces.com/problemset/problem/707/B)
 
 Masha wants to open her own bakery and bake muffins in one of the n cities numbered from 1 to n. There are m bidirectional roads, each of whose connects some pair of cities.

@@ -5,6 +5,7 @@ tags:
     - 新手
     - implementation
 ---
+# Codeforces 510A - Fox And Snake
 [Fox And Snake](https://codeforces.com/problemset/problem/510/A)
 
 Fox Ciel starts to learn programming. The first task is drawing a fox! However, that turns out to be too hard for a beginner, so she decides to draw a snake instead.

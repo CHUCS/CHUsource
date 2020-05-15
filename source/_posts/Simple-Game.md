@@ -8,6 +8,7 @@ tags:
     - two pointers
     - 普通
 ---
+# Codeforces 977A - Simple Game
 [Simple Game](https://codeforces.com/problemset/problem/977/A)
 
 

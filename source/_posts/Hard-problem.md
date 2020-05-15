@@ -6,6 +6,7 @@ tags:
     - strings
     - dp
 ---
+# CodeForces 706C - Hard problem
 [Hard problem](http://codeforces.com/problemset/problem/706/C)
 
 

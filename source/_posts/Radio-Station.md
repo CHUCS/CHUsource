@@ -6,6 +6,7 @@ tags:
     - strings
     - 簡單
 ---
+# Codeforces 918B - Radio Station
 [Radio Station](https://codeforces.com/problemset/problem/918/B)
 
 #### 題意:

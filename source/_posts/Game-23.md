@@ -6,6 +6,7 @@ tags:
     - implementation
     - math
 ---
+# Codeforces 1141A - Game 23
 [Game 23](https://codeforces.com/problemset/problem/1141/A)
 
 Polycarp plays "Game 23". Initially he has a number n and his goal is to transform it to m. In one move, he can multiply n by 2 or multiply n by 3. He can perform any number of moves.

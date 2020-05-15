@@ -6,6 +6,7 @@ tags:
     - greedy
     - dp
 ---
+# CodeForces 1207C - Gas Pipeline
 [Gas Pipeline](http://codeforces.com/problemset/problem/1207/C)
 
 

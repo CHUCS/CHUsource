@@ -7,6 +7,7 @@ tags:
     - math
     - 簡單
 ---
+# CodeForces 1311A - Add Odd or Subtract Even
 [Add Odd or Subtract Even](https://codeforces.com/problemset/problem/1311/A)
 <!-- more -->
 

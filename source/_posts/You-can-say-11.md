@@ -5,6 +5,7 @@ tags:
 - implementation
 - math
 ---
+# UVA 10929 - You can say 11
 [You can say 11](https://onlinejudge.org/external/109/10929.pdf)
 
 

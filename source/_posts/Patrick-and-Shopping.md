@@ -5,6 +5,7 @@ tags:
     - 新手
     - implementation
 ---
+# Codeforces 599A - Patrick and Shopping
 [Patrick and Shopping](https://codeforces.com/problemset/problem/599/A)
 
 Today Patrick waits for a visit from his friend Spongebob. To prepare for the visit, Patrick needs to buy some goodies in two stores located near his house. There is a d1 meter long road between his house and the first shop and a d2 meter long road between his house and the second shop. Also, there is a road of length d3 directly connecting these two shops to each other. Help Patrick calculate the minimum distance that he needs to walk in order to go to both shops and return to his house.

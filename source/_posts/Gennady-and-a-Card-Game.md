@@ -6,6 +6,7 @@ tags:
     - brute force
     - implementation
 ---
+# CodeForces 1097A - Gennady and a Card Game
 [Gennady and a Card Game](http://codeforces.com/problemset/problem/1097/A)
 
 

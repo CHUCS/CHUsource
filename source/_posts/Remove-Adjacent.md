@@ -8,6 +8,7 @@ tags:
     - greedy
     - strings
 ---
+# CodeForces 1321C - Remove Adjacent
 [Remove Adjacent](https://codeforces.com/problemset/problem/1321/C)
 
 #### 題意:

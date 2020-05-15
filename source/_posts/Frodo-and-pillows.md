@@ -8,6 +8,7 @@ tags:
     - math
     - 普通
 ---
+# Codeforces 760B - Frodo and pillows
 [Frodo and pillows](https://codeforces.com/problemset/problem/760/B)
 
 n hobbits are planning to spend the night at Frodo's house. Frodo has n beds standing in a row and m pillows (n ≤ m). Each hobbit needs a bed and at least one pillow to sleep, however, everyone wants as many pillows as possible. Of course, it's not always possible to share pillows equally, but any hobbit gets hurt if he has at least two pillows less than some of his neighbors have.

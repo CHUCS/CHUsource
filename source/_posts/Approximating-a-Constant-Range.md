@@ -7,6 +7,7 @@ tags:
     - dp
     - 普通
 ---
+# Codeforces 985B - Approximating a Constant Range
 [Approximating a Constant Range](https://codeforces.com/problemset/problem/602/B)
 
 

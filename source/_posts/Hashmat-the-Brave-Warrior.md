@@ -4,6 +4,7 @@ date: 2019-11-17 10:00:07
 tags:
 - implementation
 ---
+# UVA 10055 - Hashmat the Brave Warrior
 [Hashmat the Brave Warrior](https://onlinejudge.org/external/100/10055.pdf)
 
 #### 題意:

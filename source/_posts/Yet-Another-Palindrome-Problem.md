@@ -6,6 +6,7 @@ tags:
     - strings
     - 普通
 ---
+# CodeForces 1324B - Yet Another Palindrome Problem
 [Yet Another Palindrome Problem](https://codeforces.com/problemset/problem/1324/B)
 
 

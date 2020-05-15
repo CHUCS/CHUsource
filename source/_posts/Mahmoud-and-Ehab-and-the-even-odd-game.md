@@ -6,6 +6,7 @@ tags:
     - games
     - math
 ---
+# CodeForces 959A - Mahmoud and Ehab and the even-odd game
 [Mahmoud and Ehab and the even-odd game](http://codeforces.com/problemset/problem/959/A)
 
 

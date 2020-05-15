@@ -6,6 +6,7 @@ tags:
     - strings
     - 簡單
 ---
+# CodeForces 1284A - New Year and Naming
 [New Year and Naming](https://codeforces.com/problemset/problem/1284/A)
 
 

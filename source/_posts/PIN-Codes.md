@@ -6,6 +6,7 @@ tags:
     - implementation
     - 普通
 ---
+# Codeforces 1263B - PIN Codes
 [PIN Codes](https://codeforces.com/problemset/problem/1263/B)
 
 

@@ -9,14 +9,17 @@
     });
   </script>
   <script data-ad-client="ca-pub-8906140811059676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <meta http-equiv="content-language" content="zh-tw">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="google-site-verification" content="3grsEVPDeg5_ktwC4lbJ6p3Ts2vmlUyUSQwPtFp0jQs">
   <meta name="yandex-verification" content="4227a483ac83a3da">
   <meta name="msvalidate.01" content="DCF11F2014E9D53E3226C978BCE45EEC">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta name="description" content="解答Codeforces, UVa, AOJ等題目，希望可以幫助大家學習。Submissions by Codeforces and UVa etc... online judge workspace.">
   
   
-  <title>  CodeForces 1051D |   CHUCS </title>
+  <title>  CodeForces 1051D |   CHUCSIE </title>
 
  
   
@@ -97,7 +100,7 @@
 			
 			
 				<i class="iconfont icon-words"></i>
-				<span class="post-info-entry">255
+				<span class="post-info-entry">282
 				</span>
 			
 		</div>
@@ -111,7 +114,7 @@
 		
 
 			
-					<p><a href="https://codeforces.com/problemset/problem/1051/D" target="_blank" rel="noopener">Bicolorings</a></p>
+					<h1 id="CodeForces-1051D-Bicolorings"><a href="#CodeForces-1051D-Bicolorings" class="headerlink" title="CodeForces 1051D - Bicolorings"></a>CodeForces 1051D - Bicolorings</h1><p><a href="https://codeforces.com/problemset/problem/1051/D" target="_blank" rel="noopener">Bicolorings</a></p>
 <h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一個2xN的網格，每一個只能塗成黑色或白色，所有相鄰的同色都視為同一個元件。現在輸入N及K，問你2xN的網格有正好K個元件時有幾種可能的塗法？</p>
 <a id="more"></a>
 <h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>建兩個陣列，紀錄現在最右邊的兩個不同色(A)以及同色(B)時，有x個元件時的塗法。因此當總列數n=1時A[1]=2，其他的A都等於0；B[2]=2，其他的B都等於0。新增一列時，A[i]=A[i]+A[i-1]+2<em>B[i]，B[i]=B[i]+B[i-2]+2</em>A[i-1]，增加到N列後A[K]+B[K]就是答案。</p>

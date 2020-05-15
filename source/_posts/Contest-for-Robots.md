@@ -5,6 +5,7 @@ tags:
     - greedy
     - 簡單
 ---
+# CodeForces 1321A - Contest for Robots
 [Contest for Robots](http://codeforces.com/problemset/problem/1321/A)
 
 

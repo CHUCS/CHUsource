@@ -6,6 +6,8 @@ tags:
     - two pointers
     - 普通
 ---
+# Codeforces 873C - Strange Game On Matrix
+
 [Strange Game On Matrix](https://codeforces.com/problemset/problem/873/C)
 
 

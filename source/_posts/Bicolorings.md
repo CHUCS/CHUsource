@@ -5,6 +5,7 @@ tags:
     - bitmasks
     - dp
 ---
+# CodeForces 1051D - Bicolorings
 [Bicolorings](https://codeforces.com/problemset/problem/1051/D)
 
 

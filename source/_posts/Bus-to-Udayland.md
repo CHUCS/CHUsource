@@ -6,6 +6,7 @@ tags:
     - implementation
     - 簡單
 ---
+# CodeForces 711A - Bus to Udayland
 [Bus to Udayland](https://codeforces.com/problemset/problem/711/A)
 
 

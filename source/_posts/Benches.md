@@ -6,6 +6,7 @@ tags:
     - binary search
     - 普通 
 ---
+# Codeforces 1042A - Benches
 [Benches](https://codeforces.com/problemset/problem/1042/A)
 
 There are n benches in the Berland Central park. It is known that ai people are currently sitting on the i-th bench. Another m people are coming to the park and each of them is going to have a seat on some bench out of n available.

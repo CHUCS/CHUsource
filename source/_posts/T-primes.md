@@ -8,6 +8,7 @@ tags:
     - math
     - 普通
 ---
+# Codeforces 230B - T-primes
 [T-primes](https://codeforces.com/problemset/problem/230/B)
 
 We know that prime numbers are positive integers that have exactly two distinct positive divisors. Similarly, we'll call a positive integer t Т-prime, if t has exactly three distinct positive divisors.

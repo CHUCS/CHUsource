@@ -5,7 +5,7 @@ tags:
     - implementation
     - dp
 ---
-
+# CodeForces 835C - Star sky
 [Star sky](https://codeforces.com/problemset/problem/835/C)
 
 

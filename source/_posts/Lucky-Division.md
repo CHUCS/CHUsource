@@ -8,6 +8,7 @@ tags:
     - math
     - 新手
 ---
+# Codeforces 122A - Lucky Division
 [Lucky Division](https://codeforces.com/problemset/problem/122/A)
 
 Petya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits 4 and 7. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.

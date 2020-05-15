@@ -6,6 +6,7 @@ tags:
     - math
     - 簡單
 ---
+# Codeforces 476A - Dreamoon and Stairs
 [Dreamoon and Stairs](https://codeforces.com/problemset/problem/476/A)
 
 

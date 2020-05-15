@@ -5,6 +5,7 @@ tags:
     - implementation
     - two pointers
 ---
+# Codeforces 1225B2 - TV Subscriptions (Hard Version)
 [TV Subscriptions (Hard Version)](https://codeforces.com/problemset/problem/1225/B2)
 
 

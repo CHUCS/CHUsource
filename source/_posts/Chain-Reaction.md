@@ -6,7 +6,7 @@ tags:
     - binary search
     - dp
 ---
-
+# CodeForces 607A - Chain Reaction
 [Chain Reaction](http://codeforces.com/problemset/problem/607/A)
 
 

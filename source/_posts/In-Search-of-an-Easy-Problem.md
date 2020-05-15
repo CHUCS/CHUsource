@@ -5,8 +5,8 @@ tags:
     - 新手
     - implementation
 ---
+# CodeForces 1030A - In Search of an Easy Problem
 [In Search of an Easy Problem](http://codeforces.com/problemset/problem/1030/A)
-
 
 #### 題意:
 數列如果出現1就輸出HARD，沒有則輸出EASY。

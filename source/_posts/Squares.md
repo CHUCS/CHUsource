@@ -8,6 +8,7 @@ tags:
     - math
     - 簡單
 ---
+# Codeforces 263B - Squares
 [Squares](https://codeforces.com/problemset/problem/263/B)
 
 Vasya has found a piece of paper with a coordinate system written on it. There are n distinct squares drawn in this coordinate system. Let's number the squares with integers from 1 to n. It turned out that points with coordinates (0, 0) and (ai, ai) are the opposite corners of the i-th square.

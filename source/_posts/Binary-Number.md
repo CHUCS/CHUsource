@@ -4,6 +4,7 @@ date: 2019-10-18 15:46:55
 tags:
     - greedy
 ---
+# Codeforces 92B - Binary Number
 [Binary Number](https://codeforces.com/problemset/problem/92/B)
 
 Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.

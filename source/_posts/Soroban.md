@@ -5,6 +5,7 @@ tags:
     - implementation
     - 簡單
 ---
+# CodeForces 363A - Soroban
 [Soroban](https://codeforces.com/problemset/problem/363/A)
 
 

@@ -8,6 +8,7 @@ tags:
     - math
     - sortings
 ---
+# CodeForces 1253C - Sweets Eating
 [Sweets Eating](http://codeforces.com/problemset/problem/1253/C)
 
 

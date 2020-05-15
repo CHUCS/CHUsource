@@ -7,6 +7,7 @@ tags:
     - implementation
     - 新手 
 ---
+# Codeforces 136A - Presents
 [Presents](https://codeforces.com/problemset/problem/136/A)
 
 Little Petya very much likes gifts. Recently he has received a new laptop as a New Year gift from his mother. He immediately decided to give it to somebody else as what can be more pleasant than giving somebody gifts. And on this occasion he organized a New Year party at his place and invited n his friends there.

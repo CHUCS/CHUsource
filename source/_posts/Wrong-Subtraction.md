@@ -7,6 +7,7 @@ tags:
     - implementation
     - 新手
 ---
+# Codeforces 977A - Wrong Subtraction
 [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A)
 
 Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:

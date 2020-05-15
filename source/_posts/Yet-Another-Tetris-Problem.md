@@ -6,7 +6,7 @@ tags:
     - number theory
     - 簡單
 ---
-
+# CodeForces 1324A - Yet Another Tetris Problem
 [Yet Another Tetris Problem](https://codeforces.com/problemset/problem/1324/A)
 
 

@@ -5,6 +5,7 @@ tags:
     - 簡單
     - implementation
 ---
+# Codeforces 298A - Snow Footprints
 [Snow Footprints](https://codeforces.com/problemset/problem/298/A)
 
 There is a straight snowy road, divided into n blocks. The blocks are numbered from 1 to n from left to right. If one moves from the i-th block to the (i + 1)-th block, he will leave a right footprint on the i-th block. Similarly, if one moves from the i-th block to the (i - 1)-th block, he will leave a left footprint on the i-th block. If there already is a footprint on the i-th block, the new footprint will cover the old one.

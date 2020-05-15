@@ -8,6 +8,7 @@ tags:
     - math
     - 普通
 ---
+# Codeforces 1099B - Squares and Segments
 [Squares and Segments](https://codeforces.com/problemset/problem/1099/B)
 
 Little Sofia is in fourth grade. Today in the geometry lesson she learned about segments and squares. On the way home, she decided to draw n squares in the snow with a side length of 1. For simplicity, we assume that Sofia lives on a plane and can draw only segments of length 1, parallel to the coordinate axes, with vertices at integer points.

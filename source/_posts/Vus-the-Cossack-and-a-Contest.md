@@ -5,6 +5,7 @@ tags:
     - implementation
     - 新手
 ---
+# CodeForces 1186A - Vus the Cossack and a Contest
 [Vus the Cossack and a Contest](https://codeforces.com/problemset/problem/1186/A)
 
 

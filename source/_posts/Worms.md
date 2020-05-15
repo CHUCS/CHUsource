@@ -7,6 +7,7 @@ tags:
     - binary search
     - 普通
 ---
+# Codeforces 474B - Worms
 [Worms](https://codeforces.com/problemset/problem/474/B)
 
 It is lunch time for Mole. His friend, Marmot, prepared him a nice game for lunch.

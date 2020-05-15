@@ -7,6 +7,7 @@ tags:
 	- sortings
 	- 簡單
 ---
+# CodeForces 148A - Insomnia cure
 [Insomnia cure](https://codeforces.com/problemset/problem/148/A)
 
 «One dragon. Two dragon. Three dragon», — the princess was counting. She had trouble falling asleep, and she got bored of counting lambs when she was nine.

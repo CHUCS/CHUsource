@@ -8,6 +8,7 @@ tags:
     - greedy
     - 簡單
 ---
+# Codeforces 1015C - Songs Compression
 [Songs Compression](https://codeforces.com/problemset/problem/1015/C)
 
 Ivan has n songs on his phone. The size of the i-th song is a<sub>i</sub> bytes. Ivan also has a flash drive which can hold at most m bytes in total. Initially, his flash drive is empty.

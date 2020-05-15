@@ -5,7 +5,7 @@ tags:
     - math
     - 新手
 ---
-
+# CodeForces 1256A - Payment Without Change
 [Payment Without Change](http://codeforces.com/problemset/problem/1256/A)
 
 

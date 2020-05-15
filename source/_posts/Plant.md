@@ -5,6 +5,7 @@ tags:
     - 普通
     - math
 ---
+# Codeforces 185A - Plant
 [Plant](https://codeforces.com/problemset/problem/185/A)
 
 Dwarfs have planted a very interesting plant, which is a triangle directed "upwards". This plant has an amusing feature. After one year a triangle plant directed "upwards" divides into four triangle plants: three of them will point "upwards" and one will point "downwards". After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.

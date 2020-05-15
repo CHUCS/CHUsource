@@ -6,6 +6,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 1088B - Ehab and subtraction
 [Ehab and subtraction](https://codeforces.com/problemset/problem/1088/B)
 
 

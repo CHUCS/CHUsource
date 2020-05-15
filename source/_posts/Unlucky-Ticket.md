@@ -6,6 +6,7 @@ tags:
     - sortings
     - 簡單
 ---
+# Codeforces 160B - Unlucky Ticket
 [Unlucky Ticket](https://codeforces.com/problemset/problem/160/B)
 
 

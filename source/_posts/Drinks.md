@@ -7,7 +7,7 @@ tags:
     - implementation
     - 新手 
 ---
-
+# Codeforces 200B - Drinks
 [Drinks](https://codeforces.com/problemset/problem/200/B)
 
 Little Vasya loves orange juice very much. That's why any food and drink in his kitchen necessarily contains orange juice. There are n drinks in his fridge, the volume fraction of orange juice in the i-th drink equals p<sub>i</sub> percent.

@@ -7,6 +7,7 @@ tags:
     - greedy
     - 簡單
 ---
+# CodeForces 1176C - Lose it
 [Lose it](http://codeforces.com/problemset/problem/1176/C)
 
 

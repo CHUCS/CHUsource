@@ -5,6 +5,7 @@ tags:
     - implementation
     - strings
 ---
+# Codeforces 219A - k-String
 [k-String](https://codeforces.com/problemset/problem/219/A)
 
 

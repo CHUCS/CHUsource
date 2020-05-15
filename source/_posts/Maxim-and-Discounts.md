@@ -8,6 +8,7 @@ tags:
     - greedy
     - 普通
 ---
+# Codeforces 261A - Maxim and Discounts
 [Maxim and Discounts](https://codeforces.com/problemset/problem/261/A)
 
 Maxim always goes to the supermarket on Sundays. Today the supermarket has a special offer of discount systems.

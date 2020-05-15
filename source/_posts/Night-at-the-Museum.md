@@ -6,6 +6,7 @@ tags:
     - strings
     - 簡單
 ---
+# CodeForces 731A - Night at the Museum
 [Night at the Museum](https://codeforces.com/problemset/problem/731/A)
 
 

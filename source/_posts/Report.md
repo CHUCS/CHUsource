@@ -5,6 +5,7 @@ tags:
     - data structures
     - sortings
 ---
+# Codeforces 631C - Report
 [Report](https://codeforces.com/problemset/problem/631/C)
 
 Each month Blake gets the report containing main economic indicators of the company "Blake Technologies".

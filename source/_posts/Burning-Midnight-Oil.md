@@ -8,6 +8,7 @@ tags:
     - implementation
     - 普通
 ---
+# Codeforces 165B - Burning Midnight Oil
 [Burning Midnight Oil](https://codeforces.com/problemset/problem/165/B)
 
 One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , ...

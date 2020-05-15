@@ -8,6 +8,7 @@ tags:
     - math
     - 新手
 ---
+# CodeForces 133A - HQ9+
 [HQ9+](https://codeforces.com/problemset/problem/133/A)
 
 HQ9+ is a joke programming language which has only four one-character instructions:

@@ -4,8 +4,8 @@ date: 2020-04-27 17:02:28
 tags:
     - implementation
 ---
+# Codeforces 31C - Schedule
 [Schedule](https://codeforces.com/problemset/problem/31/c)
-
 
 #### 題意:
 給你n個課程的開始及結束時間，問你能不能只刪掉一個就讓所有課程的時間不重疊？

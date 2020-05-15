@@ -4,6 +4,7 @@ date: 2019-11-17 10:39:00
 tags:
     - implementation
 ---
+# Aizu ITP1_8_D - Ring
 [Ring](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_8_D)
 
 

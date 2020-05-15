@@ -6,6 +6,7 @@ tags:
     - sortings
     - 普通
 ---
+# Codeforces 79B - Colorful Field
 [Colorful Field](https://codeforces.com/problemset/problem/79/B)
 
 

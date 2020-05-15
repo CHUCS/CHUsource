@@ -6,6 +6,7 @@ tags:
     - implementation
     - math
 ---
+# Codeforces 450B - Jzzhu and Sequences
 [Jzzhu and Sequences](https://codeforces.com/problemset/problem/450/B)
 
 Jzzhu has invented a kind of sequences, they meet the following property:

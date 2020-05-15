@@ -6,6 +6,7 @@ tags:
     - brute force
     - implementation
 ---
+# CodeForces 1250F - Data Center
 [Data Center](http://codeforces.com/problemset/problem/1250/F)
 
 

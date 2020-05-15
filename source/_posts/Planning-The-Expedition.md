@@ -6,6 +6,7 @@ tags:
     - binary search 
     - implementation
 ---
+# Codeforces 1011B - Planning The Expedition
 [Planning The Expedition](https://codeforces.com/problemset/problem/1011/B)
 
 Natasha is planning an expedition to Mars for n people. One of the important tasks is to provide food for each participant.

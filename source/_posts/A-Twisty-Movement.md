@@ -4,6 +4,7 @@ date: 2019-11-17 16:12:07
 tags:
     - dp
 ---
+# CodeForces 933A - A Twisty Movement
 [A Twisty Movement](https://codeforces.com/problemset/problem/933/A)
 
 #### 題意:

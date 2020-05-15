@@ -5,6 +5,7 @@ tags:
     - implementation
     - 新手
 ---
+# Codeforces 38A - Army
 [Army](https://codeforces.com/problemset/problem/38/A)
 
 The Berland Armed Forces System consists of n ranks that are numbered using natural numbers from 1 to n, where 1 is the lowest rank and n is the highest rank.

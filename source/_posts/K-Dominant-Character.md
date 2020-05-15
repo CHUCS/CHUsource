@@ -7,6 +7,7 @@ tags:
     - implementation
     - two pointers
 ---
+# Codeforces 888C - K-Dominant Character
 [K-Dominant Character](https://codeforces.com/problemset/problem/888/C)
 
 You are given a string s consisting of lowercase Latin letters. Character c is called k-dominant iff each substring of s with length at least k contains this character c.

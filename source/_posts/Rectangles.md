@@ -7,6 +7,7 @@ tags:
     - implementation
     - sortings
 ---
+# Codeforces 1028C - Rectangles
 [Rectangles](https://codeforces.com/problemset/problem/1028/C)
 
 You are given n rectangles on a plane with coordinates of their bottom left and upper right points. Some (n−1) of the given n rectangles have some common point. A point belongs to a rectangle if this point is strictly inside the rectangle or belongs to its boundary.

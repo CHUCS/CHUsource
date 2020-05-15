@@ -5,6 +5,7 @@ tags:
     - 簡單
     - sortings
 ---
+# Codeforces 37A - Towers
 [Towers](https://codeforces.com/problemset/problem/37/A)
 
 Little Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them are known. The bars can be put one on the top of the other if their lengths are the same.

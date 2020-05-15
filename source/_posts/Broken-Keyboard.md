@@ -7,6 +7,7 @@ tags:
     - two pointers
     - 普通
 ---
+# Codeforces 1251A - Broken Keyboard
 [Broken Keyboard](https://codeforces.com/problemset/problem/1251/A)
 
 

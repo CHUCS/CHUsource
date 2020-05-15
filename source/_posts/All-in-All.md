@@ -4,8 +4,8 @@ date: 2019-11-17 10:28:54
 tags:
 - implementation
 ---
+# UVA 10340 - All in All
 [All in All](https://onlinejudge.org/external/103/10340.pdf)
-
 
 #### 題意:
 幫他找出A字串在不再B字串裡面，沒有連續沒關西。
