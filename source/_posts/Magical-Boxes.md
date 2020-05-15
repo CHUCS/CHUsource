@@ -1,5 +1,5 @@
 ---
-title: Codeforces 269A Magical Boxes
+title: Codeforces 269A
 date: 2019-10-15 13:25:45
 tags:
     - 普通 
@@ -7,10 +7,10 @@ tags:
     - math
     - sortings
 ---
-[Codeforces 269A](https://codeforces.com/problemset/problem/269/A)
-<!-- more -->
-Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.
+[Magical Boxes](https://codeforces.com/problemset/problem/269/A)
 
+Emuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.
+<!-- more -->
 From the top view each magical box looks like a square with side length equal to 2<sup>k</sup> (k is an integer, k ≥ 0) units. A magical box v can be put inside a magical box u, if side length of v is strictly less than the side length of u. In particular, Emuskald can put 4 boxes of side length 2<sup>k - 1</sup> into one box of side length 2<sup>k</sup>, or as in the following figure:
 
 ![A](A.PNG)

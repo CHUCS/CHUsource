@@ -1,15 +1,15 @@
 ---
-title: Codeforces 1197A DIY Wooden Ladder
+title: Codeforces 1197A
 date: 2019-09-19 16:04:52
 tags:
 - greedy
 - sortings
 - math
 ---
-[Codeforces 1197A](http://codeforces.com/problemset/problem/1197/A)
-<!-- more -->
-Let's denote a k-step ladder as the following structure: exactly k+2 wooden planks, of which
+[DIY Wooden Ladder](http://codeforces.com/problemset/problem/1197/A)
 
+Let's denote a k-step ladder as the following structure: exactly k+2 wooden planks, of which
+<!-- more -->
 ● two planks of length at least k+1 — the base of the ladder;
 ● k planks of length at least 1 — the steps of the ladder;
 

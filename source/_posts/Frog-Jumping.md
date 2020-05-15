@@ -1,14 +1,14 @@
 ---
-title: Codeforces 1077A Frog Jumping
+title: Codeforces 1077A
 date: 2019-04-20 18:49:49
 tags:
     - math
     - 新手
 ---
-[Codeforces 1077A](https://codeforces.com/problemset/problem/1077/A)
-<!-- more -->
-A frog is currently at the point 0 on a coordinate axis Ox. It jumps by the following algorithm: the first jump is a units to the right, the second jump is b units to the left, the third jump is a units to the right, the fourth jump is b units to the left, and so on.
+[Frog Jumping](https://codeforces.com/problemset/problem/1077/A)
 
+A frog is currently at the point 0 on a coordinate axis Ox. It jumps by the following algorithm: the first jump is a units to the right, the second jump is b units to the left, the third jump is a units to the right, the fourth jump is b units to the left, and so on.
+<!-- more -->
 Formally:
 >>● if the frog has jumped an even number of times (before the current jump), it jumps from its current position x to position x+a;
 >>● otherwise it jumps from its current position x to position x−b.

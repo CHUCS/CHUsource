@@ -1,17 +1,17 @@
 ---
-title: CodeForces 1206A Choose Two Numbers
+title: CodeForces 1206A
 date: 2020-04-07 13:47:59
 tags:
     - math
     - sortings
     - 普通
 ---
-[CodeForces 1206A](https://codeforces.com/problemset/problem/1206/A)
-<!-- more -->
+[Choose Two Numbers](https://codeforces.com/problemset/problem/1206/A)
+
 
 #### 題意:
 輸入兩個集合的元素數量及集合中的所有元素，請你從兩個集合中各挑出一個元素，讓這兩個元素的和不在這兩個集合中。
-
+<!-- more -->
 #### 思路:
 因為元素都是正整數，所以兩個元素的和一定比這兩個元素大，因次只要挑出兩個集合中各自最大的元素相加就一定不在原本的集合中。排序，輸出各自最大的元素。
 

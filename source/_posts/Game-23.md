@@ -1,15 +1,15 @@
 ---
-title: Codeforces 1141A Game 23
+title: Codeforces 1141A
 date: 2019-05-05 22:00:09
 tags:
     - 新手
     - implementation
     - math
 ---
-[Codeforces 1141A](https://codeforces.com/problemset/problem/1141/A)
-<!-- more -->
-Polycarp plays "Game 23". Initially he has a number n and his goal is to transform it to m. In one move, he can multiply n by 2 or multiply n by 3. He can perform any number of moves.
+[Game 23](https://codeforces.com/problemset/problem/1141/A)
 
+Polycarp plays "Game 23". Initially he has a number n and his goal is to transform it to m. In one move, he can multiply n by 2 or multiply n by 3. He can perform any number of moves.
+<!-- more -->
 Print the number of moves needed to transform n
 to m. Print -1 if it is impossible to do so.
 

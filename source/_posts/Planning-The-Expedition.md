@@ -1,15 +1,15 @@
 ---
-title: Codeforces 1011B Planning The Expedition
+title: Codeforces 1011B
 date: 2019-05-05 22:00:58
 tags:
     - 普通
     - binary search 
     - implementation
 ---
-[Codeforces 1011B](https://codeforces.com/problemset/problem/1011/B)
-<!-- more -->
-Natasha is planning an expedition to Mars for n people. One of the important tasks is to provide food for each participant.
+[Planning The Expedition](https://codeforces.com/problemset/problem/1011/B)
 
+Natasha is planning an expedition to Mars for n people. One of the important tasks is to provide food for each participant.
+<!-- more -->
 The warehouse has m daily food packages. Each package has some food type a<sub>i</sub>.
 
 Each participant must eat exactly one food package each day. Due to extreme loads, each participant must eat the same food type throughout the expedition. Different participants may eat different (or the same) types of food.

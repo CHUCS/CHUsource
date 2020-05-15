@@ -1,5 +1,5 @@
 ---
-title: Codeforces 990B Micro-World
+title: Codeforces 990B
 date: 2019-03-09 19:42:15
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - sortings
     - 簡單
 ---
-[Codeforces 990B](https://codeforces.com/problemset/problem/990/B)
-<!-- more -->
-You have a Petri dish with bacteria and you are preparing to dive into the harsh micro-world. But, unfortunately, you don't have any microscope nearby, so you can't watch them.
+[Micro-World](https://codeforces.com/problemset/problem/990/B)
 
+You have a Petri dish with bacteria and you are preparing to dive into the harsh micro-world. But, unfortunately, you don't have any microscope nearby, so you can't watch them.
+<!-- more -->
 You know that you have n bacteria in the Petri dish and size of the i-th bacteria is a<sub>i</sub>. Also you know intergalactic positive integer constant K.
 
 The i-th bacteria can swallow the j-th bacteria if and only if a<sub>i</sub>>a<sub>j</sub> and a<sub>i</sub>≤a<sub>j</sub>+K. The j-th bacteria disappear, but the i-th bacteria doesn't change its size. The bacteria can perform multiple swallows. On each swallow operation any bacteria i can swallow any bacteria j if a<sub>i</sub>a<sub>j</sub> and a<sub>i</sub>≤a<sub>j</sub>+K. The swallow operations go one after another.

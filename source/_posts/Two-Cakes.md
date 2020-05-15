@@ -1,15 +1,15 @@
 ---
-title: Codeforces 911B Two Cakes
+title: Codeforces 911B
 date: 2019-04-20 18:51:03
 tags:
     - binary search 
     - implementation
     - 普通
 ---
-[Codeforces 911B](https://codeforces.com/problemset/problem/911/B)
-<!-- more -->
-It's New Year's Eve soon, so Ivan decided it's high time he started setting the table. Ivan has bought two cakes and cut them into pieces: the first cake has been cut into a pieces, and the second one — into b pieces.
+[Two Cakes](https://codeforces.com/problemset/problem/911/B)
 
+It's New Year's Eve soon, so Ivan decided it's high time he started setting the table. Ivan has bought two cakes and cut them into pieces: the first cake has been cut into a pieces, and the second one — into b pieces.
+<!-- more -->
 Ivan knows that there will be n people at the celebration (including himself), so Ivan has set n plates for the cakes. Now he is thinking about how to distribute the cakes between the plates. Ivan wants to do it in such a way that all following conditions are met:
 
 >>1. Each piece of each cake is put on some plate;

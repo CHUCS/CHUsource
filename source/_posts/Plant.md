@@ -1,14 +1,14 @@
 ---
-title: Codeforces 185A Plant
+title: Codeforces 185A
 date: 2019-09-30 20:11:01
 tags:
     - 普通
     - math
 ---
-[Codeforces 185A](https://codeforces.com/problemset/problem/185/A)
-<!-- more -->
-Dwarfs have planted a very interesting plant, which is a triangle directed "upwards". This plant has an amusing feature. After one year a triangle plant directed "upwards" divides into four triangle plants: three of them will point "upwards" and one will point "downwards". After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.
+[Plant](https://codeforces.com/problemset/problem/185/A)
 
+Dwarfs have planted a very interesting plant, which is a triangle directed "upwards". This plant has an amusing feature. After one year a triangle plant directed "upwards" divides into four triangle plants: three of them will point "upwards" and one will point "downwards". After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.
+<!-- more -->
 ![A](A.PNG)
 Help the dwarfs find out how many triangle plants that point "upwards" will be in n years.
 #### Input:

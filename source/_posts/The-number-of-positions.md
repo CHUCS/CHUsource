@@ -1,5 +1,5 @@
 ---
-title: Codeforces 124A The number of positions
+title: Codeforces 124A
 date: 2019-03-26 13:24:16
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - math
     - 新手
 ---
-[Codeforces 124A](https://codeforces.com/problemset/problem/124/A)
-<!-- more -->
-Petr stands in line of n people, but he doesn't know exactly which position he occupies. He can say that there are no less than a people standing in front of him and no more than b people standing behind him. Find the number of different positions Petr can occupy.
+[The number of positions](https://codeforces.com/problemset/problem/124/A)
 
+Petr stands in line of n people, but he doesn't know exactly which position he occupies. He can say that there are no less than a people standing in front of him and no more than b people standing behind him. Find the number of different positions Petr can occupy.
+<!-- more -->
 #### Input:
 The only line contains three integers n, a and b (0 ≤ a, b < n ≤ 100).
 

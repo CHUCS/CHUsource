@@ -1,5 +1,5 @@
 ---
-title: Codeforces 888C K-Dominant Character
+title: Codeforces 888C
 date: 2019-04-27 18:42:21
 tags:
     - 普通
@@ -7,10 +7,10 @@ tags:
     - implementation
     - two pointers
 ---
-[Codeforces 888C](https://codeforces.com/problemset/problem/888/C)
-<!-- more -->
-You are given a string s consisting of lowercase Latin letters. Character c is called k-dominant iff each substring of s with length at least k contains this character c.
+[K-Dominant Character](https://codeforces.com/problemset/problem/888/C)
 
+You are given a string s consisting of lowercase Latin letters. Character c is called k-dominant iff each substring of s with length at least k contains this character c.
+<!-- more -->
 You have to find minimum k such that there exists at least one k-dominant character.
 
 #### Input:

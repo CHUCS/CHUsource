@@ -1,5 +1,5 @@
 ---
-title: Codeforces 609A USB Flash Drives
+title: Codeforces 609A
 date: 2019-03-21 09:50:43
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - greedy
     - 簡單
 ---
-[Codeforces 609A](https://codeforces.com/problemset/problem/609/A)
-<!-- more -->
-Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> megabytes. The file size is equal to m megabytes.
+[USB Flash Drives](https://codeforces.com/problemset/problem/609/A)
 
+Sean is trying to save a large file to a USB flash drive. He has n USB flash drives with capacities equal to a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> megabytes. The file size is equal to m megabytes.
+<!-- more -->
 Find the minimum number of USB flash drives needed to write Sean's file, if he can split the file between drives.
 
 #### Input:

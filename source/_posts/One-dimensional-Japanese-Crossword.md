@@ -1,5 +1,5 @@
 ---
-title: Codeforces 721A One-dimensional Japanese Crossword
+title: Codeforces 721A
 date: 2019-03-09 18:42:21
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - implementation
     - 新手  
 ---
-[Codeforces 721A](https://codeforces.com/problemset/problem/721/A)
-<!-- more -->
-Recently Adaltik discovered japanese crosswords. Japanese crossword is a picture, represented as a table sized a × b squares, and each square is colored white or black. There are integers to the left of the rows and to the top of the columns, encrypting the corresponding row or column. The number of integers represents how many groups of black squares there are in corresponding row or column, and the integers themselves represents the number of consecutive black squares in corresponding group (you can find more detailed explanation in Wikipedia https://en.wikipedia.org/wiki/Japanese_crossword).
+[One-dimensional Japanese Crossword](https://codeforces.com/problemset/problem/721/A)
 
+Recently Adaltik discovered japanese crosswords. Japanese crossword is a picture, represented as a table sized a × b squares, and each square is colored white or black. There are integers to the left of the rows and to the top of the columns, encrypting the corresponding row or column. The number of integers represents how many groups of black squares there are in corresponding row or column, and the integers themselves represents the number of consecutive black squares in corresponding group (you can find more detailed explanation in Wikipedia https://en.wikipedia.org/wiki/Japanese_crossword).
+<!-- more -->
 Adaltik decided that the general case of japanese crossword is too complicated and drew a row consisting of n squares (e.g. japanese crossword sized 1 × n), which he wants to encrypt in the same way as in japanese crossword.
 ![A](A.PNG)
 Help Adaltik find the numbers encrypting the row he drew.

@@ -1,14 +1,14 @@
 ---
-title: Codeforces 581B Luxurious Houses
+title: Codeforces 581B
 date: 2019-05-05 22:00:19
 tags:
     - 簡單
     - implementation
 ---
-[Codeforces 581B](https://codeforces.com/problemset/problem/581/B)
-<!-- more -->
-The capital of Berland has n multifloor buildings. The architect who built up the capital was very creative, so all the houses were built in one row.
+[Luxurious Houses](https://codeforces.com/problemset/problem/581/B)
 
+The capital of Berland has n multifloor buildings. The architect who built up the capital was very creative, so all the houses were built in one row.
+<!-- more -->
 Let's enumerate all the houses from left to right, starting with one. A house is considered to be luxurious if the number of floors in it is strictly greater than in all the houses with larger numbers. In other words, a house is luxurious if the number of floors in it is strictly greater than in all the houses, which are located to the right from it. In this task it is assumed that the heights of floors in the houses are the same.
 
 The new architect is interested in n questions, i-th of them is about the following: "how many floors should be added to the i-th house to make it luxurious?" (for all i from 1 to n, inclusive). You need to help him cope with this task.

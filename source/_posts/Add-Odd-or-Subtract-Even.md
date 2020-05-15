@@ -1,5 +1,5 @@
 ---
-title: CodeForces 1311A Add Odd or Subtract Even
+title: CodeForces 1311A
 date: 2020-03-04 08:15:07
 tags:
     - greedy
@@ -7,7 +7,7 @@ tags:
     - math
     - 簡單
 ---
-[CodeForces 1311A](https://codeforces.com/problemset/problem/1311/A)
+[Add Odd or Subtract Even](https://codeforces.com/problemset/problem/1311/A)
 <!-- more -->
 
 #### 題意:

@@ -1,16 +1,16 @@
 ---
-title: Codeforces 219A k-String
+title: Codeforces 219A
 date: 2020-04-27 17:02:09
 tags:
     - implementation
     - strings
 ---
-[Codeforces 219A](https://codeforces.com/problemset/problem/219/A)
-<!-- more -->
+[k-String](https://codeforces.com/problemset/problem/219/A)
+
 
 #### 題意:
 輸入k及一個字串，問你能不能將字串重組成重複k次的字串？
-
+<!-- more -->
 #### 思路:
 計算所有字元的出現次數是不是k的倍數，不是的話輸出-1；是的話將字填回輸出。
 

@@ -1,14 +1,14 @@
 ---
-title: Codeforces 221B Little Elephant and Numbers
+title: Codeforces 221B
 date: 2019-10-15 13:25:56
 tags:
     - 新手 
     - implementation
 ---
-[Codeforces 221B](https://codeforces.com/problemset/problem/221/B)
-<!-- more -->
-The Little Elephant loves numbers.
+[Little Elephant and Numbers](https://codeforces.com/problemset/problem/221/B)
 
+The Little Elephant loves numbers.
+<!-- more -->
 He has a positive integer x. The Little Elephant wants to find the number of positive integers d, such that d is the divisor of x, and x and d have at least one common (the same) digit in their decimal representations.
 
 Help the Little Elephant to find the described number.

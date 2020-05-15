@@ -1,14 +1,14 @@
 ---
-title: Codeforces 276A Lunch Rush
+title: Codeforces 276A
 date: 2019-04-27 18:41:02
 tags:
     - 新手
     - implementation
 ---
-[Codeforces 276A](https://codeforces.com/problemset/problem/276/A)
-<!-- more -->
-Having written another programming contest, three Rabbits decided to grab some lunch. The coach gave the team exactly k time units for the lunch break.
+[Lunch Rush](https://codeforces.com/problemset/problem/276/A)
 
+Having written another programming contest, three Rabbits decided to grab some lunch. The coach gave the team exactly k time units for the lunch break.
+<!-- more -->
 The Rabbits have a list of n restaurants to lunch in: the i-th restaurant is characterized by two integers f<sub>i</sub> and t<sub>i</sub>. Value t<sub>i</sub> shows the time the Rabbits need to lunch in the i-th restaurant. If time t<sub>i</sub> exceeds the time k that the coach has given for the lunch break, then the Rabbits' joy from lunching in this restaurant will equal f<sub>i</sub> - (t<sub>i</sub> - k). Otherwise, the Rabbits get exactly f<sub>i</sub> units of joy.
 
 Your task is to find the value of the maximum joy the Rabbits can get from the lunch, depending on the restaurant. The Rabbits must choose exactly one restaurant to lunch in. Note that the joy value isn't necessarily a positive value. 

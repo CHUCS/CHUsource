@@ -1,14 +1,14 @@
 ---
-title: Codeforces 707B Bakery
+title: Codeforces 707B
 date: 2019-05-05 22:01:07
 tags:
     - 簡單
     - graphs
 ---
-[Codeforces 707B](https://codeforces.com/problemset/problem/707/B)
-<!-- more -->
-Masha wants to open her own bakery and bake muffins in one of the n cities numbered from 1 to n. There are m bidirectional roads, each of whose connects some pair of cities.
+[Bakery](https://codeforces.com/problemset/problem/707/B)
 
+Masha wants to open her own bakery and bake muffins in one of the n cities numbered from 1 to n. There are m bidirectional roads, each of whose connects some pair of cities.
+<!-- more -->
 To bake muffins in her bakery, Masha needs to establish flour supply from some storage. There are only k storages, located in different cities numbered a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>k</sub>.
 
 Unforunately the law of the country Masha lives in prohibits opening bakery in any of the cities which has storage located in it. She can open it only in one of another n - k cities, and, of course, flour delivery should be paid — for every kilometer of path between storage and bakery Masha should pay 1 ruble.

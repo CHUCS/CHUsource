@@ -1,13 +1,13 @@
 ---
-title: Codeforces 588B Duff in Love
+title: Codeforces 588B
 date: 2019-10-26 11:28:10
 tags:
     - math
 ---
-[Codeforces 588B](https://codeforces.com/contest/588/problem/B)
-<!-- more -->
-Duff is in love with lovely numbers! A positive integer x is called lovely if and only if there is no such positive integer a > 1 such that a2 is a divisor of x.
+[Duff in Love](https://codeforces.com/contest/588/problem/B)
 
+Duff is in love with lovely numbers! A positive integer x is called lovely if and only if there is no such positive integer a > 1 such that a2 is a divisor of x.
+<!-- more -->
 
 Malek has a number store! In his store, he has only divisors of positive integer n (and he has all of them). As a birthday present, Malek wants to give her a lovely number from his store. He wants this number to be as big as possible.
 

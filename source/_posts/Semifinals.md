@@ -1,15 +1,15 @@
 ---
-title: Codeforces 378B Semifinals
+title: Codeforces 378B
 date: 2019-04-27 18:41:46
 tags:
     - 普通
     - sortings
     - implementation
 ---
-[Codeforces 378B](https://codeforces.com/problemset/problem/378/B)
-<!-- more -->
-Two semifinals have just been in the running tournament. Each semifinal had n participants. There are n participants advancing to the finals, they are chosen as follows: from each semifinal, we choose k people (0 ≤ 2k ≤ n) who showed the best result in their semifinals and all other places in the finals go to the people who haven't ranked in the top k in their semifinal but got to the n - 2k of the best among the others.
+[Semifinals](https://codeforces.com/problemset/problem/378/B)
 
+Two semifinals have just been in the running tournament. Each semifinal had n participants. There are n participants advancing to the finals, they are chosen as follows: from each semifinal, we choose k people (0 ≤ 2k ≤ n) who showed the best result in their semifinals and all other places in the finals go to the people who haven't ranked in the top k in their semifinal but got to the n - 2k of the best among the others.
+<!-- more -->
 The tournament organizers hasn't yet determined the k value, so the participants want to know who else has any chance to get to the finals and who can go home.
 
 #### Input:

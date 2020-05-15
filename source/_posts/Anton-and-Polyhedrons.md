@@ -1,14 +1,15 @@
 ---
-title: Codeforces 785A Anton and Polyhedrons
+title: Codeforces 785A
 date: 2019-04-20 18:05:09
 tags:
     - implementation
     - string
     - 新手
 ---
-[Codeforces 785A](https://codeforces.com/problemset/problem/785/A)
-<!-- more -->
+[Anton and Polyhedrons](https://codeforces.com/problemset/problem/785/A)
+
 Anton's favourite geometric figures are regular polyhedrons. Note that there are five kinds of regular polyhedrons:
+<!-- more -->
 >>● Tetrahedron. Tetrahedron has 4 triangular faces.
 >>● Cube. Cube has 6 square faces.
 >>● Octahedron. Octahedron has 8 triangular faces.

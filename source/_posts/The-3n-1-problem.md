@@ -1,12 +1,12 @@
 ---
-title: UVA 100 The 3n + 1 problem
+title: UVA 100
 date: 2019-10-15 19:30:25
 tags:
 ---
-[UVA 100](https://onlinejudge.org/external/1/100.pdf)
-<!-- more -->
-Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.
+[The 3n + 1 problem](https://onlinejudge.org/external/1/100.pdf)
 
+Problems in Computer Science are often classified as belonging to a certain class of problems (e.g.,NP, Unsolvable, Recursive). In this problem you will be analyzing a property of an algorithm whose classification is not known for all possible inputs.
+<!-- more -->
 Consider the following algorithm:
 1. input n
 2. print n

@@ -1,5 +1,5 @@
 ---
-title: CodeForces 1176C Lose it
+title: CodeForces 1176C
 date: 2019-11-26 15:35:15
 tags:
     - dp
@@ -7,12 +7,12 @@ tags:
     - greedy
     - 簡單
 ---
-[CodeForces 1176C](http://codeforces.com/problemset/problem/1176/C)
-<!-- more -->
+[Lose it](http://codeforces.com/problemset/problem/1176/C)
+
 
 #### 題意:
 找出集合中有幾個序列為[4,8,15,16,23,42]的序列
-
+<!-- more -->
 #### 思路:
 依照題意，可以得到說順序不能變，故由前向後搜，開始統計每個數字的個數，當碰到前面數字個數>後面字數個數時表示可以形成序列，最後統計有多少個序列後計算n-6*序列數。
 

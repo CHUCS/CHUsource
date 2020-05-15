@@ -1,14 +1,14 @@
 ---
-title: Codeforces 246A Buggy Sorting
+title: Codeforces 246A
 date: 2019-04-27 18:42:02
 tags:
     - 簡單
     - sortings
 ---
-[Codeforces 246A](https://codeforces.com/problemset/problem/246/A)
-<!-- more -->
-Little boy Valera studies an algorithm of sorting an integer array. After studying the theory, he went on to the practical tasks. As a result, he wrote a program that sorts an array of n integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> in the non-decreasing order. The pseudocode of the program, written by Valera, is given below. The input of the program gets number n and array a.
+[Buggy Sorting](https://codeforces.com/problemset/problem/246/A)
 
+Little boy Valera studies an algorithm of sorting an integer array. After studying the theory, he went on to the practical tasks. As a result, he wrote a program that sorts an array of n integers a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> in the non-decreasing order. The pseudocode of the program, written by Valera, is given below. The input of the program gets number n and array a.
+<!-- more -->
 ```
 loop integer variable i from 1 to n - 1
     loop integer variable j from i to n - 1

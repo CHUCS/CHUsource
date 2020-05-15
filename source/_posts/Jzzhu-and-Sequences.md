@@ -1,14 +1,15 @@
 ---
-title: Jzzhu and Sequences
+title: Codeforces 450B
 date: 2019-05-05 22:00:30
 tags:
     - 普通
     - implementation
     - math
 ---
-[Codeforces 450B](https://codeforces.com/problemset/problem/450/B)
-<!-- more -->
+[Jzzhu and Sequences](https://codeforces.com/problemset/problem/450/B)
+
 Jzzhu has invented a kind of sequences, they meet the following property:
+<!-- more -->
 ![A](A.PNG)
 You are given x and y, please calculate f<sub>n</sub> modulo 1000000007 (10<sup>9</sup> + 7).
 

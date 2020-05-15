@@ -1,5 +1,5 @@
 ---
-title: Codeforces 965B Battleship
+title: Codeforces 965B
 date: 2019-03-09 20:00:46
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - implementation
     - 簡單
 ---
-[Codeforces 965B](https://codeforces.com/problemset/problem/965/B)
-<!-- more -->
-Arkady is playing Battleship. The rules of this game aren't really important.
+[Battleship](https://codeforces.com/problemset/problem/965/B)
 
+Arkady is playing Battleship. The rules of this game aren't really important.
+<!-- more -->
 There is a field of n×n cells. There should be exactly one k-decker on the field, i. e. a ship that is k cells long oriented either horizontally or vertically. However, Arkady doesn't know where it is located. For each cell Arkady knows if it is definitely empty or can contain a part of the ship.
 
 Consider all possible locations of the ship. Find such a cell that belongs to the maximum possible number of different locations of the ship.

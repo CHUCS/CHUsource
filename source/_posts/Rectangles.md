@@ -1,5 +1,5 @@
 ---
-title: Codeforces 1028C Rectangles
+title: Codeforces 1028C
 date: 2019-09-30 20:11:22
 tags:
     - 普通
@@ -7,10 +7,10 @@ tags:
     - implementation
     - sortings
 ---
-[Codeforces 1028C](https://codeforces.com/problemset/problem/1028/C)
-<!-- more -->
-You are given n rectangles on a plane with coordinates of their bottom left and upper right points. Some (n−1) of the given n rectangles have some common point. A point belongs to a rectangle if this point is strictly inside the rectangle or belongs to its boundary.
+[Rectangles](https://codeforces.com/problemset/problem/1028/C)
 
+You are given n rectangles on a plane with coordinates of their bottom left and upper right points. Some (n−1) of the given n rectangles have some common point. A point belongs to a rectangle if this point is strictly inside the rectangle or belongs to its boundary.
+<!-- more -->
 Find any point with integer coordinates that belongs to at least (n−1) given rectangles.
 
 #### Input:

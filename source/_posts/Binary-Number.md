@@ -1,13 +1,13 @@
 ---
-title: Codeforces 92B Binary Number
+title: Codeforces 92B
 date: 2019-10-18 15:46:55
 tags:
     - greedy
 ---
-[Codeforces 92B](https://codeforces.com/problemset/problem/92/B)
-<!-- more -->
-Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.
+[Binary Number](https://codeforces.com/problemset/problem/92/B)
 
+Little walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.
+<!-- more -->
 Fangy takes some positive integer x and wants to get a number one from it. While x is not equal to 1, Fangy repeats the following action: if x is odd, then he adds 1 to it, otherwise he divides x by 2. Fangy knows that for any positive integer number the process ends in finite time.
 
 How many actions should Fangy perform to get a number one from number x?

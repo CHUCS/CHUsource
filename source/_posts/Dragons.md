@@ -1,15 +1,15 @@
 ---
-title: Codeforces 230A Dragons
+title: Codeforces 230A
 date: 2019-04-20 18:50:40
 tags:
     - sortings
     - greedy
     - 簡單
 ---
-[Codeforces 230A](https://codeforces.com/problemset/problem/230/A)
-<!-- more -->
-Kirito is stuck on a level of the MMORPG he is playing now. To move on in the game, he's got to defeat all n dragons that live on this level. Kirito and the dragons have strength, which is represented by an integer. In the duel between two opponents the duel's outcome is determined by their strength. Initially, Kirito's strength equals s.
+[Dragons](https://codeforces.com/problemset/problem/230/A)
 
+Kirito is stuck on a level of the MMORPG he is playing now. To move on in the game, he's got to defeat all n dragons that live on this level. Kirito and the dragons have strength, which is represented by an integer. In the duel between two opponents the duel's outcome is determined by their strength. Initially, Kirito's strength equals s.
+<!-- more -->
 If Kirito starts duelling with the i-th (1 ≤ i ≤ n) dragon and Kirito's strength is not greater than the dragon's strength x<sub>i</sub>, then Kirito loses the duel and dies. But if Kirito's strength is greater than the dragon's strength, then he defeats the dragon and gets a bonus strength increase by y<sub>i</sub>.
 
 Kirito can fight the dragons in any order. Determine whether he can move on to the next level of the game, that is, defeat all dragons without a single loss.

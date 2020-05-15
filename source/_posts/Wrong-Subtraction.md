@@ -1,5 +1,5 @@
 ---
-title: Codeforces 977A Wrong Subtraction
+title: Codeforces 977A v1
 date: 2019-03-07 18:41:32
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - implementation
     - 新手
 ---
-[Codeforces 977A](https://codeforces.com/problemset/problem/977/A)
-<!-- more -->
-Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:
+[Wrong Subtraction](https://codeforces.com/problemset/problem/977/A)
 
+Little girl Tanya is learning how to decrease a number by one, but she does it wrong with a number consisting of two or more digits. Tanya subtracts one from a number by the following algorithm:
+<!-- more -->
 ● if the last digit of the number is non-zero, she decreases the number by one;
 ● if the last digit of the number is zero, she divides the number by 10 (i.e. removes the last digit).
 

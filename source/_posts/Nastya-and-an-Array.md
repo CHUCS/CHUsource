@@ -1,5 +1,5 @@
 ---
-title: Nastya and an Array
+title: Codeforces 992A
 date: 2019-04-12 22:54:38
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - sortings
     - 簡單
 ---
-[Codeforces 992A](https://codeforces.com/problemset/problem/992/A)
-<!-- more -->
-Nastya owns too many arrays now, so she wants to delete the least important of them. However, she discovered that this array is magic! Nastya now knows that the array has the following properties:
+[Nastya and an Array](https://codeforces.com/problemset/problem/992/A)
 
+Nastya owns too many arrays now, so she wants to delete the least important of them. However, she discovered that this array is magic! Nastya now knows that the array has the following properties:
+<!-- more -->
 In one second we can add an arbitrary (possibly negative) integer to all elements of the array that are not equal to zero.
 When all elements of the array become equal to zero, the array explodes.
 Nastya is always busy, so she wants to explode the array as fast as possible. Compute the minimum time in which the array can be exploded.

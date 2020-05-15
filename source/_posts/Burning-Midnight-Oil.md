@@ -1,5 +1,5 @@
 ---
-title: Codeforces 165B Burning Midnight Oil
+title: Codeforces 165B
 date: 2019-03-21 09:51:31
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - implementation
     - 普通
 ---
-[Codeforces 165B](https://codeforces.com/problemset/problem/165/B)
-<!-- more -->
-One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , ...
+[Burning Midnight Oil](https://codeforces.com/problemset/problem/165/B)
 
+One day a highly important task was commissioned to Vasya — writing a program in a night. The program consists of n lines of code. Vasya is already exhausted, so he works like that: first he writes v lines of code, drinks a cup of tea, then he writes as much as ⌊v/k⌋ lines, drinks another cup of tea, then he writes ⌊v/k<sup>2</sup>⌋ lines and so on: ⌊v/k<sup>3</sup>⌋ , ⌊v/k<sup>4</sup>⌋ , ⌊v/k<sup>5</sup>⌋ , ...
+<!-- more -->
 The expression ⌊a/b⌋is regarded as the integral part from dividing number a by number b.
 
 The moment the current value ⌊v/k<sup>p</sup>⌋ equals 0, Vasya immediately falls asleep and he wakes up only in the morning, when the program should already be finished.

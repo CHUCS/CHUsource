@@ -1,14 +1,14 @@
 ---
-title: Codeforces 37A Towers
+title: Codeforces 37A
 date: 2019-04-27 18:41:23
 tags:
     - 簡單
     - sortings
 ---
-[Codeforces 37A](https://codeforces.com/problemset/problem/37/A)
-<!-- more -->
-Little Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them are known. The bars can be put one on the top of the other if their lengths are the same.
+[Towers](https://codeforces.com/problemset/problem/37/A)
 
+Little Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them are known. The bars can be put one on the top of the other if their lengths are the same.
+<!-- more -->
 Vasya wants to construct the minimal number of towers from the bars. Help Vasya to use the bars in the best way possible.
 
 #### Input:

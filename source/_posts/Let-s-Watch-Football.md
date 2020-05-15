@@ -1,5 +1,5 @@
 ---
-title: Codeforces 195A Let's Watch Football
+title: Codeforces 195A
 date: 2019-04-12 23:13:54
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - binary search 
     - 普通
 ---
-[Codeforces 195A](https://codeforces.com/problemset/problem/195/A)
-<!-- more -->
-Valeric and Valerko missed the last Euro football game, so they decided to watch the game's key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will "hang up" as the size of data to watch per second will be more than the size of downloaded data per second.
+[Let's Watch Football](https://codeforces.com/problemset/problem/195/A)
 
+Valeric and Valerko missed the last Euro football game, so they decided to watch the game's key moments on the Net. They want to start watching as soon as possible but the connection speed is too low. If they turn on the video right now, it will "hang up" as the size of data to watch per second will be more than the size of downloaded data per second.
+<!-- more -->
 The guys want to watch the whole video without any pauses, so they have to wait some integer number of seconds for a part of the video to download. After this number of seconds passes, they can start watching. Waiting for the whole video to download isn't necessary as the video can download after the guys started to watch.
 
 Let's suppose that video's length is c seconds and Valeric and Valerko wait t seconds before the watching. Then for any moment of time t<sub>0</sub>, t ≤ t<sub>0</sub> ≤ c + t, the following condition must fulfill: the size of data received in t<sub>0</sub> seconds is not less than the size of data needed to watch t<sub>0</sub> - t seconds of the video.

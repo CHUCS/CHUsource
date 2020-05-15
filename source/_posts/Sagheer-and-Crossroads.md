@@ -1,5 +1,5 @@
 ---
-title: Codeforces 812A Sagheer and Crossroads
+title: Codeforces 812A
 date: 2019-03-26 13:24:28
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - 簡單
 ---
 
-[Codeforces 812A](https://codeforces.com/problemset/problem/812/A)
-<!-- more -->
-Sagheer is walking in the street when he comes to an intersection of two roads. Each road can be represented as two parts where each part has 3 lanes getting into the intersection (one for each direction) and 3 lanes getting out of the intersection, so we have 4 parts in total. Each part has 4 lights, one for each lane getting into the intersection (l — left, s — straight, r — right) and a light p for a pedestrian crossing. 
+[Sagheer and Crossroads](https://codeforces.com/problemset/problem/812/A)
 
+Sagheer is walking in the street when he comes to an intersection of two roads. Each road can be represented as two parts where each part has 3 lanes getting into the intersection (one for each direction) and 3 lanes getting out of the intersection, so we have 4 parts in total. Each part has 4 lights, one for each lane getting into the intersection (l — left, s — straight, r — right) and a light p for a pedestrian crossing. 
+<!-- more -->
 ![A](A.PNG)
 An accident is possible if a car can hit a pedestrian. This can happen if the light of a pedestrian crossing of some part and the light of a lane that can get to or from that same part are green at the same time.
 

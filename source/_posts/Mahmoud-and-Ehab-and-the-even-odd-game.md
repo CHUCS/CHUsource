@@ -1,17 +1,17 @@
 ---
-title: CodeForces 959A Mahmoud and Ehab and the even-odd game
+title: CodeForces 959A
 date: 2019-12-22 15:26:03
 tags:
     - 新手
     - games
     - math
 ---
-[CodeForces 959A](http://codeforces.com/problemset/problem/959/A)
-<!-- more -->
+[Mahmoud and Ehab and the even-odd game](http://codeforces.com/problemset/problem/959/A)
+
 
 #### 題意:
 判斷奇數偶數，奇數輸出"Mahmoud"，偶數輸出"Ehab"。
-
+<!-- more -->
 #### 思路:
 n%2如果等於0就輸出"Ehab"Ehab，否則輸出"Mahmoud"。
 #### 程式碼:

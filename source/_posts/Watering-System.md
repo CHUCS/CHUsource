@@ -1,5 +1,5 @@
 ---
-title: Watering System
+title: Codeforces 967B
 date: 2019-04-12 23:05:47
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - sortings
     - 簡單
 ---
-[Codeforces 967B](https://codeforces.com/problemset/problem/967/B)
-<!-- more -->
-Arkady wants to water his only flower. Unfortunately, he has a very poor watering system that was designed for n flowers and so it looks like a pipe with n holes. Arkady can only use the water that flows from the first hole.
+[Watering System](https://codeforces.com/problemset/problem/967/B)
 
+Arkady wants to water his only flower. Unfortunately, he has a very poor watering system that was designed for n flowers and so it looks like a pipe with n holes. Arkady can only use the water that flows from the first hole.
+<!-- more -->
 Arkady can block some of the holes, and then pour A liters of water into the pipe. After that, the water will flow out from the non-blocked holes proportionally to their sizes s<sub>1</sub>,s<sub>2</sub>,…,s<sub>n</sub>. In other words, if the sum of sizes of non-blocked holes is S, and the i-th hole is not blocked, (s<sub>i</sub>*A)/S liters of water will flow out of it.
 
 What is the minimum number of holes Arkady should block to make at least B liters of water flow out of the first hole?

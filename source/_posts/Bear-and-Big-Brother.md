@@ -1,16 +1,16 @@
 ---
-title: CodeForces 791A Bear and Big Brother
+title: CodeForces 791A
 date: 2019-12-13 14:13:20
 tags:
     - implementation
     - 新手
 ---
-[CodeForces 791A](http://codeforces.com/problemset/problem/791/A)
-<!-- more -->
+[Bear and Big Brother](http://codeforces.com/problemset/problem/791/A)
+
 
 #### 題意:
 一開始給你小熊和牠哥哥的體型，牠每一年增加三倍，而牠哥哥增加兩倍。題目問你說至少要幾年小熊才能超過哥哥的體重。
-
+<!-- more -->
 #### 思路:
 每過一年看小熊有沒有超過哥哥，如果有就輸出經過了幾年。
 

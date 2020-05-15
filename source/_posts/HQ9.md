@@ -1,5 +1,5 @@
 ---
-title: CodeForces 133A HQ9+
+title: CodeForces 133A
 date: 2019-03-14 10:01:53
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - math
     - 新手
 ---
-[CodeForces 133A](https://codeforces.com/problemset/problem/133/A)
-<!-- more -->
-HQ9+ is a joke programming language which has only four one-character instructions:
+[HQ9+](https://codeforces.com/problemset/problem/133/A)
 
+HQ9+ is a joke programming language which has only four one-character instructions:
+<!-- more -->
 ● "H" prints "Hello, World!",
 ● "Q" prints the source code of the program itself,
 ● "9" prints the lyrics of "99 Bottles of Beer" song,

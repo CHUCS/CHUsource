@@ -1,15 +1,15 @@
 ---
-title: Codeforces 976B Lara Croft and the New Game
+title: Codeforces 976B
 date: 2019-04-20 18:50:14
 tags:
     - implementation
     - math
     - 簡單
 ---
-[Codeforces 976B](https://codeforces.com/problemset/problem/976/B)
-<!-- more -->
-You might have heard about the next game in Lara Croft series coming out this year. You also might have watched its trailer. Though you definitely missed the main idea about its plot, so let me lift the veil of secrecy.
+[Lara Croft and the New Game](https://codeforces.com/problemset/problem/976/B)
 
+You might have heard about the next game in Lara Croft series coming out this year. You also might have watched its trailer. Though you definitely missed the main idea about its plot, so let me lift the veil of secrecy.
+<!-- more -->
 Lara is going to explore yet another dangerous dungeon. Game designers decided to use good old 2D environment. The dungeon can be represented as a rectangle matrix of n rows and m columns. Cell (x, y) is the cell in the x-th row in the y-th column. Lara can move between the neighbouring by side cells in all four directions.
 
 Moreover, she has even chosen the path for herself to avoid all the traps. She enters the dungeon in cell (1, 1), that is top left corner of the matrix. Then she goes down all the way to cell (n, 1) — the bottom left corner. Then she starts moving in the snake fashion — all the way to the right, one cell up, then to the left to the cell in 2-nd column, one cell up. She moves until she runs out of non-visited cells. n and m given are such that she always end up in cell (1, 2).

@@ -1,5 +1,5 @@
 ---
-title: Codeforces 653A Bear and Three Balls
+title: Codeforces 653A
 date: 2019-03-14 10:02:47
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - sortings
     - 簡單
 ---
-[Codeforces 653A](https://codeforces.com/problemset/problem/653/A)
-<!-- more -->
-Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.
+[Bear and Three Balls](https://codeforces.com/problemset/problem/653/A)
 
+Limak is a little polar bear. He has n balls, the i-th ball has size t<sub>i</sub>.
+<!-- more -->
 Limak wants to give one ball to each of his three friends. Giving gifts isn't easy — there are two rules Limak must obey to make friends happy:
 
 ● No two friends can get balls of the same size.

@@ -1,5 +1,5 @@
 ---
-title: Codeforces 261A Maxim and Discounts
+title: Codeforces 261A
 date: 2019-03-26 13:25:06
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - greedy
     - 普通
 ---
-[Codeforces 261A](https://codeforces.com/problemset/problem/261/A)
-<!-- more -->
-Maxim always goes to the supermarket on Sundays. Today the supermarket has a special offer of discount systems.
+[Maxim and Discounts](https://codeforces.com/problemset/problem/261/A)
 
+Maxim always goes to the supermarket on Sundays. Today the supermarket has a special offer of discount systems.
+<!-- more -->
 There are m types of discounts. We assume that the discounts are indexed from 1 to m. To use the discount number i, the customer takes a special basket, where he puts exactly q<sub>i</sub> items he buys. Under the terms of the discount system, in addition to the items in the cart the customer can receive at most two items from the supermarket for free. The number of the "free items" (0, 1 or 2) to give is selected by the customer. The only condition imposed on the selected "free items" is as follows: each of them mustn't be more expensive than the cheapest item out of the q<sub>i</sub> items in the cart.
 
 Maxim now needs to buy n items in the shop. Count the minimum sum of money that Maxim needs to buy them, if he use the discount system optimally well.

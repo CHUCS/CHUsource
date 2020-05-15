@@ -1,5 +1,5 @@
 ---
-title: Codeforces 1118A Water Buying
+title: Codeforces 1118A
 date: 2019-03-21 09:50:26
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - implementation
     - 簡單
 ---
-[Codeforces 1118A](https://codeforces.com/contest/1118/problem/A)
-<!-- more -->
-Polycarp wants to cook a soup. To do it, he needs to buy exactly n liters of water.
+[Water Buying](https://codeforces.com/contest/1118/problem/A)
 
+Polycarp wants to cook a soup. To do it, he needs to buy exactly n liters of water.
+<!-- more -->
 There are only two types of water bottles in the nearby shop — 1-liter bottles and 2-liter bottles. There are infinitely many bottles of these two types in the shop.
 
 The bottle of the first type costs a burles and the bottle of the second type costs b burles correspondingly.

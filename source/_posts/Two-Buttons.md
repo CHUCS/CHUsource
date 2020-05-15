@@ -1,5 +1,5 @@
 ---
-title: Two Buttons
+title: Codeforces 520B
 date: 2019-10-26 11:52:34
 tags:
     - dfs and similar
@@ -9,10 +9,10 @@ tags:
     - math
     - shortest paths
 ---
-[Codeforces 520B](https://codeforces.com/problemset/problem/520/B)
-<!-- more -->
-Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. 
+[Two Buttons](https://codeforces.com/problemset/problem/520/B)
 
+Vasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. 
+<!-- more -->
 
 After clicking the red button, device multiplies the displayed number by two. After clicking the blue button, device subtracts one from the number on the display. 
 

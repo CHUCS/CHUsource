@@ -1,5 +1,5 @@
 ---
-title: Codeforces 706B Interesting drink
+title: Codeforces 706B
 date: 2019-03-26 13:25:37
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - sortings
     - 普通
 ---
-[Codeforces 706B](https://codeforces.com/problemset/problem/706/B)
-<!-- more -->
-Vasiliy likes to rest after a hard work, so you may often meet him in some bar nearby. As all programmers do, he loves the famous drink "Beecola", which can be bought in n different shops in the city. It's known that the price of one bottle in the shop i is equal to x<sub>i</sub> coins.
+[Interesting drink](https://codeforces.com/problemset/problem/706/B)
 
+Vasiliy likes to rest after a hard work, so you may often meet him in some bar nearby. As all programmers do, he loves the famous drink "Beecola", which can be bought in n different shops in the city. It's known that the price of one bottle in the shop i is equal to x<sub>i</sub> coins.
+<!-- more -->
 Vasiliy plans to buy his favorite drink for q consecutive days. He knows, that on the i-th day he will be able to spent m<sub>i</sub> coins. Now, for each of the days he want to know in how many different shops he can buy a bottle of "Beecola".
 
 #### Input:

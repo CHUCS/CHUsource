@@ -1,5 +1,5 @@
 ---
-title: Codeforces 216B Teams Forming
+title: Codeforces 216B
 date: 2019-03-26 13:24:41
 tags:
     - CHU Training
@@ -8,10 +8,10 @@ tags:
     - greedy
     - 簡單
 ---
-[Codeforces 216B](https://codeforces.com/problemset/problem/216/B)
-<!-- more -->
-One day n students come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.
+[Teams Forming](https://codeforces.com/problemset/problem/216/B)
 
+One day n students come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.
+<!-- more -->
 We know that this group of people has archenemies. Each student has at most two archenemies. Besides, if student A is an archenemy to student B, then student B is an archenemy to student A.
 
 The students want to split so as no two archenemies were in one team. If splitting in the required manner is impossible, some students will have to sit on the bench.

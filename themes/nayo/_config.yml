@@ -10,7 +10,7 @@ menu:
 # site title 
 # 网站的标题
 # title为空时 Hexo/_config.yml 配置有效
-title: CHUCS 解題報告
+title: CHUCS
 
 # author profile
 # 图片放置于主题目录下: source/imgaes/
@@ -29,7 +29,7 @@ favicon: /images/favicon.png
 # social link
 # 更多链接
 social:  
-  Github: https://github.com/CHUCS
+  Github: https://github.com/Daviswww/Submissions-by-UVa-etc
 #  Weibo: 
 #  Zhihu:
   Facebook: https://www.facebook.com/groups/114029922120684/?epa=SEARCH_BOX

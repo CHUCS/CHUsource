@@ -1,16 +1,16 @@
 ---
-title: CodeForces 1030A In Search of an Easy Problem
+title: CodeForces 1030A
 date: 2019-11-30 08:52:33
 tags:
     - 新手
     - implementation
 ---
-[CodeForces 1030A](http://codeforces.com/problemset/problem/1030/A)
-<!-- more -->
+[In Search of an Easy Problem](http://codeforces.com/problemset/problem/1030/A)
+
 
 #### 題意:
 數列如果出現1就輸出HARD，沒有則輸出EASY。
-
+<!-- more -->
 #### 思路:
 每次輸入都判斷。
 

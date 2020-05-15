@@ -1,14 +1,14 @@
 ---
-title: Aizu ITP1_5_B Print a Frame
+title: Aizu ITP1_5_B
 date: 2019-11-17 10:03:12
 tags:
 - implementation
 ---
-[Aizu ITP1_5_B](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_5_B)
-<!-- more -->
+[Print a Frame](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_5_B)
 
 #### 題意:
 幫他印出一個N*M的農場
+<!-- more -->
 #### 思路:
 把他切成三塊來印，先印一排#，在印中間部分，最後在印出#，一步一步時做出來。
 #### 程式碼:

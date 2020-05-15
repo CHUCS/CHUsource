@@ -1,14 +1,14 @@
 ---
-title: Codeforces 1055A Metro
+title: Codeforces 1055A
 date: 2019-04-27 18:42:37
 tags:
     - 簡單
     - greedy
 ---
-[Codeforces 1055A](https://codeforces.com/problemset/problem/1055/A)
-<!-- more -->
-Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home.
+[Metro](https://codeforces.com/problemset/problem/1055/A)
 
+Alice has a birthday today, so she invited home her best friend Bob. Now Bob needs to find a way to commute to the Alice's home.
+<!-- more -->
 In the city in which Alice and Bob live, the first metro line is being built. This metro line contains n
 stations numbered from 1 to n. Bob lives near the station with number 1, while Alice lives near the station with number s. The metro line has two tracks. Trains on the first track go from the station 1 to the station n
 

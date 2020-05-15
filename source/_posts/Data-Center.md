@@ -1,17 +1,17 @@
 ---
-title: CodeForces 1250F Data Center
+title: CodeForces 1250F
 date: 2019-11-26 15:32:50
 tags:
     - 新手
     - brute force
     - implementation
 ---
-[CodeForces 1250F](http://codeforces.com/problemset/problem/1250/F)
-<!-- more -->
+[Data Center](http://codeforces.com/problemset/problem/1250/F)
+
 
 #### 題意:
 給你一個面積找出最小的周長。
-
+<!-- more -->
 #### 思路:
 將所又可能跑過一遍，每次比較找出最小的周長。
 

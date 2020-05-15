@@ -1,5 +1,5 @@
 ---
-title: Codeforces 474B Worms
+title: Codeforces 474B
 date: 2019-03-14 10:03:23
 tags:
     - CHU Training
@@ -7,10 +7,10 @@ tags:
     - binary search
     - 普通
 ---
-[Codeforces 474B](https://codeforces.com/problemset/problem/474/B)
-<!-- more -->
-It is lunch time for Mole. His friend, Marmot, prepared him a nice game for lunch.
+[Worms](https://codeforces.com/problemset/problem/474/B)
 
+It is lunch time for Mole. His friend, Marmot, prepared him a nice game for lunch.
+<!-- more -->
 Marmot brought Mole n ordered piles of worms such that i-th pile contains ai worms. He labeled all these worms with consecutive integers: worms in first pile are labeled with numbers 1 to a<sub>1</sub>, worms in second pile are labeled with numbers a<sub>1</sub> + 1 to a<sub>1</sub> + a<sub>2</sub> and so on. See the example for a better understanding.
 
 Mole can't eat all the worms (Marmot brought a lot) and, as we all know, Mole is blind, so Marmot tells him the labels of the best juicy worms. Marmot will only give Mole a worm if Mole says correctly in which pile this worm is contained.

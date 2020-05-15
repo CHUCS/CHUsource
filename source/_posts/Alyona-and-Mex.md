@@ -1,15 +1,15 @@
 ---
-title: Codeforces 739A Alyona and Mex
+title: Codeforces 739A
 date: 2019-05-05 22:00:45
 tags:
     - 簡單
     - sortings
 
 ---
-[Codeforces 739A](https://codeforces.com/problemset/problem/739/A)
-<!-- more -->
-Alyona's mother wants to present an array of n non-negative integers to Alyona. The array should be special.
+[Alyona and Mex](https://codeforces.com/problemset/problem/739/A)
 
+Alyona's mother wants to present an array of n non-negative integers to Alyona. The array should be special.
+<!-- more -->
 Alyona is a capricious girl so after she gets the array, she inspects m of its subarrays. Subarray is a set of some subsequent elements of the array. The i-th subarray is described with two integers l<sub>i</sub> and r<sub>i</sub>, and its elements are a\[l<sub>i</sub>], a[l<sub>i</sub> + 1], ..., a\[r<sub>i</sub>].
 
 Alyona is going to find mex for each of the chosen subarrays. Among these m mexes the girl is going to find the smallest. She wants this minimum mex to be as large as possible.

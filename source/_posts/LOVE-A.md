@@ -1,15 +1,15 @@
 ---
-title: Codeforces 1146A LOVE A
+title: Codeforces 1146A
 date: 2019-04-27 18:34:17
 tags:
     - 新手
     - implementation
     - sortings
 ---
-[Codeforces 1146A](https://codeforces.com/contest/1146/problem/A)
-<!-- more -->
-Alice has a string s. She really likes the letter "a". She calls a string good if strictly more than half of the characters in that string are "a"s. For example "aaabb", "axaa" are good strings, and "baca", "awwwa", "" (empty string) are not.
+[LOVE A](https://codeforces.com/contest/1146/problem/A)
 
+Alice has a string s. She really likes the letter "a". She calls a string good if strictly more than half of the characters in that string are "a"s. For example "aaabb", "axaa" are good strings, and "baca", "awwwa", "" (empty string) are not.
+<!-- more -->
 Alice can erase some characters from her string s. She would like to know what is the longest string remaining after erasing some characters (possibly zero) to get a good string. It is guaranteed that the string has at least one "a" in it, so the answer always exists.
 
 #### Input:
