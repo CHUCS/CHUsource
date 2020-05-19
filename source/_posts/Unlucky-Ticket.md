@@ -1,6 +1,8 @@
 ---
 title: Codeforces 160B
 date: 2020-04-14 13:05:42
+link: Unlucky-Ticket
+keywords: Codeforces 160B, Codeforces Unlucky Ticket
 tags:
     - greedy
     - sortings

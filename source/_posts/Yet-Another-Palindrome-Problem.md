@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1324B
 date: 2020-03-20 13:26:00
+link: Yet-Another-Palindrome-Problem
+keywords: Codeforces 1324B, Codeforces Yet Another Palindrome Problem
 tags:
     - brute force
     - strings

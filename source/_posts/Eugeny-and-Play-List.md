@@ -1,6 +1,8 @@
 ---
 title: Codeforces 302B
 date: 2019-04-12 23:18:15
+link: Eugeny-and-Play-Lis
+keywords: Codeforces 302B, Codeforces Eugeny and Play Lis
 tags:
     - CHU Training
     - CodeForces

@@ -1,6 +1,8 @@
 ---
 title: CodeForces 363A
 date: 2020-04-02 15:36:15
+link: Soroban
+keywords: Codeforces 363A, Codeforces Soroban
 tags:
     - implementation
     - 簡單

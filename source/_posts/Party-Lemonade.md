@@ -1,6 +1,8 @@
 ---
 title: CodeForces 913C
 date: 2020-01-17 13:17:36
+link: Party-Lemonade
+keywords: Codeforces 913C, Codeforces Party Lemonade
 tags:
     - bitmasks
     - greedy

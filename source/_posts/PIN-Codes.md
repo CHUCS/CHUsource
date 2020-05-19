@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1263B
 date: 2020-04-14 13:04:43
+link: PIN-Codes
+keywords: Codeforces 1263B, Codeforces PIN Codes
 tags:
     - greedy
     - implementation

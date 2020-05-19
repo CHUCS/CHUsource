@@ -1,6 +1,8 @@
 ---
 title: Codeforces 246A
 date: 2019-04-27 18:42:02
+link: Buggy-Sorting
+keywords: Codeforces 246A, Codeforces Buggy Sorting
 tags:
     - 簡單
     - sortings

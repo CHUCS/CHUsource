@@ -1,6 +1,8 @@
 ---
 title: Codeforces 697A
 date: 2020-04-14 13:04:09
+link: Pineapple Incident
+keywords: Codeforces 697A, Codeforces Pineapple Incident
 tags:
     - implementation
     - math

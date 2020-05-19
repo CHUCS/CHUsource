@@ -1,6 +1,8 @@
 ---
 title: Codeforces 165B
 date: 2019-03-21 09:51:31
+link: Burning-Midnight-Oil
+keywords: Codeforces 165B, Codeforces Burning Midnight Oil
 tags:
     - CHU Training
     - CodeForces

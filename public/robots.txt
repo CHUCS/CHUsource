@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /fancybox/
+Disallow: /fonts/
+Disallow: /css/
+Disallow: /images/
+Allow: /
+Allow: /archives
+Allow: /tags
+Sitemap: https://chucs.github.io/sitemap.xml

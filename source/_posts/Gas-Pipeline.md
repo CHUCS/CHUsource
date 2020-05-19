@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1207C
 date: 2019-12-13 16:52:32
+link: Gas-Pipeline
+keywords: Codeforces 1207C, Codeforces Gas Pipeline
 tags:
     - 一般
     - greedy

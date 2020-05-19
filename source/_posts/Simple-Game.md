@@ -1,6 +1,8 @@
 ---
 title: Codeforces 977A
 date: 2019-03-07 19:28:05
+link: Simple-Game
+keywords: Codeforces 977A, Codeforces Simple Game
 tags:
     - CHU Training
     - CodeForces

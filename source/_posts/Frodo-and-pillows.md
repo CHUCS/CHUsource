@@ -1,6 +1,8 @@
 ---
 title: Codeforces 760B
 date: 2019-03-21 09:52:14
+link: Frodo-and-pillows
+keywords: Codeforces 760B, Codeforces Frodo and pillows
 tags:
     - CHU Training
     - CodeForces

@@ -1,6 +1,8 @@
 ---
 title: Codeforces 122A
 date: 2019-03-09 18:48:00
+link: Lucky-Division
+keywords: CodeForces 122A, CodeForces Lucky Division
 tags:
     - CHU Training
     - CodeForces

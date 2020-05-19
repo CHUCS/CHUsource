@@ -1,6 +1,8 @@
 ---
 title: Codeforces 734A
 date: 2020-04-12 16:28:11
+link: Anton-and-Classes
+keywords: Codeforces 785B, Codeforces Anton and Classes
 tags:
     - implementation
     - strings

@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1099B
 date: 2019-03-26 13:25:51
+link: Squares-and-Segments
+keywords: Codeforces 1099B, Codeforces Squares and Segments
 tags:
     - CHU Training
     - CodeForces

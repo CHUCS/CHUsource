@@ -1,6 +1,8 @@
 ---
 title: C++ Two Ponit Tutorials
 date: 2020-04-15 13:49:35
+link: C-Two-Ponit-Tutorials
+keywords: C++ Two Ponit Tutorials
 tags:
     - tutorials
     - cpp

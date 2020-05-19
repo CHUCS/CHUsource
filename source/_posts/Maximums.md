@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1326B
 date: 2020-04-02 15:35:17
+link: Maximums
+keywords: Codeforces 1326B, Codeforces Maximums
 tags:
     - implementation
     - math

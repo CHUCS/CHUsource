@@ -1,6 +1,8 @@
 ---
 title: Codeforces 217A
 date: 2019-10-18 17:22:26
+link: Ice-Skating
+keywords: Codeforces 217A, Codeforces Ice Skating
 tags:
     - brute force
     - dfs and similar

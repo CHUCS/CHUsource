@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1197A
 date: 2019-09-19 16:04:52
+link: DIY-Wooden-Ladder
+keywords: Codeforces 1197A, Codeforces DIY Wooden Ladder
 tags:
 - greedy
 - sortings

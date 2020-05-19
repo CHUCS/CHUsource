@@ -1,6 +1,8 @@
 ---
 title: CodeForces 996A
 date: 2019-12-14 11:57:51
+link: Hit-the-Lottery
+keywords: Codeforces 996A, Codeforces Hit the Lottery
 tags:
     - dp
     - greedy

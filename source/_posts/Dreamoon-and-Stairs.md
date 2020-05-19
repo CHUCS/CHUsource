@@ -1,6 +1,8 @@
 ---
 title: Codeforces 476A
 date: 2020-04-30 17:12:17
+link: Dreamoon-and-Stairs
+keywords: Codeforces 476A, Codeforces Dreamoon and Stairs
 tags:
     - implementation
     - math

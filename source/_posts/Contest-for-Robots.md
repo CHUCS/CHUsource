@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1321A
 date: 2020-03-04 08:21:22
+link: Contest-for-Robots
+keywords: CodeForces 1321A, CodeForces Contest for Robots
 tags:
     - greedy
     - 簡單

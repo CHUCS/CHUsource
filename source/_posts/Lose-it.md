@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1176C
 date: 2019-11-26 15:35:15
+link: Lose-it
+keywords: CodeForces 1176C, CodeForces Lose it
 tags:
     - dp
     - implementation

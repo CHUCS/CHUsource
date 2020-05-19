@@ -1,6 +1,8 @@
 ---
 title: Aizu ITP1_8_D
 date: 2019-11-17 10:39:00
+link: Ring
+keywords: Aizu ITP1_8_D, Aizu Ring
 tags:
     - implementation
 ---

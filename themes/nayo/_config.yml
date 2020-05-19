@@ -157,3 +157,8 @@ highlight:
 search:
   path: search.xml
   field: post
+  
+# robots.txt 
+robots:
+  path: robots.txt 
+  field: post

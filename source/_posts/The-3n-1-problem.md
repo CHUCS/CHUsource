@@ -1,7 +1,10 @@
 ---
 title: UVA 100
 date: 2019-10-15 19:30:25
+link: The-3n-1-problem
+keywords: UVA 100, UVA The 3n + 1 problem
 tags:
+    - implementation
 ---
 # UVA 100 - The 3n + 1 problem
 [The 3n + 1 problem](https://onlinejudge.org/external/1/100.pdf)

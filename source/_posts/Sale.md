@@ -1,6 +1,8 @@
 ---
 title: Codeforces 34B
 date: 2019-04-20 18:50:51
+link: Sale
+keywords: Codeforces 34B, Codeforces Sale
 tags:
     - greedy
     - sortings

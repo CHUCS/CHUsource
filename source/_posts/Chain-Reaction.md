@@ -1,6 +1,8 @@
 ---
 title: CodeForces 607A
 date: 2019-12-22 15:10:04
+link: Chain-Reaction
+keywords: CodeForces 1220A, CodeForces Chain Reaction
 tags:
     - 一般
     - binary search

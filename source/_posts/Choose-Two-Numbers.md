@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1206A
 date: 2020-04-07 13:47:59
+link: Choose-Two-Numbers
+keywords: CodeForces 1206A, CodeForces Choose Two Numbers
 tags:
     - math
     - sortings

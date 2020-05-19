@@ -1,6 +1,8 @@
 ---
 title: Codeforces 609A
 date: 2019-03-21 09:50:43
+link: USB-Flash-Drives
+keywords: Codeforces 609A, Codeforces USB Flash Drives
 tags:
     - CHU Training
     - CodeForces

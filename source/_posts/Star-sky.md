@@ -1,6 +1,8 @@
 ---
 title: CodeForces 835C
 date: 2020-01-17 13:14:16
+link: Star-sky
+keywords: Codeforces 835C, Codeforces Star sky
 tags:
     - implementation
     - dp

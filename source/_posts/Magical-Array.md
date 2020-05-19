@@ -1,6 +1,8 @@
 ---
 title: Codeforces 84B
 date: 2020-04-12 16:28:28
+link: Magical-Array
+keywords: Codeforces 84B, Codeforces Magical Array
 tags:
     - combinatorics
     - implementation

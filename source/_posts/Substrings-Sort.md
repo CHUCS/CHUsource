@@ -1,6 +1,8 @@
 ---
 title: Codeforces 988B
 date: 2020-04-14 13:05:04
+link: Substrings-Sort
+keywords: Codeforces 988B, Codeforces Substrings Sort
 tags:
     - 普通
     - sortings

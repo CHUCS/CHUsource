@@ -1,6 +1,8 @@
 ---
 title: Codeforces 992A
 date: 2019-04-12 22:54:38
+link: Nastya-and-an-Array
+keywords: Codeforces 992A, Codeforces Nastya and an Array
 tags:
     - CHU Training
     - CodeForces

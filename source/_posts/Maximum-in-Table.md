@@ -1,6 +1,8 @@
 ---
 title: CodeForces 509A
 date: 2020-03-11 13:23:56
+link: Maximum-in-Table
+keywords: Codeforces 509A, Codeforces Maximum in Table
 tags:
     - brute force
     - implementation

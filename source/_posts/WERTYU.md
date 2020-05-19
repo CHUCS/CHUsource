@@ -1,6 +1,8 @@
 ---
 title: UVA 10082
 date: 2019-11-17 10:21:35
+link: WERTYU
+keywords: UVA 10082, UVA WERTYU
 tags:
 - implementation
 ---

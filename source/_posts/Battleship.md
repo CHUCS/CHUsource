@@ -1,6 +1,8 @@
 ---
 title: Codeforces 965B
 date: 2019-03-09 20:00:46
+link: Battleship
+keywords: Codeforces 965B, Codeforces Battleship
 tags:
     - CHU Training
     - CodeForces

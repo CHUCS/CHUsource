@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1154A
 date: 2019-12-14 11:57:39
+link: Restoring-Three-Numbers
+keywords: Codeforces 1154A, Codeforces Restoring Three Numbers
 tags:
     - math
     - 新手

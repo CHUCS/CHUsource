@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1146A
 date: 2019-04-27 18:34:17
+link: LOVE-A
+keywords: CodeForces 1146A, CodeForces LOVE A
 tags:
     - 新手
     - implementation

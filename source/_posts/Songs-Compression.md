@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1015C
 date: 2019-03-26 13:24:53
+link: Songs-Compression
+keywords: Codeforces 1015C, Codeforces Songs Compression
 tags:
     - CHU Training
     - CodeForces

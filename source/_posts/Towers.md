@@ -1,6 +1,8 @@
 ---
 title: Codeforces 37A
 date: 2019-04-27 18:41:23
+link: Towers
+keywords: Codeforces 37A, Codeforces Towers
 tags:
     - 簡單
     - sortings

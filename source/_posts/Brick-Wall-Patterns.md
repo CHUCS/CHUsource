@@ -1,6 +1,8 @@
 ---
 title: UVA 900
 date: 2019-12-13 16:52:19
+link: Brick-Wall-Patterns
+keywords: UVA 900, UVA Brick Wall Patterns
 tags:
     - 新手
     - dp

@@ -1,6 +1,8 @@
 ---
 title: Codeforces 1038C
 date: 2020-04-30 17:17:19
+link: Gambling
+keywords: Codeforces 1038C, Codeforces Gambling
 tags:
     - greedy
     - sortings

@@ -1,6 +1,8 @@
 ---
 title: C++ String Tutorials
 date: 2020-04-15 13:48:58
+link: C-String-Tutorials
+keywords: C++ String tutorials
 tags:
     - tutorials
     - cpp

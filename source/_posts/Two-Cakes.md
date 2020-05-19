@@ -1,6 +1,8 @@
 ---
 title: Codeforces 911B
 date: 2019-04-20 18:51:03
+link: Two-Cakes
+keywords: Codeforces 911B, Codeforces Two Cakes
 tags:
     - binary search 
     - implementation

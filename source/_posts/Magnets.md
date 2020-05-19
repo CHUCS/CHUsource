@@ -1,6 +1,8 @@
 ---
 title: Codeforces 344A
 date: 2019-04-20 18:05:29
+link: Magnets
+keywords: Codeforces 344A, Codeforces Magnets
 tags:
     - implementation
     - 新手

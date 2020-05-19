@@ -1,6 +1,8 @@
 ---
 title: CodeForces 414B
 date: 2019-11-30 08:53:08
+link: Mashmokh-and-ACM
+keywords: Codeforces 414B, Codeforces Mashmokh and ACM
 tags:
     - 普通
     - combinatorics

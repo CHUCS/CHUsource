@@ -1,6 +1,8 @@
 ---
 title: Codeforces 990B
 date: 2019-03-09 19:42:15
+link: Micro-World
+keywords: Codeforces 990B, Codeforces Micro-World
 tags:
     - CHU Training
     - CodeForces

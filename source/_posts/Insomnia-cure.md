@@ -1,6 +1,8 @@
 ---
 title: CodeForces 148A
 date: 2019-03-07 19:45:56
+link: Insomnia-cure
+keywords: Codeforces 148A, Codeforces Insomnia cure
 tags:
 	- CHU Training
 	- CodeForces

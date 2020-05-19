@@ -1,6 +1,8 @@
 ---
 title: Codeforces 785A
 date: 2019-04-20 18:05:09
+link: Anton-and-Polyhedrons
+keywords: Codeforces 785A, Codeforces Anton and Polyhedrons
 tags:
     - implementation
     - string

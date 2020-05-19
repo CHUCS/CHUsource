@@ -1,6 +1,8 @@
 ---
 title: Codeforces 31C
 date: 2020-04-27 17:02:28
+link: Schedule
+keywords: Codeforces 31C, Codeforces Schedule
 tags:
     - implementation
 ---

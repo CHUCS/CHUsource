@@ -1,6 +1,8 @@
 ---
 title: Codeforces 124A
 date: 2019-03-26 13:24:16
+link: The number of positions
+keywords: Codeforces 124A, Codeforces The number of positions
 tags:
     - CHU Training
     - CodeForces

@@ -1,6 +1,8 @@
 ---
 title: Codeforces 873C
 date: 2020-04-30 17:17:49
+link: Strange-Game-On-Matrix
+keywords: Codeforces 873C, Codeforces Strange Game On Matrix
 tags:
     - greedy
     - two pointers

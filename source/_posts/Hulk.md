@@ -1,6 +1,8 @@
 ---
 title: Codeforces 705A
 date: 2019-05-05 21:58:53
+link: Hulk
+keywords: Codeforces 705A, Codeforces Hulk
 tags:
     - implementation
     - 新手

@@ -1,6 +1,8 @@
 ---
 title: {{ title }}
 date: {{ date }}
+link: {{ title }}
+keywords: {{ title }}
 tags:
 ---
 [題目網址](https://chucs.github.io/site/)

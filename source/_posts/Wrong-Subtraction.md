@@ -1,6 +1,8 @@
 ---
-title: Codeforces 977A v1
+title: Codeforces 977A
 date: 2019-03-07 18:41:32
+link: Wrong-Subtraction-1
+keywords: Codeforces 977A, Codeforces Wrong Subtraction
 tags:
     - CHU Training
     - CodeForces

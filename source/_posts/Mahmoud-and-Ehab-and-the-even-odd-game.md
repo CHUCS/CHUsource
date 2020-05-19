@@ -1,6 +1,8 @@
 ---
 title: CodeForces 959A
 date: 2019-12-22 15:26:03
+link: Mahmoud-and-Ehab-and-the-even-odd-game
+keywords: Codeforces 959A, Codeforces Mahmoud and Ehab and the even-odd game
 tags:
     - 新手
     - games

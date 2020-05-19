@@ -1,6 +1,8 @@
 ---
 title: CodeForces 1253A
 date: 2019-11-30 09:27:04
+link: Single-Push
+keywords: Codeforces 1253A, Codeforces Single Push
 tags:
     - 簡單
     - implementation
