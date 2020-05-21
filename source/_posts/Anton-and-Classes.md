@@ -1,7 +1,6 @@
 ---
 title: Codeforces 785B
 date: 2020-04-15 13:17:44
-link: Anton-and-Classes
 keywords: Codeforces 785B, Codeforces Anton and Classes
 tags:
     - greedy

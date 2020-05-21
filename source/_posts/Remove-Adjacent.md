@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1321C
 date: 2020-03-20 13:25:41
-link: Remove-Adjacent
 keywords: Codeforces 1321C, Codeforces Remove Adjacent
 tags:
     - 普通

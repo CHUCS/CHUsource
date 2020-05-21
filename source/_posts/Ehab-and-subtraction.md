@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1088B
 date: 2020-04-15 13:17:35
-link: Ehab-and-subtraction
 keywords: Codeforces 1088B, Codeforces Ehab and subtraction
 tags:
     - implementation

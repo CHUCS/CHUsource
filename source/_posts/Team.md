@@ -1,7 +1,6 @@
 ---
 title: Codeforces 231A
 date: 2020-04-12 16:29:11
-link: Team
 keywords: Codeforces 231A, Codeforces Team
 tags:
     - 新手

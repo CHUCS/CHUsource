@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1028C
 date: 2019-09-30 20:11:22
-link: Rectangles
 keywords: Codeforces 1028C, Codeforces Rectangles
 tags:
     - 普通

@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1253C
 date: 2019-12-13 16:52:43
-link: Sweets-Eating
 keywords: Codeforces 1253C, Codeforces Sweets Eating
 tags:
     - 一般

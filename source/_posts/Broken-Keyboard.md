@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1251A
 date: 2020-04-15 13:18:14
-link: Broken-Keyboard
 keywords: Codeforces 1251A, Codeforces Broken Keyboard
 tags:
     - brute force

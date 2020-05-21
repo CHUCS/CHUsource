@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1311A
 date: 2020-03-04 08:15:07
-link: Add-Odd-or-Subtract-Even
 keywords: CodeForces Add Odd or Subtract Even, CodeForces 1311A
 tags:
     - greedy

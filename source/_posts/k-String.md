@@ -1,7 +1,6 @@
 ---
 title: Codeforces 219A
 date: 2020-04-27 17:02:09
-link: k-String
 keywords: CodeForces 219A, CodeForces k-String
 tags:
     - implementation

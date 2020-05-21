@@ -1,7 +1,6 @@
 ---
 title: UVA 10055
 date: 2019-11-17 10:00:07
-link: Hashmat-the-Brave-Warrior
 keywords: UVA 10055, UVA Hashmat the Brave Warrior
 tags:
 - implementation

@@ -1,7 +1,6 @@
 ---
 title: Codeforces 118B
 date: 2019-03-07 19:44:21
-link: Present-from-Lena
 keywords: Codeforces 118B, Codeforces Present from Lena
 tags:
     - CHU Training

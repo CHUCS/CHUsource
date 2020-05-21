@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1106C
 date: 2019-09-19 09:05:00
-link: Lunar-New-Year-and-Number-Division
 keywords: Codeforces 1106C, Codeforces Lunar New Year and Number Division
 tags:
 - implementation

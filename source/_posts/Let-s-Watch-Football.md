@@ -1,7 +1,6 @@
 ---
 title: Codeforces 195A
 date: 2019-04-12 23:13:54
-link: Let's Watch Football
 keywords: CodeForces 195A, CodeForces Let's Watch Football
 tags:
     - CHU Training

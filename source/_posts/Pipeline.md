@@ -1,7 +1,6 @@
 ---
 title: Codeforces 287B
 date: 2019-10-20 22:51:40
-link: Pipeline
 keywords: Codeforces 287B, Codeforces Pipeline
 tags:
     - binary search

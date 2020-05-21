@@ -1,7 +1,6 @@
 ---
 title: Aizu ITP1_5_B
 date: 2019-11-17 10:03:12
-link: Print-a-Frame
 keywords: Aizu ITP1_5_B, Aizu Print a Frame
 tags:
 - implementation

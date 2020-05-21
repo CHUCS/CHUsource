@@ -1,7 +1,6 @@
 ---
 title: Codeforces 599A
 date: 2019-05-05 21:59:55
-link: Patrick-and-Shopping
 keywords: Codeforces 599A, Codeforces Patrick and Shopping
 tags:
     - 新手

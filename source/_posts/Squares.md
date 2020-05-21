@@ -1,7 +1,6 @@
 ---
 title: Codeforces 263B
 date: 2019-03-14 10:02:24
-link: Squares
 keywords: Codeforces 263B, Codeforces Squares
 tags:
     - CHU Training

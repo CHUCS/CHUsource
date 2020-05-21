@@ -1,7 +1,6 @@
 ---
 title: Codeforces 985B
 date: 2020-04-15 13:17:22
-link: Sweets-Eating
 keywords: Codeforces 1253C, Codeforces Sweets Eating
 tags:
     - 普通

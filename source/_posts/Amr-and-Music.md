@@ -1,7 +1,6 @@
 ---
 title: Codeforces 507A
 date: 2019-03-21 09:51:53
-link: Amr-and-Music
 keywords: Codeforces 507A, Codeforces Amr and Music
 tags:
     - CHU Training

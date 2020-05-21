@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1225B2
 date: 2020-04-27 17:01:54
-link: TV-Subscriptions-Hard-Version
 keywords: Codeforces 1225B2, Codeforces TV Subscriptions (Hard Version)
 tags:
     - implementation

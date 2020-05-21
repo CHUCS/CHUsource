@@ -1,7 +1,6 @@
 ---
 title: Data Structures and Algorithms tutorials
 date: 2020-04-17 22:37:57
-link: Data-Structures-and-Algorithms
 keywords: 資工推薦清單
 tags:
     - tutorials

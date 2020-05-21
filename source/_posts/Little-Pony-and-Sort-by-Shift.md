@@ -1,7 +1,6 @@
 ---
 title: Codeforces 454B
 date: 2020-04-30 17:16:15
-link: Little-Pony-and-Sort-by-Shift
 keywords: CodeForces 454B, CodeForces Little Pony and Sort by Shift
 tags:
     - implementation

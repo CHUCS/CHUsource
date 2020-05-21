@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1095B
 date: 2020-04-15 13:17:15
-link: Array-Stabilization
 keywords: Codeforces 1095B, Codeforces Array Stabilization
 tags:
     - implementation

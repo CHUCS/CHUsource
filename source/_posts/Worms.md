@@ -1,7 +1,6 @@
 ---
 title: Codeforces 474B
 date: 2019-03-14 10:03:23
-link: Worms
 keywords: Codeforces 474B, Codeforces Worms
 tags:
     - CHU Training

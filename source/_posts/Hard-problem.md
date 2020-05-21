@@ -1,7 +1,6 @@
 ---
 title: CodeForces 706C
 date: 2019-12-22 15:10:43
-link: Hard-problem
 keywords: Codeforces 706C, Codeforces Hard problem
 tags:
     - 一般

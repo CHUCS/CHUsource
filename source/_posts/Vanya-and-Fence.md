@@ -1,7 +1,6 @@
 ---
 title: Codeforces 677A
 date: 2020-04-12 16:30:45
-link: Vanya and Fence
 keywords: Codeforces 677A, Codeforces Vanya and Fence
 tags:
     - implementation

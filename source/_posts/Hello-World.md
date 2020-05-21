@@ -1,7 +1,6 @@
 ---
 title: UVA 11636
 date: 2019-11-17 10:09:51
-link: Hello-World
 keywords: UVA 11636, UVA Hello World
 tags:
 - implementation

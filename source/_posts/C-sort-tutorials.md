@@ -1,7 +1,6 @@
 ---
 title: C++ sort tutorials
 date: 2020-04-07 13:39:59
-link: C-sort-tutorials
 keywords: C++ sort tutorials
 tags:
     - tutorials

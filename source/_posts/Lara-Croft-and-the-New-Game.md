@@ -1,7 +1,6 @@
 ---
 title: Codeforces 976B
 date: 2019-04-20 18:50:14
-link: Lara-Croft-and-the-New-Game
 keywords: CodeForces 976B, CodeForces Lara Croft and the New Game
 tags:
     - implementation

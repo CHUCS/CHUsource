@@ -1,7 +1,6 @@
 ---
 title: Codeforces 739A
 date: 2019-05-05 22:00:45
-link: Alyona-and-Mex
 keywords: Codeforces 739A, Codeforces Alyona and Mex
 tags:
     - 簡單

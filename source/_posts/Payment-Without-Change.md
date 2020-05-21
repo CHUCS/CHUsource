@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1256A
 date: 2019-11-26 15:35:02
-link: Payment-Without-Change
 keywords: Codeforces 1256A, Codeforces Payment Without Change
 tags:
     - math

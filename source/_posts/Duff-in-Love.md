@@ -1,7 +1,6 @@
 ---
 title: Codeforces 200B
 date: 2019-10-26 11:28:10
-link: Duff-in-Love
 keywords: Codeforces 200B, Codeforces Duff in Love
 tags:
     - math

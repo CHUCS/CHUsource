@@ -1,7 +1,6 @@
 ---
 title: Codeforces 631C
 date: 2019-10-26 12:09:55
-link: Report
 keywords: Codeforces 631C, Codeforces Report
 tags:
     - data structures

@@ -1,7 +1,6 @@
 ---
 title: UVA 11219
 date: 2019-11-17 11:09:44
-link: How-old-are-you
 keywords: UVA 11219, UVA How old are you
 tags:
     - implementation

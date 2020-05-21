@@ -1,7 +1,6 @@
 ---
 title: Codeforces 450B
 date: 2019-05-05 22:00:30
-link: Jzzhu-and-Sequences
 keywords: CodeForces 450B, CodeForces Jzzhu and Sequences
 tags:
     - 普通

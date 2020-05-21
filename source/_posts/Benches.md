@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1042A
 date: 2019-04-20 18:51:15
-link: Benches
 keywords: Codeforces 1042A, Codeforces Benches
 tags:
     - implementation

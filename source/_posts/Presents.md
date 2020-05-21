@@ -1,7 +1,6 @@
 ---
 title: Codeforces 136A
 date: 2019-04-12 22:43:49
-link: Presents
 keywords: Codeforces 136A, Codeforces Presents
 tags:
     - CHU Training

@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1A
 date: 2020-02-26 13:55:14
-link: Theatre-Square
 keywords: Codeforces 1A, Codeforces Theatre Square
 tags:
     - math

@@ -1,7 +1,6 @@
 ---
 title: Codeforces 888C
 date: 2019-04-27 18:42:21
-link: K-Dominant-Character
 keywords: CodeForces 888C, CodeForces K-Dominant Character
 tags:
     - 普通

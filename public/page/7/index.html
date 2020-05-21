@@ -1,709 +1,1251 @@
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-<html>
-  <head>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  <script>
-    (adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-8906140811059676",
-      enable_page_level_ads: true
-    });
-  </script>
-  <script data-ad-client="ca-pub-8906140811059676" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.1.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
   <meta name="google-site-verification" content="3grsEVPDeg5_ktwC4lbJ6p3Ts2vmlUyUSQwPtFp0jQs">
-  <meta name="yandex-verification" content="4227a483ac83a3da">
   <meta name="msvalidate.01" content="DCF11F2014E9D53E3226C978BCE45EEC">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-
-  <meta http-equiv="content-language" content="zh-tw">
-  <meta name="author" content="CHUCS">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <meta name="description" content="解答Codeforces, UVa, AOJ等題目，希望可以幫助大家學習。Submissions by Codeforces and UVa etc... online judge workspace.">
-  <meta name="keywords" content="C++, ">
-  <link rel="canonical" href="https://chucs.github.io/">
-  
-  
-  <title>  CHUCS解題報告 </title>
-
- 
-  
-    <link rel="icon" href="/images/favicon.png">
-  
-
-
-  
-<link rel="stylesheet" href="/nayo.min.css">
- 
-<meta name="generator" content="Hexo 4.1.1"></head>  
-  <body>   
-    
-      <header class="header">
-	
-  <nav class="header-inner">        
-
-    <span class="iconfont icon-menu mobile-toggle"></span>   	
-
-    <div class="header-logo">
-      <a href="https://chucs.github.io/">
-        <img class="header-logo-img" src="/images/logo.png">
-      </a>
-    </div>
-
-    <div class="header-menu">          
-              
-          
-            <a class="header-menu-link" id="header-menu-home" href="/">
-              <i class="iconfont icon-home">  
-            </i></a>     
-          
-              
-          
-            <a class="header-menu-link" id="header-menu-archives" href="/archives">
-              <i class="iconfont icon-archives">  
-            </i></a>     
-          
-              
-          
-            <a class="header-menu-link" id="header-menu-tags" href="/tags">
-              <i class="iconfont icon-tags">  
-            </i></a>     
-          
-              
-          
-              <a class="header-menu-link" id="header-menu-search">
-                <i class="iconfont icon-search">  
-              </i></a>
-          
-                  
-    </div>  
-    
-  </nav>
-</header>
-
-   
-
-      <div class="container">       
-          
-          
-            <div class="container-inner">  
-          
-
-          
-
-
-
-
-<div class="profile sildeUpMin">
-	
-		<img class="avatar" src="/images/header.jpg">
-
-		<p class="author">CHUCS</p>
-		
-		<div class="social">
-   		      	
-			<a target="_blank" class="social-links" href="https://github.com/Daviswww/Submissions-by-UVa-etc">		
-				<i class="iconfont icon-Github">
-			</i></a>	
-	          	
-			<a target="_blank" class="social-links" href="https://www.facebook.com/groups/114029922120684/?epa=SEARCH_BOX">		
-				<i class="iconfont icon-Facebook">
-			</i></a>	
-	    
-    	</div>		
-</div>
-
-
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Meeting-Room-Arrangement/">UVA 12694</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="UVA-12694-Meeting-Room-Arrangement"><a href="#UVA-12694-Meeting-Room-Arrangement" class="headerlink" title="UVA 12694 - Meeting Room Arrangement"></a>UVA 12694 - Meeting Room Arrangement</h1><p><a href="https://onlinejudge.org/external/126/12694.pdf" target="_blank" rel="noopener">Meeting Room Arrangement</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他牌時程表，他希望裡面牌的會議越多越好。<br>第一個輸入代表有幾筆，之後開始輸入會議的區間S和F，直到輸入為”0 0”就輸出。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/greedy/">greedy</a>           
-			            
-				<a class="article-tag" href="/tags/%E7%B0%A1%E5%96%AE/">簡單</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Meeting-Room-Arrangement/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Mahmoud-and-Ehab-and-the-even-odd-game/">CodeForces 959A</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-959A-Mahmoud-and-Ehab-and-the-even-odd-game"><a href="#CodeForces-959A-Mahmoud-and-Ehab-and-the-even-odd-game" class="headerlink" title="CodeForces 959A - Mahmoud and Ehab and the even-odd game"></a>CodeForces 959A - Mahmoud and Ehab and the even-odd game</h1><p><a href="http://codeforces.com/problemset/problem/959/A" target="_blank" rel="noopener">Mahmoud and Ehab and the even-odd game</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>判斷奇數偶數，奇數輸出”Mahmoud”，偶數輸出”Ehab”。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/%E6%96%B0%E6%89%8B/">新手</a>           
-			            
-				<a class="article-tag" href="/tags/math/">math</a>           
-			            
-				<a class="article-tag" href="/tags/games/">games</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Mahmoud-and-Ehab-and-the-even-odd-game/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Fafa-and-his-Company-1/">CodeForces 935A v2</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-935A-Fafa-and-his-Company"><a href="#CodeForces-935A-Fafa-and-his-Company" class="headerlink" title="CodeForces 935A - Fafa and his Company"></a>CodeForces 935A - Fafa and his Company</h1><p><a href="http://codeforces.com/problemset/problem/935/A" target="_blank" rel="noopener">Fafa and his Company</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他分配隊長與員工。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/implementation/">implementation</a>           
-			            
-				<a class="article-tag" href="/tags/%E6%96%B0%E6%89%8B/">新手</a>           
-			            
-				<a class="article-tag" href="/tags/brute-force/">brute force</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Fafa-and-his-Company-1/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Gennady-and-a-Card-Game/">CodeForces 1097A</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-1097A-Gennady-and-a-Card-Game"><a href="#CodeForces-1097A-Gennady-and-a-Card-Game" class="headerlink" title="CodeForces 1097A - Gennady and a Card Game"></a>CodeForces 1097A - Gennady and a Card Game</h1><p><a href="http://codeforces.com/problemset/problem/1097/A" target="_blank" rel="noopener">Gennady and a Card Game</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一張牌，如果牌面上有相同花色或是相同數字你才能打牌，請你幫他檢查是否可以打牌。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/implementation/">implementation</a>           
-			            
-				<a class="article-tag" href="/tags/%E6%96%B0%E6%89%8B/">新手</a>           
-			            
-				<a class="article-tag" href="/tags/brute-force/">brute force</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Gennady-and-a-Card-Game/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Hard-problem/">CodeForces 706C</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-706C-Hard-problem"><a href="#CodeForces-706C-Hard-problem" class="headerlink" title="CodeForces 706C - Hard problem"></a>CodeForces 706C - Hard problem</h1><p><a href="http://codeforces.com/problemset/problem/706/C" target="_blank" rel="noopener">Hard problem</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少字)、每個字顛倒的成本和每個字，問你不改變這串字的先後順序，藉由顛倒某些字來將這些字排成字典順序最少需要多少成本？</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/dp/">dp</a>           
-			            
-				<a class="article-tag" href="/tags/%E4%B8%80%E8%88%AC/">一般</a>           
-			            
-				<a class="article-tag" href="/tags/strings/">strings</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Hard-problem/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Chain-Reaction/">CodeForces 607A</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 22, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-607A-Chain-Reaction"><a href="#CodeForces-607A-Chain-Reaction" class="headerlink" title="CodeForces 607A - Chain Reaction"></a>CodeForces 607A - Chain Reaction</h1><p><a href="http://codeforces.com/problemset/problem/607/A" target="_blank" rel="noopener">Chain Reaction</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>在同一橫軸上有一些信標，功率b的信標a啟動後會將左邊距離b以內的信標都摧毀，現在給你N個信標的座標跟功率，並允許你在最右邊的信標右邊再增加一個信標，功率隨意，問從右邊開始逐個啟動所有未被摧毀的信標，最後最少會有幾個信標被摧毀？</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/dp/">dp</a>           
-			            
-				<a class="article-tag" href="/tags/binary-search/">binary search</a>           
-			            
-				<a class="article-tag" href="/tags/%E4%B8%80%E8%88%AC/">一般</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Chain-Reaction/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Hit-the-Lottery/">CodeForces 996A</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 14, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-996A-Hit-the-Lottery"><a href="#CodeForces-996A-Hit-the-Lottery" class="headerlink" title="CodeForces 996A - Hit the Lottery"></a>CodeForces 996A - Hit the Lottery</h1><p><a href="http://codeforces.com/problemset/problem/996/A" target="_blank" rel="noopener">Hit the Lottery</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你N元利用他給你的幣值數1, 5, 10, 20, 100換出最少的硬幣數量，例如125元可以換1個100元，1個20元，1個5元，總共換了3個。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/dp/">dp</a>           
-			            
-				<a class="article-tag" href="/tags/greedy/">greedy</a>           
-			            
-				<a class="article-tag" href="/tags/%E6%96%B0%E6%89%8B/">新手</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Hit-the-Lottery/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Restoring-Three-Numbers/">CodeForces 1154A</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 14, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-1154A-Restoring-Three-Numbers"><a href="#CodeForces-1154A-Restoring-Three-Numbers" class="headerlink" title="CodeForces 1154A - Restoring Three Numbers"></a>CodeForces 1154A - Restoring Three Numbers</h1><p><a href="http://codeforces.com/problemset/problem/1154/A" target="_blank" rel="noopener">Restoring Three Numbers</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>題目隨機將a+b, a+c, b+c 和 a+b+c亂擺，問你a、b、c分別是多少(答案輸出沒有一定的順序)。</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/%E6%96%B0%E6%89%8B/">新手</a>           
-			            
-				<a class="article-tag" href="/tags/math/">math</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Restoring-Three-Numbers/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Sweets-Eating/">CodeForces 1253C</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 13, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-1253C-Sweets-Eating"><a href="#CodeForces-1253C-Sweets-Eating" class="headerlink" title="CodeForces 1253C - Sweets Eating"></a>CodeForces 1253C - Sweets Eating</h1><p><a href="http://codeforces.com/problemset/problem/1253/C" target="_blank" rel="noopener">Sweets Eating</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少個甜點)、M(一天可以吃幾個)和N個甜點的含糖數，在第D天吃下含糖A的甜點時會得到加權含糖數A x D，求吃K(K=1~N)個時的最少加權含糖數是多少？</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/dp/">dp</a>           
-			            
-				<a class="article-tag" href="/tags/sortings/">sortings</a>           
-			            
-				<a class="article-tag" href="/tags/greedy/">greedy</a>           
-			            
-				<a class="article-tag" href="/tags/math/">math</a>           
-			            
-				<a class="article-tag" href="/tags/%E4%B8%80%E8%88%AC/">一般</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Sweets-Eating/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-    	  	
-  		
-    			
-
-<article class="article">		
-	   
-	<div class="article-header">
-	    
-		<a class="article-title" href="/Gas-Pipeline/">CodeForces 1207C</a>  
-	       
-		 
-
-		<div class="article-meta">
-			<time>12月 13, 2019</time>			
-		</div>
-	</div>
-
-
-	
-
-    
-	<div class="typo article-excerpt">	
-		
-			<h1 id="CodeForces-1207C-Gas-Pipeline"><a href="#CodeForces-1207C-Gas-Pipeline" class="headerlink" title="CodeForces 1207C - Gas Pipeline"></a>CodeForces 1207C - Gas Pipeline</h1><p><a href="http://codeforces.com/problemset/problem/1207/C" target="_blank" rel="noopener">Gas Pipeline</a></p>
-<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>用0/1表示一條街道的一個區段不是/是路口，在路口時管線必須立在離地兩單位高的柱上供路口通行，非路口時則沒有限制。現在輸入N、A、B，表示道路的區段數量、一單位長的管線的成本、一單位高的柱子成本，保證頭尾的區段都是非路口，問在道路頭尾的柱子都是1單位高時花費的最低成本是多少？</p>
-		  	  
-	</div>
-
-	<div class="article-tags">
-		
-			<i class="iconfont icon-tags" style="margin-right:4px"></i>
-			            
-				<a class="article-tag" href="/tags/dp/">dp</a>           
-			            
-				<a class="article-tag" href="/tags/greedy/">greedy</a>           
-			            
-				<a class="article-tag" href="/tags/%E4%B8%80%E8%88%AC/">一般</a>           
-			
-		
-	</div>
-
-	<div class="article-bottom">
-		<a class="article-readmore" href="/Gas-Pipeline/">閱讀更多</a> 	
-	</div>	
-    
-</article>     
-     	
-
-
-
-
- 
-   <nav class="paginator">
-    
-        <a class="prev" href="/page/6/"> 
-            <i class="iconfont icon-left"></i>
-            上一頁
-        </a>
-    
-
-   <span class="page-number"> Page <strong>7</strong>, Total <strong>174</strong> . </span>
-
-    
-        <a class="next" href="/page/8/"> 
-            下一頁
-            <i class="iconfont icon-right"></i>
-        </a>
-    
-  </nav> 
-
-          </div> 
-      </div>            
-    
-    <a id="page-backTop">
-      <span>
-        <i class="iconfont icon-backtotop"></i>
-      </span>
-    </a> 
-
-  
-    
-    <div class="search-container sildeUpMin">
-        <div class="search-header">
-            <input type="text" placeholder="输入你想搜索的" id="search-input" class="search-input">
-            <span class="search-cancel">
-                <i class="iconfont icon-cancel">
-            </i></span>
-        </div>
-        <div id="search-result" class="search-result"></div>
-    </div>
- 
-     <div class="mobile-menu">      
-
-      
-      <img class="mobile-menu-icon" src="/images/favicon.png">  
-      
-
-         
-            
-
-            <a class="mobile-menu-link" href="/">首頁
-            </a>
-            
-         
-            
-
-            <a class="mobile-menu-link" href="/archives">歸檔
-            </a>
-            
-         
-            
-
-            <a class="mobile-menu-link" href="/tags">標籤
-            </a>
-            
-         
-                          
-
-            <a class="mobile-menu-link mobile-menu-search" href="#">搜索 </a>                 
-            
-         
-      
-</div>
-        
-    
-
-
-
-
-<script>
-(function(i,s,o,g,r,a,m){
-	i['GoogleAnalyticsObject']=r;
-	i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-134507655-1', 'auto');
-ga('send', 'pageview');
-
+  <meta name="yandex-verification" content="4227a483ac83a3da">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"chucs.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
+  </script>
+
+  <meta name="description" content="CHUCSIE">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CHUCSIE">
+<meta property="og:url" content="https://chucs.github.io/page/7/index.html">
+<meta property="og:site_name" content="CHUCSIE">
+<meta property="og:description" content="CHUCSIE">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="CHUCS">
+<meta property="article:tag" content="CHUCSIE">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://chucs.github.io/page/7/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-TW'
+  };
 </script>
 
-     
+  <title>CHUCSIE</title>
+  
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134507655-1"></script>
+    <script>
+      if (CONFIG.hostname === location.hostname) {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-134507655-1');
+      }
+    </script>
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切換導航欄">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">CHUCSIE</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首頁</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>標籤</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分類</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>歸檔</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜尋
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜尋..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
     
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
 
 
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
 
+          <div class="content index posts-expand">
+            
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Meeting-Room-Arrangement/">
 
-<footer id="footer">	    
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
 
-		
-		<div class="footer-copyright">
-		&copy;
-				
-		2018-
-		
-		2020		
-	
-		CHUCS
-		<br>
-		Design <a href="https://github.com/Daviswww" target="_blank">Daviswww</a>
-		Theme  <a href="https://github.com/Lemonreds/hexo-theme-Nayo" target="_blank">Nayo</a>
-		</div>			
-	 
-</footer>   
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Meeting-Room-Arrangement/" class="post-title-link" itemprop="url">UVA 12694</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:26:15" itemprop="dateCreated datePublished" datetime="2019-12-22T15:26:15+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Meeting-Room-Arrangement/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Meeting-Room-Arrangement/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
 
     
-<script src="/nayo.bundle.js"></script>
-           
-  </body>        
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="UVA-12694-Meeting-Room-Arrangement"><a href="#UVA-12694-Meeting-Room-Arrangement" class="headerlink" title="UVA 12694 - Meeting Room Arrangement"></a>UVA 12694 - Meeting Room Arrangement</h1><p><a href="https://onlinejudge.org/external/126/12694.pdf" target="_blank" rel="noopener">Meeting Room Arrangement</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他牌時程表，他希望裡面牌的會議越多越好。<br>第一個輸入代表有幾筆，之後開始輸入會議的區間S和F，直到輸入為”0 0”就輸出。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Meeting-Room-Arrangement/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Mahmoud-and-Ehab-and-the-even-odd-game/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Mahmoud-and-Ehab-and-the-even-odd-game/" class="post-title-link" itemprop="url">CodeForces 959A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:26:03" itemprop="dateCreated datePublished" datetime="2019-12-22T15:26:03+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Mahmoud-and-Ehab-and-the-even-odd-game/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Mahmoud-and-Ehab-and-the-even-odd-game/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-959A-Mahmoud-and-Ehab-and-the-even-odd-game"><a href="#CodeForces-959A-Mahmoud-and-Ehab-and-the-even-odd-game" class="headerlink" title="CodeForces 959A - Mahmoud and Ehab and the even-odd game"></a>CodeForces 959A - Mahmoud and Ehab and the even-odd game</h1><p><a href="http://codeforces.com/problemset/problem/959/A" target="_blank" rel="noopener">Mahmoud and Ehab and the even-odd game</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>判斷奇數偶數，奇數輸出”Mahmoud”，偶數輸出”Ehab”。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Mahmoud-and-Ehab-and-the-even-odd-game/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Fafa-and-his-Company-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Fafa-and-his-Company-1/" class="post-title-link" itemprop="url">CodeForces 935A v2</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:25:55" itemprop="dateCreated datePublished" datetime="2019-12-22T15:25:55+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Fafa-and-his-Company-1/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Fafa-and-his-Company-1/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-935A-Fafa-and-his-Company"><a href="#CodeForces-935A-Fafa-and-his-Company" class="headerlink" title="CodeForces 935A - Fafa and his Company"></a>CodeForces 935A - Fafa and his Company</h1><p><a href="http://codeforces.com/problemset/problem/935/A" target="_blank" rel="noopener">Fafa and his Company</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>幫他分配隊長與員工。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Fafa-and-his-Company-1/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Gennady-and-a-Card-Game/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Gennady-and-a-Card-Game/" class="post-title-link" itemprop="url">CodeForces 1097A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:25:47" itemprop="dateCreated datePublished" datetime="2019-12-22T15:25:47+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Gennady-and-a-Card-Game/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Gennady-and-a-Card-Game/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-1097A-Gennady-and-a-Card-Game"><a href="#CodeForces-1097A-Gennady-and-a-Card-Game" class="headerlink" title="CodeForces 1097A - Gennady and a Card Game"></a>CodeForces 1097A - Gennady and a Card Game</h1><p><a href="http://codeforces.com/problemset/problem/1097/A" target="_blank" rel="noopener">Gennady and a Card Game</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你一張牌，如果牌面上有相同花色或是相同數字你才能打牌，請你幫他檢查是否可以打牌。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Gennady-and-a-Card-Game/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Hard-problem/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Hard-problem/" class="post-title-link" itemprop="url">CodeForces 706C</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:10:43" itemprop="dateCreated datePublished" datetime="2019-12-22T15:10:43+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Hard-problem/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Hard-problem/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-706C-Hard-problem"><a href="#CodeForces-706C-Hard-problem" class="headerlink" title="CodeForces 706C - Hard problem"></a>CodeForces 706C - Hard problem</h1><p><a href="http://codeforces.com/problemset/problem/706/C" target="_blank" rel="noopener">Hard problem</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少字)、每個字顛倒的成本和每個字，問你不改變這串字的先後順序，藉由顛倒某些字來將這些字排成字典順序最少需要多少成本？</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Hard-problem/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Chain-Reaction/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Chain-Reaction/" class="post-title-link" itemprop="url">CodeForces 607A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-22 15:10:04" itemprop="dateCreated datePublished" datetime="2019-12-22T15:10:04+08:00">2019-12-22</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Chain-Reaction/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Chain-Reaction/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-607A-Chain-Reaction"><a href="#CodeForces-607A-Chain-Reaction" class="headerlink" title="CodeForces 607A - Chain Reaction"></a>CodeForces 607A - Chain Reaction</h1><p><a href="http://codeforces.com/problemset/problem/607/A" target="_blank" rel="noopener">Chain Reaction</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>在同一橫軸上有一些信標，功率b的信標a啟動後會將左邊距離b以內的信標都摧毀，現在給你N個信標的座標跟功率，並允許你在最右邊的信標右邊再增加一個信標，功率隨意，問從右邊開始逐個啟動所有未被摧毀的信標，最後最少會有幾個信標被摧毀？</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Chain-Reaction/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Hit-the-Lottery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Hit-the-Lottery/" class="post-title-link" itemprop="url">CodeForces 996A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-14 11:57:51" itemprop="dateCreated datePublished" datetime="2019-12-14T11:57:51+08:00">2019-12-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Hit-the-Lottery/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Hit-the-Lottery/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-996A-Hit-the-Lottery"><a href="#CodeForces-996A-Hit-the-Lottery" class="headerlink" title="CodeForces 996A - Hit the Lottery"></a>CodeForces 996A - Hit the Lottery</h1><p><a href="http://codeforces.com/problemset/problem/996/A" target="_blank" rel="noopener">Hit the Lottery</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>給你N元利用他給你的幣值數1, 5, 10, 20, 100換出最少的硬幣數量，例如125元可以換1個100元，1個20元，1個5元，總共換了3個。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Hit-the-Lottery/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Restoring-Three-Numbers/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Restoring-Three-Numbers/" class="post-title-link" itemprop="url">CodeForces 1154A</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-14 11:57:39" itemprop="dateCreated datePublished" datetime="2019-12-14T11:57:39+08:00">2019-12-14</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Restoring-Three-Numbers/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Restoring-Three-Numbers/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-1154A-Restoring-Three-Numbers"><a href="#CodeForces-1154A-Restoring-Three-Numbers" class="headerlink" title="CodeForces 1154A - Restoring Three Numbers"></a>CodeForces 1154A - Restoring Three Numbers</h1><p><a href="http://codeforces.com/problemset/problem/1154/A" target="_blank" rel="noopener">Restoring Three Numbers</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>題目隨機將a+b, a+c, b+c 和 a+b+c亂擺，問你a、b、c分別是多少(答案輸出沒有一定的順序)。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Restoring-Three-Numbers/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Sweets-Eating/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Sweets-Eating/" class="post-title-link" itemprop="url">CodeForces 1253C</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-13 16:52:43" itemprop="dateCreated datePublished" datetime="2019-12-13T16:52:43+08:00">2019-12-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:34" itemprop="dateModified" datetime="2020-05-21T17:17:34+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Sweets-Eating/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Sweets-Eating/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-1253C-Sweets-Eating"><a href="#CodeForces-1253C-Sweets-Eating" class="headerlink" title="CodeForces 1253C - Sweets Eating"></a>CodeForces 1253C - Sweets Eating</h1><p><a href="http://codeforces.com/problemset/problem/1253/C" target="_blank" rel="noopener">Sweets Eating</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>輸入N(有多少個甜點)、M(一天可以吃幾個)和N個甜點的含糖數，在第D天吃下含糖A的甜點時會得到加權含糖數A x D，求吃K(K=1~N)個時的最少加權含糖數是多少？</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Sweets-Eating/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/Gas-Pipeline/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/Gas-Pipeline/" class="post-title-link" itemprop="url">CodeForces 1207C</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2019-12-13 16:52:32" itemprop="dateCreated datePublished" datetime="2019-12-13T16:52:32+08:00">2019-12-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-21 17:17:35" itemprop="dateModified" datetime="2020-05-21T17:17:35+08:00">2020-05-21</time>
+              </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/Gas-Pipeline/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="Gas-Pipeline/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="CodeForces-1207C-Gas-Pipeline"><a href="#CodeForces-1207C-Gas-Pipeline" class="headerlink" title="CodeForces 1207C - Gas Pipeline"></a>CodeForces 1207C - Gas Pipeline</h1><p><a href="http://codeforces.com/problemset/problem/1207/C" target="_blank" rel="noopener">Gas Pipeline</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>用0/1表示一條街道的一個區段不是/是路口，在路口時管線必須立在離地兩單位高的柱上供路口通行，非路口時則沒有限制。現在輸入N、A、B，表示道路的區段數量、一單位長的管線的成本、一單位高的柱子成本，保證頭尾的區段都是非路口，問在道路頭尾的柱子都是1單位高時花費的最低成本是多少？</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/Gas-Pipeline/#more" rel="contents">
+                閱讀全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left" aria-label="上一頁"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/18/">18</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right" aria-label="下一頁"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目錄
+        </li>
+        <li class="sidebar-nav-overview">
+          本站概要
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="CHUCS"
+      src="/images/header.jpg">
+  <p class="site-author-name" itemprop="name">CHUCS</p>
+  <div class="site-description" itemprop="description">CHUCSIE</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">174</span>
+          <span class="site-state-item-name">文章</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">31</span>
+        <span class="site-state-item-name">標籤</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/CHUCS" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;CHUCS" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">CHUCS</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://https-chucs-github-io.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+
+</body>
 </html>

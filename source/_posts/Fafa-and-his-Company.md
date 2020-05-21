@@ -1,7 +1,6 @@
 ---
 title: Codeforces 935A
 date: 2019-03-26 13:23:48
-link: Fafa-and-his-Company
 keywords: Codeforces 935A, Codeforces Fafa and his Company
 tags:
     - CHU Training

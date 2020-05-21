@@ -1,7 +1,6 @@
 ---
 title: Codeforces 918B
 date: 2020-04-30 17:11:21
-link: Radio-Station
 keywords: Codeforces 918B, Codeforces Radio Station
 tags:
     - implementation

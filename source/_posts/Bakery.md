@@ -1,7 +1,6 @@
 ---
 title: Codeforces 707B
 date: 2019-05-05 22:01:07
-link: Bakery
 keywords: Codeforces 707B, Codeforces Bakery
 tags:
     - 簡單

@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1325A
 date: 2020-04-02 15:36:49
-link: EhAb-AnD-gCd
 keywords: Codeforces 1325A, Codeforces EhAb AnD gCd
 tags:
     - constructive algorithms

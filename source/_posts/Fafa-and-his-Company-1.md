@@ -1,7 +1,6 @@
 ---
 title: CodeForces 935A v2
 date: 2019-12-22 15:25:55
-link: Fafa-and-his-Company
 keywords: Codeforces 935A, Codeforces Fafa and his Company
 tags:
     - 新手

@@ -1,7 +1,6 @@
 ---
 title: Codeforces 298A
 date: 2019-10-15 13:25:36
-link: Snow-Footprints
 keywords: Codeforces 298A, Codeforces Snow Footprints
 tags:
     - 簡單

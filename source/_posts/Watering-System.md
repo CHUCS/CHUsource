@@ -1,7 +1,6 @@
 ---
 title: Codeforces 967B
 date: 2019-04-12 23:05:47
-link: Watering-System
 keywords: Codeforces 967B, Codeforces Watering System
 tags:
     - CHU Training

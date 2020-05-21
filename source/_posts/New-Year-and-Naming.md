@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1284A
 date: 2020-03-11 13:21:12
-link: New-Year-and-Naming
 keywords: Codeforces 1284A, Codeforces New Year and Naming
 tags:
     - implementation

@@ -1,7 +1,6 @@
 ---
 title: Codeforces 263A
 date: 2019-03-07 19:01:31
-link: Beautiful-Matrix
 keywords: Codeforces 263A, Codeforces Beautiful Matrix
 tags:
     - CHU Training

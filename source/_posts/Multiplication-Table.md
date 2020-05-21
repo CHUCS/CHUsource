@@ -1,7 +1,6 @@
 ---
 title: Codeforces 39H
 date: 2019-09-30 20:11:36
-link: Multiplication-Table
 keywords: Codeforces 39H, Codeforces Multiplication-Table
 tags:
     - 普通

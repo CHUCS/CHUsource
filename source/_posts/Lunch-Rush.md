@@ -1,7 +1,6 @@
 ---
 title: Codeforces 276A
 date: 2019-04-27 18:41:02
-link: Lunch-Rush
 keywords: Codeforces 276A, Codeforces Lunch Rush
 tags:
     - 新手

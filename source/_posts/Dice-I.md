@@ -1,7 +1,6 @@
 ---
 title: AOJ ITP1_11_A
 date: 2019-11-26 15:35:25
-link: Dice-I
 keywords: AOJ ITP1_11_A, AOJ Dice I
 tags:
     - implementation

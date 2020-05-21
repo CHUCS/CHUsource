@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1011B
 date: 2019-05-05 22:00:58
-link: Planning-The-Expedition
 keywords: Codeforces 1011B, Codeforces Planning The Expedition
 tags:
     - 普通

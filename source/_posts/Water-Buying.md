@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1118A
 date: 2019-03-21 09:50:26
-link: Water Buying
 keywords: Codeforces 1118A, Codeforces Water Buying
 tags:
     - CHU Training

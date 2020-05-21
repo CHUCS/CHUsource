@@ -1,7 +1,6 @@
 ---
 title: Codeforces 79B
 date: 2020-04-14 13:06:18
-link: Colorful-Field
 keywords: CodeForces 79B, CodeForces Colorful Field
 tags:
     - implementation

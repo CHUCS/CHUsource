@@ -1,7 +1,6 @@
 ---
 title: Codeforces 706B
 date: 2019-03-26 13:25:37
-link: Interesting-drink
 keywords: Codeforces 706B, Codeforces Interesting drink
 tags:
     - CHU Training

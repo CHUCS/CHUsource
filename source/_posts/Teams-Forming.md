@@ -1,7 +1,6 @@
 ---
 title: Codeforces 216B
 date: 2019-03-26 13:24:41
-link: Teams-Forming
 keywords: Codeforces 216B, Codeforces Teams Forming
 tags:
     - CHU Training

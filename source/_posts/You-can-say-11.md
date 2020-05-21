@@ -1,7 +1,6 @@
 ---
 title: UVA 10929
 date: 2019-11-17 11:05:18
-link: You-can-say-11
 keywords: UVA 10929, UVA You can say 11
 tags:
 - implementation

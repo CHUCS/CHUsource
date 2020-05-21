@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1324A
 date: 2020-03-20 13:24:32
-link: Yet-Another-Tetris-Problem
 keywords: Codeforces 1324A, Codeforces Yet Another Tetris Problem
 tags:
     - implementation

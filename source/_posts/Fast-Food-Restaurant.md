@@ -1,7 +1,6 @@
 ---
 title: CodeForces 1313A
 date: 2020-03-04 08:20:38
-link: Fast-Food-Restaurant
 keywords: Codeforces 1313A, Codeforces Fast Food Restaurant
 tags:
     - brute force

@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1055A
 date: 2019-04-27 18:42:37
-link: Metro
 keywords: Codeforces 1055A, Codeforces Metro
 tags:
     - 簡單

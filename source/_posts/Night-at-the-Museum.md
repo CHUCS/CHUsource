@@ -1,7 +1,6 @@
 ---
 title: CodeForces 731A
 date: 2020-04-07 13:44:09
-link: Night-at-the-Museum
 keywords: Codeforces 731A, Codeforces Night at the Museum
 tags:
     - implementation

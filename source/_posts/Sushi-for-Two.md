@@ -1,7 +1,6 @@
 ---
 title: Codeforces 1138A
 date: 2019-03-26 13:25:21
-link: Sushi for Two
 keywords: Codeforces 1138A, Codeforces Sushi for Two
 tags:
     - CHU Training

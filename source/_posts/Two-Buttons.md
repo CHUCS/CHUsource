@@ -1,7 +1,6 @@
 ---
 title: Codeforces 520B
 date: 2019-10-26 11:52:34
-link: Two-Buttons
 keywords: Codeforces 520B, Codeforces Two Buttons
 tags:
     - dfs and similar
