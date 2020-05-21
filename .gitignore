@@ -3,7 +3,9 @@ npm-debug.log
 .vscode/
 .todo*
 .deploy_git/
-themes/
+themes/next
 db.json
 package-lock.json
 *.DS_Store
+
+themes/
