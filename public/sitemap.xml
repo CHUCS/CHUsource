@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chucs.github.io/hexo-tutorials/</loc>
+    
+    <lastmod>2020-05-22T09:15:10.732Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chucs.github.io/Mashmokh-and-ACM/</loc>
     
     <lastmod>2020-05-22T04:09:29.386Z</lastmod>
@@ -768,13 +775,6 @@
     <loc>https://chucs.github.io/Hit-the-Lottery/</loc>
     
     <lastmod>2020-05-22T03:55:28.607Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chucs.github.io/hexo-tutorials/</loc>
-    
-    <lastmod>2020-05-22T03:55:19.033Z</lastmod>
     
   </url>
   

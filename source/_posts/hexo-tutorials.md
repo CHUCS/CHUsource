@@ -17,6 +17,7 @@ tags:
 ● Git
 
 #### 安裝 Git
+[git](https://git-scm.com/)
 ● Windows：下載並安裝 git.
 ● Mac：使用 Homebrew, MacPorts 或 安裝程式 安裝。
 ● Linux (Ubuntu, Debian)：sudo apt-get install git-core
@@ -26,9 +27,11 @@ tags:
 [Node.js](https://nodejs.org/en/)
 
 #### 安裝 Hexo 套件
-[CHUCS Packages](https://github.com/CHUCS/CHUsource/packages/180164)
 ```
-npm install @chucs/hexo-site@0.0.0
+git clone https://github.com/CHUCS/CHUsource.git CHUsource
+cd CHUsource
+git clone https://github.com/CHUCS/CHUsource.git themes/next
+npm install
 ```
 
 ### ＃指令
@@ -44,6 +47,8 @@ $ hexo new [layout] <title>
 ---
 title: 我是留言板
 date: 2019-03-02 10:51:33
+keywords: 我是, 留言板
+categories: 留言板
 tags:
     - 留言板
 ---
@@ -68,4 +73,9 @@ $ hexo d
 ```
 
 ##### note:
-首先你必須擁有一個[Github](https://github.com/)帳號，然後由管理員邀請至社團組織內[CHUCS](https://github.com/CHUCS)，更改為管理員才可以發布。
+Q1: 無法使用hexo指令？
+A1: 你的終端機必須為管理員權限否則找不到指令。
+
+Q2: 為無法發佈？
+A2:首先你必須擁有一個[Github](https://github.com/)帳號，然後由管理員邀請至社團組織內[CHUCS](https://github.com/CHUCS)。
+
