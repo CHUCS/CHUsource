@@ -2,8 +2,8 @@
 title: Codeforces 122A
 date: 2019-03-09 18:48:00
 keywords: CodeForces 122A, CodeForces Lucky Division
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - math

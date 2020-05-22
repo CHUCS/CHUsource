@@ -2,6 +2,7 @@
 title: UVA 11764
 date: 2019-11-17 10:50:42
 keywords: UVA 11764, UVA Jumping Mario
+categories: UVA
 tags:
 - implementation
 ---

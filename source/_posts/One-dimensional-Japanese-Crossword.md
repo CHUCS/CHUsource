@@ -2,8 +2,8 @@
 title: Codeforces 721A
 date: 2019-03-09 18:42:21
 keywords: Codeforces 721A, Codeforces One-dimensional Japanese Crossword
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手  

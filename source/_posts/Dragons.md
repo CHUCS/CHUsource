@@ -2,6 +2,7 @@
 title: Codeforces 230A
 date: 2019-04-20 18:50:40
 keywords: Codeforces 230A, Codeforces Dragons
+categories: Codeforces
 tags:
     - sortings
     - greedy

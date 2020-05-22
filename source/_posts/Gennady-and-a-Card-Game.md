@@ -2,6 +2,7 @@
 title: CodeForces 1097A
 date: 2019-12-22 15:25:47
 keywords: Codeforces 1097A, Codeforces Gennady and a Card Game
+categories: Codeforces
 tags:
     - 新手
     - brute force

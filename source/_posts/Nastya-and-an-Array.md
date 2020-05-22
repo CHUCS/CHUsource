@@ -2,8 +2,8 @@
 title: Codeforces 992A
 date: 2019-04-12 22:54:38
 keywords: Codeforces 992A, Codeforces Nastya and an Array
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - 簡單

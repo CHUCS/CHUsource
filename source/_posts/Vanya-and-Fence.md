@@ -2,6 +2,7 @@
 title: Codeforces 677A
 date: 2020-04-12 16:30:45
 keywords: Codeforces 677A, Codeforces Vanya and Fence
+categories: Codeforces
 tags:
     - implementation
     - 新手

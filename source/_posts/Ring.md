@@ -1,11 +1,12 @@
 ---
-title: Aizu ITP1_8_D
+title: AOJ ITP1_8_D
 date: 2019-11-17 10:39:00
-keywords: Aizu ITP1_8_D, Aizu Ring
+keywords: AOJ ITP1_8_D, AOJ Ring
+categories: AOJ
 tags:
     - implementation
 ---
-# Aizu ITP1_8_D - Ring
+# AOJ ITP1_8_D - Ring
 [Ring](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_8_D)
 
 

@@ -2,6 +2,7 @@
 title: CodeForces 1011A
 date: 2020-04-07 13:48:08
 keywords: Codeforces 1011A, Codeforces Stages
+categories: Codeforces
 tags:
     - sortings
     - implementation

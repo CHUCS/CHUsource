@@ -2,6 +2,7 @@
 title: CodeForces 711A
 date: 2020-03-11 13:23:40
 keywords: Codeforces 711A, Codeforces Bus to Udayland
+categories: Codeforces
 tags:
     - brute force
     - implementation

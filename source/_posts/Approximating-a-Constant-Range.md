@@ -2,6 +2,7 @@
 title: Codeforces 985B
 date: 2020-04-15 13:18:25
 keywords: Codeforces 985B, Codeforces Approximating a Constant Range
+categories: Codeforces
 tags:
     - implementation
     - two pointers

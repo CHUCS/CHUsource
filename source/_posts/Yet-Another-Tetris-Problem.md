@@ -2,6 +2,7 @@
 title: CodeForces 1324A
 date: 2020-03-20 13:24:32
 keywords: Codeforces 1324A, Codeforces Yet Another Tetris Problem
+categories: Codeforces
 tags:
     - implementation
     - number theory

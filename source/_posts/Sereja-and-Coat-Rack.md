@@ -2,6 +2,7 @@
 title: CodeForces 368A
 date: 2020-04-07 13:47:48
 keywords: Codeforces 368A, Codeforces Sereja and Coat Rack
+categories: Codeforces
 tags:
     - implementation
     - 普通

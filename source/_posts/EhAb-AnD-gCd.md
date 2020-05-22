@@ -2,6 +2,7 @@
 title: CodeForces 1325A
 date: 2020-04-02 15:36:49
 keywords: Codeforces 1325A, Codeforces EhAb AnD gCd
+categories: Codeforces
 tags:
     - constructive algorithms
     - number theory

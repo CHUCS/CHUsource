@@ -2,8 +2,8 @@
 title: Codeforces 653A
 date: 2019-03-14 10:02:47
 keywords: Codeforces 653A, Codeforces Bear and Three Balls
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - 簡單

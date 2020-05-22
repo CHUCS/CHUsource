@@ -2,6 +2,7 @@
 title: CodeForces 1253C
 date: 2019-12-13 16:52:43
 keywords: Codeforces 1253C, Codeforces Sweets Eating
+categories: Codeforces
 tags:
     - 一般
     - greedy

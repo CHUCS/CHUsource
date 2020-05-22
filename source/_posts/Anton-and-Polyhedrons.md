@@ -2,9 +2,10 @@
 title: Codeforces 785A
 date: 2019-04-20 18:05:09
 keywords: Codeforces 785A, Codeforces Anton and Polyhedrons
+categories: Codeforces
 tags:
     - implementation
-    - string
+    - strings
     - 新手
 ---
 # Codeforces 785A - Anton and Polyhedrons

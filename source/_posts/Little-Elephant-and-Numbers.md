@@ -2,6 +2,7 @@
 title: Codeforces 221B
 date: 2019-10-15 13:25:56
 keywords: CodeForces 221B, CodeForces Let's Watch Football
+categories: Codeforces
 tags:
     - 新手 
     - implementation

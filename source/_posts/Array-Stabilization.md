@@ -2,6 +2,7 @@
 title: Codeforces 1095B
 date: 2020-04-15 13:17:15
 keywords: Codeforces 1095B, Codeforces Array Stabilization
+categories: Codeforces
 tags:
     - implementation
     - sortings

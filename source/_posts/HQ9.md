@@ -2,8 +2,8 @@
 title: CodeForces 133A
 date: 2019-03-14 10:01:53
 keywords: Codeforces 133A, Codeforces HQ9+
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - math

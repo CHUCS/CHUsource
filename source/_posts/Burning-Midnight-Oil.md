@@ -2,8 +2,8 @@
 title: Codeforces 165B
 date: 2019-03-21 09:51:31
 keywords: Codeforces 165B, Codeforces Burning Midnight Oil
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - implementation

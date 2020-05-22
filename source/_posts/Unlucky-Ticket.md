@@ -2,6 +2,7 @@
 title: Codeforces 160B
 date: 2020-04-14 13:05:42
 keywords: Codeforces 160B, Codeforces Unlucky Ticket
+categories: Codeforces
 tags:
     - greedy
     - sortings

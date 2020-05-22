@@ -2,6 +2,7 @@
 title: Codeforces 378B
 date: 2019-04-27 18:41:46
 keywords: Codeforces 378B, Codeforces Semifinals
+categories: Codeforces
 tags:
     - 普通
     - sortings

@@ -2,6 +2,7 @@
 title: CodeForces 1321A
 date: 2020-03-04 08:21:22
 keywords: CodeForces 1321A, CodeForces Contest for Robots
+categories: Codeforces
 tags:
     - greedy
     - 簡單

@@ -2,6 +2,7 @@
 title: CodeForces 1A
 date: 2020-02-26 13:55:14
 keywords: Codeforces 1A, Codeforces Theatre Square
+categories: Codeforces
 tags:
     - math
     - 簡單

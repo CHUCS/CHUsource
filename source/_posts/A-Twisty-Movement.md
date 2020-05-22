@@ -2,6 +2,7 @@
 title: CodeForces 933A
 date: 2019-11-17 16:12:07
 keywords: CodeForces A Twisty Movement, CodeForces 933A
+categories: Codeforces
 tags:
     - dp
 ---

@@ -2,6 +2,7 @@
 title: Codeforces 707B
 date: 2019-05-05 22:01:07
 keywords: Codeforces 707B, Codeforces Bakery
+categories: Codeforces
 tags:
     - 簡單
     - graphs

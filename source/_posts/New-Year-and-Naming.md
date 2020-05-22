@@ -2,6 +2,7 @@
 title: CodeForces 1284A
 date: 2020-03-11 13:21:12
 keywords: Codeforces 1284A, Codeforces New Year and Naming
+categories: Codeforces
 tags:
     - implementation
     - strings

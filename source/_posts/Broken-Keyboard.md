@@ -2,6 +2,7 @@
 title: Codeforces 1251A
 date: 2020-04-15 13:18:14
 keywords: Codeforces 1251A, Codeforces Broken Keyboard
+categories: Codeforces
 tags:
     - brute force
     - strings

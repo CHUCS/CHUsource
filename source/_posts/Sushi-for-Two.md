@@ -2,8 +2,8 @@
 title: Codeforces 1138A
 date: 2019-03-26 13:25:21
 keywords: Codeforces 1138A, Codeforces Sushi for Two
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - two pointers

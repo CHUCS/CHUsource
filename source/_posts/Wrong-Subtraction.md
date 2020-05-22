@@ -2,8 +2,8 @@
 title: Codeforces 977A
 date: 2019-03-07 18:41:32
 keywords: Codeforces 977A, Codeforces Wrong Subtraction
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手

@@ -2,6 +2,7 @@
 title: CodeForces 1154A
 date: 2019-12-14 11:57:39
 keywords: Codeforces 1154A, Codeforces Restoring Three Numbers
+categories: Codeforces
 tags:
     - math
     - 新手

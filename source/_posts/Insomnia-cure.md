@@ -2,8 +2,8 @@
 title: CodeForces 148A
 date: 2019-03-07 19:45:56
 keywords: Codeforces 148A, Codeforces Insomnia cure
+categories: Codeforces
 tags:
-	- CHU Training
 	- CodeForces
 	- sortings
 	- 簡單

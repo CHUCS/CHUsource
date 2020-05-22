@@ -2,8 +2,8 @@
 title: Codeforces 118B
 date: 2019-03-07 19:44:21
 keywords: Codeforces 118B, Codeforces Present from Lena
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 簡單

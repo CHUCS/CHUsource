@@ -2,6 +2,7 @@
 title: Codeforces 450B
 date: 2019-05-05 22:00:30
 keywords: CodeForces 450B, CodeForces Jzzhu and Sequences
+categories: Codeforces
 tags:
     - 普通
     - implementation

@@ -2,6 +2,7 @@
 title: CodeForces 1311A
 date: 2020-03-04 08:15:07
 keywords: CodeForces Add Odd or Subtract Even, CodeForces 1311A
+categories: Codeforces
 tags:
     - greedy
     - implementation

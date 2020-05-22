@@ -2,8 +2,8 @@
 title: Codeforces 507A
 date: 2019-03-21 09:51:53
 keywords: Codeforces 507A, Codeforces Amr and Music
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - greedy

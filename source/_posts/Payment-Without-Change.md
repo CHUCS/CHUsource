@@ -2,6 +2,7 @@
 title: CodeForces 1256A
 date: 2019-11-26 15:35:02
 keywords: Codeforces 1256A, Codeforces Payment Without Change
+categories: Codeforces
 tags:
     - math
     - 新手

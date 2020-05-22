@@ -2,6 +2,7 @@
 title: Codeforces 39H
 date: 2019-09-30 20:11:36
 keywords: Codeforces 39H, Codeforces Multiplication-Table
+categories: Codeforces
 tags:
     - 普通
     - implementation

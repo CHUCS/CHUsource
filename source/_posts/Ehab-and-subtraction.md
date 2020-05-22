@@ -2,6 +2,7 @@
 title: Codeforces 1088B
 date: 2020-04-15 13:17:35
 keywords: Codeforces 1088B, Codeforces Ehab and subtraction
+categories: Codeforces
 tags:
     - implementation
     - sortings

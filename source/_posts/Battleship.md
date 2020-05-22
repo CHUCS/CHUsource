@@ -2,8 +2,8 @@
 title: Codeforces 965B
 date: 2019-03-09 20:00:46
 keywords: Codeforces 965B, Codeforces Battleship
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 簡單

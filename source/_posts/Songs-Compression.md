@@ -2,8 +2,8 @@
 title: Codeforces 1015C
 date: 2019-03-26 13:24:53
 keywords: Codeforces 1015C, Codeforces Songs Compression
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - greedy

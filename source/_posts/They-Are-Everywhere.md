@@ -2,8 +2,8 @@
 title: Codeforces 701C
 date: 2019-03-09 20:00:18
 keywords: Codeforces 701C, Codeforces They Are Everywhere
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - two pointers

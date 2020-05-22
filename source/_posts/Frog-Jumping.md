@@ -2,6 +2,7 @@
 title: Codeforces 1077A
 date: 2019-04-20 18:49:49
 keywords: Codeforces 1077A, Codeforces Frog Jumping
+categories: Codeforces
 tags:
     - math
     - 新手

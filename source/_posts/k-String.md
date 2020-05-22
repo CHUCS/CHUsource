@@ -2,6 +2,7 @@
 title: Codeforces 219A
 date: 2020-04-27 17:02:09
 keywords: CodeForces 219A, CodeForces k-String
+categories: Codeforces
 tags:
     - implementation
     - strings

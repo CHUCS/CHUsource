@@ -2,6 +2,7 @@
 title: Codeforces 476A
 date: 2020-04-30 17:12:17
 keywords: Codeforces 476A, Codeforces Dreamoon and Stairs
+categories: Codeforces
 tags:
     - implementation
     - math

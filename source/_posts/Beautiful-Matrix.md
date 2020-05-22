@@ -2,8 +2,8 @@
 title: Codeforces 263A
 date: 2019-03-07 19:01:31
 keywords: Codeforces 263A, Codeforces Beautiful Matrix
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - math

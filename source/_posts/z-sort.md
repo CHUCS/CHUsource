@@ -2,6 +2,7 @@
 title: Codeforces 652B
 date: 2020-04-30 17:16:49
 keywords: Codeforces 652B, Codeforces z-sort
+categories: Codeforces
 tags:
     - sortings
     - 普通

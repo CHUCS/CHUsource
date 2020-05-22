@@ -2,8 +2,8 @@
 title: Codeforces 124A
 date: 2019-03-26 13:24:16
 keywords: Codeforces 124A, Codeforces The number of positions
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - math
     - 新手

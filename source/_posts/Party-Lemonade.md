@@ -2,6 +2,7 @@
 title: CodeForces 913C
 date: 2020-01-17 13:17:36
 keywords: Codeforces 913C, Codeforces Party Lemonade
+categories: Codeforces
 tags:
     - bitmasks
     - greedy

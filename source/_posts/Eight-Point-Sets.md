@@ -2,6 +2,7 @@
 title: Codeforces 334B
 date: 2020-04-14 13:06:06
 keywords: Codeforces 334B, Codeforces Eight Point Sets
+categories: Codeforces
 tags:
     - sortings
     - 簡單

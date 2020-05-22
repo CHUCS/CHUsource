@@ -2,8 +2,8 @@
 title: Codeforces 474B
 date: 2019-03-14 10:03:23
 keywords: Codeforces 474B, Codeforces Worms
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - 普通

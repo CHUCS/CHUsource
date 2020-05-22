@@ -2,6 +2,7 @@
 title: CodeForces 706C
 date: 2019-12-22 15:10:43
 keywords: Codeforces 706C, Codeforces Hard problem
+categories: Codeforces
 tags:
     - 一般
     - strings

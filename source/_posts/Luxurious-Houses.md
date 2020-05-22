@@ -2,6 +2,7 @@
 title: Codeforces 581B
 date: 2019-05-05 22:00:19
 keywords: Codeforces 581B, Codeforces Luxurious Houses
+categories: Codeforces
 tags:
     - 簡單
     - implementation

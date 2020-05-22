@@ -2,6 +2,7 @@
 title: Codeforces 176A
 date: 2020-04-27 17:00:18
 keywords: Codeforces 176A, Codeforces Trading Business
+categories: Codeforces
 tags:
     - greedy
     - sortings

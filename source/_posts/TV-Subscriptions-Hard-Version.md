@@ -2,6 +2,7 @@
 title: Codeforces 1225B2
 date: 2020-04-27 17:01:54
 keywords: Codeforces 1225B2, Codeforces TV Subscriptions (Hard Version)
+categories: Codeforces
 tags:
     - implementation
     - two pointers

@@ -2,6 +2,7 @@
 title: Codeforces 510A
 date: 2019-04-27 18:34:34
 keywords: Codeforces 510A, Codeforces Fox And Snake
+categories: Codeforces
 tags:
     - 新手
     - implementation

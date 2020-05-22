@@ -2,6 +2,7 @@
 title: CodeForces 1223A
 date: 2020-01-14 15:51:33
 keywords: CodeForces 1223A, CodeForces CME
+categories: Codeforces
 tags:
     - math
 ---

@@ -2,6 +2,7 @@
 title: Codeforces 631C
 date: 2019-10-26 12:09:55
 keywords: Codeforces 631C, Codeforces Report
+categories: Codeforces
 tags:
     - data structures
     - sortings

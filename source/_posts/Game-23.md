@@ -2,6 +2,7 @@
 title: Codeforces 1141A
 date: 2019-05-05 22:00:09
 keywords: Codeforces 1141A, Codeforces Game 23
+categories: Codeforces
 tags:
     - 新手
     - implementation

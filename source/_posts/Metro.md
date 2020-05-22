@@ -2,6 +2,7 @@
 title: Codeforces 1055A
 date: 2019-04-27 18:42:37
 keywords: Codeforces 1055A, Codeforces Metro
+categories: Codeforces
 tags:
     - 簡單
     - greedy

@@ -2,8 +2,8 @@
 title: Codeforces 230B
 date: 2019-03-14 10:03:51
 keywords: Codeforces 230B, Codeforces T-primes
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - math

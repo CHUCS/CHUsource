@@ -2,6 +2,7 @@
 title: Codeforces 1011B
 date: 2019-05-05 22:00:58
 keywords: Codeforces 1011B, Codeforces Planning The Expedition
+categories: Codeforces
 tags:
     - 普通
     - binary search 

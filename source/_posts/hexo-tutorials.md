@@ -2,6 +2,7 @@
 title: 社團網站維護指南
 date: 2020-04-11 22:25:27
 keywords: 中華大學程式競賽研討社團網站維護指南
+categories: 社團網站維護指南
 tags:
     - tutorials
     - hexo

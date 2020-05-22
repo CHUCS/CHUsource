@@ -2,8 +2,8 @@
 title: Codeforces 977A
 date: 2019-03-07 19:28:05
 keywords: Codeforces 977A, Codeforces Simple Game
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search
     - two pointers

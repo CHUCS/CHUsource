@@ -2,8 +2,8 @@
 title: Codeforces 617A
 date: 2019-03-14 10:01:20
 keywords: Codeforces 617A, Codeforces Elephant
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手

@@ -2,6 +2,7 @@
 title: Codeforces 38A
 date: 2019-04-20 18:50:00
 keywords: Codeforces 38A, Codeforces Army
+categories: Codeforces
 tags:
     - implementation
     - 新手

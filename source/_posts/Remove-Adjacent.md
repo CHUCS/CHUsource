@@ -2,6 +2,7 @@
 title: CodeForces 1321C
 date: 2020-03-20 13:25:41
 keywords: Codeforces 1321C, Codeforces Remove Adjacent
+categories: Codeforces
 tags:
     - 普通
     - brute force

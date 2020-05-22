@@ -2,6 +2,7 @@
 title: CodeForces 977A v2
 date: 2019-12-13 16:52:00
 keywords: Codeforces 977A, Codeforces Wrong Subtraction
+categories: Codeforces
 tags:
     - implementation
     - 新手

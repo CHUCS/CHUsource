@@ -2,6 +2,7 @@
 title: Codeforces 261A
 date: 2019-03-26 13:25:06
 keywords: Codeforces 261A, Codeforces Maxim and Discounts
+categories: Codeforces
 tags:
     - CHU Training
     - CodeForces

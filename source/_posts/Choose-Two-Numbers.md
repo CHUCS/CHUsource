@@ -2,6 +2,7 @@
 title: CodeForces 1206A
 date: 2020-04-07 13:47:59
 keywords: CodeForces 1206A, CodeForces Choose Two Numbers
+categories: Codeforces
 tags:
     - math
     - sortings

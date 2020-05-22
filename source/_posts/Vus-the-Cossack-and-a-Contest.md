@@ -2,6 +2,7 @@
 title: CodeForces 1186A
 date: 2019-12-31 15:46:28
 keywords: Codeforces 1186A, Codeforces Vus the Cossack and a Contest
+categories: Codeforces
 tags:
     - implementation
     - 新手

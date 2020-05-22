@@ -2,6 +2,7 @@
 title: CodeForces 935A v2
 date: 2019-12-22 15:25:55
 keywords: Codeforces 935A, Codeforces Fafa and his Company
+categories: Codeforces
 tags:
     - 新手
     - brute force

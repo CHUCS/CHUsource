@@ -2,6 +2,7 @@
 title: CodeForces 791A
 date: 2019-12-13 14:13:20
 keywords: Codeforces 791A, Codeforces Bear and Big Brother
+categories: Codeforces
 tags:
     - implementation
     - 新手

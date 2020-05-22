@@ -2,6 +2,7 @@
 title: UVA 10340
 date: 2019-11-17 10:28:54
 keywords: UVA 10340, UVA All in All
+categories: UVA
 tags:
     - implementation
 ---

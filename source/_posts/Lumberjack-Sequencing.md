@@ -2,6 +2,7 @@
 title: UVA 11942
 date: 2019-11-17 10:47:29
 keywords: UVA 11942, UVA Lumberjack Sequencing
+categories: UVA
 tags:
 - implementation
 ---

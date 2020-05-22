@@ -2,6 +2,7 @@
 title: Codeforces 92B
 date: 2019-10-18 15:46:55
 keywords: Codeforces 92B, Codeforces Binary Number
+categories: Codeforces
 tags:
     - greedy
 ---

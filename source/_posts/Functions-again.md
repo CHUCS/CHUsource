@@ -2,6 +2,7 @@
 title: CodeForces 788A 
 date: 2019-11-30 08:53:25
 keywords: Codeforces 788A, Codeforces Functions again
+categories: Codeforces
 tags:
     - 普通
     - two pointers

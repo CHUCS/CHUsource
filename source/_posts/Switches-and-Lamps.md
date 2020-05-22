@@ -2,6 +2,7 @@
 title: Codeforces 985B
 date: 2020-04-15 13:17:22
 keywords: Codeforces 1253C, Codeforces Sweets Eating
+categories: Codeforces
 tags:
     - 普通
     - implementation

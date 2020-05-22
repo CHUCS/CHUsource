@@ -2,8 +2,8 @@
 title: Codeforces 609A
 date: 2019-03-21 09:50:43
 keywords: Codeforces 609A, Codeforces USB Flash Drives
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - greedy

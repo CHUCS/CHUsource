@@ -2,6 +2,7 @@
 title: UVA 900
 date: 2019-12-13 16:52:19
 keywords: UVA 900, UVA Brick Wall Patterns
+categories: Codeforces
 tags:
     - 新手
     - dp

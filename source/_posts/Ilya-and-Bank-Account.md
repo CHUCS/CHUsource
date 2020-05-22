@@ -2,8 +2,8 @@
 title: Codeforces 313A
 date: 2019-04-12 22:49:22
 keywords: Codeforces 313A, Codeforces Ilya and Bank Account
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手

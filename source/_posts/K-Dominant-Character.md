@@ -2,6 +2,7 @@
 title: Codeforces 888C
 date: 2019-04-27 18:42:21
 keywords: CodeForces 888C, CodeForces K-Dominant Character
+categories: Codeforces
 tags:
     - 普通
     - binary search

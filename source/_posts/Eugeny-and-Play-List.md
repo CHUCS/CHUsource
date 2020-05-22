@@ -2,8 +2,8 @@
 title: Codeforces 302B
 date: 2019-04-12 23:18:15
 keywords: Codeforces 302B, Codeforces Eugeny and Play Lis
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - binary search 
     - 普通

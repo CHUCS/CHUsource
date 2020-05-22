@@ -2,6 +2,7 @@
 title: Codeforces 785B
 date: 2020-04-15 13:17:44
 keywords: Codeforces 785B, Codeforces Anton and Classes
+categories: Codeforces
 tags:
     - greedy
     - sortings

@@ -2,6 +2,7 @@
 title: Codeforces 185A
 date: 2019-09-30 20:11:01
 keywords: Codeforces 185A, Codeforces Plant
+categories: Codeforces
 tags:
     - 普通
     - math

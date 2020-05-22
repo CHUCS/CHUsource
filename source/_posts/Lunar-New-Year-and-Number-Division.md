@@ -2,6 +2,7 @@
 title: Codeforces 1106C
 date: 2019-09-19 09:05:00
 keywords: Codeforces 1106C, Codeforces Lunar New Year and Number Division
+categories: Codeforces
 tags:
 - implementation
 - greedy

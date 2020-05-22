@@ -2,6 +2,7 @@
 title: Codeforces 246A
 date: 2019-04-27 18:42:02
 keywords: Codeforces 246A, Codeforces Buggy Sorting
+categories: Codeforces
 tags:
     - 簡單
     - sortings

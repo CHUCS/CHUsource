@@ -2,6 +2,7 @@
 title: UVA 12694
 date: 2019-12-22 15:26:15
 keywords: UVA 12694, UVA Meeting Room Arrangement
+categories: UVA
 tags:
     - 簡單
     - greedy

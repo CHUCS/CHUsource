@@ -2,6 +2,7 @@
 title: Codeforces 988B
 date: 2020-04-14 13:05:04
 keywords: Codeforces 988B, Codeforces Substrings Sort
+categories: Codeforces
 tags:
     - 普通
     - sortings

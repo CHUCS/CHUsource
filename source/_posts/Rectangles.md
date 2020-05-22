@@ -2,6 +2,7 @@
 title: Codeforces 1028C
 date: 2019-09-30 20:11:22
 keywords: Codeforces 1028C, Codeforces Rectangles
+categories: Codeforces
 tags:
     - 普通
     - geometry

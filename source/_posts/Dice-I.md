@@ -2,6 +2,7 @@
 title: AOJ ITP1_11_A
 date: 2019-11-26 15:35:25
 keywords: AOJ ITP1_11_A, AOJ Dice I
+categories: AOJ
 tags:
     - implementation
     - 簡單

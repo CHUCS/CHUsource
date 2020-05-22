@@ -2,6 +2,7 @@
 title: Codeforces 899B
 date: 2019-04-20 18:50:27
 keywords: Codeforces 899B, Codeforces Months and Years
+categories: Codeforces
 tags:
     - implementation
     - 簡單

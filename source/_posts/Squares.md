@@ -2,8 +2,8 @@
 title: Codeforces 263B
 date: 2019-03-14 10:02:24
 keywords: Codeforces 263B, Codeforces Squares
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - math

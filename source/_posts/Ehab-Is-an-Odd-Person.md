@@ -2,6 +2,7 @@
 title: CodeForces 1174B
 date: 2020-04-07 13:48:18
 keywords: Codeforces 1174B, Codeforces Ehab Is an Odd Person
+categories: Codeforces
 tags:
     - sortings
     - 普通

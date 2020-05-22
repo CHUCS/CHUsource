@@ -2,6 +2,7 @@
 title: Codeforces 266A
 date: 2020-04-14 13:03:49
 keywords: Codeforces 266A, Codeforces Stones on the Table
+categories: Codeforces
 tags:
     - implementation
     - 簡單

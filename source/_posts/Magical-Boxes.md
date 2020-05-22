@@ -2,6 +2,7 @@
 title: Codeforces 269A
 date: 2019-10-15 13:25:45
 keywords: Codeforces 269A, Codeforces Magical Boxes
+categories: Codeforces
 tags:
     - 普通 
     - implementation

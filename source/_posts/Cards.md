@@ -2,6 +2,7 @@
 title: CodeForces 1220A
 date: 2019-12-31 15:46:45
 keywords: CodeForces 1220A, CodeForces Cards
+categories: Codeforces
 tags:
     - 新手
     - implementation

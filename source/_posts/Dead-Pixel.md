@@ -2,6 +2,7 @@
 title: Codeforces 1315A
 date: 2020-02-26 13:54:52
 keywords: Codeforces 1315A, Codeforces Dead Pixel
+categories: Codeforces
 tags:
     - implementation
     - 簡單

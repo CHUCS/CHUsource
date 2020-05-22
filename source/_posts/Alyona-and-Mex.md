@@ -2,6 +2,7 @@
 title: Codeforces 739A
 date: 2019-05-05 22:00:45
 keywords: Codeforces 739A, Codeforces Alyona and Mex
+categories: Codeforces
 tags:
     - 簡單
     - sortings

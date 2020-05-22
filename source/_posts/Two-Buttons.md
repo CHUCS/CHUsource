@@ -2,6 +2,7 @@
 title: Codeforces 520B
 date: 2019-10-26 11:52:34
 keywords: Codeforces 520B, Codeforces Two Buttons
+categories: Codeforces
 tags:
     - dfs and similar
     - graphs

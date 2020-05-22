@@ -2,6 +2,7 @@
 title: Codeforces 200B
 date: 2019-03-21 09:37:08
 keywords: Codeforces 200B, Codeforces Drinks
+categories: Codeforces
 tags:
     - CHU Training
     - CodeForces

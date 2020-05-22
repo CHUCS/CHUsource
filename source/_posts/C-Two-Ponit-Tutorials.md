@@ -2,6 +2,7 @@
 title: C++ Two Ponit Tutorials
 date: 2020-04-15 13:49:35
 keywords: C++ Two Ponit Tutorials
+categories: C++ tutorials
 tags:
     - tutorials
     - cpp

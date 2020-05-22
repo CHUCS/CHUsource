@@ -2,6 +2,7 @@
 title: CodeForces 450A
 date: 2020-04-07 13:45:07
 keywords: CodeForces 450A, CodeForces Jzzhu and Children
+categories: Codeforces
 tags:
     - implementation
     - 普通

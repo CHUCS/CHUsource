@@ -2,8 +2,8 @@
 title: Codeforces 216B
 date: 2019-03-26 13:24:41
 keywords: Codeforces 216B, Codeforces Teams Forming
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - greedy

@@ -2,6 +2,7 @@
 title: Codeforces 263A v2
 date: 2020-04-12 16:29:04
 keywords: Codeforces 263A, Codeforces Beautiful Matrix
+categories: Codeforces
 tags:
     - implementation
     - 新手

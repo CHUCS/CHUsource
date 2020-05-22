@@ -2,8 +2,8 @@
 title: Codeforces 812A
 date: 2019-03-26 13:24:28
 keywords: Codeforces 812A, Codeforces Sagheer and Crossroads
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 簡單

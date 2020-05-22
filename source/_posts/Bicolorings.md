@@ -2,6 +2,7 @@
 title: CodeForces 1051D
 date: 2020-01-17 13:17:54
 keywords: Codeforces 1051D, Codeforces Bicolorings
+categories: Codeforces
 tags:
     - bitmasks
     - dp

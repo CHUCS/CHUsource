@@ -2,8 +2,8 @@
 title: Codeforces 426A
 date: 2019-03-26 13:24:03
 keywords: Codeforces 426A, Codeforces Sereja and Mugs
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手 

@@ -1,11 +1,12 @@
 ---
-title: Aizu ITP1_5_B
+title: AOJ ITP1_5_B
 date: 2019-11-17 10:03:12
-keywords: Aizu ITP1_5_B, Aizu Print a Frame
+keywords: AOJ ITP1_5_B, AOJ Print a Frame
+categories: AOJ
 tags:
 - implementation
 ---
-# Aizu ITP1_5_B - Print a Frame
+# AOJ ITP1_5_B - Print a Frame
 [Print a Frame](http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=ITP1_5_B)
 
 #### 題意:

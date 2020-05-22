@@ -2,6 +2,7 @@
 title: CodeForces 1030A
 date: 2019-11-30 08:52:33
 keywords: Codeforces 1030A, Codeforces In Search of an Easy Problem
+categories: Codeforces
 tags:
     - 新手
     - implementation

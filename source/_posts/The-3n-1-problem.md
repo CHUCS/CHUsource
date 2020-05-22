@@ -2,6 +2,7 @@
 title: UVA 100
 date: 2019-10-15 19:30:25
 keywords: UVA 100, UVA The 3n + 1 problem
+categories: UVA
 tags:
     - implementation
 ---

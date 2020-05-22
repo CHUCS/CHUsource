@@ -2,8 +2,8 @@
 title: Codeforces 136A
 date: 2019-04-12 22:43:49
 keywords: Codeforces 136A, Codeforces Presents
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - implementation
     - 新手 

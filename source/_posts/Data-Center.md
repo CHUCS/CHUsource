@@ -2,6 +2,7 @@
 title: CodeForces 1250F
 date: 2019-11-26 15:32:50
 keywords: CodeForces 1250F, CodeForces Data Center
+categories: Codeforces
 tags:
     - 新手
     - brute force

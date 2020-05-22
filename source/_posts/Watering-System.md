@@ -2,8 +2,8 @@
 title: Codeforces 967B
 date: 2019-04-12 23:05:47
 keywords: Codeforces 967B, Codeforces Watering System
+categories: Codeforces
 tags:
-    - CHU Training
     - CodeForces
     - sortings
     - 簡單
