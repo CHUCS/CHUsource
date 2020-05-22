@@ -1,10 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-link: {{ title }}
 keywords: {{ title }}
+categories: 
 tags:
 ---
+# （標題）
 [題目網址](https://chucs.github.io/site/)
 <!-- more -->
 
