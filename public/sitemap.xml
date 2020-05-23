@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://chucs.github.io/A-Twisty-Movement/</loc>
+    
+    <lastmod>2020-05-23T08:01:56.167Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://chucs.github.io/hexo-tutorials/</loc>
     
     <lastmod>2020-05-22T09:15:10.732Z</lastmod>
@@ -1195,13 +1202,6 @@
     <loc>https://chucs.github.io/Alyona-and-Mex/</loc>
     
     <lastmod>2020-05-22T03:48:35.550Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://chucs.github.io/A-Twisty-Movement/</loc>
-    
-    <lastmod>2020-05-22T03:48:27.830Z</lastmod>
     
   </url>
   
