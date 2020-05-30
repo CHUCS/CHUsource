@@ -24,18 +24,21 @@
     var CONFIG = {"hostname":"chucs.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.json"};
   </script>
 
-  <meta name="description" content="CHUCSIE">
-<meta property="og:type" content="website">
-<meta property="og:title" content="CHUCSIE">
-<meta property="og:url" content="https://chucs.github.io/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83/index.html">
+  <meta name="description" content="Codeforces 1033A - King Escape題目網址 題意:有一個nxn的西洋棋盤，棋盤上只有一個皇后與一個國王各在棋盤上的一個位置，國王不會在皇后的移動範圍內，現在希望國王有個目的地，國王能不斷的移而皇后只能移動一次，請問國王能不能到達目的地?(國王與皇后的移動範圍與西洋棋相同)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Codeforces 1033A">
+<meta property="og:url" content="https://chucs.github.io/King-Escape/index.html">
 <meta property="og:site_name" content="CHUCSIE">
-<meta property="og:description" content="CHUCSIE">
+<meta property="og:description" content="Codeforces 1033A - King Escape題目網址 題意:有一個nxn的西洋棋盤，棋盤上只有一個皇后與一個國王各在棋盤上的一個位置，國王不會在皇后的移動範圍內，現在希望國王有個目的地，國王能不斷的移而皇后只能移動一次，請問國王能不能到達目的地?(國王與皇后的移動範圍與西洋棋相同)">
 <meta property="og:locale" content="zh_TW">
+<meta property="article:published_time" content="2020-05-30T11:49:23.000Z">
+<meta property="article:modified_time" content="2020-05-30T17:59:35.576Z">
 <meta property="article:author" content="CHUCS">
-<meta property="article:tag" content="CHUCSIE">
+<meta property="article:tag" content="Codeforces King Escape">
+<meta property="article:tag" content=" Codeforces 1033A">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://chucs.github.io/tags/%E5%8B%95%E6%85%8B%E8%A6%8F%E5%8A%83/">
+<link rel="canonical" href="https://chucs.github.io/King-Escape/">
 
 
 <script id="page-configurations">
@@ -43,12 +46,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-TW'
   };
 </script>
 
-  <title>標籤: 動態規劃 | CHUCSIE</title>
+  <title>Codeforces 1033A | CHUCSIE</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134507655-1"></script>
     <script>
@@ -194,237 +197,131 @@
         <div class="content-wrap">
           
 
-          <div class="content tag">
+          <div class="content post posts-expand">
             
 
+    
   
   
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-TW">
+    <link itemprop="mainEntityOfPage" href="https://chucs.github.io/King-Escape/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/header.jpg">
+      <meta itemprop="name" content="CHUCS">
+      <meta itemprop="description" content="CHUCSIE">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="CHUCSIE">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Codeforces 1033A
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">發表於</span>
+
+              <time title="創建時間：2020-05-30 20:49:23" itemprop="dateCreated datePublished" datetime="2020-05-30T20:49:23+09:00">2020-05-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新於</span>
+                <time title="修改時間：2020-05-31 02:59:35" itemprop="dateModified" datetime="2020-05-31T02:59:35+09:00">2020-05-31</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Codeforces/" itemprop="url" rel="index"><span itemprop="name">Codeforces</span></a>
+                </span>
+            </span>
+
+          
   
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">動態規劃
-          <small>標籤</small>
-        </h2>
-      </div>
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus：</span>
+    
+    <a title="disqus" href="/King-Escape/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="King-Escape/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2020</span>
+        <h1 id="Codeforces-1033A-King-Escape"><a href="#Codeforces-1033A-King-Escape" class="headerlink" title="Codeforces 1033A - King Escape"></a>Codeforces 1033A - King Escape</h1><p><a href="https://codeforces.com/problemset/problem/1033/a" target="_blank" rel="noopener">題目網址</a></p>
+<h4 id="題意"><a href="#題意" class="headerlink" title="題意:"></a>題意:</h4><p>有一個nxn的西洋棋盤，棋盤上只有一個皇后與一個國王各在棋盤上的一個位置，國王不會在皇后的移動範圍內，現在希望國王有個目的地，國王能不斷的移而皇后只能移動一次，請問國王能不能到達目的地?<br>(國王與皇后的移動範圍與西洋棋相同)</p>
+<a id="more"></a>
+<h4 id="思路"><a href="#思路" class="headerlink" title="思路:"></a>思路:</h4><p>皇后的移動範圍會將棋盤切成四塊區域，只要看國王與目的地是不是在相同區塊跟注意皇后周圍的位置(棋盤最小3x3)就知道可不可以了。</p>
+<h4 id="程式碼"><a href="#程式碼" class="headerlink" title="程式碼:"></a>程式碼:</h4><script src="https://gist.github.com/zxzxcc112/f869f29d6765dc6fed1899262adc2dfc.js"></script>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T19:05:06+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/implementation/" rel="tag"># implementation</a>
+              <a href="/tags/graphs/" rel="tag"># graphs</a>
+              <a href="/tags/dfs-and-similar/" rel="tag"># dfs and similar</a>
+              <a href="/tags/1000/" rel="tag"># 1000</a>
+          </div>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/Sasha-and-His-Trip/" itemprop="url">
-            <span itemprop="name">Codeforces 1113A</span>
-          </a>
-      </div>
+        
 
-    </header>
-  </article>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T19:04:39+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Sereja-and-Suffixes/" itemprop="url">
-            <span itemprop="name">Codeforces 368B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T19:04:10+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Interesting-drink-1/" itemprop="url">
-            <span itemprop="name">Codeforces 706B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T19:03:42+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Even-Subset-Sum-Problem/" itemprop="url">
-            <span itemprop="name">Codeforces 1323A</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T18:59:16+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Cormen-%E2%80%94-The-Best-Friend-Of-a-Man/" itemprop="url">
-            <span itemprop="name">Codeforces 732B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T00:57:33+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Ilya-and-Queries/" itemprop="url">
-            <span itemprop="name">Codeforces 313B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T00:57:08+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Fence/" itemprop="url">
-            <span itemprop="name">Codeforces 363B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T00:56:52+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Make-Product-Equal-One/" itemprop="url">
-            <span itemprop="name">Codeforces 1206B</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T00:56:37+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Kefa-and-First-Steps/" itemprop="url">
-            <span itemprop="name">Codeforces 580A</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-05-29T00:55:42+09:00"
-              content="2020-05-29">
-          05-29
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/Consecutive-Subsequence/" itemprop="url">
-            <span itemprop="name">Codeforces 977F</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/Protect-Sheep/" rel="prev" title="Codeforces 948A">
+      <i class="fa fa-chevron-left"></i> Codeforces 948A
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/Badge/" rel="next" title="Codeforces 1020B">
+      Codeforces 1020B <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
-  </div>
+      </footer>
+    
+  </article>
   
   
-  
-
   
 
 
 
           </div>
           
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -471,6 +368,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Codeforces-1033A-King-Escape"><span class="nav-number">1.</span> <span class="nav-text">Codeforces 1033A - King Escape</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#題意"><span class="nav-number">1.0.0.1.</span> <span class="nav-text">題意:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#思路"><span class="nav-number">1.0.0.2.</span> <span class="nav-text">思路:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#程式碼"><span class="nav-number">1.0.0.3.</span> <span class="nav-text">程式碼:</span></a></li></ol></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -486,20 +384,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">185</span>
+          <span class="site-state-item-count">195</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">分類</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">37</span>
+        <span class="site-state-item-count">39</span>
         <span class="site-state-item-name">標籤</span></a>
       </div>
   </nav>
@@ -627,6 +525,26 @@
   }
   // defer loading until the whole page loading is completed
   window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://chucs.github.io/King-Escape/";
+    this.page.identifier = "King-Escape/";
+    this.page.title = "Codeforces 1033A";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-chucs-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
 </script>
 
 </body>
