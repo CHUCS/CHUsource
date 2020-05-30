@@ -2,7 +2,7 @@
 title: Maximum Profit
 keywords:  ALDS1_1_D ,  Maximum Profit
 date: 2020-05-30 17:14:50
-categories: Algorithms and Data Structures
+categories: AOJ
 tags:
     - implementation
 ---

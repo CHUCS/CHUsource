@@ -2,7 +2,7 @@
 title: Insertion Sort
 keywords: ALDS1_1_A , Insertion Sort
 date: 2020-05-30 16:20:45
-categories: Algorithms and Data Structures
+categories: AOJ
 tags:
     - sortings
 ---

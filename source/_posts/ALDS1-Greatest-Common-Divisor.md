@@ -2,7 +2,7 @@
 title: Greatest Common Divisor
 keywords: ALDS1_1_B , Greatest Common Divisor
 date: 2020-05-30 16:49:35
-categories: Algorithms and Data Structures
+categories: AOJ
 tags:
     - implementation
     - dfs and similar
