@@ -4,9 +4,9 @@ keywords: Codeforces Sereja and Suffixes, Codeforces 368B
 date: 2020-05-29 19:04:39
 categories: Codeforces
 tags:
-    - Dynamic programming
+    - data structures
     - dp
-    - 動態規劃
+    - 1100
 ---
 # Codeforces 368B - Sereja and Suffixes
 [題目網址](https://codeforces.com/problemset/problem/368/B)
