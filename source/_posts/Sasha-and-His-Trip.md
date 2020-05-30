@@ -4,13 +4,10 @@ keywords: Codeforces Sasha and His Trip, Codeforces 1113A
 date: 2020-05-29 19:05:06
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
     - greedy
     - math
-    - 動態規劃
-    - 貪婪
-    - 數學
+    - 900
 ---
 # Codeforces 1113A - Sasha and His Trip
 [題目網址](https://codeforces.com/problemset/problem/1113/A)

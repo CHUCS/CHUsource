@@ -4,13 +4,11 @@ keywords: Codeforces Even Subset Sum Problem, Codeforces 1323A
 date: 2020-05-29 19:03:42
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
     - greedy
     - brute force
-    - 動態規劃
-    - 貪婪
-    - 暴力
+    - implementation
+    - 800
 ---
 # Codeforces 1323A - Even Subset Sum Problem
 [題目網址](https://codeforces.com/problemset/problem/1323/A)

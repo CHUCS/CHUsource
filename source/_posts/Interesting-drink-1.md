@@ -4,11 +4,10 @@ keywords: Codeforces Interesting drink, Codeforces 706B
 date: 2020-05-29 19:04:10
 categories: Codeforces
 tags:
-    - Dynamic programming
+    - implementation
     - dp
     - binary search
-    - 動態規劃
-    - 二元搜尋
+    - 1100
 ---
 # Codeforces 706B - Interesting drink
 [題目網址](https://codeforces.com/problemset/problem/706/B)

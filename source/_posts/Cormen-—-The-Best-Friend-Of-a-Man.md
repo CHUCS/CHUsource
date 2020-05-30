@@ -4,11 +4,9 @@ keywords: Codeforces Cormen — The Best Friend Of a Man, Codeforces 732B
 date: 2020-05-29 18:59:16
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
     - greedy
-    - 動態規劃
-    - 貪婪
+    - 1000
 ---
 # Codeforces 732B - Cormen — The Best Friend Of a Man
 [題目網址](https://codeforces.com/problemset/problem/732/B)
