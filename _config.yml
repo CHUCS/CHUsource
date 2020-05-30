@@ -85,7 +85,7 @@ search:
 sitemap:
   path: sitemap.xml
   field: post
-
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
