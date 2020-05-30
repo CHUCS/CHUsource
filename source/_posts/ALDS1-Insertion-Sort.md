@@ -8,11 +8,11 @@ tags:
 ---
 # ALDS1_1_A - Insertion Sort
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_A)
-<!-- more -->
+
 
 #### 題意:
 編寫一個插入排序算法的程序，該程序按升序對序列A進行排序。
-
+<!-- more -->
 #### 思路:
 插入排序在每一次都會先刪除起始的數字，然後一直往後排直到有人大於他就插入。
 範例：

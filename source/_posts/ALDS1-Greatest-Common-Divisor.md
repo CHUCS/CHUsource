@@ -9,11 +9,11 @@ tags:
 ---
 # ALDS1_1_B - Greatest Common Divisor
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_B)
-<!-- more -->
+
 
 #### 題意:
 編寫一個程序，找出兩個自然數a和b的最大公約數。
-
+<!-- more -->
 #### 思路:
 用遞迴的方式不斷的取於數就可以得到最大公約數。
 
