@@ -4,12 +4,10 @@ keywords: Codeforces Kefa and First Steps, Codeforces 580A
 date: 2020-05-29 00:56:37
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
     - Brute force
-    - 動態規劃
-    - 暴力
-    - 簡單
+    - implementation
+    - 900
 ---
 # Codeforces 580A - Kefa and First Steps
 [題目網址](https://codeforces.com/problemset/problem/580/A)

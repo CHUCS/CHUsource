@@ -4,10 +4,9 @@ keywords: Codeforces Make Product Equal One, Codeforces 1206B
 date: 2020-05-29 00:56:52
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
-    - 動態規劃
-    - 簡單
+    - implementation
+    - 900
 ---
 # Codeforces 1206B - Make Product Equal One
 [題目網址](https://codeforces.com/problemset/problem/1206/B)

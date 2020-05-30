@@ -4,12 +4,9 @@ keywords: Codeforces Fence, Codeforces 363B
 date: 2020-05-29 00:57:08
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
     - Brute force
-    - 動態規劃
-    - 暴力
-    - 簡單
+    - 1100
 ---
 # Codeforces 363B - Fence
 [題目網址](https://codeforces.com/problemset/problem/363/B)
