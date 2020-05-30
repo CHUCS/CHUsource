@@ -4,10 +4,8 @@ keywords: Codeforces Consecutive Subsequence, Codeforces 977F
 date: 2020-05-29 00:55:42
 categories: Codeforces
 tags:
-    - Dynamic programming
     - dp
-    - 動態規劃
-    - 普通
+    - 1700
 ---
 # Codeforces 977F - Consecutive Subsequence
 [題目網址](https://codeforces.com/problemset/problem/977/F)

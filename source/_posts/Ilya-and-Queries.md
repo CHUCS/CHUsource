@@ -4,9 +4,9 @@ keywords: Codeforces Ilya and Queries, Codeforces 313B
 date: 2020-05-29 00:57:33
 categories: Codeforces
 tags:
-    - Dynamic programming
+    - implementation
     - dp
-    - 動態規劃
+    - 1100
 ---
 # Codeforces 313B - Ilya and Queries
 [題目網址](https://codeforces.com/problemset/problem/313/B)

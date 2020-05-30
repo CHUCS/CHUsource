@@ -5,8 +5,8 @@ date: 2020-05-29 00:56:16
 categories: Codeforces
 tags:
     - Brute force
-    - 暴力
-    - 簡單
+    - dp
+    - 800
 ---
 # Codeforces 894A - QAQ
 [題目網址](https://codeforces.com/problemset/problem/894/A)
