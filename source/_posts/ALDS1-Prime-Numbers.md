@@ -2,7 +2,7 @@
 title: Prime Numbers
 keywords: ALDS1_1_C , Prime Numbers
 date: 2020-05-30 17:00:04
-categories: Algorithms and Data Structures
+categories: AOJ
 tags:
     - implementation
 ---
