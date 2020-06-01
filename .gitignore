@@ -7,5 +7,5 @@ themes/next
 db.json
 package-lock.json
 *.DS_Store
-public/
 themes/
+public/*
