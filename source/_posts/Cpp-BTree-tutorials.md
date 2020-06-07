@@ -11,7 +11,7 @@ tags:
 
 ## 介紹
 二元樹是一種樹的資料結構，其中每個節點最多具有兩個子節點，分別稱為左節點和右節點。
-
+<!-- more -->
 ## 完整代碼:
 <script src="https://gist.github.com/Daviswww/057b8a423219e1bbdcd14b2d1f25cf0d.js"></script>
 
