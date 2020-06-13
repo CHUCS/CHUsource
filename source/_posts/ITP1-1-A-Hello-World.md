@@ -8,11 +8,10 @@ tags:
 ---
 # AOJ ITP1_1_A - Hello World
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_A)
-<!-- more -->
 
 #### 題意:
 打印一個Hello World。
-
+<!-- more -->
 #### 思路:
 列印Hello World然後換行。
 

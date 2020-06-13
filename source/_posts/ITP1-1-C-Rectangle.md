@@ -8,11 +8,10 @@ tags:
 ---
 # AOJ ITP1_1_C - Rectangle
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/1/ITP1_1_C)
-<!-- more -->
 
 #### 題意:
 輸入長寬Ａ和Ｂ算出此長方形的面積和周長。
-
+<!-- more -->
 #### 思路:
 面積就把Ａ和Ｂ相乘，周長就Ａ＊2 + B * 2。
 
