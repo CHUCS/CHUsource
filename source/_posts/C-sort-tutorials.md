@@ -1,5 +1,5 @@
 ---
-title: C++ sort tutorials
+title: Sort Tutorials
 date: 2020-04-07 13:39:59
 keywords: C++ sort tutorials
 categories: C++ tutorials

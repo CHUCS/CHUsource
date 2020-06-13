@@ -1,8 +1,8 @@
 ---
-title: Greatest Common Divisor
+title: AOJ ALDS1_1_B
 keywords: ALDS1_1_B , Greatest Common Divisor
 date: 2020-05-30 16:49:35
-categories: AOJ
+categories: Algorithms and Data Structures
 tags:
     - implementation
     - dfs and similar

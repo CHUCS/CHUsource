@@ -1,8 +1,8 @@
 ---
-title: Insertion Sort
+title: AOJ ALDS1_1_A
 keywords: ALDS1_1_A , Insertion Sort
 date: 2020-05-30 16:20:45
-categories: AOJ
+categories: Algorithms and Data Structures
 tags:
     - sortings
 ---

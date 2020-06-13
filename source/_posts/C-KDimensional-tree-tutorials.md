@@ -1,5 +1,5 @@
 ---
-title: K Dimensional Tree
+title: K Dimensional Tree Tutorials
 keywords: k-dimensional tree, K-D tree
 date: 2020-06-12 12:50:39
 categories: C++ tutorials

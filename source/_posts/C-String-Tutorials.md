@@ -1,5 +1,5 @@
 ---
-title: C++ String Tutorials
+title: String Tutorials
 date: 2020-04-15 13:48:58
 keywords: C++ String tutorials
 categories: C++ tutorials

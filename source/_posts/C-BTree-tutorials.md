@@ -1,5 +1,5 @@
 ---
-title: Build the Binary Tree tutorials
+title: Build the Binary Tree Tutorials
 keywords: Binary tree
 date: 2020-06-07 16:40:37
 categories: C++ tutorials
