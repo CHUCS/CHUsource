@@ -2,7 +2,7 @@
 title: {{ title }}
 date: {{ date }}
 keywords: {{ title }}
-categories: 
+categories:
 tags:
 ---
 # （標題）

@@ -1,5 +1,5 @@
 ---
-title: ITP1_3_D How Many Divisors
+title: AOJ ITP1_3_D
 keywords: ITP1_3_D How Many Divisors
 date: 2020-06-13 20:27:17
 categories: AOJ
