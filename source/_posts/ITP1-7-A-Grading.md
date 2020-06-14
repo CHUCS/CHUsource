@@ -6,7 +6,7 @@ tags:
   - implementation
 date: 2020-06-14 09:43:47
 ---
-# AOJ ITP1_7_A Grading
+# AOJ ITP1_7_A - Grading
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/2/ITP1/all/ITP1_7_A)
 
 #### 題意:
