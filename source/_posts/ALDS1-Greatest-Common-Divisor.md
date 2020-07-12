@@ -7,7 +7,7 @@ tags:
     - implementation
     - dfs and similar
 ---
-# ALDS1_1_B - Greatest Common Divisor
+# AOJ ALDS1_1_B - Greatest Common Divisor
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_B)
 
 

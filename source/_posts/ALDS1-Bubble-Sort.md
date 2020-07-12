@@ -6,7 +6,7 @@ categories: AOJ
 tags:
     - sortings
 ---
-# ALDS1_2_A - Bubble Sort
+# AOJ ALDS1_2_A - Bubble Sort
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_2_A)
 
 #### 題意:

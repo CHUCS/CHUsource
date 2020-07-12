@@ -6,7 +6,7 @@ categories: AOJ
 tags:
     - sortings
 ---
-# ALDS1_1_A - Insertion Sort
+# AOJ ALDS1_1_A - Insertion Sort
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_A)
 
 

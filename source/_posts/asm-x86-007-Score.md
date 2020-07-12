@@ -1,5 +1,5 @@
 ---
-title: asm x86 - 007 Score
+title: Asm x86 - 007 Score
 keywords: asm x86 007 Score
 date: 2020-07-02 20:00:31
 categories: Assembly tutorials

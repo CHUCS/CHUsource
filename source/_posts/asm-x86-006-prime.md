@@ -1,5 +1,5 @@
 ---
-title: asm x86 - 006 Prime
+title: Asm x86 - 006 Prime
 keywords: asm x86 006 prime
 date: 2020-07-02 20:00:01
 categories: Assembly tutorials
