@@ -1,5 +1,5 @@
 ---
-title: asm x86 - 005 LIS
+title: Asm x86 - 005 LIS
 keywords: asm x86 005 LIS
 date: 2020-07-02 15:01:31
 categories: Assembly tutorials
