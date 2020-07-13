@@ -20,6 +20,6 @@ BubbleSort(A)
             if A[j] < A[j-1]
                 swap A[j] and A[j-1]
 ```
-
+一邊比較一邊交換。
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/d75e8bdad871d3b66348390c03f6f3d5.js"></script>
