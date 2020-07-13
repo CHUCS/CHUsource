@@ -22,6 +22,7 @@ SelectionSort(A)
                 mini = j
         swap A[i] and A[mini]
 ```
+先將一個數字的位置記住後逐一比較，如果比他大就將mini取代新的index，全部比較完後在進行交換。
 
 #### 程式碼:
 <script src="https://gist.github.com/Daviswww/687c3ee75d3561997469a9830b92b038.js"></script>
