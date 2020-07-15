@@ -1,5 +1,5 @@
 ---
-title: ALDS1 6 A Counting Sort
+title: AOJ ALDS1_6_A
 keywords: ALDS1 6 A Counting Sort
 date: 2020-07-15 13:33:29
 categories: AOJ

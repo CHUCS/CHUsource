@@ -1,6 +1,6 @@
 ---
-title: ALDS1 6 C Quick Sort
-keywords: ALDS1 6 C Quick Sort
+title: AOJ ALDS1_6_C
+keywords: AOJ ALDS1 6 C Quick Sort
 date: 2020-07-15 14:36:48
 categories: AOJ
 tags:

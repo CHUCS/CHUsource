@@ -1,5 +1,5 @@
 ---
-title: ALDS1 6 B Partition
+title: AOJ ALDS1_6_B
 keywords: ALDS1 6 B Partition
 date: 2020-07-15 14:26:38
 categories: AOJ
