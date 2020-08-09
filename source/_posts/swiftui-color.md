@@ -11,7 +11,7 @@ tags:
 <!-- more -->
 首先你需要在extension定義好色碼轉換方法，例如下面的代碼。
 
-```
+```swift
 import SwiftUI
 
 extension Color {
@@ -48,12 +48,12 @@ extension Color {
 }
 ```
 定義完成後，你可以在ContentView裡面直接使用。
-```
+```swift
 Text("Hello, World!")
     .foregroundColor(Color.init(hex: "#FFFFFF", alpha: 1.0))
 ```
 也可以定義在extension內這樣就可以直接使用而且不必重新設定色碼。
-```
+```swift
 Text("Hello, World!")
     .foregroundColor(Color.cloloABC)
 ```
