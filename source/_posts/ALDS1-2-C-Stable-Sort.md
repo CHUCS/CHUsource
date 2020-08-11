@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_2_C
+title: AOJ ALDS1_2_C - Stable Sort
 keywords: ALDS1 Stable Sort
 date: 2020-07-12 13:24:05
 categories: AOJ
 tags:
     - sortings
 ---
-# AOJ ALDS1_2_C - Stable Sort
+# 穩定排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_2_C)
 
 #### 題意:

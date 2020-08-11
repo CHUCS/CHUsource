@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_3_C
+title: AOJ ALDS1_3_C - Doubly Linked List
 keywords: ALDS1 Doubly Linked List
 date: 2020-07-13 13:06:41
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_3_C - Doubly Linked List
+# 雙向鏈結串列
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_C)
 
 #### 題意:

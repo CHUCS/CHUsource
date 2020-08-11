@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_7_A
+title: AOJ ALDS1_7_A - Rooted Trees
 keywords: AOJ ALDS1_7_A Rooted Trees
 date: 2020-07-15 16:05:42
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_7_A - Rooted Trees
+# 根樹
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_7_A)
 
 #### 題意:

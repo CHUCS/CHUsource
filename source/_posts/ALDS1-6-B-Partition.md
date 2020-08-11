@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_6_B
+title: AOJ ALDS1_6_B - Partition
 keywords: ALDS1 6 B Partition
 date: 2020-07-15 14:26:38
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_6_B - Partition
+# 快速排序劃分
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_6_B)
 
 #### 題意:

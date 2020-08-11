@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_4_A
+title: AOJ ALDS1_4_A - Linear Search
 keywords: ALDS1 Linear Search
 date: 2020-07-14 12:39:48
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_4_A - Linear Search
+# 線性排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_4_A)
 
 #### 題意:

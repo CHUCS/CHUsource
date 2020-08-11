@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_3_A
+title: AOJ ALDS1_3_A - Stack
 keywords: ALDS1 Stack
 date: 2020-07-12 17:29:12
 categories:
 tags:
     - implementation
 ---
-# AOJ ALDS1_3_A - Stack
+# 堆疊
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_A)
 
 #### 題意:

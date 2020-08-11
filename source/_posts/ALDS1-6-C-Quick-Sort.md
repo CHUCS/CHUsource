@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_6_C
+title: AOJ ALDS1_6_C - Quick Sort
 keywords: AOJ ALDS1 6 C Quick Sort
 date: 2020-07-15 14:36:48
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_6_C - Quick Sort
+# 快速排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_6_C)
 
 #### 題意:

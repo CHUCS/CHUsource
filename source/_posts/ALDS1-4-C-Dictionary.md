@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_4_C
+title: AOJ ALDS1_4_C - Dictionary
 keywords: ALDS1 Dictionary
 date: 2020-07-14 14:51:04
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_4_C - Dictionary
+# 字典
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_4_C)
 
 #### 題意:

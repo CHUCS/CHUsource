@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_2_A
+title: AOJ ALDS1_2_A - Bubble Sort
 keywords: ALDS1 Bubble Sort
 date: 2020-07-10 14:38:45
 categories: AOJ
 tags:
     - sortings
 ---
-# AOJ ALDS1_2_A - Bubble Sort
+# 泡沫排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_2_A)
 
 #### 題意:

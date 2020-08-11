@@ -5,7 +5,7 @@ keywords: {{ title }}
 categories:
 tags:
 ---
-# （標題）
+# Title
 [題目網址](https://chucs.github.io/site/)
 
 #### 題意:

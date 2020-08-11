@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_1_A
+title: AOJ ALDS1_1_A - Insertion Sort
 keywords: ALDS1_1_A , Insertion Sort
 date: 2020-05-30 16:20:45
 categories: AOJ
 tags:
     - sortings
 ---
-# AOJ ALDS1_1_A - Insertion Sort
+# 插入排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_A)
 
 

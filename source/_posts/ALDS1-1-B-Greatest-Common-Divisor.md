@@ -1,5 +1,5 @@
 ---
-title: AOJ ALDS1_1_B
+title: AOJ ALDS1_1_B - Greatest Common Divisor
 keywords: ALDS1_1_B , Greatest Common Divisor
 date: 2020-05-30 16:49:35
 categories: AOJ
@@ -7,7 +7,7 @@ tags:
     - implementation
     - dfs and similar
 ---
-# AOJ ALDS1_1_B - Greatest Common Divisor
+# 最大公約數
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_B)
 
 

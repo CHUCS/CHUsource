@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_3_B
+title: AOJ ALDS1_3_B - Queue
 keywords: ALDS1 Queue
 date: 2020-07-12 17:29:26
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_3_B - Queue
+# 隊列
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_3_B)
 
 #### 題意：

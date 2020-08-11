@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_7_B
+title: AOJ ALDS1_7_B - Binary Tree
 keywords: ALDS1_7_B Binary Tree
 date: 2020-07-18 15:53:01
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_7_B - Binary Tree
+# 二元樹
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_7_B)
 
 #### 題意:
@@ -24,7 +24,7 @@ node type (root, internal node or leaf) (節點狀態)
 #### 思路:
 ##### sibling 兄弟
 如果左節點跟右節點都不為-1就代表有兄弟。
-```
+```C++
 if(tree[id].left != -1 && tree[id].right != -1) {
     tree[left].sibling = right;
     tree[right].sibling = left;
@@ -32,7 +32,7 @@ if(tree[id].left != -1 && tree[id].right != -1) {
 ```
 ##### degree ＆ children parent 子節點個數與子節點父親
 計算子節點數並順便將子節點的父親標記。
-```
+```C++
 if(left != -1) {
     tree[id].degree++;
     tree[left].parent = id;
@@ -45,7 +45,7 @@ if(right != -1) {
 
 ##### height 節點高度
 一直往下找然後比較最大的深度回傳。
-```
+```C++
 int dfs(Node *tree, int key) 
 { 
     if (tree[key].left == -1 && tree[key].right == -1) {
@@ -64,7 +64,7 @@ int dfs(Node *tree, int key)
 
 ##### depth 深度
 從根往下並沿路標記深度，深度則是由父親的深度加一就可以得到自己的深度。
-```
+```C++
 void depth(Node *tree, int key){
     if(tree[key].parent != -1){ 
         tree[key].depth = tree[tree[key].parent].depth + 1;

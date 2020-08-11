@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_1_D
+title: ALDS1_1_D - Maximum Profit
 keywords:  ALDS1_1_D ,  Maximum Profit
 date: 2020-05-30 17:14:50
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_1_D - Maximum Profit
+# 最大利潤
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/1/ALDS1_1_D)
 
 #### 題意:

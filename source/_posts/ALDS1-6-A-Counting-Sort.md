@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_6_A
+title: AOJ ALDS1_6_A - Counting Sort
 keywords: ALDS1 6 A Counting Sort
 date: 2020-07-15 13:33:29
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_6_A - Counting Sort
+# 索引排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_6_A)
 
 #### 題意:

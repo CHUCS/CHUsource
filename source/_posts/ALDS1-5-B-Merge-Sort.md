@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_5_B
+title: AOJ ALDS1_5_B - Merge Sort
 keywords: ALDS1 5 B Merge Sort
 date: 2020-07-15 12:39:23
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_5_B - Merge Sort
+# 合併排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_5_B)
 
 #### 題意:

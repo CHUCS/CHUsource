@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_2_B
+title: AOJ ALDS1_2_B - Selection Sort
 keywords: ALDS1 Selection Sort
 date: 2020-07-10 15:13:36
 categories: AOJ
 tags:
     - sortings
 ---
-# AOJ ALDS1_2_B - Selection Sort
+# 選擇排序
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_2_B)
 
 #### 題意:

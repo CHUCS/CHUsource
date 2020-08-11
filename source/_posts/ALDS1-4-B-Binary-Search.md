@@ -1,12 +1,12 @@
 ---
-title: AOJ ALDS1_4_B
+title: AOJ ALDS1_4_B - Binary Search
 keywords: ALDS1 Binary Search
 date: 2020-07-14 13:24:03
 categories: AOJ
 tags:
     - implementation
 ---
-# AOJ ALDS1_4_B - Binary Search
+# 二分搜索
 [題目網址](https://onlinejudge.u-aizu.ac.jp/courses/lesson/1/ALDS1/all/ALDS1_4_B)
 
 #### 題意:
