@@ -19,7 +19,7 @@ deleteLast: 刪除list最後一個元素.
 #### 思路:
 
 ##### 節點
-```
+```C++
 struct Node{
 	int data;
     // 上一個節點
@@ -31,7 +31,7 @@ struct Node{
 首先我們要先宣告一個結構分別為資料,上個節點和下一個節點。
 
 ##### 新增數字
-```
+```C++
 void insertNode(int x){
     Node* tmpNode = motherNode->next;
     motherNode->next = new Node();
@@ -44,7 +44,7 @@ void insertNode(int x){
 先新增一個新節點然後將資料放入後，與主節點做連接。
 
 ##### 刪除數字
-```
+```C++
 void deleteNode(int x){
     Node* tmpNode = motherNode->next;
     while(tmpNode != motherNode && tmpNode->data != x){
@@ -60,7 +60,7 @@ void deleteNode(int x){
 逐一檢查節點資料是否為x，如果找到了就將next與prev的節點換成下一個位置的，然後刪除節點。
 
 ##### 刪除最前面的
-```
+```C++
 void deleteFirst(){
     Node* tmpNode = motherNode->next;
     motherNode->next = motherNode->next->next;
@@ -70,7 +70,7 @@ void deleteFirst(){
 ```
 將最前面的節點交換後與主節點連接，然後再將他刪除。
 ##### 刪除最後面的
-```
+```C++
 void deleteLast(){
     Node* tmpNode = motherNode->prev;
     motherNode->prev = motherNode->prev->prev;
