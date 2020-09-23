@@ -12,7 +12,7 @@ tags:
 [題目網址](https://codeforces.com/problemset/problem/1418/B)
 
 #### 題意:
-你有一個陣列a，裡面有n個整數，有些整數被鎖住有些沒有，你能對沒有鎖住的整數做交換位置的動作(沒鎖對沒鎖)，另外有個序列p，為a<sub>1</sub>~a<sub>n</sub>的總和:p<sub>1<sub> = a<sub>1<sub>, p<sub>2<sub> = a<sub>1<sub> + a<sub>2<sub>... p<sub>n<sub> = a<sub>1<sub> + a<sub>2<sub> +...+ a<sub>n<sub>
+你有一個陣列a，裡面有n個整數，有些整數被鎖住有些沒有，你能對沒有鎖住的整數做交換位置的動作(沒鎖對沒鎖)，另外有個序列p，為a<sub>1</sub>~a<sub>n</sub>的總和:p<sub>1</sub> = a<sub>1</sub>, p<sub>2</sub> = a<sub>1</sub> + a<sub>2</sub>... p<sub>n</sub> = a<sub>1</sub> + a<sub>2</sub> +...+ a<sub>n</sub>
 讓k為最大值j，並且p<sub>j</sub> < 0 ，若p中沒有任何p<sub>j</sub> < 0，則 k=0
 你要交換未鎖住整數的位置，使得k為最小值，印出調整過後的陣列a
 <!-- more -->
