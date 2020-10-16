@@ -2,7 +2,7 @@
 title: CodeForces 1418A
 keywords: CodeForces 1418A, CodeForces Buying Torches
 date: 2020-09-22 22:51:35
-categories: CodeForces
+categories: Codeforces
 tags:
     - math
     - 1000

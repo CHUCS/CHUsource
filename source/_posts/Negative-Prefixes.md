@@ -2,7 +2,7 @@
 title: CodeForces 1418B
 keywords: CodeForces 1418B, CodeForces Negative Prefixes
 date: 2020-09-22 22:52:31
-categories: CodeForces
+categories: Codeforces
 tags:
     - greedy
     - sortings
