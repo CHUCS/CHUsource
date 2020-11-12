@@ -1,5 +1,5 @@
 ---
-title: Rust-006 Types
+title: Rust 006 Types
 keywords: rust-006-types
 date: 2020-11-09 20:53:39
 categories: Rust tutorials
