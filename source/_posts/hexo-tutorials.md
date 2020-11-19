@@ -30,7 +30,7 @@ tags:
 ```
 git clone https://github.com/CHUCS/CHUsource.git CHUsource
 cd CHUsource
-git clone https://github.com/CHUCS/theme-next.git themes/next
+git clone https://github.com/CHUCS/hexo-theme-next.git themes/next
 npm install
 ```
 
