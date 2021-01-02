@@ -1,6 +1,6 @@
 ---
-title: Rust 011 EOF input
-keywords: rust-011-eof-input
+title: Rust 012 EOF input
+keywords: rust-012-eof-input
 date: 2020-12-31 14:48:20
 categories: Rust tutorials
 tags:
