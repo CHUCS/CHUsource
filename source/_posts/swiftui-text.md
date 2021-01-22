@@ -2,7 +2,7 @@
 title: SwiftUI Text
 keywords: swiftui text
 date: 2020-07-13 15:47:34
-categories: SwiftUI tutorials
+categories: Swift tutorials
 tags:
     - swiftui
 ---

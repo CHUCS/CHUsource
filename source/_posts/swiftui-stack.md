@@ -2,7 +2,7 @@
 title: SwiftUI Stack
 keywords: swiftui stack
 date: 2020-07-14 12:04:13
-categories: SwiftUI tutorials
+categories: Swift tutorials
 tags:
     - swiftui
 ---

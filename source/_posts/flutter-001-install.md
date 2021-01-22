@@ -85,8 +85,14 @@ $ open -a Simulator
 ---
 
 ### Create the app
-檢查設備確認與設備連線。
+### Create the app
+首先創建一個新的專案，他會生成flutter所有需要的檔案。
 
+```bash=
+$ flutter create my_app_name
+```
+
+接著檢查設備確認與設備連線，通常他創建完後會直接幫你執行。
 ```bash=
 $ flutter devices
 ```

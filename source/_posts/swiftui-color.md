@@ -2,7 +2,7 @@
 title: SwiftUI Color
 keywords: swiftui color
 date: 2020-07-14 11:44:25
-categories: SwiftUI tutorials
+categories: Swift tutorials
 tags:
     - swiftui
 ---
