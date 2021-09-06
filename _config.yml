@@ -95,6 +95,6 @@ feed:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/CHUCS/chucs.github.io.git
+  repo: git@github.com:CHUCS/chucs.github.io.git
   branch: master
 
