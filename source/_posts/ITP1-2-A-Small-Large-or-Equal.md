@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_2_A
+title: AOJ ITP1_2_A Small Large or Equal
 keywords: ITP1_2_A Small Large or Equal
 date: 2020-06-12 14:25:45
 categories: AOJ

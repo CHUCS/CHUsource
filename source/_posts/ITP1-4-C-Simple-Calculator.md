@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_4_C
+title: AOJ ITP1_4_C Simple Calculator
 keywords: ITP1_4_C Simple Calculator
 date: 2020-06-13 20:51:58
 categories: AOJ

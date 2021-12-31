@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_10_B
+title: AOJ ITP1_10_B Triangle
 keywords: ITP1_10_B Triangle
 date: 2020-06-15 12:22:07
 categories: AOJ

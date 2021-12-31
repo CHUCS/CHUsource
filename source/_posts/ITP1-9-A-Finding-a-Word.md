@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_9_A
+title: AOJ ITP1_9_A Finding a Word
 keywords: ITP1_9_A Finding a Word
 date: 2020-06-14 22:12:56
 categories: AOJ

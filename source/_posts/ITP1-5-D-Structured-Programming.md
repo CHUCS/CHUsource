@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_5_D
+title: AOJ ITP1_5_D Structured Programming
 keywords: ITP1_5_D Structured Programming
 categories: AOJ
 tags:

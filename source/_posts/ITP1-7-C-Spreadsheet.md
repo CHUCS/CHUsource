@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_7_C
+title: AOJ ITP1_7_C Spreadsheet
 keywords: ITP1_7_C Spreadsheet
 date: 2020-06-14 12:19:29
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_5_A
+title: AOJ ITP1_5_A Print a Rectangle
 keywords: ITP1_5_A Print a Rectangle
 date: 2020-06-14 08:42:16
 categories: AOJ

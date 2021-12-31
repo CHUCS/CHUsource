@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_4_B
+title: AOJ ITP1_4_B Circle
 keywords: ITP1_4_B Circle
 date: 2020-06-13 20:46:46
 categories: AOJ

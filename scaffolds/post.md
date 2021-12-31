@@ -2,8 +2,9 @@
 title: {{ title }}
 date: {{ date }}
 keywords: {{ title }}
-categories:
+categories: Flutter tutorials
 tags:
+    - flutter
 ---
 # Title
 [題目網址](https://chucs.github.io/site/)

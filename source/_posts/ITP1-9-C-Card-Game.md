@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_9_C
+title: AOJ ITP1_9_C Card Game
 keywords: ITP1_9_C Card Game
 date: 2020-06-14 22:16:52
 categories: AOJ

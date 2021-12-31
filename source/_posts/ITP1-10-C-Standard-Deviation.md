@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_10_C
+title: AOJ ITP1_10_C Standard Deviation
 keywords: ITP1_10_C Standard Deviation
 date: 2020-06-15 12:26:00
 categories: AOJ

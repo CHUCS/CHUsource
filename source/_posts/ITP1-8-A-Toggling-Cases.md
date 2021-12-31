@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_8_A
+title: AOJ ITP1_8_A Toggling Cases
 keywords: ITP1_8_A Toggling Cases
 date: 2020-06-14 12:31:23
 categories: AOJ

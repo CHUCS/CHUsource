@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_6_B
+title: AOJ ITP1_6_B Finding Missing Cards
 keywords: ITP1_6_B Finding Missing Cards
 categories: AOJ
 tags:

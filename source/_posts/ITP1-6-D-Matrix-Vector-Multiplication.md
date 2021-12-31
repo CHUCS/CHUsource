@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_6_D
+title: AOJ ITP1_6_D Matrix Vector Multiplication
 keywords: ITP1_6_D Matrix Vector Multiplication
 categories: AOJ
 tags:

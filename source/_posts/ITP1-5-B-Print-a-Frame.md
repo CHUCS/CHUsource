@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_5_B
+title: AOJ ITP1_5_B Print a Frame
 keywords: ITP1_5_B Print a Frame
 categories: AOJ
 tags:

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_6_A
+title: AOJ ITP1_6_A Reversing Numbers
 keywords: ITP1_6_A Reversing Numbers
 categories: AOJ
 tags:

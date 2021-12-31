@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_11_A
+title: AOJ ITP1_11_A Dice I
 keywords: ITP1_11_A Dice I
 date: 2020-06-15 12:39:28
 categories: AOJ

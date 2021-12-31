@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_3_C
+title: AOJ ITP1_3_C Swapping Two Numbers
 keywords: ITP1_3_C Swapping Two Numbers
 date: 2020-06-13 20:24:48
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_1_C
+title: AOJ ITP1_1_C Rectangle
 keywords: ITP1_1_C Rectangle
 date: 2020-06-12 14:03:59
 categories: AOJ

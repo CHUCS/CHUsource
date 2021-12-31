@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_2_D
+title: AOJ ITP1_2_D Circle in a Rectangle
 keywords: ITP1_2_D Circle in a Rectangle
 date: 2020-06-13 20:09:15
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_1_A
+title: AOJ ITP1_1_A Hello World
 keywords: ITP1 Hello World, ITP1_1_A
 date: 2020-06-12 13:50:09
 categories: AOJ

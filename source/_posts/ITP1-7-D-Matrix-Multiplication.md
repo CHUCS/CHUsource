@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_7_D
+title: AOJ ITP1_7_D Matrix Multiplication
 keywords: ITP1_7_D Matrix Multiplication
 date: 2020-06-14 12:22:05
 categories: AOJ

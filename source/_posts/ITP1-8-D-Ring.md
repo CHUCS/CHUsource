@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_8_D
+title: AOJ ITP1_8_D Ring
 keywords: ITP1_8_D Ring
 date: 2020-06-14 12:45:58
 categories: AOJ

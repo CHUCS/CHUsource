@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_6_C
+title: AOJ ITP1_6_C Official House
 keywords: ITP1_6_C Official House
 categories: AOJ
 tags:

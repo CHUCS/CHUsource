@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_1_D
+title: AOJ ITP1_1_D Watch
 keywords: ITP1_1_D Watch
 date: 2020-06-12 14:10:22
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_1_B 
+title: AOJ ITP1_1_B X Cubic
 keywords: ITP1_1_B X Cubic
 date: 2020-06-12 13:56:58
 categories: AOJ

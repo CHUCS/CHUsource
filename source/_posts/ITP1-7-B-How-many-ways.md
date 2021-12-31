@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_7_B
+title: AOJ ITP1_7_B How many ways
 keywords: ITP1_7_B How many ways
 date: 2020-06-14 12:11:32
 categories: AOJ

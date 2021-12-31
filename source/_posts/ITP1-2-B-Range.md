@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_2_B
+title: AOJ ITP1_2_B Range
 keywords: ITP1 2 B Range
 date: 2020-06-13 19:58:46
 categories: AOJ

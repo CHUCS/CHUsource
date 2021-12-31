@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_8_C
+title: AOJ ITP1_8_C Counting Characters
 keywords: ITP1_8_C Counting Characters
 date: 2020-06-14 12:45:11
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_5_C
+title: AOJ ITP1_5_C Print a Chessboard
 keywords: ITP1_5_C Print a Chessboard
 categories: AOJ
 tags:

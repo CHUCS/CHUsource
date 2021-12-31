@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_4_A
+title: AOJ ITP1_4_A A/B Problem
 keywords: ITP1_4_A A/B Problem
 date: 2020-06-13 20:39:10
 categories: AOJ

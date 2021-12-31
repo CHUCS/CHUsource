@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_9_B
+title: AOJ ITP1_9_B Shuffle
 keywords: ITP1_9_B Shuffle
 date: 2020-06-14 22:16:30
 categories: AOJ

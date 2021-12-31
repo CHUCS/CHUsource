@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_4_D
+title: AOJ ITP1_4_D Min Max and Sum
 keywords: ITP1_4_D Min Max and Sum
 date: 2020-06-13 20:55:50
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_10_A
+title: AOJ ITP1_10_A Distance I
 keywords: ITP1_10_A Distance I
 date: 2020-06-15 12:17:44
 categories: AOJ

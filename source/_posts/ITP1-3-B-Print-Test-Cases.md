@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_3_B
+title: AOJ ITP1_3_B Print Test Cases
 keywords: ITP1_3_B Print Test Cases
 date: 2020-06-13 20:18:59
 categories: AOJ

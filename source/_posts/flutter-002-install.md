@@ -1,5 +1,5 @@
 ---
-title: Flutter 001 Install
+title: Flutter 002 - 建置環境 ( Install )
 keywords: flutter-install
 date: 2021-01-18 14:37:26
 categories: Flutter tutorials
@@ -11,7 +11,9 @@ tags:
 ### Get the Flutter SDK
 1. 下載以下安裝包以獲取Flutter SDK的最新穩定版本:
 [flutter_macos_1.22.5-stable.zip](https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_1.22.5-stable.zip)
+
 <!-- more -->
+
 2. 將文件打開到所需位置
 ```bash=
 $ cd ~/development

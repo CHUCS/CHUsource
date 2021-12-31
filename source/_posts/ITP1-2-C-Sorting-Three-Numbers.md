@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_2_C
+title: AOJ ITP1_2_C Sorting Three Numbers
 keywords: ITP1_2_C Sorting Three Numbers
 date: 2020-06-13 20:05:40
 categories: AOJ

@@ -1,5 +1,5 @@
 ---
-title: AOJ ITP1_7_A
+title: AOJ ITP1_7_A Grading
 keywords: ITP1_7_A Grading
 categories: AOJ
 tags:
