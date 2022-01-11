@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31 22:07:16
 ---
 ### 前言
-Hi, 我是魚板伯爵今天要來創建一個CountBloc，然後就可以開始製作我們的CountButton了，我加了讓數字有彈跳的效果寫了一些動畫，有興趣的可以看原本程式碼。
+Hi, 今天要來創建一個CountBloc，然後就可以開始製作我們的CountButton了，我加了讓數字有彈跳的效果寫了一些動畫，有興趣的可以看原本程式碼。
 
 > [完整程式碼](https://github.com/Daviswww/stunning_tribble/tree/day29)
 <!-- more -->

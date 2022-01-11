@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31 21:59:22
 ---
 ### 前言
-Hi, 我是魚板伯爵今天要把登入的Repository寫好備用，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
+Hi, 今天要把登入的Repository寫好備用，教學內容只會擷取片段程式碼，建議大家搭配完整程式碼來練習。
 
 > [完整程式碼](https://github.com/Daviswww/stunning_tribble/tree/day22)
 <!-- more -->

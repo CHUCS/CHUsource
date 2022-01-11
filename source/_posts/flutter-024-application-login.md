@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31 22:02:06
 ---
 ### 前言
-Hi, 我是魚板伯爵這裡我們要將Google登入與介面做連接，所以又要使用Bloc了，老樣子按照著Event->State->Bloc的步驟建築起來吧。
+Hi, 這裡我們要將Google登入與介面做連接，所以又要使用Bloc了，老樣子按照著Event->State->Bloc的步驟建築起來吧。
 
 > [完整程式碼](https://github.com/Daviswww/stunning_tribble/tree/day24)
 <!-- more -->

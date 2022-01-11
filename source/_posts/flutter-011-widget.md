@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31 21:44:50
 ---
 ### 前言
-Hi, 我是魚板伯爵今天要講 `StatelessWidget` & `StatfulWidget`差別，讓大家可以對這兩種部件有一點概念。
+Hi, 今天要講 `StatelessWidget` & `StatfulWidget`差別，讓大家可以對這兩種部件有一點概念。
 
 > [完整程式碼](https://github.com/Daviswww/triathlon_flutter/tree/master/day11)
 <!-- more -->
