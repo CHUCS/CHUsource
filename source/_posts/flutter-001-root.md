@@ -6,15 +6,9 @@ categories: Flutter tutorials
 tags:
     - flutter
 ---
-30天學會基本元件與專案架構，從杯麵魚板進化成火鍋魚板。
-
-- [2021 iThome 鐵人賽 - 30天 Flutter 日常](https://ithelp.ithome.com.tw/articles/10258878)
-
-
-<!-- more -->
 ### 前言
 Hi, 本次的教學前面都是基本的元件為主，後面會利用前面所學以DDD(Domain Driven Design)的架構來實作一個App。
-
+<!-- more -->
 ### Flutter 好處
 Flutter 可以使用同一個程式碼進行跨平台開發，並將開發出來的 App 部署在 iOS、Android、Web，而在眾多跨平台開發架構中 Flutter 的效能又是最為出眾的。
 
