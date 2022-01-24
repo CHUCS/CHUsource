@@ -7,7 +7,7 @@ tags:
 date: 2021-12-31 22:08:04
 ---
 ### 前言
-不知道大家對這個架構是不是有一點感覺了，有機會再教大家如何寫測試，不過你已經學會了60%的基本概念，要開發一個APP基本上沒有問題，在教學的最後要教大家如更改App的圖示。
+不知道大家對這個架構是不是有一點感覺了，有機會再教大家如何寫測試，不過你已經學會了 60% 的基本概念，要開發一個APP基本上沒有問題，在教學的最後要教大家如更改App的圖示。
 <!-- more -->
 #### 需要具備知識
 - [基本元件應用](https://chucs.github.io/flutter-001-root)
@@ -41,4 +41,4 @@ $ flutter pub run flutter_launcher_icons:main
 ![](https://raw.githubusercontent.com/Daviswww/stunning_tribble/master/assets/image/aytgubhj.png)
 
 ### Note:
-有夢想才會進步，祝大家都可以寫出自己的APP
+有夢想才會進步，祝大家都可以寫出自己的APP~
